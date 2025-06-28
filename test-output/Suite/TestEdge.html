@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TestEdge</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>17/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jun 28 04:18:45 CDT 2025</td>
+<td>Started on:</td><td>Sat Jun 28 14:43:08 CDT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>33 seconds (33306 ms)</td>
+<tr><td>Total time:</td><td>90 seconds (90036 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,74 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify password field in login page", "Login Page Verification"</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=137.0.3296.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a41c98df3c741a2185bbfeebf4f6e011, isElementEnabled {id=f.82CB9180636FA7011F1F4BBAC42294EC.d.06D0760C1CB0612AB26FA4C5891467C7.e.12}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57519}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\ems11\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57519/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a41c98df3c741a2185bbfeebf4f6e011)] -&gt; xpath: //button[@type=&apos;submit&apos;]]
+Session ID: a41c98df3c741a2185bbfeebf4f6e011
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isEnabled(RemoteWebElement.java:181)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.isEnabled(Unknown Source)
+	at pageObject.LoginUI_Page.isContinueWithEmailButtonEnabled(LoginUI_Page.java:66)
+	at stepDefinitions.Login_Step.user_should_see_sign_in_button(Login_Step.java:69)
+	at ✽.User should see Sign in button(file:///C:/Users/ems11/OneDrive/Desktop/Team01_Sweet%20Debugger/Team01_SweetDebugger/src/test/resources/features/Login.feature:22)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace64051969", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace64051969'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=137.0.3296.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a41c98df3c741a2185bbfeebf4f6e011, isElementEnabled {id=f.82CB9180636FA7011F1F4BBAC42294EC.d.06D0760C1CB0612AB26FA4C5891467C7.e.12}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57519}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\ems11\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57519/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a41c98df3c741a2185bbfeebf4f6e011)] -&gt; xpath: //button[@type=&apos;submit&apos;]]
+Session ID: a41c98df3c741a2185bbfeebf4f6e011
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isEnabled(RemoteWebElement.java:181)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.isEnabled(Unknown Source)
+	at pageObject.LoginUI_Page.isContinueWithEmailButtonEnabled(LoginUI_Page.java:66)
+	at stepDefinitions.Login_Step.user_should_see_sign_in_button(Login_Step.java:69)
+	at ✽.User should see Sign in button(file:///C:/Users/ems11/OneDrive/Desktop/Team01_Sweet%20Debugger/Team01_SweetDebugger/src/test/resources/features/Login.feature:22)
+</pre></div></td>
+<td>55</td>
+<td>testRunner.TestRunner@1ae67cad</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,54 +144,89 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify sub text of the header is displayed", "Login Page UI Verification"</td>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify password input accepts valid existing user", "Login Page Verification"</td>
 <td></td>
-<td>33</td>
-<td>testRunner.TestRunner@1ae67cad</td></tr>
-<tr>
-<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify email input field", "Login Page UI Verification"</td>
-<td></td>
-<td>29</td>
-<td>testRunner.TestRunner@1ae67cad</td></tr>
-<tr>
-<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Continue with Email button is displayed", "Login Page UI Verification"</td>
-<td></td>
-<td>32</td>
-<td>testRunner.TestRunner@1ae67cad</td></tr>
-<tr>
-<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify login form header is displayed", "Login Page UI Verification"</td>
-<td></td>
-<td>33</td>
-<td>testRunner.TestRunner@1ae67cad</td></tr>
-<tr>
-<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Continue with Email is enabled", "Login Page UI Verification"</td>
-<td></td>
-<td>32</td>
-<td>testRunner.TestRunner@1ae67cad</td></tr>
-<tr>
-<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify placeholder text in email field", "Login Page UI Verification"</td>
-<td></td>
-<td>32</td>
-<td>testRunner.TestRunner@1ae67cad</td></tr>
-<tr>
-<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify OR separator is displayed", "Login Page UI Verification"</td>
-<td></td>
-<td>32</td>
-<td>testRunner.TestRunner@1ae67cad</td></tr>
-<tr>
-<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Continue with Google button is displayed", "Login Page UI Verification"</td>
-<td></td>
-<td>29</td>
+<td>54</td>
 <td>testRunner.TestRunner@1ae67cad</td></tr>
 <tr>
 <td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify presence of close button", "Login Page UI Verification"</td>
 <td></td>
-<td>32</td>
+<td>35</td>
+<td>testRunner.TestRunner@1ae67cad</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify login form header is displayed", "Login Page UI Verification"</td>
+<td></td>
+<td>64</td>
+<td>testRunner.TestRunner@1ae67cad</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify email input accepts valid existing email", "Login Page Verification"</td>
+<td></td>
+<td>52</td>
+<td>testRunner.TestRunner@1ae67cad</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify sub text", "Login Page Verification"</td>
+<td></td>
+<td>54</td>
+<td>testRunner.TestRunner@1ae67cad</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Continue with Google button is displayed", "Login Page UI Verification"</td>
+<td></td>
+<td>36</td>
+<td>testRunner.TestRunner@1ae67cad</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify enters an invalid email", "Login Page Verification"</td>
+<td></td>
+<td>54</td>
+<td>testRunner.TestRunner@1ae67cad</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify email input accepts valid new email", "Login Page Verification"</td>
+<td></td>
+<td>54</td>
+<td>testRunner.TestRunner@1ae67cad</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify presence of forgot password link", "Login Page Verification"</td>
+<td></td>
+<td>52</td>
 <td>testRunner.TestRunner@1ae67cad</td></tr>
 <tr>
 <td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Terms and Privacy message is displayed", "Login Page UI Verification"</td>
 <td></td>
-<td>32</td>
+<td>36</td>
+<td>testRunner.TestRunner@1ae67cad</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify email input field", "Login Page UI Verification"</td>
+<td></td>
+<td>35</td>
+<td>testRunner.TestRunner@1ae67cad</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify presence of placeholder in password field", "Login Page Verification"</td>
+<td></td>
+<td>53</td>
+<td>testRunner.TestRunner@1ae67cad</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Continue with Email is enabled", "Login Page UI Verification"</td>
+<td></td>
+<td>34</td>
+<td>testRunner.TestRunner@1ae67cad</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Continue with Email button is displayed", "Login Page UI Verification"</td>
+<td></td>
+<td>37</td>
+<td>testRunner.TestRunner@1ae67cad</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify OR separator is displayed", "Login Page UI Verification"</td>
+<td></td>
+<td>36</td>
+<td>testRunner.TestRunner@1ae67cad</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify sub text of the header is displayed", "Login Page UI Verification"</td>
+<td></td>
+<td>53</td>
+<td>testRunner.TestRunner@1ae67cad</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify placeholder text in email field", "Login Page UI Verification"</td>
+<td></td>
+<td>34</td>
 <td>testRunner.TestRunner@1ae67cad</td></tr>
 </table><p>
 </body>

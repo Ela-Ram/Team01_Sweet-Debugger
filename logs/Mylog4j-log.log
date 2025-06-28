@@ -323,3 +323,221 @@
 [INFO ] 2025-06-28 04:19:42.678 [TestNG-PoolService-10] LoggerLoad - Browser is closed
 [INFO ] 2025-06-28 04:19:42.709 [TestNG-PoolService-6] LoggerLoad - Browser is closed
 [INFO ] 2025-06-28 04:19:42.840 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:45:10.645 [main] Utils - [TestNG] Running:
+  C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\testng.xml
+
+[INFO ] 2025-06-28 04:45:10.678 [main] LoggerLoad - firefox is Running
+[INFO ] 2025-06-28 04:45:50.760 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:45:55.427 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:45:55.537 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:45:55.772 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:45:59.102 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:01.495 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:01.698 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:02.174 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:03.488 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:03.733 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:04.267 [main] LoggerLoad - edge is Running
+[INFO ] 2025-06-28 04:46:28.955 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:31.143 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:32.342 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:32.359 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:32.389 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:32.447 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:32.447 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:32.449 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:32.486 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:32.633 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:32.727 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-06-28 04:46:53.863 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:53.961 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:53.993 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:54.045 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:54.080 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:54.125 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:54.125 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:54.170 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:54.231 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:46:54.300 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 10:39:54.125 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 10:45:48.599 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:02:46.171 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input accepts valid existing email.png
+[INFO ] 2025-06-28 11:02:46.420 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input accepts valid existing email
+[INFO ] 2025-06-28 11:02:46.683 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:03:34.341 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input accepts valid existing email.png
+[INFO ] 2025-06-28 11:03:34.580 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input accepts valid existing email
+[INFO ] 2025-06-28 11:03:34.777 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:06:16.065 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input accepts valid existing email.png
+[INFO ] 2025-06-28 11:06:16.308 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input accepts valid existing email
+[INFO ] 2025-06-28 11:06:16.480 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:07:54.968 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input accepts valid existing email.png
+[INFO ] 2025-06-28 11:07:55.234 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input accepts valid existing email
+[INFO ] 2025-06-28 11:07:55.440 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:12:16.427 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input accepts valid existing email.png
+[INFO ] 2025-06-28 11:12:16.659 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input accepts valid existing email
+[INFO ] 2025-06-28 11:12:16.903 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:15:01.105 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input accepts valid existing email.png
+[INFO ] 2025-06-28 11:15:01.337 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input accepts valid existing email
+[INFO ] 2025-06-28 11:15:01.543 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:16:36.709 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input accepts valid existing email.png
+[INFO ] 2025-06-28 11:16:36.989 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input accepts valid existing email
+[INFO ] 2025-06-28 11:16:37.228 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:18:18.158 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input accepts valid existing email.png
+[INFO ] 2025-06-28 11:18:18.411 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input accepts valid existing email
+[INFO ] 2025-06-28 11:18:18.604 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:21:35.940 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input accepts valid existing email.png
+[INFO ] 2025-06-28 11:21:36.181 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input accepts valid existing email
+[INFO ] 2025-06-28 11:21:36.376 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:23:39.922 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input accepts valid existing email.png
+[INFO ] 2025-06-28 11:23:40.156 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input accepts valid existing email
+[INFO ] 2025-06-28 11:23:40.373 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:25:17.702 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input accepts valid existing email.png
+[INFO ] 2025-06-28 11:25:17.942 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input accepts valid existing email
+[INFO ] 2025-06-28 11:25:18.130 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:28:32.795 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:33:53.398 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input accepts valid existing email.png
+[INFO ] 2025-06-28 11:33:53.632 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input accepts valid existing email
+[INFO ] 2025-06-28 11:33:53.836 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:35:14.818 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input accepts valid existing email.png
+[INFO ] 2025-06-28 11:35:15.069 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input accepts valid existing email
+[INFO ] 2025-06-28 11:35:15.232 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:36:29.950 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input accepts valid existing email.png
+[INFO ] 2025-06-28 11:36:30.197 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input accepts valid existing email
+[INFO ] 2025-06-28 11:36:30.383 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:37:57.599 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:41:19.665 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:42:01.835 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:45:21.093 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 11:56:53.353 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:13:26.707 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:13:30.453 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:17:17.506 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:17:21.082 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:20:42.807 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:20:57.808 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify enters an invalid email.png
+[INFO ] 2025-06-28 12:20:58.202 [main] LoggerLoad - Screenshot captured for failed scenario: Verify enters an invalid email
+[INFO ] 2025-06-28 12:20:58.203 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:25:01.033 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:25:04.674 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:46:14.406 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:46:16.891 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:46:19.734 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:46:22.609 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:46:26.895 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:46:31.815 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:46:36.673 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:52:05.700 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify _Scenario_.png
+[INFO ] 2025-06-28 12:52:06.218 [main] LoggerLoad - Screenshot captured for failed scenario: Verify <Scenario>
+[INFO ] 2025-06-28 12:52:06.218 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:54:07.698 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify _Scenario_.png
+[INFO ] 2025-06-28 12:54:07.892 [main] LoggerLoad - Screenshot captured for failed scenario: Verify <Scenario>
+[INFO ] 2025-06-28 12:54:07.892 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:58:42.187 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify _Scenario_.png
+[INFO ] 2025-06-28 12:58:42.462 [main] LoggerLoad - Screenshot captured for failed scenario: Verify <Scenario>
+[INFO ] 2025-06-28 12:58:42.462 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:59:26.615 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 12:59:30.809 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify _Scenario_.png
+[INFO ] 2025-06-28 12:59:31.289 [main] LoggerLoad - Screenshot captured for failed scenario: Verify <Scenario>
+[INFO ] 2025-06-28 12:59:31.291 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 13:00:48.133 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 13:08:40.037 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 13:14:51.656 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 13:14:54.935 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 13:21:52.728 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 13:22:00.252 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 13:22:07.406 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 13:29:16.328 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 13:42:58.094 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 13:46:34.421 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 13:52:51.889 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 13:52:54.464 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 13:56:36.947 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 13:56:40.648 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:15:59.221 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:16:02.912 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:16:05.953 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:20:59.917 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:21:03.965 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:21:17.439 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify password input accepts valid existing user.png
+[INFO ] 2025-06-28 14:21:17.801 [main] LoggerLoad - Screenshot captured for failed scenario: Verify password input accepts valid existing user
+[INFO ] 2025-06-28 14:21:18.640 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:22:42.060 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:22:45.303 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:22:48.907 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:31:12.784 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:31:16.219 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:31:29.731 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify password input accepts valid existing user.png
+[INFO ] 2025-06-28 14:31:29.993 [main] LoggerLoad - Screenshot captured for failed scenario: Verify password input accepts valid existing user
+[INFO ] 2025-06-28 14:31:31.709 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:32:45.716 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:32:48.959 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:33:03.253 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify password input accepts valid existing user.png
+[INFO ] 2025-06-28 14:33:03.906 [main] LoggerLoad - Screenshot captured for failed scenario: Verify password input accepts valid existing user
+[INFO ] 2025-06-28 14:33:04.183 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:34:38.661 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:34:44.412 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:34:49.655 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:39:03.558 [main] Utils - [TestNG] Running:
+  C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\testng.xml
+
+[INFO ] 2025-06-28 14:39:03.594 [main] LoggerLoad - firefox is Running
+[INFO ] 2025-06-28 14:40:41.909 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:40:50.638 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:40:51.822 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:40:51.880 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:41:01.529 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:41:03.570 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:41:04.223 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:41:16.176 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:41:33.956 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:41:49.618 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:42:21.831 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:42:30.623 [TestNG-PoolService-8] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Continue with Email is enabled.png
+[INFO ] 2025-06-28 14:42:30.793 [TestNG-PoolService-8] LoggerLoad - Screenshot captured for failed scenario: Verify Continue with Email is enabled
+[INFO ] 2025-06-28 14:42:47.937 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:42:52.016 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:43:01.389 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:43:06.453 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:43:07.499 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:43:08.143 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:43:08.148 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:43:08.831 [main] LoggerLoad - edge is Running
+[INFO ] 2025-06-28 14:43:52.837 [TestNG-PoolService-4] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify password field in login page.png
+[INFO ] 2025-06-28 14:43:54.243 [TestNG-PoolService-4] LoggerLoad - Screenshot captured for failed scenario: Verify password field in login page
+[INFO ] 2025-06-28 14:44:01.306 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:01.599 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:01.987 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:02.540 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:03.110 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:03.618 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:03.623 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:03.626 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:04.128 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:13.466 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:38.421 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:38.460 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:38.518 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:38.519 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:38.522 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:38.547 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:38.662 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:38.729 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:44:38.901 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-06-28 14:45:17.680 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:17.717 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:17.935 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:18.115 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:18.466 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:18.933 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:19.423 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:20.138 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:20.148 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:20.164 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:40.298 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:40.461 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:40.524 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:40.562 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:40.611 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:40.627 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:40.643 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 14:45:40.837 [TestNG-PoolService-6] LoggerLoad - Browser is closed

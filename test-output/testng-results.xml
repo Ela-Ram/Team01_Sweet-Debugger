@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+<testng-results ignored="0" total="54" passed="52" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-28T04:17:38 CDT" name="Suite" finished-at="2025-06-28T04:19:42 CDT" duration-ms="124720">
+  <suite started-at="2025-06-28T14:39:03 CDT" name="Suite" finished-at="2025-06-28T14:45:40 CDT" duration-ms="397390">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
@@ -10,9 +10,9 @@
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-06-28T04:17:38 CDT" name="TestFirefox" finished-at="2025-06-28T04:18:45 CDT" duration-ms="67092">
+    <test started-at="2025-06-28T14:39:03 CDT" name="TestFirefox" finished-at="2025-06-28T14:43:08 CDT" duration-ms="245154">
       <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T04:17:38 CDT" name="defineBrowser" finished-at="2025-06-28T04:17:38 CDT" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:39:03 CDT" name="defineBrowser" finished-at="2025-06-28T14:39:03 CDT" duration-ms="18" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,66 +23,130 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T04:17:38 CDT" name="setUpClass" finished-at="2025-06-28T04:17:47 CDT" duration-ms="9162" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:39:03 CDT" name="setUpClass" finished-at="2025-06-28T14:39:12 CDT" duration-ms="9251" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@285583d4]]>
+                <![CDATA[org.testng.TestRunner@26865482]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T04:17:47 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:18:43 CDT" duration-ms="56233" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:39:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:41:33 CDT" duration-ms="141099" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify Continue with Google button is displayed"]]>
+                <![CDATA["Verify email input accepts valid existing email"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Page UI Verification"]]>
+                <![CDATA["Login Page Verification"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T04:17:47 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:18:43 CDT" duration-ms="56263" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:39:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:41:50 CDT" duration-ms="157258" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify Continue with Email button is displayed"]]>
+                <![CDATA["Verify presence of forgot password link"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Page UI Verification"]]>
+                <![CDATA["Login Page Verification"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T04:17:47 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:18:43 CDT" duration-ms="56256" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:39:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:41:01 CDT" duration-ms="108703" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify placeholder text in email field"]]>
+                <![CDATA["Verify enters an invalid email"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Page UI Verification"]]>
+                <![CDATA["Login Page Verification"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T04:17:47 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:18:44 CDT" duration-ms="57494" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:39:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:41:04 CDT" duration-ms="111435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify email input accepts valid new email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:39:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:40:51 CDT" duration-ms="98636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify sub text"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:39:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:41:03 CDT" duration-ms="110868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify presence of placeholder in password field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:39:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:40:45 CDT" duration-ms="92444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify password field in login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:39:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:40:52 CDT" duration-ms="99386" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,55 +162,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T04:17:47 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:18:43 CDT" duration-ms="56243" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:39:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:41:17 CDT" duration-ms="124153" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify Terms and Privacy message is displayed"]]>
+                <![CDATA["Verify password input accepts valid existing user"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Page UI Verification"]]>
+                <![CDATA["Login Page Verification"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T04:17:47 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:18:43 CDT" duration-ms="56493" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify email input field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Page UI Verification"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T04:17:47 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:18:43 CDT" duration-ms="55797" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify presence of close button"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Page UI Verification"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T04:17:47 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:18:43 CDT" duration-ms="55950" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:39:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:40:52 CDT" duration-ms="99482" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,7 +194,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T04:17:47 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:18:43 CDT" duration-ms="56274" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:40:46 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:42:48 CDT" duration-ms="122195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Continue with Email button is displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page UI Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:40:51 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:43:06 CDT" duration-ms="134857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Continue with Google button is displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page UI Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:40:52 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:42:52 CDT" duration-ms="119938" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -178,7 +242,71 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T04:17:47 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:18:44 CDT" duration-ms="57302" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:40:52 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:43:07 CDT" duration-ms="134986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Terms and Privacy message is displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page UI Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:41:01 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:43:08 CDT" duration-ms="126571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify presence of close button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page UI Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:41:03 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:43:08 CDT" duration-ms="124390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify email input field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page UI Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:41:04 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:42:21 CDT" duration-ms="77522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify placeholder text in email field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page UI Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:41:17 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:43:01 CDT" duration-ms="104270" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -191,18 +319,121 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'ELA', ip: '192.168.68.65'
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Users\ems11\.cache\selen..., prefs: {remote.active-protocols: 3}}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'ELA', ip: '192.168.68.65'
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Users\ems11\.cache\selen..., prefs: {remote.active-protocols: 3}}}]}]
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:155)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:150)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
+at driverFactory.DriverConfig.initializeDriver(DriverConfig.java:20)
+at common.TestContext.getDriver(TestContext.java:27)
+at pageObject.LoginUI_Page.<init>(LoginUI_Page.java:38)
+at common.TestContext.getLoginUI_Page(TestContext.java:49)
+at stepDefinitions.LoginUI_Step.<init>(LoginUI_Step.java:19)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:496)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:383)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+... 3 more
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:956)
+at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:455)
+... 8 more
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1082)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238)
+at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:978)
+at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:955)
+at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:554)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1817)
+... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:958)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+... 9 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T04:18:44 CDT" name="tearDownClass" finished-at="2025-06-28T04:18:45 CDT" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@2e9fda69]" started-at="2025-06-28T14:43:08 CDT" name="tearDownClass" finished-at="2025-06-28T14:43:08 CDT" duration-ms="543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- testRunner.TestRunner -->
     </test> <!-- TestFirefox -->
-    <test started-at="2025-06-28T04:18:45 CDT" name="TestEdge" finished-at="2025-06-28T04:19:18 CDT" duration-ms="33306">
+    <test started-at="2025-06-28T14:43:08 CDT" name="TestEdge" finished-at="2025-06-28T14:44:38 CDT" duration-ms="90036">
       <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T04:18:45 CDT" name="defineBrowser" finished-at="2025-06-28T04:18:45 CDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:43:08 CDT" name="defineBrowser" finished-at="2025-06-28T14:43:08 CDT" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -213,18 +444,192 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T04:18:45 CDT" name="setUpClass" finished-at="2025-06-28T04:18:45 CDT" duration-ms="56" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:43:08 CDT" name="setUpClass" finished-at="2025-06-28T14:43:08 CDT" duration-ms="91" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1039bfc4]]>
+                <![CDATA[org.testng.TestRunner@34451ed8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T04:18:45 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:18 CDT" duration-ms="33201" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:43:08 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:03 CDT" duration-ms="54736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify email input accepts valid new email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:43:08 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:03 CDT" duration-ms="54735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify enters an invalid email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:43:08 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:01 CDT" duration-ms="52682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify email input accepts valid existing email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:43:08 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:04 CDT" duration-ms="55223" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify password field in login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=137.0.3296.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a41c98df3c741a2185bbfeebf4f6e011, isElementEnabled {id=f.82CB9180636FA7011F1F4BBAC42294EC.d.06D0760C1CB0612AB26FA4C5891467C7.e.12}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57519}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\ems11\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57519/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a41c98df3c741a2185bbfeebf4f6e011)] -> xpath: //button[@type='submit']]
+Session ID: a41c98df3c741a2185bbfeebf4f6e011]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=137.0.3296.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a41c98df3c741a2185bbfeebf4f6e011, isElementEnabled {id=f.82CB9180636FA7011F1F4BBAC42294EC.d.06D0760C1CB0612AB26FA4C5891467C7.e.12}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57519}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\ems11\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57519/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a41c98df3c741a2185bbfeebf4f6e011)] -> xpath: //button[@type='submit']]
+Session ID: a41c98df3c741a2185bbfeebf4f6e011
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.isEnabled(RemoteWebElement.java:181)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy46.isEnabled(Unknown Source)
+at pageObject.LoginUI_Page.isContinueWithEmailButtonEnabled(LoginUI_Page.java:66)
+at stepDefinitions.Login_Step.user_should_see_sign_in_button(Login_Step.java:69)
+at ✽.User should see Sign in button(file:///C:/Users/ems11/OneDrive/Desktop/Team01_Sweet%20Debugger/Team01_SweetDebugger/src/test/resources/features/Login.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:43:08 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:03 CDT" duration-ms="54204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify sub text"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:43:08 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:01 CDT" duration-ms="52391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify presence of forgot password link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:43:08 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:02 CDT" duration-ms="53620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify presence of placeholder in password field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:43:08 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:03 CDT" duration-ms="54707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify password input accepts valid existing user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:43:08 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:13 CDT" duration-ms="64547" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -240,7 +645,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T04:18:45 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:18 CDT" duration-ms="33035" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:43:08 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:02 CDT" duration-ms="53066" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -256,7 +661,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T04:18:45 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:17 CDT" duration-ms="32584" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:44:01 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:38 CDT" duration-ms="37102" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -272,7 +677,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T04:18:45 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:15 CDT" duration-ms="29694" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:44:01 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:38 CDT" duration-ms="36918" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -288,7 +693,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T04:18:45 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:17 CDT" duration-ms="32319" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:44:02 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:38 CDT" duration-ms="36458" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -304,23 +709,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T04:18:45 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:17 CDT" duration-ms="32569" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify presence of close button"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Page UI Verification"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T04:18:45 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:18 CDT" duration-ms="32803" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:44:02 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:38 CDT" duration-ms="36169" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -336,7 +725,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T04:18:45 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:15 CDT" duration-ms="29989" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:44:03 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:38 CDT" duration-ms="35400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify presence of close button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page UI Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:44:03 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:38 CDT" duration-ms="35018" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -352,23 +757,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T04:18:45 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:17 CDT" duration-ms="32299" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Continue with Email is enabled"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Page UI Verification"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T04:18:45 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:17 CDT" duration-ms="32404" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:44:03 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:38 CDT" duration-ms="34873" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -384,15 +773,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T04:19:18 CDT" name="tearDownClass" finished-at="2025-06-28T04:19:18 CDT" duration-ms="41" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:44:03 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:44:38 CDT" duration-ms="34859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Continue with Email is enabled"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page UI Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@1ae67cad]" started-at="2025-06-28T14:44:38 CDT" name="tearDownClass" finished-at="2025-06-28T14:44:38 CDT" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- testRunner.TestRunner -->
     </test> <!-- TestEdge -->
-    <test started-at="2025-06-28T04:19:18 CDT" name="TestChrome" finished-at="2025-06-28T04:19:42 CDT" duration-ms="24259">
+    <test started-at="2025-06-28T14:44:38 CDT" name="TestChrome" finished-at="2025-06-28T14:45:40 CDT" duration-ms="62063">
       <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T04:19:18 CDT" name="defineBrowser" finished-at="2025-06-28T04:19:18 CDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:44:38 CDT" name="defineBrowser" finished-at="2025-06-28T14:44:38 CDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -403,50 +808,146 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T04:19:18 CDT" name="setUpClass" finished-at="2025-06-28T04:19:18 CDT" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:44:38 CDT" name="setUpClass" finished-at="2025-06-28T14:44:38 CDT" duration-ms="74" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7f85217c]]>
+                <![CDATA[org.testng.TestRunner@c1050f2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T04:19:18 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:42 CDT" duration-ms="23920" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:44:38 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:19 CDT" duration-ms="40458" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify Continue with Email button is displayed"]]>
+                <![CDATA["Verify email input accepts valid new email"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Page UI Verification"]]>
+                <![CDATA["Login Page Verification"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T04:19:18 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:42 CDT" duration-ms="23869" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:44:38 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:18 CDT" duration-ms="39141" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify login form header is displayed"]]>
+                <![CDATA["Verify enters an invalid email"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Page UI Verification"]]>
+                <![CDATA["Login Page Verification"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T04:19:18 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:42 CDT" duration-ms="23931" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:44:38 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:18 CDT" duration-ms="39963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify password field in login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:44:38 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:17 CDT" duration-ms="38771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify email input accepts valid existing email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:44:38 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:20 CDT" duration-ms="41204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify presence of forgot password link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:44:38 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:17 CDT" duration-ms="38960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify sub text"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:44:38 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:18 CDT" duration-ms="39494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify password input accepts valid existing user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:44:38 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:20 CDT" duration-ms="41211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify presence of placeholder in password field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:44:38 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:20 CDT" duration-ms="41202" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -462,11 +963,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T04:19:18 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:42 CDT" duration-ms="24023" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:44:38 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:17 CDT" duration-ms="38708" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify Terms and Privacy message is displayed"]]>
+                <![CDATA["Verify login form header is displayed"]]>
               </value>
             </param>
             <param index="1">
@@ -478,7 +979,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T04:19:18 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:42 CDT" duration-ms="23953" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:45:17 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:40 CDT" duration-ms="22940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Continue with Email button is displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page UI Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:45:17 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:40 CDT" duration-ms="22818" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -494,23 +1011,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T04:19:18 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:42 CDT" duration-ms="23990" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify presence of close button"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Page UI Verification"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T04:19:18 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:42 CDT" duration-ms="24156" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:45:17 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:40 CDT" duration-ms="22367" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -526,7 +1027,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T04:19:18 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:42 CDT" duration-ms="23907" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:45:18 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:40 CDT" duration-ms="22526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Terms and Privacy message is displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page UI Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:45:18 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:40 CDT" duration-ms="22141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify presence of close button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page UI Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:45:18 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:40 CDT" duration-ms="21588" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -542,7 +1075,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T04:19:18 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:42 CDT" duration-ms="23517" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:45:19 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:40 CDT" duration-ms="21029" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -558,7 +1091,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T04:19:18 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T04:19:42 CDT" duration-ms="23994" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:45:20 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-28T14:45:40 CDT" duration-ms="20633" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -574,7 +1107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T04:19:42 CDT" name="tearDownClass" finished-at="2025-06-28T04:19:42 CDT" duration-ms="56" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@7c098bb3]" started-at="2025-06-28T14:45:40 CDT" name="tearDownClass" finished-at="2025-06-28T14:45:40 CDT" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

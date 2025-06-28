@@ -1,4 +1,4 @@
-@sweet @login
+@sweet @loginUI
 Feature: Login Page UI Verification
 
   @skipLaunch @uilogintext
@@ -25,6 +25,6 @@ Feature: Login Page UI Verification
     Examples: 
       | Scenario                        | Expected                                 |
       | presence of close button        | close button at the right corner         |
-      #| email input field               | input field to enter email               |
+      | email input field               | input field to enter email               |
       | placeholder text in email field | Enter email                              |
       | Continue with Email is enabled  | Continue with email button to be enabled |

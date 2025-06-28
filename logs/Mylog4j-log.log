@@ -1,0 +1,325 @@
+[INFO ] 2025-06-27 21:55:34.698 [main] Utils - [TestNG] Running:
+  C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\testng.xml
+
+[INFO ] 2025-06-27 21:55:34.743 [main] LoggerLoad - firefox is Running
+[WARN ] 2025-06-27 21:55:43.879 [main] Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[INFO ] 2025-06-27 21:55:43.932 [main] LoggerLoad - edge is Running
+[WARN ] 2025-06-27 21:55:43.946 [main] Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[INFO ] 2025-06-27 21:55:43.958 [main] LoggerLoad - chrome is Running
+[WARN ] 2025-06-27 21:55:43.971 [main] Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[INFO ] 2025-06-27 23:31:44.245 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 00:05:44.812 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 00:27:33.680 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 00:28:13.633 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:00:26.014 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:06:56.533 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:07:00.911 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:07:03.838 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:07:06.964 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:07:09.733 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:07:12.617 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:14:09.044 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:14:09.273 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:14:09.273 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:14:12.475 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:14:12.735 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:14:12.736 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:14:15.703 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:14:16.002 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:14:16.010 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:14:19.114 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:14:19.367 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:14:19.367 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:14:22.516 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:14:22.768 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:14:22.769 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:14:26.973 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:14:27.443 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:14:27.443 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:20:04.818 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:20:05.052 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:20:05.052 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:20:09.096 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:20:09.380 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:20:09.380 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:20:12.550 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:20:12.827 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:20:12.827 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:20:16.483 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:20:16.740 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:20:16.740 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:20:20.726 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:20:20.979 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:20:20.979 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:20:26.040 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:20:26.515 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:20:26.515 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:24:14.269 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:24:14.501 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:24:14.502 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:24:18.685 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:24:19.000 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:24:19.000 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:24:24.172 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:24:24.415 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:24:24.415 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:24:27.466 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:24:27.705 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:24:27.705 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:24:30.833 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:24:31.083 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:24:31.083 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:24:35.946 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:24:36.551 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:24:36.553 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:35:43.269 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:35:43.538 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:35:43.762 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:35:48.602 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:35:48.885 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:35:49.081 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:35:52.444 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:35:52.669 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:35:52.880 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:35:56.398 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:35:56.666 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:35:56.877 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:36:00.574 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:36:00.804 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:36:00.981 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:36:04.472 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:36:04.737 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:36:04.945 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:38:42.557 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:38:42.788 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:38:43.016 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:38:46.724 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:38:46.937 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:38:47.148 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:38:50.886 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:38:51.119 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:38:51.348 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:38:55.332 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:38:55.547 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:38:55.793 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:38:59.255 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:38:59.483 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:38:59.702 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:39:04.313 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:39:04.558 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:39:04.823 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:47:51.641 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:47:51.890 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:47:52.123 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:47:55.725 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:47:55.951 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:47:56.149 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:47:59.956 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:48:00.190 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:48:00.405 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:48:03.331 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:48:03.568 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:48:03.744 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:48:07.797 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:48:08.018 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:48:08.220 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:48:12.633 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:48:12.894 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:48:13.107 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:50:04.617 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:50:04.842 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:50:05.048 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 01:56:00.480 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 01:56:00.733 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 01:56:00.976 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:05:35.634 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:07:42.945 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:12:01.126 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 02:12:01.361 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 02:12:01.560 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:25:53.190 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:27:54.609 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:30:47.451 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 02:30:47.683 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 02:30:47.868 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:33:03.212 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:34:41.547 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:34:46.283 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:34:50.652 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 02:34:50.903 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 02:34:51.088 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:34:55.838 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 02:34:56.132 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 02:34:56.317 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:34:59.780 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:35:03.458 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 02:35:03.693 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 02:35:03.905 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:38:00.949 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:38:04.371 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:38:08.191 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:38:11.817 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:38:15.478 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:38:18.759 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 02:38:19.003 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 02:38:19.205 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:38:53.524 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:38:57.032 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:39:01.393 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:39:04.564 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:39:07.706 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:39:11.088 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:39:53.678 [main] Utils - [TestNG] Running:
+  C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\testng.xml
+
+[INFO ] 2025-06-28 02:39:53.743 [main] LoggerLoad - firefox is Running
+[INFO ] 2025-06-28 02:40:48.915 [TestNG-PoolService-5] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 02:40:49.102 [TestNG-PoolService-5] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 02:40:50.605 [TestNG-PoolService-4] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 02:40:50.695 [TestNG-PoolService-4] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 02:40:53.425 [TestNG-PoolService-3] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 02:40:53.634 [TestNG-PoolService-3] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 02:40:55.640 [TestNG-PoolService-2] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 02:40:55.825 [TestNG-PoolService-2] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 02:40:56.371 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:40:56.463 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:40:58.120 [TestNG-PoolService-6] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 02:40:58.242 [TestNG-PoolService-6] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 02:40:58.277 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:40:59.520 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:41:01.367 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:41:05.988 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:41:06.251 [main] LoggerLoad - edge is Running
+[INFO ] 2025-06-28 02:41:27.138 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:41:27.909 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:41:28.195 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:41:28.197 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:41:28.200 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:41:28.346 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:41:28.464 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-06-28 02:41:44.461 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:41:44.517 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:41:44.534 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:41:44.675 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:41:44.779 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:41:45.575 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:44:11.076 [main] Utils - [TestNG] Running:
+  C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\testng.xml
+
+[INFO ] 2025-06-28 02:44:11.114 [main] LoggerLoad - firefox is Running
+[INFO ] 2025-06-28 02:44:41.878 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:44:42.085 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:44:42.085 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:44:42.146 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:44:42.335 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:44:42.779 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:44:43.243 [main] LoggerLoad - edge is Running
+[INFO ] 2025-06-28 02:45:02.692 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:45:02.726 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:45:02.751 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:45:02.892 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:45:03.040 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:45:03.163 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:45:03.268 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-06-28 02:45:17.060 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:45:17.088 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:45:17.121 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:45:17.130 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:45:17.227 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:45:17.456 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:58:51.770 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:58:55.784 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:58:59.521 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:59:02.965 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:59:06.276 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:59:10.102 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 02:59:13.625 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 02:59:13.969 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 02:59:14.216 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:01:41.571 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:01:44.800 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:01:48.305 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:01:51.576 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:01:54.871 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:01:58.125 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:02:01.925 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify login form header is displayed.png
+[INFO ] 2025-06-28 03:02:02.167 [main] LoggerLoad - Screenshot captured for failed scenario: Verify login form header is displayed
+[INFO ] 2025-06-28 03:02:02.369 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:09:15.407 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:09:19.692 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:09:24.223 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:09:27.831 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:09:31.834 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:09:35.637 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:09:38.941 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:09:42.536 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:09:47.150 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:09:50.758 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:23:50.267 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:39:51.597 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:39:56.332 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:45:04.016 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:45:10.214 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:52:59.652 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:53:03.529 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input field.png
+[INFO ] 2025-06-28 03:53:03.822 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input field
+[INFO ] 2025-06-28 03:53:04.008 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:57:46.474 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:57:50.662 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify email input field.png
+[INFO ] 2025-06-28 03:57:50.940 [main] LoggerLoad - Screenshot captured for failed scenario: Verify email input field
+[INFO ] 2025-06-28 03:57:51.135 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:58:52.885 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 03:58:56.492 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:08:51.081 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:08:57.286 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:09:02.006 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:15:33.070 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:15:36.816 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:15:39.980 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:15:43.105 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:16:14.089 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:16:17.919 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:16:20.734 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:16:23.914 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:16:26.819 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:16:29.830 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:16:33.656 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:16:37.792 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:16:40.718 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:16:43.836 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:17:38.176 [main] Utils - [TestNG] Running:
+  C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\testng.xml
+
+[INFO ] 2025-06-28 04:17:38.211 [main] LoggerLoad - firefox is Running
+[INFO ] 2025-06-28 04:18:43.096 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:18:43.328 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:18:43.582 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:18:43.582 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:18:43.589 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:18:43.627 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:18:43.645 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:18:43.883 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:18:44.696 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:18:44.888 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:18:45.335 [main] LoggerLoad - edge is Running
+[INFO ] 2025-06-28 04:19:15.075 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:15.374 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:17.692 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:17.708 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:17.797 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:17.959 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:17.971 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:18.190 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:18.424 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:18.589 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:18.654 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-06-28 04:19:42.201 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:42.544 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:42.593 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:42.599 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:42.611 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:42.637 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:42.671 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:42.678 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:42.709 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 04:19:42.840 [TestNG-PoolService-5] LoggerLoad - Browser is closed

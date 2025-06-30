@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">30 methods,   30 passed</span>
+                    <span class="method-stats">54 methods, 2 failed,   52 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Continue with Email is enabled&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Continue with Email is enabled", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify password field in login page&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify password field in login page", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,22 +122,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Continue with Email button is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Continue with Email button is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Continue with Google button is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Continue with Google button is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify placeholder text in email field&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify placeholder text in email field", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify sub text of the header is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify sub text of the header is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify email input accepts valid new email&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify email input accepts valid new email", "Login Page Verification")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -133,82 +137,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify presence of close button&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify presence of close button", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify login form header is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify login form header is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify OR separator is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify OR separator is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Continue with Email is enabled&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Continue with Email is enabled", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify sub text of the header is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify sub text of the header is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify email input field&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify email input field", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Continue with Email button is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Continue with Email button is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify login form header is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify login form header is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Continue with Email is enabled&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Continue with Email is enabled", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify placeholder text in email field&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify placeholder text in email field", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify OR separator is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify OR separator is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Continue with Google button is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Continue with Google button is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify presence of close button&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify presence of close button", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Terms and Privacy message is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Terms and Privacy message is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Terms and Privacy message is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Terms and Privacy message is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify email input field&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify email input field", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify sub text&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify sub text", "Login Page Verification")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -223,7 +157,57 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify presence of placeholder in password field&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify presence of placeholder in password field", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Continue with Google button is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Continue with Google button is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify email input accepts valid existing email&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify email input accepts valid existing email", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify presence of forgot password link&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify presence of forgot password link", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify presence of close button&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify presence of close button", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify password field in login page&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify password field in login page", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify enters an invalid email&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify enters an invalid email", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify sub text of the header is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify sub text of the header is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify password input accepts valid existing user&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify password input accepts valid existing user", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify login form header is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify login form header is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify password input accepts valid existing user&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify password input accepts valid existing user", "Login Page Verification")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -238,7 +222,57 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify sub text of the header is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify sub text of the header is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify email input accepts valid existing email&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify email input accepts valid existing email", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify sub text&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify sub text", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Continue with Google button is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Continue with Google button is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify enters an invalid email&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify enters an invalid email", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify email input accepts valid new email&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify email input accepts valid new email", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify presence of forgot password link&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify presence of forgot password link", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Terms and Privacy message is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Terms and Privacy message is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify email input field&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify email input field", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify presence of placeholder in password field&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify presence of placeholder in password field", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Continue with Email is enabled&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Continue with Email is enabled", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Continue with Email button is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Continue with Email button is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -248,7 +282,102 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify sub text of the header is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify sub text of the header is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify placeholder text in email field&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify placeholder text in email field", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify OR separator is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify OR separator is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify password input accepts valid existing user&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify password input accepts valid existing user", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify presence of forgot password link&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify presence of forgot password link", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Continue with Email is enabled&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Continue with Email is enabled", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify email input field&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify email input field", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify login form header is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify login form header is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify sub text&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify sub text", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify password field in login page&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify password field in login page", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify enters an invalid email&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify enters an invalid email", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify presence of placeholder in password field&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify presence of placeholder in password field", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Continue with Google button is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Continue with Google button is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify presence of close button&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify presence of close button", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify sub text of the header is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify sub text of the header is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify email input accepts valid new email&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify email input accepts valid new email", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Terms and Privacy message is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Terms and Privacy message is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify email input accepts valid existing email&quot;, &quot;Login Page Verification&quot;)">runScenario("Verify email input accepts valid existing email", "Login Page Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify placeholder text in email field&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify placeholder text in email field", "Login Page UI Verification")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Continue with Email button is displayed&quot;, &quot;Login Page UI Verification&quot;)">runScenario("Verify Continue with Email button is displayed", "Login Page UI Verification")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -263,6 +392,142 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testRunner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Continue with Email is enabled&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify Continue with Email is enabled", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Continue with Email is enabled","Login Page UI Verification")</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;ELA&apos;, ip: &apos;192.168.68.65&apos;
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Users\ems11\.cache\selen..., prefs: {remote.active-protocols: 3}}}]}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:155)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at driverFactory.DriverConfig.initializeDriver(DriverConfig.java:20)
+	at common.TestContext.getDriver(TestContext.java:27)
+	at pageObject.LoginUI_Page.&lt;init&gt;(LoginUI_Page.java:38)
+	at common.TestContext.getLoginUI_Page(TestContext.java:49)
+	at stepDefinitions.LoginUI_Step.&lt;init&gt;(LoginUI_Step.java:19)
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at io.cucumber.picocontainer.PicoFactory.getInstance(PicoFactory.java:64)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:496)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:383)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	... 3 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:956)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:455)
+	... 8 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1082)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:978)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:554)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1817)
+	... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:958)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 9 more
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify password field in login page&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify password field in login page", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify password field in login page","Login Page Verification")</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=137.0.3296.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a41c98df3c741a2185bbfeebf4f6e011, isElementEnabled {id=f.82CB9180636FA7011F1F4BBAC42294EC.d.06D0760C1CB0612AB26FA4C5891467C7.e.12}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57519}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\ems11\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57519/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a41c98df3c741a2185bbfeebf4f6e011)] -&gt; xpath: //button[@type=&apos;submit&apos;]]
+Session ID: a41c98df3c741a2185bbfeebf4f6e011
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isEnabled(RemoteWebElement.java:181)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.isEnabled(Unknown Source)
+	at pageObject.LoginUI_Page.isContinueWithEmailButtonEnabled(LoginUI_Page.java:66)
+	at stepDefinitions.Login_Step.user_should_see_sign_in_button(Login_Step.java:69)
+	at ✽.User should see Sign in button(file:///C:/Users/ems11/OneDrive/Desktop/Team01_Sweet%20Debugger/Team01_SweetDebugger/src/test/resources/features/Login.feature:22)
+... Removed 5 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -271,40 +536,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Verify Continue with Email button is displayed&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify Continue with Email button is displayed", "Login Page UI Verification") -->
+                  <a name="runScenario(&quot;Verify email input accepts valid new email&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify email input accepts valid new email", "Login Page Verification") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify Continue with Email button is displayed","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify Continue with Google button is displayed&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify Continue with Google button is displayed", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify Continue with Google button is displayed","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify placeholder text in email field&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify placeholder text in email field", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify placeholder text in email field","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify sub text of the header is displayed&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify sub text of the header is displayed", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify sub text of the header is displayed","Login Page UI Verification")</span>
+                  <span class="parameters">("Verify email input accepts valid new email","Login Page Verification")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -331,26 +566,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Verify presence of close button&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify presence of close button", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify presence of close button","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify login form header is displayed&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify login form header is displayed", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify login form header is displayed","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="runScenario(&quot;Verify OR separator is displayed&quot;, &quot;Login Page UI Verification&quot;)">
                   </a> <!-- runScenario("Verify OR separator is displayed", "Login Page UI Verification") -->
                   <span class="method-name">runScenario</span>
@@ -361,130 +576,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Verify Continue with Email is enabled&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify Continue with Email is enabled", "Login Page UI Verification") -->
+                  <a name="runScenario(&quot;Verify sub text&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify sub text", "Login Page Verification") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify Continue with Email is enabled","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify sub text of the header is displayed&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify sub text of the header is displayed", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify sub text of the header is displayed","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify email input field&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify email input field", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify email input field","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify Continue with Email button is displayed&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify Continue with Email button is displayed", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify Continue with Email button is displayed","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify login form header is displayed&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify login form header is displayed", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify login form header is displayed","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify Continue with Email is enabled&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify Continue with Email is enabled", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify Continue with Email is enabled","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify placeholder text in email field&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify placeholder text in email field", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify placeholder text in email field","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify OR separator is displayed&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify OR separator is displayed", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify OR separator is displayed","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify Continue with Google button is displayed&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify Continue with Google button is displayed", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify Continue with Google button is displayed","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify presence of close button&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify presence of close button", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify presence of close button","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify Terms and Privacy message is displayed&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify Terms and Privacy message is displayed", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify Terms and Privacy message is displayed","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify Terms and Privacy message is displayed&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify Terms and Privacy message is displayed", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify Terms and Privacy message is displayed","Login Page UI Verification")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify email input field&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify email input field", "Login Page UI Verification") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify email input field","Login Page UI Verification")</span>
+                  <span class="parameters">("Verify sub text","Login Page Verification")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -511,10 +606,110 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;Verify presence of placeholder in password field&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify presence of placeholder in password field", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify presence of placeholder in password field","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;Verify Continue with Google button is displayed&quot;, &quot;Login Page UI Verification&quot;)">
                   </a> <!-- runScenario("Verify Continue with Google button is displayed", "Login Page UI Verification") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Verify Continue with Google button is displayed","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify email input accepts valid existing email&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify email input accepts valid existing email", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify email input accepts valid existing email","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify presence of forgot password link&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify presence of forgot password link", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify presence of forgot password link","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify presence of close button&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify presence of close button", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify presence of close button","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify password field in login page&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify password field in login page", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify password field in login page","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify enters an invalid email&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify enters an invalid email", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify enters an invalid email","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify sub text of the header is displayed&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify sub text of the header is displayed", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify sub text of the header is displayed","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify password input accepts valid existing user&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify password input accepts valid existing user", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify password input accepts valid existing user","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify login form header is displayed&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify login form header is displayed", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify login form header is displayed","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify password input accepts valid existing user&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify password input accepts valid existing user", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify password input accepts valid existing user","Login Page Verification")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -541,10 +736,110 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Verify sub text of the header is displayed&quot;, &quot;Login Page UI Verification&quot;)">
-                  </a> <!-- runScenario("Verify sub text of the header is displayed", "Login Page UI Verification") -->
+                  <a name="runScenario(&quot;Verify email input accepts valid existing email&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify email input accepts valid existing email", "Login Page Verification") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify sub text of the header is displayed","Login Page UI Verification")</span>
+                  <span class="parameters">("Verify email input accepts valid existing email","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify sub text&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify sub text", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify sub text","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Continue with Google button is displayed&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify Continue with Google button is displayed", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Continue with Google button is displayed","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify enters an invalid email&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify enters an invalid email", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify enters an invalid email","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify email input accepts valid new email&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify email input accepts valid new email", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify email input accepts valid new email","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify presence of forgot password link&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify presence of forgot password link", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify presence of forgot password link","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Terms and Privacy message is displayed&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify Terms and Privacy message is displayed", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Terms and Privacy message is displayed","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify email input field&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify email input field", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify email input field","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify presence of placeholder in password field&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify presence of placeholder in password field", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify presence of placeholder in password field","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Continue with Email is enabled&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify Continue with Email is enabled", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Continue with Email is enabled","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Continue with Email button is displayed&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify Continue with Email button is displayed", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Continue with Email button is displayed","Login Page UI Verification")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -561,10 +856,200 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;Verify sub text of the header is displayed&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify sub text of the header is displayed", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify sub text of the header is displayed","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify placeholder text in email field&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify placeholder text in email field", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify placeholder text in email field","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify OR separator is displayed&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify OR separator is displayed", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify OR separator is displayed","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify password input accepts valid existing user&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify password input accepts valid existing user", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify password input accepts valid existing user","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify presence of forgot password link&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify presence of forgot password link", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify presence of forgot password link","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;Verify Continue with Email is enabled&quot;, &quot;Login Page UI Verification&quot;)">
                   </a> <!-- runScenario("Verify Continue with Email is enabled", "Login Page UI Verification") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Verify Continue with Email is enabled","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify email input field&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify email input field", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify email input field","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify login form header is displayed&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify login form header is displayed", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify login form header is displayed","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify sub text&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify sub text", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify sub text","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify password field in login page&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify password field in login page", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify password field in login page","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify enters an invalid email&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify enters an invalid email", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify enters an invalid email","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify presence of placeholder in password field&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify presence of placeholder in password field", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify presence of placeholder in password field","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Continue with Google button is displayed&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify Continue with Google button is displayed", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Continue with Google button is displayed","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify presence of close button&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify presence of close button", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify presence of close button","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify sub text of the header is displayed&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify sub text of the header is displayed", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify sub text of the header is displayed","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify email input accepts valid new email&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify email input accepts valid new email", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify email input accepts valid new email","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Terms and Privacy message is displayed&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify Terms and Privacy message is displayed", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Terms and Privacy message is displayed","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify email input accepts valid existing email&quot;, &quot;Login Page Verification&quot;)">
+                  </a> <!-- runScenario("Verify email input accepts valid existing email", "Login Page Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify email input accepts valid existing email","Login Page Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify placeholder text in email field&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify placeholder text in email field", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify placeholder text in email field","Login Page UI Verification")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Continue with Email button is displayed&quot;, &quot;Login Page UI Verification&quot;)">
+                  </a> <!-- runScenario("Verify Continue with Email button is displayed", "Login Page UI Verification") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Continue with Email button is displayed","Login Page UI Verification")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -650,132 +1135,228 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(30);
+data.addRows(54);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'testRunner.TestRunner')
-data.setCell(0, 3, 57494);
+data.setCell(0, 3, 157258);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'testRunner.TestRunner')
-data.setCell(1, 3, 57302);
+data.setCell(1, 3, 141099);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'testRunner.TestRunner')
-data.setCell(2, 3, 56493);
+data.setCell(2, 3, 134986);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'testRunner.TestRunner')
-data.setCell(3, 3, 56274);
+data.setCell(3, 3, 134857);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
 data.setCell(4, 2, 'testRunner.TestRunner')
-data.setCell(4, 3, 56263);
+data.setCell(4, 3, 126571);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'runScenario')
 data.setCell(5, 2, 'testRunner.TestRunner')
-data.setCell(5, 3, 56256);
+data.setCell(5, 3, 124390);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'runScenario')
 data.setCell(6, 2, 'testRunner.TestRunner')
-data.setCell(6, 3, 56243);
+data.setCell(6, 3, 124153);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'runScenario')
 data.setCell(7, 2, 'testRunner.TestRunner')
-data.setCell(7, 3, 56233);
+data.setCell(7, 3, 122195);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'runScenario')
 data.setCell(8, 2, 'testRunner.TestRunner')
-data.setCell(8, 3, 55950);
+data.setCell(8, 3, 119938);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'runScenario')
 data.setCell(9, 2, 'testRunner.TestRunner')
-data.setCell(9, 3, 55797);
+data.setCell(9, 3, 111435);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'runScenario')
 data.setCell(10, 2, 'testRunner.TestRunner')
-data.setCell(10, 3, 33201);
+data.setCell(10, 3, 110868);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'runScenario')
 data.setCell(11, 2, 'testRunner.TestRunner')
-data.setCell(11, 3, 33035);
+data.setCell(11, 3, 108703);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'runScenario')
 data.setCell(12, 2, 'testRunner.TestRunner')
-data.setCell(12, 3, 32803);
+data.setCell(12, 3, 104270);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'runScenario')
 data.setCell(13, 2, 'testRunner.TestRunner')
-data.setCell(13, 3, 32584);
+data.setCell(13, 3, 99482);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'runScenario')
 data.setCell(14, 2, 'testRunner.TestRunner')
-data.setCell(14, 3, 32569);
+data.setCell(14, 3, 99386);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'runScenario')
 data.setCell(15, 2, 'testRunner.TestRunner')
-data.setCell(15, 3, 32404);
+data.setCell(15, 3, 98636);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'runScenario')
 data.setCell(16, 2, 'testRunner.TestRunner')
-data.setCell(16, 3, 32319);
+data.setCell(16, 3, 92444);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'runScenario')
 data.setCell(17, 2, 'testRunner.TestRunner')
-data.setCell(17, 3, 32299);
+data.setCell(17, 3, 77522);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'runScenario')
 data.setCell(18, 2, 'testRunner.TestRunner')
-data.setCell(18, 3, 29989);
+data.setCell(18, 3, 64547);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'runScenario')
 data.setCell(19, 2, 'testRunner.TestRunner')
-data.setCell(19, 3, 29694);
+data.setCell(19, 3, 55223);
 data.setCell(20, 0, 20)
 data.setCell(20, 1, 'runScenario')
 data.setCell(20, 2, 'testRunner.TestRunner')
-data.setCell(20, 3, 24156);
+data.setCell(20, 3, 54736);
 data.setCell(21, 0, 21)
 data.setCell(21, 1, 'runScenario')
 data.setCell(21, 2, 'testRunner.TestRunner')
-data.setCell(21, 3, 24023);
+data.setCell(21, 3, 54735);
 data.setCell(22, 0, 22)
 data.setCell(22, 1, 'runScenario')
 data.setCell(22, 2, 'testRunner.TestRunner')
-data.setCell(22, 3, 23994);
+data.setCell(22, 3, 54707);
 data.setCell(23, 0, 23)
 data.setCell(23, 1, 'runScenario')
 data.setCell(23, 2, 'testRunner.TestRunner')
-data.setCell(23, 3, 23990);
+data.setCell(23, 3, 54204);
 data.setCell(24, 0, 24)
 data.setCell(24, 1, 'runScenario')
 data.setCell(24, 2, 'testRunner.TestRunner')
-data.setCell(24, 3, 23953);
+data.setCell(24, 3, 53620);
 data.setCell(25, 0, 25)
 data.setCell(25, 1, 'runScenario')
 data.setCell(25, 2, 'testRunner.TestRunner')
-data.setCell(25, 3, 23931);
+data.setCell(25, 3, 53066);
 data.setCell(26, 0, 26)
 data.setCell(26, 1, 'runScenario')
 data.setCell(26, 2, 'testRunner.TestRunner')
-data.setCell(26, 3, 23920);
+data.setCell(26, 3, 52682);
 data.setCell(27, 0, 27)
 data.setCell(27, 1, 'runScenario')
 data.setCell(27, 2, 'testRunner.TestRunner')
-data.setCell(27, 3, 23907);
+data.setCell(27, 3, 52391);
 data.setCell(28, 0, 28)
 data.setCell(28, 1, 'runScenario')
 data.setCell(28, 2, 'testRunner.TestRunner')
-data.setCell(28, 3, 23869);
+data.setCell(28, 3, 41211);
 data.setCell(29, 0, 29)
 data.setCell(29, 1, 'runScenario')
 data.setCell(29, 2, 'testRunner.TestRunner')
-data.setCell(29, 3, 23517);
+data.setCell(29, 3, 41204);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'runScenario')
+data.setCell(30, 2, 'testRunner.TestRunner')
+data.setCell(30, 3, 41202);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'runScenario')
+data.setCell(31, 2, 'testRunner.TestRunner')
+data.setCell(31, 3, 40458);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'runScenario')
+data.setCell(32, 2, 'testRunner.TestRunner')
+data.setCell(32, 3, 39963);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'runScenario')
+data.setCell(33, 2, 'testRunner.TestRunner')
+data.setCell(33, 3, 39494);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'runScenario')
+data.setCell(34, 2, 'testRunner.TestRunner')
+data.setCell(34, 3, 39141);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'runScenario')
+data.setCell(35, 2, 'testRunner.TestRunner')
+data.setCell(35, 3, 38960);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'runScenario')
+data.setCell(36, 2, 'testRunner.TestRunner')
+data.setCell(36, 3, 38771);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'runScenario')
+data.setCell(37, 2, 'testRunner.TestRunner')
+data.setCell(37, 3, 38708);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'runScenario')
+data.setCell(38, 2, 'testRunner.TestRunner')
+data.setCell(38, 3, 37102);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'runScenario')
+data.setCell(39, 2, 'testRunner.TestRunner')
+data.setCell(39, 3, 36918);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'runScenario')
+data.setCell(40, 2, 'testRunner.TestRunner')
+data.setCell(40, 3, 36458);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'runScenario')
+data.setCell(41, 2, 'testRunner.TestRunner')
+data.setCell(41, 3, 36169);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'runScenario')
+data.setCell(42, 2, 'testRunner.TestRunner')
+data.setCell(42, 3, 35400);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'runScenario')
+data.setCell(43, 2, 'testRunner.TestRunner')
+data.setCell(43, 3, 35018);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'runScenario')
+data.setCell(44, 2, 'testRunner.TestRunner')
+data.setCell(44, 3, 34873);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'runScenario')
+data.setCell(45, 2, 'testRunner.TestRunner')
+data.setCell(45, 3, 34859);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'runScenario')
+data.setCell(46, 2, 'testRunner.TestRunner')
+data.setCell(46, 3, 22940);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'runScenario')
+data.setCell(47, 2, 'testRunner.TestRunner')
+data.setCell(47, 3, 22818);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'runScenario')
+data.setCell(48, 2, 'testRunner.TestRunner')
+data.setCell(48, 3, 22526);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'runScenario')
+data.setCell(49, 2, 'testRunner.TestRunner')
+data.setCell(49, 3, 22367);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'runScenario')
+data.setCell(50, 2, 'testRunner.TestRunner')
+data.setCell(50, 3, 22141);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'runScenario')
+data.setCell(51, 2, 'testRunner.TestRunner')
+data.setCell(51, 3, 21588);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'runScenario')
+data.setCell(52, 2, 'testRunner.TestRunner')
+data.setCell(52, 3, 21029);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'runScenario')
+data.setCell(53, 2, 'testRunner.TestRunner')
+data.setCell(53, 3, 20633);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 minutes</span>
+              <span class="suite-total-time">Total running time: 58 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -807,156 +1388,256 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@285583d4)</span>
-                <span class="method-start">27 ms</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@26865482)</span>
+                <span class="method-start">29 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Verify Continue with Google button is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">9202 ms</span>
+                <span class="method-name">runScenario("Verify email input accepts valid existing email", "Login Page Verification")</span>
+                <span class="method-start">9291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify presence of forgot password link", "Login Page Verification")</span>
+                <span class="method-start">9291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify enters an invalid email", "Login Page Verification")</span>
+                <span class="method-start">9291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify email input accepts valid new email", "Login Page Verification")</span>
+                <span class="method-start">9292 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify sub text", "Login Page Verification")</span>
+                <span class="method-start">9292 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify presence of placeholder in password field", "Login Page Verification")</span>
+                <span class="method-start">9292 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify password field in login page", "Login Page Verification")</span>
+                <span class="method-start">9292 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify sub text of the header is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">9203 ms</span>
+                <span class="method-start">9292 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("Verify email input field", "Login Page UI Verification")</span>
-                <span class="method-start">9203 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify OR separator is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">9203 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify Continue with Email button is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">9203 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify placeholder text in email field", "Login Page UI Verification")</span>
-                <span class="method-start">9203 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify Terms and Privacy message is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">9203 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify presence of close button", "Login Page UI Verification")</span>
-                <span class="method-start">9203 ms</span>
+                <span class="method-name">runScenario("Verify password input accepts valid existing user", "Login Page Verification")</span>
+                <span class="method-start">9292 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify login form header is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">9203 ms</span>
+                <span class="method-start">9292 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">runScenario("Verify Continue with Email button is displayed", "Login Page UI Verification")</span>
+                <span class="method-start">102441 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Continue with Google button is displayed", "Login Page UI Verification")</span>
+                <span class="method-start">108028 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify OR separator is displayed", "Login Page UI Verification")</span>
+                <span class="method-start">108850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Terms and Privacy message is displayed", "Login Page UI Verification")</span>
+                <span class="method-start">108951 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify presence of close button", "Login Page UI Verification")</span>
+                <span class="method-start">118007 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify email input field", "Login Page UI Verification")</span>
+                <span class="method-start">120196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify placeholder text in email field", "Login Page UI Verification")</span>
+                <span class="method-start">120753 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">runScenario("Verify Continue with Email is enabled", "Login Page UI Verification")</span>
-                <span class="method-start">9203 ms</span>
+                <span class="method-start">133649 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">66702 ms</span>
+                <span class="method-start">244596 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test before">
                 <span class="method-name">defineBrowser(edge)</span>
-                <span class="method-start">67136 ms</span>
+                <span class="method-start">245251 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@1039bfc4)</span>
-                <span class="method-start">67138 ms</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@34451ed8)</span>
+                <span class="method-start">245257 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <span class="method-name">runScenario("Verify email input accepts valid new email", "Login Page Verification")</span>
+                <span class="method-start">245353 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify enters an invalid email", "Login Page Verification")</span>
+                <span class="method-start">245354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify email input accepts valid existing email", "Login Page Verification")</span>
+                <span class="method-start">245355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify password field in login page", "Login Page Verification")</span>
+                <span class="method-start">245355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify sub text", "Login Page Verification")</span>
+                <span class="method-start">245356 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify presence of forgot password link", "Login Page Verification")</span>
+                <span class="method-start">245356 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify presence of placeholder in password field", "Login Page Verification")</span>
+                <span class="method-start">245359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify password input accepts valid existing user", "Login Page Verification")</span>
+                <span class="method-start">245360 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">runScenario("Verify login form header is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">67196 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify Continue with Email button is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">67197 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify Continue with Google button is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">67197 ms</span>
+                <span class="method-start">245362 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify sub text of the header is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">67197 ms</span>
+                <span class="method-start">245364 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("Verify presence of close button", "Login Page UI Verification")</span>
-                <span class="method-start">67198 ms</span>
+                <span class="method-name">runScenario("Verify Continue with Email button is displayed", "Login Page UI Verification")</span>
+                <span class="method-start">297752 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Continue with Google button is displayed", "Login Page UI Verification")</span>
+                <span class="method-start">298041 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify OR separator is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">67198 ms</span>
+                <span class="method-start">298435 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify Terms and Privacy message is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">67198 ms</span>
+                <span class="method-start">298991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify presence of close button", "Login Page UI Verification")</span>
+                <span class="method-start">299567 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify email input field", "Login Page UI Verification")</span>
-                <span class="method-start">67200 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify Continue with Email is enabled", "Login Page UI Verification")</span>
-                <span class="method-start">67201 ms</span>
+                <span class="method-start">300075 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify placeholder text in email field", "Login Page UI Verification")</span>
-                <span class="method-start">67201 ms</span>
+                <span class="method-start">300103 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Continue with Email is enabled", "Login Page UI Verification")</span>
+                <span class="method-start">300104 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">100400 ms</span>
+                <span class="method-start">335163 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test before">
                 <span class="method-name">defineBrowser(chrome)</span>
-                <span class="method-start">100455 ms</span>
+                <span class="method-start">335322 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@7f85217c)</span>
-                <span class="method-start">100457 ms</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@c1050f2)</span>
+                <span class="method-start">335325 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Verify login form header is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">100496 ms</span>
+                <span class="method-name">runScenario("Verify email input accepts valid new email", "Login Page Verification")</span>
+                <span class="method-start">335402 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify enters an invalid email", "Login Page Verification")</span>
+                <span class="method-start">335403 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify password field in login page", "Login Page Verification")</span>
+                <span class="method-start">335404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify email input accepts valid existing email", "Login Page Verification")</span>
+                <span class="method-start">335404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify presence of forgot password link", "Login Page Verification")</span>
+                <span class="method-start">335405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify sub text", "Login Page Verification")</span>
+                <span class="method-start">335405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify password input accepts valid existing user", "Login Page Verification")</span>
+                <span class="method-start">335406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify presence of placeholder in password field", "Login Page Verification")</span>
+                <span class="method-start">335406 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify sub text of the header is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">100496 ms</span>
+                <span class="method-start">335407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify login form header is displayed", "Login Page UI Verification")</span>
+                <span class="method-start">335408 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify Continue with Email button is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">100496 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify presence of close button", "Login Page UI Verification")</span>
-                <span class="method-start">100497 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify OR separator is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">100497 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify Terms and Privacy message is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">100497 ms</span>
+                <span class="method-start">374120 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify Continue with Google button is displayed", "Login Page UI Verification")</span>
-                <span class="method-start">100497 ms</span>
+                <span class="method-start">374181 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify OR separator is displayed", "Login Page UI Verification")</span>
+                <span class="method-start">374367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Terms and Privacy message is displayed", "Login Page UI Verification")</span>
+                <span class="method-start">374550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify presence of close button", "Login Page UI Verification")</span>
+                <span class="method-start">374903 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify email input field", "Login Page UI Verification")</span>
-                <span class="method-start">100498 ms</span>
+                <span class="method-start">375371 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify placeholder text in email field", "Login Page UI Verification")</span>
-                <span class="method-start">100498 ms</span>
+                <span class="method-start">375865 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Verify Continue with Email is enabled", "Login Page UI Verification")</span>
-                <span class="method-start">100499 ms</span>
+                <span class="method-start">376637 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">124657 ms</span>
+                <span class="method-start">397272 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

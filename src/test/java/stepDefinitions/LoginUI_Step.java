@@ -1,10 +1,8 @@
 package stepDefinitions;
 
-import java.util.Arrays;
+
 import java.util.List;
-
 import org.testng.Assert;
-
 import common.TestContext;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

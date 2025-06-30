@@ -6,6 +6,7 @@ import pageObject.LoginUI_Page;
 import pageObject.PremiumUserExercise_Page;
 
 
+
 public class TestContext {
     private WebDriver driver;
     private DriverConfig factory;
@@ -14,6 +15,7 @@ public class TestContext {
     private String baseUrl;
     private LoginUI_Page loginUI_page;
     private PremiumUserExercise_Page premiunUserEx_page;
+
 
     public TestContext() {
         factory = new DriverConfig();
@@ -60,6 +62,7 @@ public class TestContext {
     
     public void resetPages() {
     	loginUI_page = null;
+    
 	    // Add other page objects here as you create them
 	}
 }

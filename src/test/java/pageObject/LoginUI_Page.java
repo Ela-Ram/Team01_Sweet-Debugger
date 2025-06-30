@@ -22,9 +22,17 @@ public class LoginUI_Page {
 	 @FindBy(xpath = "//div[@id='root']/div/div/button") WebElement closeButton;
 	 @FindBy(id= ":r0:-form-item")WebElement emailField;
 	 @FindBy(xpath = "//button[@type='submit']") WebElement continueWithEmailButton;
-	
+	 @FindBy(xpath = "//div[@class='space-y-2']/h2") WebElement completeYourProfileText;
+	 @FindBy(id= ":r0:-form-item-message")WebElement emailErrorText;
+	 @FindBy(xpath = "//input[@name='password']") WebElement passwordField;
+	 @FindBy(xpath = "//div[@class='text-center space-y-2']/p[2]") WebElement emailSubText;
+	 @FindBy(xpath = "//button[@type='button']") WebElement forgotPasswordlink;
+	 @FindBy(xpath = "//div[@class='flex flex-col space-y-1.5 p-6']/h3") WebElement homePageText;
+	 
 	
 	 
+	
+	
 	 
 	public LoginUI_Page(TestContext context) {
         this.driver = context.getDriver();
@@ -57,4 +65,54 @@ public class LoginUI_Page {
 	   public boolean isContinueWithEmailButtonEnabled() {
 	        return continueWithEmailButton.isEnabled();
 	    }
+	   
+	   public void enterEmail(String email) {
+		    emailField.sendKeys(email);      
+		}
+	   
+	   public void enterPassword(String password) {
+		   passwordField.sendKeys(password);      
+		}
+	   
+	   public void clickContinueWithEmailButton() {
+		   continueWithEmailButton.click();  
+	   }
+	   
+	   public boolean isCompleteProfileFormDisplayed() {
+		    return completeYourProfileText.isDisplayed();
+		}
+	   
+	   public String getCompleteYourProfileText() {
+		   return completeYourProfileText.getText();
+	   }
+	   
+	   public String getEmailErrorText() {
+		   return emailErrorText.getText();
+	   }
+	   
+	   public boolean isPasswordFieldVisible() {
+		    return passwordField.isDisplayed();
+		}
+	   
+	   public String getPasswordText() {
+			 return passwordField.getDomAttribute("placeholder");
+			}
+	   
+	   public String getEmailSubText() {
+			 return emailSubText.getText();
+			}
+	   
+	   public boolean isEmailSubTextVisible() {
+		    return emailSubText.isDisplayed();
+		}
+	   
+	   public boolean isForgotPasswordlink() {
+		    return forgotPasswordlink.isDisplayed();
+		}
+	   
+	   public boolean isHomePageLoaded() {
+			    return homePageText.isDisplayed(); 
+		}
+	   
+
 }

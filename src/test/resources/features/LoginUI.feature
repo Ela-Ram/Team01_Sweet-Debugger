@@ -1,4 +1,4 @@
-@sweet @login
+@sweet @loginUI
 Feature: Login Page UI Verification
 
   @skipLaunch @uilogintext

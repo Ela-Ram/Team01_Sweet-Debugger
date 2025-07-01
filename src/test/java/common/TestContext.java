@@ -2,6 +2,7 @@ package common;
 
 import org.openqa.selenium.WebDriver;
 import driverFactory.DriverConfig;
+import pageObject.Launch_PageObj;
 import pageObject.LoginUI_Page;
 import pageObject.PremiumUserExercise_Page;
 
@@ -15,6 +16,7 @@ public class TestContext {
     private String baseUrl;
     private LoginUI_Page loginUI_page;
     private PremiumUserExercise_Page premiunUserEx_page;
+    private Launch_PageObj launch_pageObj;
 
 
     public TestContext() {
@@ -62,7 +64,15 @@ public class TestContext {
     
     public void resetPages() {
     	loginUI_page = null;
-    
-	    // Add other page objects here as you create them
+    	
+    	 
+	}
+
+	public Launch_PageObj getLaunch_PageObj() {
+		if (launch_pageObj == null)
+    	{
+    		launch_pageObj = new Launch_PageObj(this);
+    	}
+		return launch_pageObj;
 	}
 }

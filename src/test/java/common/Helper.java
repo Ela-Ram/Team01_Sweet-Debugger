@@ -36,7 +36,16 @@ public class Helper {
     public WebElement waitForVisible(WebElement element) {
         return wait.until(ExpectedConditions.visibilityOfElementLocated((By) element));
     }
+    public WebElement waitForVisibleElement(WebElement element) {
+        return wait.until(ExpectedConditions.visibilityOf(element));
+    }
     
+    public void waitForAllVisibleElements(List<WebElement> elements) {
+        for (WebElement element : elements) {
+            wait.until(ExpectedConditions.visibilityOf(element));
+        }
+    }
+
     //wait for clickable
     public WebElement waitForClickable(By locator) {
         return wait.until(ExpectedConditions.elementToBeClickable(locator));

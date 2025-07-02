@@ -4,11 +4,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-
 import common.DataGenerator;
 import common.ExcelReader;
 import common.Helper;
@@ -30,7 +27,7 @@ public class LoginOnboardingScenariosWithoutBloodReport_Step {
 	    this.helper = context.getHelper(); 
 		}
 	
-//Background	
+	
 	@Given("User successfully completed profile setup")
 	public void user_successfully_completed_profile_setup() {
 		String email = DataGenerator.generateUniqueEmail();
@@ -44,7 +41,7 @@ public class LoginOnboardingScenariosWithoutBloodReport_Step {
 		loginUI_page.clickCheckbox();
 		
 	}
-
+//--------------------------------------------------------------------------------------------------------------------------------------------
 
 	@Given("User is in upload blood report page after entering values")
 	public void user_is_in_upload_blood_report_page_after_entering_values() {
@@ -205,7 +202,8 @@ case "pounds":
 		}
 	    
 	}
-	
+	//--------------------------------------------------------------------------------------------------------------------------------------------
+
 	
 	@Given("User is in step1 Onboarding form without blood report")
 	public void user_is_in_step1_onboarding_form_without_blood_report() {
@@ -213,9 +211,16 @@ case "pounds":
 		loginUI_page.clickStepThroughOnboardingButton();  
 	    
 	}
-	@When("User selects the condition in step1")
-	public void user_selects_the_condition_in_step1() {
-		loginUI_page.clickOptionIDontKnowStep2WithoutReport();   
+	@When("User selects the {string} in step1 onboarding")
+	public void user_selects_the_condition_in_step1_onboarding(String condition) {
+		switch(condition) {
+		case "I dont know":
+		loginUI_page.clickOptionIDontKnowStep2WithoutReport(); 
+		break;
+		case "Type 2":
+			loginUI_page.clickOptionType2Step2WithoutReport();
+			break;
+	}
 	}
 	
 	@Then("User should see {string} in step onboarding")
@@ -226,6 +231,8 @@ case "pounds":
 
 	    
 	}
+	//--------------------------------------------------------------------------------------------------------------------------------------------
+
 	@Given("User is in step2 Onboarding form without blood report")
 	public void user_is_in_step2_onboarding_form_without_blood_report() {
 		loginUI_page.clickCreateAccountButton();
@@ -233,9 +240,12 @@ case "pounds":
 		loginUI_page.clickOptionIDontKnowStep2WithoutReport();
 	}
 
-	@When("User selects a gender in step3")
-	public void user_selects_a_gender_in_step3() {
-		loginUI_page.clickMaleOptionWithoutReport();   
+	@When("User selects a {string} in step3")
+	public void user_selects_a_gender_in_step3(String gender) {
+		
+		WebElement genderElement = loginUI_page.getOptionByText(gender);
+		genderElement.click();
+	   
 	}
 	
 	@When("User clicks back button in step")
@@ -258,28 +268,11 @@ case "pounds":
 	    
 	}
 
-	@When("User selects {string}  in step3")
-	public void user_selects_in_step3(String age) {
-		
-		switch(age) {
-		case "18-29" :
-			loginUI_page.clickEighteenOptionWithoutReport();
-			break ;
-			
-		case "30-49" :
-			loginUI_page.clickThirtyFiveOptionWithoutReport();
-			break ;	
-			
-		case "above 50" :
-			loginUI_page.clickHundredOptionWithoutReport();
-			break ;		
-		}
-		
-	}
 	
-	@When("User selects any age option in step3")
-	public void user_selects_any_age_option_in_step3() {
-	    loginUI_page.clickEighteenOptionWithoutReport();
+	@When("User selects age between {string} in step3 {string}")
+	public void user_selects_age_between_in_step3(String scenario, String age) {
+		WebElement ageNumberElement = loginUI_page.getOptionByText(age);
+		ageNumberElement.click();  
 	}
 	
 	@Then("following scetions should be visible")
@@ -294,8 +287,7 @@ case "pounds":
 	
 	@Then("User should see {string} for step for onboarding without reports {string}")
 	public void user_should_see_for_step_for_onboarding_without_reports(String expected,String scenario) {
-		//String actual = loginUI_page.getTabTextByScenario(scenario);
-	    //Assert.assertEquals(actual.trim(), expected.trim(), "Mismatch in tab label for: " + scenario);
+		
 		String actual = loginUI_page.getCmFeetKgPoundsTabWithoutReportText();
 		Assert.assertTrue(actual.contains(expected),"Not Displayed");
 	}
@@ -308,7 +300,7 @@ case "pounds":
 	    loginUI_page.clickFeeAndInchesTabWithoutReportt();
 	    List<String> actualOptions = loginUI_page.getOptionsOnboardFormWithoutReportTexts()
 	    	    .stream()
-	    	    .map(opt -> opt.replaceAll("'\\s+", "'")) // remove space after apostrophe
+	    	    .map(opt -> opt.replaceAll("'\\s+", "'")) 
 	    	    .collect(Collectors.toList());
 
 	   
@@ -318,6 +310,8 @@ case "pounds":
 	
 	    Assert.assertTrue(allPresent, "Mismatch in options.\nExpected: " + expectedOptions + "\nActual: " + actualOptions);
 	}
+	//--------------------------------------------------------------------------------------------------------------------------------------------
+
 	
 	@Given("User is in step4 Onboarding form without blood report")
 	public void user_is_in_step4_onboarding_form_without_blood_report() {
@@ -328,25 +322,23 @@ case "pounds":
 		loginUI_page.clickEighteenOptionWithoutReport();
 	}
 
-	@When("User selects {string}  in step4")
-	public void user_selects_in_step4(String scenario) {
-		loginUI_page.clickCentimeterTabWithoutReport();
-		switch(scenario) {
-		case "above 180cm" :
-			
-			loginUI_page.clickOneEightyFiveHeightOptionWithoutReport();
-			break ;
-			
-		case "below 159cm" :
-			loginUI_page.clickOneFiftyHeightOptionWithoutReport();
-			break ;	
-			
-		case "160-179cm" :
-			loginUI_page.clickOneSixtyFiveOptionWithoutReport();
-			break ;		
-		}	    
+	
+	
+	@When("User selects {string} in cm between {string}  in step4")
+	public void user_selects_in_cm_between_in_step4(String heightincm, String scenario) {
+		WebElement heightInCmNumberElement = loginUI_page.getOptionByText(heightincm);
+		heightInCmNumberElement.click();  
+	    
 	}
 	
+	@When("User selects {string} in pounds  between {string}  in step4")
+	public void user_selects_in_pounds_between_in_step4(String heightininches, String scenario) {
+		loginUI_page.clickFeeAndInchesTabWithoutReport();
+		WebElement heightInInchesNumberElement = loginUI_page.getOptionByText(heightininches);
+		heightInInchesNumberElement.click(); 
+		
+	}
+
 	@When("User selects from {string} available in step4")
 	public void user_selects_from_available_in_step4(String option) {
 		
@@ -372,26 +364,16 @@ case "pounds":
 		loginUI_page.clickEighteenOptionWithoutReport();
 		loginUI_page.clickOneEightyFiveHeightOptionWithoutReport();
 	}
-
-	@When("User selects {string}  in step5")
-	public void user_selects_in_step5(String scenario) {
-		
-		switch(scenario) {
-		case "less than 59" :
-			
-			loginUI_page.clickFortyWeightOptionWithoutReport();
-			break ;
-			
-		case "between 60 -84" :
-			loginUI_page.clickSeventyWeightOptionWithoutReport();
-			break ;	
-			
-		case "greater than 85" :
-			loginUI_page.clickHundredWeightOptionWithoutReport();
-			break ;		
-		}	    
-	    
+	
+	
+	@When("User selects {string} in kg between {string} in step5")
+	public void user_selects_in_kg_between_in_step5(String weightinkg, String scenario) {
+		WebElement weightInKgNumberElement = loginUI_page.getOptionByText(weightinkg);
+		weightInKgNumberElement.click(); 
+	   
 	}
+
+
 	@When("User selects from {string} available in step5")
 	public void user_selects_from_available_in_step5(String option) {
 		switch(option) {
@@ -419,11 +401,13 @@ case "pounds":
 	   
 	}
 
-	@When("User selects from available in step6")
-	public void user_selects_from_available_in_step6() {
-		loginUI_page.clickVeganDietaryOptionWithoutReport();
-	   
-	}
+@When("User selects from {string}  in step6")
+public void user_selects_from_in_step6(String dietaryoptions) {
+	WebElement dietaryOptionsElement = loginUI_page.getOptionByText(dietaryoptions);
+	dietaryOptionsElement.click(); 
+    
+}
+
 
 //-------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -439,9 +423,10 @@ public void user_is_in_step7_onboarding_form_without_blood_report() {
 	loginUI_page.clickVeganDietaryOptionWithoutReport();
 }
 
-@When("User selects from one of the cuisine options in step7")
-public void user_selects_from_one_of_the_cuisine_options_in_step7() {
-	loginUI_page.clickIndianCuisineOptionWithoutReport();
+@When("User selects from one of the {string} options in step7")
+public void user_selects_from_one_of_the_options_in_step7(String cuisine) {
+	WebElement cuisineOptionsElement = loginUI_page.getOptionByText(cuisine);
+	cuisineOptionsElement.click(); 
     
 }
 
@@ -519,16 +504,20 @@ public void user_is_in_step9_onboarding_form_without_blood_report() {
     
 }
 
-@When("User selects continue after checking any option from check box")
-public void user_selects_continue_after_checking_any_option_from_check_box() {
+
+@When("User selects continue after checking any {string} from allergy check box")
+public void user_selects_continue_after_checking_any_from_allergy_check_box(String allergyoption) {
 	
-	loginUI_page.clickShellFishOptionWithoutReport();
-	loginUI_page.clickcontinueButtonWithoutReport();
-	
+		
+		WebElement allergyOptionsElement = loginUI_page.getOptionById(allergyoption);
+		allergyOptionsElement.click(); 
+		loginUI_page.clickcontinueButtonWithoutReport();
+    
 }
 
-@When("User clicks continue")
-public void user_clicks_continue() {
+
+@When("User clicks continue in step")
+public void user_clicks_continue_in_step() {
 	loginUI_page.clickcontinueButtonWithoutReport();
     
 }
@@ -540,6 +529,8 @@ public void user_receives_error_message_as(String expected) {
 	Assert.assertEquals(actual.trim(), expected, "Error message not displayed");
     
 }
+//--------------------------------------------------------------------------------------------------------------------------------------------
+
 
 @Given("User is in step10 Onboarding form without blood report")
 public void user_is_in_step10_onboarding_form_without_blood_report() {
@@ -604,6 +595,7 @@ public void user_clicks_from_the_preferred_intensity_level(String intensityLevel
 	WebElement IntensityLevel = loginUI_page.getOptionByText(intensityLevel);
 	IntensityLevel.click();
 }
+
 @Then("User should see {string} for step for onboarding without report in step {int} {string}")
 public void user_should_see_for_step_for_onboarding_without_report_in_step(String expected, Integer int1, String scenario) {
     
@@ -632,6 +624,9 @@ public void user_should_see_description_as_in_and(String Sheet, String TestCaseI
 	Assert.assertEquals(actual, expected, "Mismatch");
 	    
 }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------
+
 @Given("User is in step12 Onboarding form without blood report")
 public void user_is_in_step12_onboarding_form_without_blood_report() {
 	loginUI_page.clickCreateAccountButton();
@@ -667,7 +662,7 @@ public void user_should_see_see_the_input_field_does_not_accept_value() {
 	WebElement input = loginUI_page.getHbA1cInputFieldIndicatorElement(); 
 	loginUI_page.clickTextBelowHbA1cInputTextBoxWithoutReport();
     String actualValue = input.getDomAttribute("value");
-    Assert.assertTrue(actualValue.isEmpty(), " input field rejects invalid value, but found: " + actualValue);
+    Assert.assertTrue(actualValue.isEmpty(), " `input field rejects invalid value, but found: " + actualValue);
     
 }
 @Then("User should see User should see input field accept the value")
@@ -689,8 +684,10 @@ public void user_enters_valid_hb_a1c_value_in_the_input_field_as_in_and_and_clic
 	loginUI_page.clickStep12ContinueButtonWithoutReport();
 }
 
-@Then("User should see {string} for  {string}")
-public void user_should_see_for(String expected, String scenario) {
+
+
+@Then("User should see {string} for  {string} for login")
+public void user_should_see_for_for_login(String expected, String scenario) {
 	
 	switch(scenario) {
 	case " user can proceed after entering a valid HbA1c value":
@@ -708,14 +705,15 @@ public void user_should_see_for(String expected, String scenario) {
 		String actualSubTitle =loginUI_page.getSubTitlePersonalizedScreenWithoutReport();
 		Assert.assertEquals(actualSubTitle,expected,"mismatch");
 		break;
-		
-		
-		
-		
-		
+	case "Upgrade to Plus screen is displayed after personalization loading":
+		 helper.waitForVisibleElement(loginUI_page.getPpgradeToPremiumButtonIndicatorElement());
+		Assert.assertTrue(loginUI_page.isUpgradeToPremiumButtonVisible(),"Upgrade to premium is not visible ");
+	
 	}
     
+    
 }
+
 
 
 

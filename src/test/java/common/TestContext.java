@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import driverFactory.DriverConfig;
 import pageObject.LoginUI_Page;
 import pageObject.PremiumUserExercise_Page;
+import pageObject.PremiumUserLogbook_Page;
+import stepDefinitions.PremiumUserGlucoseMealLog_Step;
 
 
 
@@ -14,7 +16,8 @@ public class TestContext {
     private ExcelReader excelReader;
     private String baseUrl;
     private LoginUI_Page loginUI_page;
-    private PremiumUserExercise_Page premiunUserEx_page;
+    private PremiumUserExercise_Page premiumUserEx_page;
+    private PremiumUserLogbook_Page premiumUserLogbook_Page;
 
 
     public TestContext() {
@@ -53,11 +56,11 @@ public class TestContext {
         return loginUI_page;
     }
     
-    public PremiumUserExercise_Page getPremiunUserEx_page() {
-        if (premiunUserEx_page == null) {
-        	premiunUserEx_page = new PremiumUserExercise_Page(this);
+    public PremiumUserExercise_Page getPremiumUserEx_page() {
+        if (premiumUserEx_page == null) {
+        	premiumUserEx_page = new PremiumUserExercise_Page(this);
         }
-        return premiunUserEx_page;
+        return premiumUserEx_page;
     }
     
     public void resetPages() {
@@ -65,4 +68,11 @@ public class TestContext {
     
 	    // Add other page objects here as you create them
 	}
+    
+    public PremiumUserLogbook_Page getPremiumUserLogbook_page() {
+	     if (premiumUserLogbook_Page == null) {
+	    	premiumUserLogbook_Page = new PremiumUserLogbook_Page(this);
+	     }
+	     return premiumUserLogbook_Page;
+   }
 }

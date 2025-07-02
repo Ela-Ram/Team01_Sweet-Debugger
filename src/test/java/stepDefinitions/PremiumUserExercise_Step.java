@@ -19,7 +19,7 @@ public class PremiumUserExercise_Step {
 
 	public PremiumUserExercise_Step (TestContext context) {
 		this.context = context;
-		this.exercisePageObj = context.getPremiunUserEx_page();
+		this.exercisePageObj = context.getPremiumUserEx_page();
 		this.driver = context.getDriver();
 	}
 
@@ -43,156 +43,13 @@ public class PremiumUserExercise_Step {
 
 	@When("User clicks the Exercise option from the side panel")
 	public void user_clicks_the_exercise_option_from_the_side_panel() {
-//		driver.findElement(By.xpath("//span[@class='block text-s mt-1']")).click();
 		exercisePageObj.clickExerciseBtn();
 	}
 
 	@Then("{string} is displayed")
 	public void is_displayed(String scenario) {
-		switch (scenario) {
-		case "ViewFullSchedule":
-//			System.out.println("inside viewfullschedule");
-			isVisible = exercisePageObj.isViewFullScheduleBtnVisible();
-			Assert.assertTrue(isVisible, "View Full Schedule is not visible");
-			break;
-		case "WarmUp":
-			isVisible = exercisePageObj.isWarmUpBtnVisible();
-			Assert.assertTrue(isVisible, "Warm Up is not visible");
-			break;
-		case "MainWorkout":
-			isVisible = exercisePageObj.isMainWorkoutBtnVisible();
-			Assert.assertTrue(isVisible, "Main Workout is not visible");
-			break;
-		case "CoolDown":
-			isVisible = exercisePageObj.isCoolDownBtnVisible();
-			Assert.assertTrue(isVisible, "Cool Down is not visible");
-			break;
-		case "ExerciseName":
-			isVisible = exercisePageObj.isExcerciseNameVisible();
-			Assert.assertTrue(isVisible, "Exercise Name is not visible");
-			break;
-		case "Description":
-			isVisible = exercisePageObj.isExerciseDescriptionVisible();
-			Assert.assertTrue(isVisible, "Exercise Description is not visible");
-			break;
-		case "Duration":
-			isVisible = exercisePageObj.isExerciseDurationVisible();
-			Assert.assertTrue(isVisible, "Duration is not visible");
-			break;
-		case "Calories":
-			isVisible = exercisePageObj.isExerciseCaloriesVisible();
-			Assert.assertTrue(isVisible, "Calories is not visible");
-			break;
-		case "IntensityLevel":
-			isVisible = exercisePageObj.isExerciseIntensityVisible();
-			Assert.assertTrue(isVisible, "Intensity Level is not visible");
-			break;
-		case "MarkAsCompleted":
-			isVisible = exercisePageObj.isMarkAsCompletedVisible();
-			Assert.assertTrue(isVisible, "Mark As Completed is not visible");
-			break;
-		case "SuccessDialog":
-			isVisible = exercisePageObj.isSuccessDialogVisible();
-			Assert.assertTrue(isVisible, "Success Dialog is not visible");
-			break;
-		case "Completed":
-			isVisible = exercisePageObj.isCompletedVisible();
-			Assert.assertTrue(isVisible, "Completed is not visible");
-			break;
-		case "UndoOption":
-			isVisible = exercisePageObj.isUndoOptionVisible();
-			Assert.assertTrue(isVisible, "Undo Option is not visible");
-			break;
-		case "ExerciseSchedule":
-			String actPageUrl = exercisePageObj.get_currentPageUrl();
-			Assert.assertTrue(actPageUrl.contains("exercise-schedule"), "User not redirected to Exercise schedule");
-			break;
-		case "TodaysExerciseSchedule":
-			isVisible = exercisePageObj.isTodaysExerciseScheduleTitleVisible();
-			Assert.assertTrue(isVisible, "Todays Exercise Schedule is not visible");
-			break;
-		case "BacktoHome":
-			isVisible = exercisePageObj.isBacktoHomeBtnVisible();
-			Assert.assertTrue(isVisible, "Back to Home is not visible");
-			break;
-		case "WarmUpToday":
-			isVisible = exercisePageObj.isWarmUpVisible();
-			Assert.assertTrue(isVisible, "Warm Up is not visible");
-			break;
-		case "WarmUpExerciseName":
-			isVisible = exercisePageObj.isWarmUpExerciseNameVisible();
-			Assert.assertTrue(isVisible, "Warm Up Exercise Name is not visible");
-			break;
-		case "WarmUpDescription":
-			isVisible = exercisePageObj.isWarmUpDescriptionVisible();
-			Assert.assertTrue(isVisible, "Warm Up Description is not visible");
-			break;
-		case "WarmUpDuration":
-			isVisible = exercisePageObj.isWarmUpDurationVisible();
-			Assert.assertTrue(isVisible, "WarmUp Duration is not visible");
-			break;
-		case "WarmUpCalories":
-			isVisible = exercisePageObj.isWarmUpCaloriesVisible();
-			Assert.assertTrue(isVisible, "WarmUp Calories is not visible");
-			break;
-		case "WarmUpIntensityLevel":
-			isVisible = exercisePageObj.isWarmUpIntensityLevelVisible();
-			Assert.assertTrue(isVisible, "WarmUp Intensity Level is not visible");
-			break;
-		case "MainWorkoutToday":
-			isVisible = exercisePageObj.isMainWorkoutVisible();
-			Assert.assertTrue(isVisible, "Main Workout is not visible");
-			break;
-		case "MainExerciseName":
-			isVisible = exercisePageObj.isMainExerciseNameVisible();
-			Assert.assertTrue(isVisible, "Main Workout Exercise Name is not visible");
-			break;
-		case "MainDescription":
-			isVisible = exercisePageObj.isMainDescriptionVisible();
-			Assert.assertTrue(isVisible, "Main Workout Description is not visible");
-			break;
-		case "MainDuration":
-			isVisible = exercisePageObj.isMainDurationVisible();
-			Assert.assertTrue(isVisible, "Main Workout Duration is not visible");
-			break;
-		case "MainCalories":
-			isVisible = exercisePageObj.isMainCaloriesVisible();
-			Assert.assertTrue(isVisible, "Main Workout Calories is not visible");
-			break;
-		case "MainIntensityLevel":
-			isVisible = exercisePageObj.isMainIntensityLevelVisible();
-			Assert.assertTrue(isVisible, "Main Workout Intensity Level is not visible");
-			break;
-		case "CoolDownToday":
-			isVisible = exercisePageObj.isCoolDownVisible();
-			Assert.assertTrue(isVisible, "Cool Down is not visible");
-			break;
-		case "CoolDownExerciseName":
-			isVisible = exercisePageObj.isCoolDownExerciseNameVisible();
-			Assert.assertTrue(isVisible, "Cool Down Exercise Name is not visible");
-			break;
-		case "CoolDownDescription":
-			isVisible = exercisePageObj.isCoolDownDescriptionVisible();
-			Assert.assertTrue(isVisible, "Cool Down Description is not visible");
-			break;
-		case "CoolDownDuration":
-			isVisible = exercisePageObj.isCoolDownDurationVisible();
-			Assert.assertTrue(isVisible, "Cool Down Duration is not visible");
-			break;
-		case "CoolDownCalories":
-			isVisible = exercisePageObj.isCoolDownCaloriesVisible();
-			Assert.assertTrue(isVisible, "Cool Down Calories is not visible");
-			break;
-		case "CoolDownIntensityLevel":
-			isVisible = exercisePageObj.isCoolDownIntensityLevelVisible();
-			Assert.assertTrue(isVisible, "Cool Down Intensity Level is not visible");
-			break;
-		case "TotalDuration":
-			isVisible = exercisePageObj.isTotalDurationVisible();
-			Assert.assertTrue(isVisible, "Total Duration is not visible");
-			break;
-		
-		}
+		isVisible = exercisePageObj.isElementDisplayed(scenario);
+		Assert.assertTrue(isVisible, scenario + " is not visible");
 
 	}
 
@@ -239,6 +96,12 @@ public class PremiumUserExercise_Step {
 	@When("User clicks the View Full Schedule button")
 	public void user_clicks_the_view_full_schedule_button() {
 		exercisePageObj.clickViewFullScheduleBtn();
+	}
+	
+	@Then("User should redirect to Exercise schedule")
+	public void user_should_redirect_to_exercise_schedule() {
+		String actPageUrl = exercisePageObj.get_currentPageUrl();
+		Assert.assertTrue(actPageUrl.contains("exercise-schedule"), "User not redirected to Exercise schedule");
 	}
 
 	@Then("Exercise intensity should low\\/medium\\/hard")

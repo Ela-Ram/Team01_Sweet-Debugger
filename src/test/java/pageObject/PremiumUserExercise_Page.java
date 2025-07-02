@@ -1,15 +1,19 @@
 package pageObject;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import common.Helper;
 import common.TestContext;
 
 public class PremiumUserExercise_Page {
 
 	private WebDriver driver;
+	private Helper helper;
+	private WebElement element;
 
 	//Premium User Exercise Page
 	@FindBy(xpath = "//span[@class='block text-s mt-1']/..") WebElement exerciseBtn;
@@ -54,6 +58,7 @@ public class PremiumUserExercise_Page {
 
 	public PremiumUserExercise_Page(TestContext context) {
 		this.driver = context.getDriver();
+		this.helper = context.getHelper(); 
 		PageFactory.initElements(driver, this);
 	}
 
@@ -66,9 +71,11 @@ public class PremiumUserExercise_Page {
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 	}
 
-	private boolean checkElementDisplayed(WebElement element) {
+	public boolean checkElementDisplayed(WebElement element) {
 		try {
+			element = helper.waitForVisibleElement(element);
 			return element.isDisplayed();
+
 		} catch (Exception e) {
 			return false;
 		}
@@ -76,21 +83,6 @@ public class PremiumUserExercise_Page {
 
 	public void clickExerciseBtn() {
 		exerciseBtn.click();	
-	}
-	public boolean isViewFullScheduleBtnVisible() {
-		return checkElementDisplayed(viewFullScheduleBtn);
-	}
-
-	public boolean isWarmUpBtnVisible() {
-		return warmUpBtn.isDisplayed();
-	}
-
-	public boolean isMainWorkoutBtnVisible() {
-		return mainWorkoutBtn.isDisplayed();
-	}
-
-	public boolean isCoolDownBtnVisible() {
-		return coolDownBtn.isDisplayed();
 	}
 
 	public void clickMainWorkoutBtn() {
@@ -101,25 +93,6 @@ public class PremiumUserExercise_Page {
 		coolDownBtn.click();	
 	}
 
-	public boolean isExcerciseNameVisible() {
-		return excerciseName.isDisplayed();
-	}
-
-	public boolean isExerciseDescriptionVisible() {
-		return exerciseDescription.isDisplayed();
-	}
-
-	public boolean isExerciseDurationVisible() {
-		return exerciseDuration.isDisplayed();
-	}
-
-	public boolean isExerciseCaloriesVisible() {
-		return exerciseCalories.isDisplayed();
-	}
-
-	public boolean isExerciseIntensityVisible() {
-		return exerciseIntensity.isDisplayed();
-	}
 
 	public boolean isMarkAsCompletedVisible() {
 		return markAsCompleted.isDisplayed();
@@ -137,108 +110,24 @@ public class PremiumUserExercise_Page {
 		}
 	}
 
-	public boolean isSuccessDialogVisible() {
-		return successDialog.isDisplayed();
-	}
-
-	public boolean isCompletedVisible() {
-		return completed.isDisplayed();
+	public void clickUndoOption() {
+		try {
+			if(isMarkAsCompletedVisible()) {
+				markAsCompleted.click();
+				undoOption.click();
+			}
+		}
+		catch (Exception e) {
+			undoOption.click();
+		}
 	}
 
 	public boolean isUndoOptionVisible() {
 		return undoOption.isDisplayed();
 	}
 
-	public void clickUndoOption() {
-		undoOption.click();
-	}
-
 	public void clickViewFullScheduleBtn() {
 		viewFullScheduleBtn.click();
-	}
-
-	public boolean isTodaysExerciseScheduleTitleVisible() {
-		return todaysExerciseScheduleTitle.isDisplayed();
-	}
-
-	public boolean isBacktoHomeBtnVisible() {
-		return backtoHomeBtn.isDisplayed();
-	}
-
-	public boolean isWarmUpVisible() {
-		return warmUp.isDisplayed();
-	}
-
-	public boolean isWarmUpExerciseNameVisible() {
-		return warmUpExerciseName.isDisplayed();
-	}
-
-	public boolean isWarmUpDescriptionVisible() {
-		return warmUpDescription.isDisplayed();
-	}
-
-	public boolean isWarmUpDurationVisible() {
-		return warmUpDuration.isDisplayed();
-	}
-
-	public boolean isWarmUpCaloriesVisible() {
-		return warmUpCalories.isDisplayed();
-	}
-
-	public boolean isWarmUpIntensityLevelVisible() {
-		return warmUpIntensityLevel.isDisplayed();
-	}
-
-	public boolean isMainWorkoutVisible() {
-		return mainWorkout.isDisplayed();
-	}
-
-	public boolean isMainExerciseNameVisible() {
-		return mainExerciseName.isDisplayed();
-	}
-
-	public boolean isMainDescriptionVisible() {
-		return mainDescription.isDisplayed();
-	}
-
-	public boolean isMainDurationVisible() {
-		return mainDuration.isDisplayed();
-	}
-
-	public boolean isMainCaloriesVisible() {
-		return mainCalories.isDisplayed();
-	}
-
-	public boolean isMainIntensityLevelVisible() {
-		return mainIntensityLevel.isDisplayed();
-	}
-
-	public boolean isCoolDownVisible() {
-		return coolDown.isDisplayed();
-	}
-
-	public boolean isCoolDownExerciseNameVisible() {
-		return coolDownExerciseName.isDisplayed();
-	}
-
-	public boolean isCoolDownDescriptionVisible() {
-		return coolDownDescription.isDisplayed();
-	}
-
-	public boolean isCoolDownDurationVisible() {
-		return coolDownDuration.isDisplayed();
-	}
-
-	public boolean isCoolDownCaloriesVisible() {
-		return coolDownCalories.isDisplayed();
-	}
-
-	public boolean isCoolDownIntensityLevelVisible() {
-		return coolDownIntensityLevel.isDisplayed();
-	}
-
-	public boolean isTotalDurationVisible() {
-		return totalDuration.isDisplayed();
 	}
 
 	public String get_currentPageUrl() {
@@ -284,6 +173,115 @@ public class PremiumUserExercise_Page {
 		String totalCal = totalCalories.getText();
 		String TotalCalSplit = totalCal.split(":")[1].trim();
 		return Integer.parseInt(TotalCalSplit);
+	}
+
+	public boolean isElementDisplayed(String scenario) {
+		switch (scenario) {
+		case "ViewFullSchedule":
+			element = viewFullScheduleBtn;
+			break;
+		case "WarmUp":
+			element = warmUpBtn;
+			break;
+		case "MainWorkout":
+			element = mainWorkoutBtn;
+			break;
+		case "CoolDown":
+			element = coolDownBtn;
+			break;
+		case "ExerciseName":
+			element = excerciseName;
+			break;
+		case "Description":
+			element = exerciseDescription;
+			break;
+		case "Duration":
+			element = exerciseDuration;
+			break;
+		case "Calories":
+			element = exerciseCalories;
+			break;
+		case "IntensityLevel":
+			element = exerciseIntensity;
+			break;
+		case "MarkAsCompleted":
+			element = markAsCompleted;
+			break;
+		case "SuccessDialog":
+			element = successDialog;
+			break;
+		case "Completed":
+			element = completed;
+			break;
+		case "UndoOption":
+			element = undoOption;
+			break;
+		case "TodaysExerciseSchedule":
+			element = todaysExerciseScheduleTitle;
+			break;
+		case "BacktoHome":
+			element = backtoHomeBtn;
+			break;
+		case "WarmUpToday":
+			element = warmUp;
+			break;
+		case "WarmUpExerciseName":
+			element = warmUpExerciseName;
+			break;
+		case "WarmUpDescription":
+			element = warmUpDescription;
+			break;
+		case "WarmUpDuration":
+			element = warmUpDuration;
+			break;
+		case "WarmUpCalories":
+			element = warmUpCalories;
+			break;
+		case "WarmUpIntensityLevel":
+			element = warmUpIntensityLevel;
+			break;
+		case "MainWorkoutToday":
+			element = mainWorkout;
+			break;
+		case "MainExerciseName":
+			element = mainExerciseName;
+			break;
+		case "MainDescription":
+			element = mainDescription;
+			break;
+		case "MainDuration":
+			element = mainDuration;
+			break;
+		case "MainCalories":
+			element = mainCalories;
+			break;
+		case "MainIntensityLevel":
+			element = mainIntensityLevel;
+			break;
+		case "CoolDownToday":
+			element = coolDown;
+			break;
+		case "CoolDownExerciseName":
+			element = coolDownExerciseName;
+			break;
+		case "CoolDownDescription":
+			element = coolDownDescription;
+			break;
+		case "CoolDownDuration":
+			element = coolDownDuration;
+			break;
+		case "CoolDownCalories":
+			element = coolDownCalories;
+			break;
+		case "CoolDownIntensityLevel":
+			element = coolDownIntensityLevel;
+			break;
+		case "TotalDuration":
+			element = totalDuration;
+			break;		
+		}
+		return checkElementDisplayed(element);
+
 	}
 
 }

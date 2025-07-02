@@ -1,7 +1,7 @@
 @sweet @PremiumExercise
 Feature: Premium user Exercise Module on Homepage
 
-	Background: Premiun User is in home page after logged in
+	Background: Premium User is in home page after logged in
 		Given The user is in the Home page and clicks Sign In
     When The user enters valid credentials and logs in 
 	
@@ -32,6 +32,7 @@ Feature: Premium user Exercise Module on Homepage
     	|Calories|
     	|IntensityLevel|
     	|MarkAsCompleted|
+    	
    @MainWorkout	
   Scenario Outline: Verify "<Scenario>" in Main Workout tab details are displayed
     Given User is in the Exercise section
@@ -46,6 +47,7 @@ Feature: Premium user Exercise Module on Homepage
     	|Calories|
     	|IntensityLevel|
     	|MarkAsCompleted|
+    	
    	@CoolDown
   Scenario Outline: Verify "<Scenario>" in Cool Down tab details are displayed
     Given User is in the Exercise section
@@ -60,6 +62,7 @@ Feature: Premium user Exercise Module on Homepage
     	|Calories|
     	|IntensityLevel|
     	|MarkAsCompleted|
+    	
   @MarkAsCompleted
   Scenario Outline: Verify "<Scenario>" is displayed when clicking Mark As Completed button
     Given User is in the Exercise section
@@ -71,12 +74,19 @@ Feature: Premium user Exercise Module on Homepage
     	|SuccessDialog|
     	|Completed|
     	|UndoOption|
+    	
 	@UndoCompleted
   Scenario: Verify button reverts back after undo
     Given User is in the Exercise section after completing exercise
     When User clicks Undo after marking Exercise as completed
     Then Button changes back to Mark As Completed
  
+    @TodaysExerciseScedule
+  Scenario: Verify navigation to View full schedule
+    Given User is in the Exercise section
+    When User clicks the View Full Schedule button
+    Then User should redirect to Exercise schedule
+    	
    @TodaysExerciseScedule
   Scenario Outline: Verify "<Scenario>" is dispalyed in Todays Exercise Schedule page
     Given User is in the Exercise section
@@ -85,7 +95,6 @@ Feature: Premium user Exercise Module on Homepage
     
     Examples:
     	|Scenario|
-    	|ExerciseSchedule|
     	|TodaysExerciseSchedule|
     	|BacktoHome|
     	|WarmUpToday|
@@ -107,16 +116,19 @@ Feature: Premium user Exercise Module on Homepage
     	|CoolDownCalories|
     	|CoolDownIntensityLevel|
     	|TotalDuration|
+    	
   @ExerciseIntensity	
   Scenario: Verify the intensity value
     Given User is in the Exercise section
     When User clicks the View Full Schedule button
     Then Exercise intensity should low/medium/hard
+    
    @WorkourDuration 
   Scenario: Verify total duration matches the sum of individual workout durations
     Given User is in the Exercise section
     When User clicks the View Full Schedule button
     Then total duration should equal the sum of all individual durations
+    
    @WorkoutCalories
    Scenario: Verify total calories matches the sum of individual workout calories
     Given User is in the Exercise section

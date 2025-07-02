@@ -541,3 +541,1328 @@
 [INFO ] 2025-06-28 14:45:40.627 [TestNG-PoolService-9] LoggerLoad - Browser is closed
 [INFO ] 2025-06-28 14:45:40.643 [TestNG-PoolService-2] LoggerLoad - Browser is closed
 [INFO ] 2025-06-28 14:45:40.837 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 16:44:05.863 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 16:44:10.737 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 16:44:16.259 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 16:44:21.169 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 16:44:26.841 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 16:44:32.577 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 16:44:38.550 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 16:44:46.758 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 16:44:52.300 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 16:55:33.998 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 16:56:20.106 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 17:04:28.032 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 17:04:33.636 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 17:08:27.601 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 17:08:34.448 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 17:11:59.584 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 17:12:06.189 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 17:23:08.071 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 17:40:30.212 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 17:40:34.971 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 17:47:32.768 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Create Account button is visible.png
+[INFO ] 2025-06-28 17:47:33.051 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Create Account button is visible
+[INFO ] 2025-06-28 17:47:33.226 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 17:47:37.995 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 17:54:24.637 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Create Account button is visible.png
+[INFO ] 2025-06-28 17:54:24.914 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Create Account button is visible
+[INFO ] 2025-06-28 17:54:25.118 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 17:54:30.166 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 17:57:48.832 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Create Account button is visible.png
+[INFO ] 2025-06-28 17:57:49.182 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Create Account button is visible
+[INFO ] 2025-06-28 17:57:49.428 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 17:57:54.850 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 18:03:06.961 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 18:03:14.492 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 19:18:04.341 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 19:28:54.391 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 19:29:44.575 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 19:31:12.054 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 19:33:10.982 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 19:38:07.938 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 20:04:30.014 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 20:33:01.250 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Create account form with invalid Fullname.png
+[INFO ] 2025-06-28 20:33:01.552 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Create account form with invalid Fullname
+[INFO ] 2025-06-28 20:33:01.553 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 20:33:05.716 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Create account form with invalid UserNmae.png
+[INFO ] 2025-06-28 20:33:06.090 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Create account form with invalid UserNmae
+[INFO ] 2025-06-28 20:33:06.090 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 20:36:57.437 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Create account form with invalid Fullname.png
+[INFO ] 2025-06-28 20:36:57.758 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Create account form with invalid Fullname
+[INFO ] 2025-06-28 20:36:57.758 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 20:37:02.012 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Create account form with invalid UserNmae.png
+[INFO ] 2025-06-28 20:37:02.384 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Create account form with invalid UserNmae
+[INFO ] 2025-06-28 20:37:02.384 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 20:39:36.031 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 20:39:42.189 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 20:41:08.843 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 20:41:13.673 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 20:48:10.876 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 20:48:43.867 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 20:49:29.460 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 20:51:08.366 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 20:52:27.880 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 20:53:24.872 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:10:14.560 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Create account form  with valid data.png
+[INFO ] 2025-06-28 21:10:14.928 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Create account form  with valid data
+[INFO ] 2025-06-28 21:10:14.928 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:12:45.162 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:34:14.783 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:34:18.759 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:34:22.551 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:34:26.189 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:34:29.970 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:34:34.025 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:34:37.989 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:34:42.671 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:34:45.957 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:34:50.169 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:34:53.587 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:34:56.799 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:35:01.178 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:35:05.049 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:35:09.662 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:35:14.143 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:35:28.721 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Create account form  with valid data.png
+[INFO ] 2025-06-28 21:35:29.021 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Create account form  with valid data
+[INFO ] 2025-06-28 21:35:29.511 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:35:35.688 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:35:41.291 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:48:30.470 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:54:39.006 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:56:05.190 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 21:58:51.234 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 22:06:39.507 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify navigation of blood report modal.png
+[INFO ] 2025-06-28 22:06:40.037 [main] LoggerLoad - Screenshot captured for failed scenario: Verify navigation of blood report modal
+[INFO ] 2025-06-28 22:06:40.038 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 22:09:20.678 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 22:23:28.287 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 22:23:30.793 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 22:29:46.860 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 22:29:49.654 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 22:55:10.267 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 22:55:14.262 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 22:58:24.463 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 22:58:28.595 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 22:58:31.618 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:13:16.214 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:13:36.905 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-28 23:13:37.238 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-28 23:13:37.238 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:14:51.947 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:14:55.363 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-28 23:14:55.651 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-28 23:14:55.651 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:17:32.185 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:17:36.231 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-28 23:17:36.508 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-28 23:17:36.508 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:19:29.450 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-28 23:19:29.655 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-28 23:19:29.655 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:21:30.352 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-28 23:21:30.655 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-28 23:21:30.655 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:25:02.788 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-28 23:25:03.121 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-28 23:25:03.121 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:26:39.100 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-28 23:26:39.462 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-28 23:26:39.462 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:27:37.518 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-28 23:27:38.087 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-28 23:27:38.087 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:29:17.119 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-28 23:29:17.393 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-28 23:29:17.393 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:30:23.581 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:36:36.032 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:39:13.811 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-28 23:39:15.024 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-28 23:39:15.024 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:46:40.623 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-28 23:46:41.057 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-28 23:46:41.058 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:48:12.117 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-28 23:48:14.789 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-28 23:48:14.791 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:51:17.888 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:57:55.519 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-28 23:59:11.882 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 00:06:48.703 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 00:10:09.763 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 00:10:12.828 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 01:02:01.972 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 01:02:06.577 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 01:02:10.361 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 01:09:34.180 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 01:09:38.654 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 01:09:49.132 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 01:25:43.672 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 01:25:50.269 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 01:25:55.674 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 01:51:59.352 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-29 01:51:59.608 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-29 01:51:59.608 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 01:52:03.915 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 01:52:09.632 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 02:05:58.727 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-29 02:05:59.128 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-29 02:05:59.128 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 02:06:04.190 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 02:06:08.567 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 02:15:37.772 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-29 02:15:38.103 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-29 02:15:38.387 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 02:15:43.117 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 02:15:57.556 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify valid PDF file upload.png
+[INFO ] 2025-06-29 02:15:57.914 [main] LoggerLoad - Screenshot captured for failed scenario: Verify valid PDF file upload
+[INFO ] 2025-06-29 02:15:59.083 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 03:41:46.649 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 04:02:06.676 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify presence of text field.png
+[INFO ] 2025-06-29 04:02:06.935 [main] LoggerLoad - Screenshot captured for failed scenario: Verify presence of text field
+[INFO ] 2025-06-29 04:02:07.117 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 04:11:29.632 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify presence of text field.png
+[INFO ] 2025-06-29 04:11:30.149 [main] LoggerLoad - Screenshot captured for failed scenario: Verify presence of text field
+[INFO ] 2025-06-29 04:11:30.584 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 04:15:37.322 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify presence of text field.png
+[INFO ] 2025-06-29 04:15:37.576 [main] LoggerLoad - Screenshot captured for failed scenario: Verify presence of text field
+[INFO ] 2025-06-29 04:15:37.780 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 04:19:47.269 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify presence of text field.png
+[INFO ] 2025-06-29 04:19:47.536 [main] LoggerLoad - Screenshot captured for failed scenario: Verify presence of text field
+[INFO ] 2025-06-29 04:19:47.741 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 04:28:21.006 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify presence of text field.png
+[INFO ] 2025-06-29 04:28:23.875 [main] LoggerLoad - Screenshot captured for failed scenario: Verify presence of text field
+[INFO ] 2025-06-29 04:28:34.208 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 04:31:06.856 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify presence of text field.png
+[INFO ] 2025-06-29 04:31:07.337 [main] LoggerLoad - Screenshot captured for failed scenario: Verify presence of text field
+[INFO ] 2025-06-29 04:31:07.739 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 04:34:58.208 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify presence of text field.png
+[INFO ] 2025-06-29 04:34:58.626 [main] LoggerLoad - Screenshot captured for failed scenario: Verify presence of text field
+[INFO ] 2025-06-29 04:34:58.965 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 04:37:02.451 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 04:38:10.015 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 04:44:27.624 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 09:42:12.908 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 09:51:57.274 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-29 09:51:57.729 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-29 09:51:58.076 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 09:52:08.655 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 09:52:12.812 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 09:52:15.807 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 09:52:21.353 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 09:52:25.084 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 09:52:29.125 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 10:02:31.430 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-29 10:02:31.818 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-29 10:02:32.107 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 10:02:54.776 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-29 10:02:55.101 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-29 10:02:55.303 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 10:08:25.409 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify supported file types (PDF).png
+[INFO ] 2025-06-29 10:08:25.910 [main] LoggerLoad - Screenshot captured for failed scenario: Verify supported file types (PDF)
+[INFO ] 2025-06-29 10:08:25.910 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 10:13:04.213 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify valid PDF file upload.png
+[INFO ] 2025-06-29 10:13:04.580 [main] LoggerLoad - Screenshot captured for failed scenario: Verify valid PDF file upload
+[INFO ] 2025-06-29 10:13:04.596 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 10:18:02.448 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify valid PDF file upload.png
+[INFO ] 2025-06-29 10:18:02.872 [main] LoggerLoad - Screenshot captured for failed scenario: Verify valid PDF file upload
+[INFO ] 2025-06-29 10:18:02.872 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 10:26:44.608 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify valid PDF file upload.png
+[INFO ] 2025-06-29 10:26:45.039 [main] LoggerLoad - Screenshot captured for failed scenario: Verify valid PDF file upload
+[INFO ] 2025-06-29 10:26:45.055 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 10:31:17.649 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify valid PDF file upload.png
+[INFO ] 2025-06-29 10:31:18.033 [main] LoggerLoad - Screenshot captured for failed scenario: Verify valid PDF file upload
+[INFO ] 2025-06-29 10:31:18.033 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 10:33:07.103 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 10:42:33.295 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 10:45:33.862 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 10:47:53.531 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 11:05:30.024 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify valid PDF file upload.png
+[INFO ] 2025-06-29 11:05:30.156 [main] LoggerLoad - Screenshot captured for failed scenario: Verify valid PDF file upload
+[INFO ] 2025-06-29 11:05:30.157 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 11:14:24.905 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 11:15:12.629 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 11:22:50.957 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify valid PDF file upload.png
+[INFO ] 2025-06-29 11:22:51.201 [main] LoggerLoad - Screenshot captured for failed scenario: Verify valid PDF file upload
+[INFO ] 2025-06-29 11:22:51.201 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 11:23:49.907 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 11:26:37.827 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 12:02:41.032 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Upload report and verify all sections are visible.png
+[INFO ] 2025-06-29 12:02:41.382 [main] LoggerLoad - Screenshot captured for failed scenario: Upload report and verify all sections are visible
+[INFO ] 2025-06-29 12:02:41.383 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 12:04:19.631 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Upload report and verify all sections are visible.png
+[INFO ] 2025-06-29 12:04:20.082 [main] LoggerLoad - Screenshot captured for failed scenario: Upload report and verify all sections are visible
+[INFO ] 2025-06-29 12:04:20.083 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 12:10:31.590 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Upload report and verify all sections are visible.png
+[INFO ] 2025-06-29 12:10:31.864 [main] LoggerLoad - Screenshot captured for failed scenario: Upload report and verify all sections are visible
+[INFO ] 2025-06-29 12:10:31.864 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 12:13:45.863 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Upload report and verify all sections are visible.png
+[INFO ] 2025-06-29 12:13:46.236 [main] LoggerLoad - Screenshot captured for failed scenario: Upload report and verify all sections are visible
+[INFO ] 2025-06-29 12:13:46.236 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 12:15:58.120 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Upload report and verify all sections are visible.png
+[INFO ] 2025-06-29 12:15:58.670 [main] LoggerLoad - Screenshot captured for failed scenario: Upload report and verify all sections are visible
+[INFO ] 2025-06-29 12:15:58.670 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 12:27:14.093 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 12:29:07.183 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 12:30:58.263 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 12:31:44.671 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 12:46:20.565 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 12:48:05.761 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 12:54:58.981 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 12:55:32.650 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 13:00:27.564 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 13:01:21.561 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 13:12:13.753 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 13:26:41.192 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 13:31:50.299 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 14:33:11.849 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 14:53:51.295 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 15:01:12.996 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 15:23:04.198 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 15:34:41.878 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 15:37:55.017 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify navigation for step 1 onboarding.png
+[INFO ] 2025-06-29 15:37:55.514 [main] LoggerLoad - Screenshot captured for failed scenario: Verify navigation for step 1 onboarding
+[INFO ] 2025-06-29 15:37:55.865 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 15:39:46.492 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 15:39:51.492 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 15:40:55.924 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 15:40:59.695 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 16:03:32.244 [main] LoggerLoad - Step 2 of 5
+[INFO ] 2025-06-29 16:03:32.413 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 16:03:35.680 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify error message for invalid input.png
+[INFO ] 2025-06-29 16:03:35.944 [main] LoggerLoad - Screenshot captured for failed scenario: Verify error message for invalid input
+[INFO ] 2025-06-29 16:03:36.133 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 16:04:28.853 [main] LoggerLoad - Step 2 of 5
+[INFO ] 2025-06-29 16:04:28.862 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 16:04:34.666 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify error message for invalid input.png
+[INFO ] 2025-06-29 16:04:34.942 [main] LoggerLoad - Screenshot captured for failed scenario: Verify error message for invalid input
+[INFO ] 2025-06-29 16:04:34.942 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 16:09:36.208 [main] LoggerLoad - Step 2 of 5
+[INFO ] 2025-06-29 16:09:36.232 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 16:09:45.426 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 17:05:42.775 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 17:10:49.069 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 17:19:58.079 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 17:20:01.790 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify subtitle is visible.png
+[INFO ] 2025-06-29 17:20:02.055 [main] LoggerLoad - Screenshot captured for failed scenario: Verify subtitle is visible
+[INFO ] 2025-06-29 17:20:02.055 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 17:26:18.444 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 17:26:22.524 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 17:40:17.480 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 17:40:24.055 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 17:48:28.600 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Back button is visible.png
+[INFO ] 2025-06-29 17:48:28.846 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Back button is visible
+[INFO ] 2025-06-29 17:48:29.061 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 17:50:05.921 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Back button is visible.png
+[INFO ] 2025-06-29 17:50:06.159 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Back button is visible
+[INFO ] 2025-06-29 17:50:06.378 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 17:52:34.807 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Back button is visible.png
+[INFO ] 2025-06-29 17:52:35.152 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Back button is visible
+[INFO ] 2025-06-29 17:52:35.338 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 17:53:31.015 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 17:56:58.337 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 18:02:58.683 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 18:25:05.925 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify presence of all 3 intensity options.png
+[INFO ] 2025-06-29 18:25:06.133 [main] LoggerLoad - Screenshot captured for failed scenario: Verify presence of all 3 intensity options
+[INFO ] 2025-06-29 18:25:06.382 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 18:28:13.618 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify presence of all 3 intensity options.png
+[INFO ] 2025-06-29 18:28:13.840 [main] LoggerLoad - Screenshot captured for failed scenario: Verify presence of all 3 intensity options
+[INFO ] 2025-06-29 18:28:14.053 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 18:29:24.583 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 18:40:20.850 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 18:44:58.260 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 18:45:54.357 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 18:49:47.155 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 18:52:55.235 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 18:56:44.965 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 19:04:16.274 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 19:05:53.754 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 19:11:57.891 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify option selection in step2.png
+[INFO ] 2025-06-29 19:11:58.033 [main] LoggerLoad - Screenshot captured for failed scenario: Verify option selection in step2
+[INFO ] 2025-06-29 19:11:58.033 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 19:13:45.453 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify option selection in step2.png
+[INFO ] 2025-06-29 19:13:45.587 [main] LoggerLoad - Screenshot captured for failed scenario: Verify option selection in step2
+[INFO ] 2025-06-29 19:13:45.587 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 19:25:13.452 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify option selection in step2.png
+[INFO ] 2025-06-29 19:25:13.559 [main] LoggerLoad - Screenshot captured for failed scenario: Verify option selection in step2
+[INFO ] 2025-06-29 19:25:13.559 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 19:26:58.008 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 19:31:15.414 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify option selection in step2.png
+[INFO ] 2025-06-29 19:31:15.520 [main] LoggerLoad - Screenshot captured for failed scenario: Verify option selection in step2
+[INFO ] 2025-06-29 19:31:15.520 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 19:31:23.315 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify navigation to Step1.png
+[INFO ] 2025-06-29 19:31:23.442 [main] LoggerLoad - Screenshot captured for failed scenario: Verify navigation to Step1
+[INFO ] 2025-06-29 19:31:23.442 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 19:39:49.580 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 19:47:22.008 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Step3 heading is visible.png
+[INFO ] 2025-06-29 19:47:22.144 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Step3 heading is visible
+[INFO ] 2025-06-29 19:47:22.144 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 19:47:29.147 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Step3 sub text.png
+[INFO ] 2025-06-29 19:47:29.226 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Step3 sub text
+[INFO ] 2025-06-29 19:47:29.226 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 19:53:57.037 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Step3 heading is visible.png
+[INFO ] 2025-06-29 19:53:57.125 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Step3 heading is visible
+[INFO ] 2025-06-29 19:53:57.125 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 19:54:08.869 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Step3 sub text.png
+[INFO ] 2025-06-29 19:54:08.996 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Step3 sub text
+[INFO ] 2025-06-29 19:54:08.996 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:07:31.526 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:07:40.706 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:07:49.761 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:11:23.020 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Progress bar reflects Step 3 of 5.png
+[INFO ] 2025-06-29 20:11:23.154 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Progress bar reflects Step 3 of 5
+[INFO ] 2025-06-29 20:11:23.157 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:13:20.220 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:31:55.499 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-29 20:31:55.650 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-29 20:31:55.657 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:32:29.998 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-29 20:32:30.123 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-29 20:32:30.123 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:38:33.619 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-29 20:38:33.801 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-29 20:38:33.801 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:39:33.929 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-29 20:39:34.047 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-29 20:39:34.049 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:46:44.278 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-29 20:46:44.356 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-29 20:46:44.356 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:48:02.843 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-29 20:48:03.030 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-29 20:48:03.030 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:48:31.108 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-29 20:48:31.187 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-29 20:48:31.187 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:49:50.083 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-29 20:49:50.125 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-29 20:49:50.126 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:50:47.903 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-29 20:50:47.975 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-29 20:50:47.975 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:54:47.766 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-29 20:54:47.840 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-29 20:54:47.847 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 20:54:57.109 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 21:01:48.869 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-29 21:01:48.957 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-29 21:01:48.958 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 21:01:57.152 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 21:03:20.194 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-29 21:03:20.265 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-29 21:03:20.266 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 21:03:30.217 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify navigation to Step 1.png
+[INFO ] 2025-06-29 21:03:30.290 [main] LoggerLoad - Screenshot captured for failed scenario: Verify navigation to Step 1
+[INFO ] 2025-06-29 21:03:30.290 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 21:07:30.137 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-29 21:07:30.239 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-29 21:07:30.239 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 21:07:39.683 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 21:09:37.226 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-29 21:09:37.341 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-29 21:09:37.341 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 21:09:46.646 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 21:13:06.548 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 22:23:46.470 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 22:27:20.887 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 22:34:03.736 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify option is selectable.png
+[INFO ] 2025-06-29 22:34:03.926 [main] LoggerLoad - Screenshot captured for failed scenario: Verify option is selectable
+[INFO ] 2025-06-29 22:34:03.926 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 22:37:05.043 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 22:39:25.750 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Step 4 heading is visible.png
+[INFO ] 2025-06-29 22:39:25.873 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Step 4 heading is visible
+[INFO ] 2025-06-29 22:39:25.873 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 22:39:59.661 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 22:42:12.232 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 22:52:17.440 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 22:52:24.404 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 22:52:51.638 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed in step3.png
+[INFO ] 2025-06-29 22:52:51.739 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed in step3
+[INFO ] 2025-06-29 22:52:51.744 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 22:55:52.634 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 22:55:59.933 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 22:56:26.718 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed in step3.png
+[INFO ] 2025-06-29 22:56:26.925 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed in step3
+[INFO ] 2025-06-29 22:56:26.926 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 23:15:03.611 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 23:15:11.479 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 23:27:37.890 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed in step4.png
+[INFO ] 2025-06-29 23:27:38.000 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed in step4
+[INFO ] 2025-06-29 23:27:38.000 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 23:27:46.194 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed in step5.png
+[INFO ] 2025-06-29 23:27:46.315 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed in step5
+[INFO ] 2025-06-29 23:27:46.315 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 23:43:11.432 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 23:43:48.766 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 23:48:39.868 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 23:48:48.277 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify navigation to Step 2.png
+[INFO ] 2025-06-29 23:48:48.394 [main] LoggerLoad - Screenshot captured for failed scenario: Verify navigation to Step 2
+[INFO ] 2025-06-29 23:48:48.394 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-29 23:50:07.203 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 00:16:45.904 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 00:24:47.790 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 00:25:10.745 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 00:30:21.398 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 00:36:03.351 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 00:36:03.937 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 00:44:06.465 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 00:44:15.520 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 00:55:19.646 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 00:55:27.453 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 00:55:35.415 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 00:55:43.506 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 00:55:53.632 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:03:10.471 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:03:19.764 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify submit button visible.png
+[INFO ] 2025-06-30 01:03:19.858 [main] LoggerLoad - Screenshot captured for failed scenario: Verify submit button visible
+[INFO ] 2025-06-30 01:03:19.859 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:05:51.426 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:05:59.245 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:20:53.453 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:21:02.225 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:27:35.470 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:27:47.996 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:34:31.646 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:34:40.943 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:42:14.545 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:42:25.005 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify navigation to Step 2.png
+[INFO ] 2025-06-30 01:42:25.087 [main] LoggerLoad - Screenshot captured for failed scenario: Verify navigation to Step 2
+[INFO ] 2025-06-30 01:42:25.087 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:45:40.120 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:45:40.471 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:48:38.506 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 01:48:49.177 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:04:18.937 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:04:27.660 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:17:08.390 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:17:15.450 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:18:15.467 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:18:24.809 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:24:18.319 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:24:26.211 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:41:13.654 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:42:00.310 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:42:15.856 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify single selection in allergy.png
+[INFO ] 2025-06-30 02:42:15.888 [main] LoggerLoad - Screenshot captured for failed scenario: Verify single selection in allergy
+[INFO ] 2025-06-30 02:42:15.888 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:44:36.449 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:44:45.425 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify single selection in allergy.png
+[INFO ] 2025-06-30 02:44:45.540 [main] LoggerLoad - Screenshot captured for failed scenario: Verify single selection in allergy
+[INFO ] 2025-06-30 02:44:45.540 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:47:58.842 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:48:09.177 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify single selection in allergy.png
+[INFO ] 2025-06-30 02:48:09.257 [main] LoggerLoad - Screenshot captured for failed scenario: Verify single selection in allergy
+[INFO ] 2025-06-30 02:48:09.257 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:52:27.679 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:52:51.826 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify single selection in allergy.png
+[INFO ] 2025-06-30 02:52:51.890 [main] LoggerLoad - Screenshot captured for failed scenario: Verify single selection in allergy
+[INFO ] 2025-06-30 02:52:51.890 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:59:02.856 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 02:59:32.433 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify single selection in allergy.png
+[INFO ] 2025-06-30 02:59:32.490 [main] LoggerLoad - Screenshot captured for failed scenario: Verify single selection in allergy
+[INFO ] 2025-06-30 02:59:32.496 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 03:01:30.893 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 03:02:01.867 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify single selection in allergy.png
+[INFO ] 2025-06-30 03:02:01.959 [main] LoggerLoad - Screenshot captured for failed scenario: Verify single selection in allergy
+[INFO ] 2025-06-30 03:02:01.959 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 03:08:41.621 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 03:08:59.667 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 03:33:48.724 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 03:33:53.892 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 10:19:08.971 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 10:19:14.817 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 10:37:11.461 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 10:37:16.479 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 10:43:20.719 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 10:43:21.158 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 10:58:09.795 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 10:58:24.716 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify navigation to step for onboarding.png
+[INFO ] 2025-06-30 10:58:24.780 [main] LoggerLoad - Screenshot captured for failed scenario: Verify navigation to step for onboarding
+[INFO ] 2025-06-30 10:58:24.780 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 10:59:15.154 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 10:59:46.183 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify navigation to step for onboarding.png
+[INFO ] 2025-06-30 10:59:46.386 [main] LoggerLoad - Screenshot captured for failed scenario: Verify navigation to step for onboarding
+[INFO ] 2025-06-30 10:59:46.386 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 11:42:10.918 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 11:42:15.961 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 11:47:10.604 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 11:47:18.626 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify navigation to step for onboarding.png
+[INFO ] 2025-06-30 11:47:18.747 [main] LoggerLoad - Screenshot captured for failed scenario: Verify navigation to step for onboarding
+[INFO ] 2025-06-30 11:47:18.747 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 11:48:31.343 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 11:48:40.476 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify navigation to step for onboarding.png
+[INFO ] 2025-06-30 11:48:40.508 [main] LoggerLoad - Screenshot captured for failed scenario: Verify navigation to step for onboarding
+[INFO ] 2025-06-30 11:48:40.508 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 12:56:10.447 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 12:56:19.486 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 12:56:27.249 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 12:56:35.706 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 12:56:45.067 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 12:57:14.523 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-30 12:57:14.600 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-30 12:57:14.601 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 13:01:05.856 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 13:01:16.480 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-30 13:01:16.532 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-30 13:01:16.532 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 13:05:15.863 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 13:05:25.905 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed.png
+[INFO ] 2025-06-30 13:05:25.969 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed
+[INFO ] 2025-06-30 13:05:25.969 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 13:07:28.842 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 13:07:39.987 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options are displayed.png
+[INFO ] 2025-06-30 13:07:40.044 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options are displayed
+[INFO ] 2025-06-30 13:07:40.044 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 13:08:50.729 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 13:09:00.888 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 14:00:54.100 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 14:01:03.222 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 14:26:26.675 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 14:27:22.934 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 14:27:28.808 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 14:35:17.216 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 14:35:32.818 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify option is selectable for step onboarding without blood report.png
+[INFO ] 2025-06-30 14:35:32.969 [main] LoggerLoad - Screenshot captured for failed scenario: Verify option is selectable for step onboarding without blood report
+[INFO ] 2025-06-30 14:35:32.969 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 14:36:05.865 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 14:36:22.522 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify option is selectable for step onboarding without blood report.png
+[INFO ] 2025-06-30 14:36:22.618 [main] LoggerLoad - Screenshot captured for failed scenario: Verify option is selectable for step onboarding without blood report
+[INFO ] 2025-06-30 14:36:22.618 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 14:37:04.961 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 14:37:21.545 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify option is selectable for step onboarding without blood report.png
+[INFO ] 2025-06-30 14:37:21.653 [main] LoggerLoad - Screenshot captured for failed scenario: Verify option is selectable for step onboarding without blood report
+[INFO ] 2025-06-30 14:37:21.653 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 14:46:03.390 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 14:47:24.737 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify option is selectable for step onboarding without blood report.png
+[INFO ] 2025-06-30 14:47:24.879 [main] LoggerLoad - Screenshot captured for failed scenario: Verify option is selectable for step onboarding without blood report
+[INFO ] 2025-06-30 14:47:24.879 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 14:49:59.844 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify option is selectable for step onboarding without blood report.png
+[INFO ] 2025-06-30 14:49:59.971 [main] LoggerLoad - Screenshot captured for failed scenario: Verify option is selectable for step onboarding without blood report
+[INFO ] 2025-06-30 14:49:59.971 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 15:55:36.738 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:09:15.425 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:15:28.265 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:15:36.437 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Step1 heading is visible.png
+[INFO ] 2025-06-30 16:15:36.503 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Step1 heading is visible
+[INFO ] 2025-06-30 16:15:36.503 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:15:44.730 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Step1 sub text.png
+[INFO ] 2025-06-30 16:15:44.794 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Step1 sub text
+[INFO ] 2025-06-30 16:15:44.796 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:15:53.244 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Progress bar reflects Step 1 of 12.png
+[INFO ] 2025-06-30 16:15:53.293 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Progress bar reflects Step 1 of 12
+[INFO ] 2025-06-30 16:15:53.294 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:16:03.350 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:18:57.943 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:20:05.694 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:20:15.421 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Step1 heading is visible.png
+[INFO ] 2025-06-30 16:20:15.497 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Step1 heading is visible
+[INFO ] 2025-06-30 16:20:16.966 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:22:00.655 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Step1 heading is visible.png
+[INFO ] 2025-06-30 16:22:00.763 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Step1 heading is visible
+[INFO ] 2025-06-30 16:22:02.147 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:27:34.157 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:28:08.206 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:28:18.627 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:28:28.850 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:28:38.752 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:30:30.490 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify option is selectable for step onboarding without blood report.png
+[INFO ] 2025-06-30 16:30:30.573 [main] LoggerLoad - Screenshot captured for failed scenario: Verify option is selectable for step onboarding without blood report
+[INFO ] 2025-06-30 16:30:33.202 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:31:28.471 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:44:16.836 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify option is selectable for step onboarding without blood report.png
+[INFO ] 2025-06-30 16:44:16.980 [main] LoggerLoad - Screenshot captured for failed scenario: Verify option is selectable for step onboarding without blood report
+[INFO ] 2025-06-30 16:44:16.980 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:56:32.282 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 16:56:42.829 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 17:00:09.107 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 17:00:28.501 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 17:00:45.911 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 17:00:59.418 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 17:27:23.811 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 17:31:12.758 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 17:34:36.238 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify message selecting condition in step1.png
+[INFO ] 2025-06-30 17:34:36.365 [main] LoggerLoad - Screenshot captured for failed scenario: Verify message selecting condition in step1
+[INFO ] 2025-06-30 17:34:36.365 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 17:40:48.135 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify message selecting condition in step1.png
+[INFO ] 2025-06-30 17:40:48.243 [main] LoggerLoad - Screenshot captured for failed scenario: Verify message selecting condition in step1
+[INFO ] 2025-06-30 17:40:48.245 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 17:43:13.637 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 17:52:02.343 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify step 2 progress is highlighted for step onboarding without blood report.png
+[INFO ] 2025-06-30 17:52:02.459 [main] LoggerLoad - Screenshot captured for failed scenario: Verify step 2 progress is highlighted for step onboarding without blood report
+[INFO ] 2025-06-30 17:52:02.461 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 17:53:29.035 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 18:23:22.439 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 18:33:25.954 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 18:33:38.279 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 18:33:51.369 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 18:34:06.937 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 18:34:20.639 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 18:35:51.120 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed in step 3 for step onboarding without blood report.png
+[INFO ] 2025-06-30 18:35:51.216 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed in step 3 for step onboarding without blood report
+[INFO ] 2025-06-30 18:35:51.216 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 18:40:34.335 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 20:06:00.519 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 20:08:01.621 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 20:18:49.553 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 20:20:15.593 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 20:47:05.725 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 20:47:16.162 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate notification message for 30-49.png
+[INFO ] 2025-06-30 20:47:16.244 [main] LoggerLoad - Screenshot captured for failed scenario: Validate notification message for 30-49
+[INFO ] 2025-06-30 20:47:16.244 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 20:47:25.852 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 20:54:12.542 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 21:02:39.042 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 21:04:54.467 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 21:14:45.409 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 21:22:43.194 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 21:22:54.637 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 21:23:06.295 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 21:23:17.022 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 21:23:27.622 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 21:52:25.079 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed in step 3 for step onboarding without blood report.png
+[INFO ] 2025-06-30 21:52:25.206 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed in step 3 for step onboarding without blood report
+[INFO ] 2025-06-30 21:52:26.509 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 21:55:33.854 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed in step 3 for step onboarding without blood report.png
+[INFO ] 2025-06-30 21:55:34.023 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed in step 3 for step onboarding without blood report
+[INFO ] 2025-06-30 21:55:35.219 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 22:04:11.244 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed in step 3 for step onboarding without blood report.png
+[INFO ] 2025-06-30 22:04:11.377 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed in step 3 for step onboarding without blood report
+[INFO ] 2025-06-30 22:04:12.951 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 22:06:51.136 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify options is displayed in step 3 for step onboarding without blood report.png
+[INFO ] 2025-06-30 22:06:51.307 [main] LoggerLoad - Screenshot captured for failed scenario: Verify options is displayed in step 3 for step onboarding without blood report
+[INFO ] 2025-06-30 22:06:52.977 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 22:16:12.144 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 22:20:20.365 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 22:22:54.742 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 22:52:28.789 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 22:54:24.492 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 23:08:57.914 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify step 4 has 2 tabs to select height.png
+[INFO ] 2025-06-30 23:08:58.042 [main] LoggerLoad - Screenshot captured for failed scenario: Verify step 4 has 2 tabs to select height
+[INFO ] 2025-06-30 23:08:58.042 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 23:11:47.623 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 23:13:00.419 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 23:14:44.919 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 23:25:30.084 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate values centimeters options.png
+[INFO ] 2025-06-30 23:25:30.150 [main] LoggerLoad - Screenshot captured for failed scenario: Validate values centimeters options
+[INFO ] 2025-06-30 23:25:30.150 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 23:25:51.601 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate values inches options.png
+[INFO ] 2025-06-30 23:25:51.660 [main] LoggerLoad - Screenshot captured for failed scenario: Validate values inches options
+[INFO ] 2025-06-30 23:25:51.660 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 23:30:18.790 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 23:30:31.884 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate values inches options.png
+[INFO ] 2025-06-30 23:30:31.979 [main] LoggerLoad - Screenshot captured for failed scenario: Validate values inches options
+[INFO ] 2025-06-30 23:30:31.979 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 23:40:57.841 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 23:41:09.625 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 23:43:22.003 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate values inches options.png
+[INFO ] 2025-06-30 23:43:22.091 [main] LoggerLoad - Screenshot captured for failed scenario: Validate values inches options
+[INFO ] 2025-06-30 23:43:22.091 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 23:51:53.248 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 23:54:15.493 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate values inches options.png
+[INFO ] 2025-06-30 23:54:15.593 [main] LoggerLoad - Screenshot captured for failed scenario: Validate values inches options
+[INFO ] 2025-06-30 23:54:15.604 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-06-30 23:57:13.774 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate values inches options.png
+[INFO ] 2025-06-30 23:57:13.901 [main] LoggerLoad - Screenshot captured for failed scenario: Validate values inches options
+[INFO ] 2025-06-30 23:57:13.917 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:03:51.632 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:13:29.759 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate values feet and inches options.png
+[INFO ] 2025-07-01 00:13:29.993 [main] LoggerLoad - Screenshot captured for failed scenario: Validate values feet and inches options
+[INFO ] 2025-07-01 00:13:29.993 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:14:56.426 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:16:13.884 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate values feet and inches options.png
+[INFO ] 2025-07-01 00:16:14.096 [main] LoggerLoad - Screenshot captured for failed scenario: Validate values feet and inches options
+[INFO ] 2025-07-01 00:16:14.096 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:19:10.546 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate values feet and inches options.png
+[INFO ] 2025-07-01 00:19:10.667 [main] LoggerLoad - Screenshot captured for failed scenario: Validate values feet and inches options
+[INFO ] 2025-07-01 00:19:10.667 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:19:57.058 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:21:14.915 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate values feet and inches options.png
+[INFO ] 2025-07-01 00:21:15.002 [main] LoggerLoad - Screenshot captured for failed scenario: Validate values feet and inches options
+[INFO ] 2025-07-01 00:21:15.002 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:22:11.478 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:24:16.284 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate values feet and inches options.png
+[INFO ] 2025-07-01 00:24:16.370 [main] LoggerLoad - Screenshot captured for failed scenario: Validate values feet and inches options
+[INFO ] 2025-07-01 00:24:16.370 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:26:32.751 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate values feet and inches options.png
+[INFO ] 2025-07-01 00:26:33.063 [main] LoggerLoad - Screenshot captured for failed scenario: Validate values feet and inches options
+[INFO ] 2025-07-01 00:26:33.063 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:29:34.010 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate values feet and inches options.png
+[INFO ] 2025-07-01 00:29:34.194 [main] LoggerLoad - Screenshot captured for failed scenario: Validate values feet and inches options
+[INFO ] 2025-07-01 00:29:34.194 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:30:51.696 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:32:28.836 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate values feet and inches options.png
+[INFO ] 2025-07-01 00:32:28.971 [main] LoggerLoad - Screenshot captured for failed scenario: Validate values feet and inches options
+[INFO ] 2025-07-01 00:32:28.971 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:35:38.713 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate values feet and inches options.png
+[INFO ] 2025-07-01 00:35:38.809 [main] LoggerLoad - Screenshot captured for failed scenario: Validate values feet and inches options
+[INFO ] 2025-07-01 00:35:38.809 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:44:18.757 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:45:58.147 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:47:23.727 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate feet and inches values.png
+[INFO ] 2025-07-01 00:47:23.859 [main] LoggerLoad - Screenshot captured for failed scenario: Validate feet and inches values
+[INFO ] 2025-07-01 00:47:23.859 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:49:00.647 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:50:43.171 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate feet and inches values.png
+[INFO ] 2025-07-01 00:50:43.382 [main] LoggerLoad - Screenshot captured for failed scenario: Validate feet and inches values
+[INFO ] 2025-07-01 00:50:43.382 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:54:13.551 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate feet and inches values.png
+[INFO ] 2025-07-01 00:54:13.695 [main] LoggerLoad - Screenshot captured for failed scenario: Validate feet and inches values
+[INFO ] 2025-07-01 00:54:13.695 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 00:58:18.440 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate feet and inches values.png
+[INFO ] 2025-07-01 00:58:18.535 [main] LoggerLoad - Screenshot captured for failed scenario: Validate feet and inches values
+[INFO ] 2025-07-01 00:58:18.535 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 01:01:09.150 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 01:05:55.650 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 01:06:13.200 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 01:09:19.514 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 01:21:49.769 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 01:21:58.576 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 01:22:05.119 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 01:34:43.091 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate notification message for above 180cm.png
+[INFO ] 2025-07-01 01:34:43.138 [main] LoggerLoad - Screenshot captured for failed scenario: Validate notification message for above 180cm
+[INFO ] 2025-07-01 01:34:43.138 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 01:37:08.424 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 01:37:22.206 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 01:37:34.197 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 01:53:02.485 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 01:59:20.397 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:02:16.302 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:23:17.998 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate user able to select from option in centimeters.png
+[INFO ] 2025-07-01 02:23:18.250 [main] LoggerLoad - Screenshot captured for failed scenario: Validate user able to select from option in centimeters
+[INFO ] 2025-07-01 02:23:18.250 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:23:34.775 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:23:51.194 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:24:06.001 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:24:20.770 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:24:31.679 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate Back button is visible in Step 5.png
+[INFO ] 2025-07-01 02:24:31.791 [main] LoggerLoad - Screenshot captured for failed scenario: Validate Back button is visible in Step 5
+[INFO ] 2025-07-01 02:24:31.791 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:29:44.616 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate user able to select from option in centimeters.png
+[INFO ] 2025-07-01 02:29:44.755 [main] LoggerLoad - Screenshot captured for failed scenario: Validate user able to select from option in centimeters
+[INFO ] 2025-07-01 02:29:46.028 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:29:58.294 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:34:41.038 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate user able to select from option in centimeters.png
+[INFO ] 2025-07-01 02:34:41.165 [main] LoggerLoad - Screenshot captured for failed scenario: Validate user able to select from option in centimeters
+[INFO ] 2025-07-01 02:34:42.532 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:38:25.648 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:44:19.685 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify step 5 has 2 tabs to select height.png
+[INFO ] 2025-07-01 02:44:19.776 [main] LoggerLoad - Screenshot captured for failed scenario: Verify step 5 has 2 tabs to select height
+[INFO ] 2025-07-01 02:44:20.939 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:45:25.645 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify step 5 has 2 tabs to select height.png
+[INFO ] 2025-07-01 02:45:25.749 [main] LoggerLoad - Screenshot captured for failed scenario: Verify step 5 has 2 tabs to select height
+[INFO ] 2025-07-01 02:45:27.014 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:47:35.700 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify step 5 has 2 tabs to select height.png
+[INFO ] 2025-07-01 02:47:35.816 [main] LoggerLoad - Screenshot captured for failed scenario: Verify step 5 has 2 tabs to select height
+[INFO ] 2025-07-01 02:47:35.816 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:53:02.722 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify step 5 has 2 tabs to select height.png
+[INFO ] 2025-07-01 02:53:02.862 [main] LoggerLoad - Screenshot captured for failed scenario: Verify step 5 has 2 tabs to select height
+[INFO ] 2025-07-01 02:53:02.865 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:55:22.242 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify step 5 has 2 tabs to select height.png
+[INFO ] 2025-07-01 02:55:22.351 [main] LoggerLoad - Screenshot captured for failed scenario: Verify step 5 has 2 tabs to select height
+[INFO ] 2025-07-01 02:55:22.351 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:57:37.260 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify step 5 has 2 tabs to select height.png
+[INFO ] 2025-07-01 02:57:37.376 [main] LoggerLoad - Screenshot captured for failed scenario: Verify step 5 has 2 tabs to select height
+[INFO ] 2025-07-01 02:57:37.380 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 02:58:37.955 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 03:16:04.179 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 03:16:13.712 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 03:32:48.605 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 03:32:58.859 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 03:46:24.948 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify first tab height in step4.png
+[INFO ] 2025-07-01 03:46:25.078 [main] LoggerLoad - Screenshot captured for failed scenario: Verify first tab height in step4
+[INFO ] 2025-07-01 03:46:25.078 [main] LoggerLoad - Browser is closed
+[ERROR] 2025-07-01 03:46:36.456 [main] LoggerLoad - Screenshot IOException: The filename, directory name, or volume label syntax is incorrect
+[INFO ] 2025-07-01 03:46:36.561 [main] LoggerLoad - Screenshot captured for failed scenario: Verify second tab	height in step4
+[INFO ] 2025-07-01 03:46:36.563 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 03:52:53.866 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 03:53:03.907 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 03:54:59.535 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 03:55:09.066 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 03:58:27.409 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify first tab height in step4.png
+[INFO ] 2025-07-01 03:58:27.648 [main] LoggerLoad - Screenshot captured for failed scenario: Verify first tab height in step4
+[INFO ] 2025-07-01 03:58:27.648 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 03:58:40.726 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify second tab height in step4.png
+[INFO ] 2025-07-01 03:58:40.953 [main] LoggerLoad - Screenshot captured for failed scenario: Verify second tab height in step4
+[INFO ] 2025-07-01 03:58:40.964 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:07:07.411 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:07:18.674 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:15:04.479 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:15:23.808 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate pounds values.png
+[INFO ] 2025-07-01 04:15:23.906 [main] LoggerLoad - Screenshot captured for failed scenario: Validate pounds values
+[INFO ] 2025-07-01 04:15:23.906 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:15:41.852 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify back button function in step2.png
+[INFO ] 2025-07-01 04:15:41.932 [main] LoggerLoad - Screenshot captured for failed scenario: Verify back button function in step2
+[INFO ] 2025-07-01 04:15:41.932 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:16:50.454 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:17:16.487 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate pounds values.png
+[INFO ] 2025-07-01 04:17:16.567 [main] LoggerLoad - Screenshot captured for failed scenario: Validate pounds values
+[INFO ] 2025-07-01 04:17:16.567 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:17:28.031 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify back button function in step2.png
+[INFO ] 2025-07-01 04:17:28.187 [main] LoggerLoad - Screenshot captured for failed scenario: Verify back button function in step2
+[INFO ] 2025-07-01 04:17:28.187 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:23:34.201 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:23:48.945 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate pounds values.png
+[INFO ] 2025-07-01 04:23:49.014 [main] LoggerLoad - Screenshot captured for failed scenario: Validate pounds values
+[INFO ] 2025-07-01 04:23:49.015 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:23:59.538 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:29:16.507 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:29:34.406 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate pounds values.png
+[INFO ] 2025-07-01 04:29:34.565 [main] LoggerLoad - Screenshot captured for failed scenario: Validate pounds values
+[INFO ] 2025-07-01 04:29:34.566 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:36:40.849 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:36:59.895 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate pounds values.png
+[INFO ] 2025-07-01 04:36:59.990 [main] LoggerLoad - Screenshot captured for failed scenario: Validate pounds values
+[INFO ] 2025-07-01 04:36:59.990 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:39:29.215 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 04:40:08.934 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 10:52:26.739 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 10:52:33.405 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 10:52:40.346 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 10:56:15.745 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate notification message for weight option less than 59.png
+[INFO ] 2025-07-01 10:56:15.937 [main] LoggerLoad - Screenshot captured for failed scenario: Validate notification message for weight option less than 59
+[INFO ] 2025-07-01 10:56:15.937 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 10:56:28.015 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate notification message for weight option between 60 -84.png
+[INFO ] 2025-07-01 10:56:28.085 [main] LoggerLoad - Screenshot captured for failed scenario: Validate notification message for weight option between 60 -84
+[INFO ] 2025-07-01 10:56:28.085 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 10:56:44.604 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 11:04:20.501 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 11:04:33.088 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 11:04:43.823 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate notification message for weight option greater than 85.png
+[INFO ] 2025-07-01 11:04:43.935 [main] LoggerLoad - Screenshot captured for failed scenario: Validate notification message for weight option greater than 85
+[INFO ] 2025-07-01 11:04:44.915 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 11:09:06.086 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 11:09:18.247 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 11:09:29.903 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 11:53:29.439 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 11:55:59.741 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate user able to select from option in kilogram.png
+[INFO ] 2025-07-01 11:55:59.837 [main] LoggerLoad - Screenshot captured for failed scenario: Validate user able to select from option in kilogram
+[INFO ] 2025-07-01 11:55:59.837 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:10:25.309 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate Step 6 contains options to select dietary preference.png
+[INFO ] 2025-07-01 12:10:25.419 [main] LoggerLoad - Screenshot captured for failed scenario: Validate Step 6 contains options to select dietary preference
+[INFO ] 2025-07-01 12:10:25.434 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:11:16.808 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:15:28.644 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:15:39.358 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:15:50.802 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:16:03.780 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext displayed in Step6.png
+[INFO ] 2025-07-01 12:16:03.909 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext displayed in Step6
+[INFO ] 2025-07-01 12:16:03.909 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:16:20.866 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:16:33.614 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:16:46.465 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:16:58.327 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:31:18.016 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:44:31.122 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:44:42.694 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:44:54.051 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext displayed in Step7.png
+[INFO ] 2025-07-01 12:44:54.146 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext displayed in Step7
+[INFO ] 2025-07-01 12:44:54.146 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:45:06.670 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:45:20.119 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:45:38.728 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate Step 7 contains cuisine options.png
+[INFO ] 2025-07-01 12:45:38.896 [main] LoggerLoad - Screenshot captured for failed scenario: Validate Step 7 contains cuisine options
+[INFO ] 2025-07-01 12:45:38.896 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:45:59.722 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:50:40.118 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext displayed in Step7.png
+[INFO ] 2025-07-01 12:50:40.209 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext displayed in Step7
+[INFO ] 2025-07-01 12:50:40.209 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:50:51.234 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 12:51:04.832 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 13:08:23.986 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 13:08:31.506 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 13:08:39.997 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 13:08:48.814 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 13:09:00.226 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 13:09:12.697 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 13:27:00.007 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 13:27:16.631 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 13:27:34.527 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext displayed in Step8.png
+[INFO ] 2025-07-01 13:27:34.686 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext displayed in Step8
+[INFO ] 2025-07-01 13:27:34.686 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 13:27:54.455 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 13:28:08.312 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 13:28:24.018 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 13:28:36.529 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 13:43:27.795 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:15:59.215 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate heading for Step 9 is visible.png
+[INFO ] 2025-07-01 14:15:59.301 [main] LoggerLoad - Screenshot captured for failed scenario: Validate heading for Step 9 is visible
+[INFO ] 2025-07-01 14:15:59.301 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:16:21.987 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext displayed in Step 9.png
+[INFO ] 2025-07-01 14:16:22.098 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext displayed in Step 9
+[INFO ] 2025-07-01 14:16:22.098 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:16:47.057 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate progress bar displays Step 9 of 12.png
+[INFO ] 2025-07-01 14:16:47.098 [main] LoggerLoad - Screenshot captured for failed scenario: Validate progress bar displays Step 9 of 12
+[INFO ] 2025-07-01 14:16:47.098 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:17:10.903 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate Back button is visible in Step 9.png
+[INFO ] 2025-07-01 14:17:10.952 [main] LoggerLoad - Screenshot captured for failed scenario: Validate Back button is visible in Step 9
+[INFO ] 2025-07-01 14:17:10.952 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:17:32.456 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 14:17:32.607 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 14:17:32.607 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:18:05.749 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate user goes to step 10 if choose no.png
+[INFO ] 2025-07-01 14:18:05.816 [main] LoggerLoad - Screenshot captured for failed scenario: Validate user goes to step 10 if choose no
+[INFO ] 2025-07-01 14:18:05.816 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:31:29.994 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate heading for Step 9 is visible.png
+[INFO ] 2025-07-01 14:31:30.133 [main] LoggerLoad - Screenshot captured for failed scenario: Validate heading for Step 9 is visible
+[INFO ] 2025-07-01 14:31:30.133 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:31:54.151 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext displayed in Step 9.png
+[INFO ] 2025-07-01 14:31:54.321 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext displayed in Step 9
+[INFO ] 2025-07-01 14:31:54.321 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:32:17.973 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate progress bar displays Step 9 of 12.png
+[INFO ] 2025-07-01 14:32:18.144 [main] LoggerLoad - Screenshot captured for failed scenario: Validate progress bar displays Step 9 of 12
+[INFO ] 2025-07-01 14:32:18.144 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:32:40.885 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate Back button is visible in Step 9.png
+[INFO ] 2025-07-01 14:32:41.116 [main] LoggerLoad - Screenshot captured for failed scenario: Validate Back button is visible in Step 9
+[INFO ] 2025-07-01 14:32:41.118 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:33:06.529 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 14:33:06.714 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 14:33:06.714 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:33:31.322 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate user goes to step 10 if choose no.png
+[INFO ] 2025-07-01 14:33:31.515 [main] LoggerLoad - Screenshot captured for failed scenario: Validate user goes to step 10 if choose no
+[INFO ] 2025-07-01 14:33:31.517 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:34:56.119 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate heading for Step 9 is visible.png
+[INFO ] 2025-07-01 14:34:56.247 [main] LoggerLoad - Screenshot captured for failed scenario: Validate heading for Step 9 is visible
+[INFO ] 2025-07-01 14:34:56.247 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:35:08.683 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext displayed in Step 9.png
+[INFO ] 2025-07-01 14:35:08.785 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext displayed in Step 9
+[INFO ] 2025-07-01 14:35:08.785 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:35:22.725 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate progress bar displays Step 9 of 12.png
+[INFO ] 2025-07-01 14:35:22.851 [main] LoggerLoad - Screenshot captured for failed scenario: Validate progress bar displays Step 9 of 12
+[INFO ] 2025-07-01 14:35:22.851 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:35:34.947 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate Back button is visible in Step 9.png
+[INFO ] 2025-07-01 14:35:35.034 [main] LoggerLoad - Screenshot captured for failed scenario: Validate Back button is visible in Step 9
+[INFO ] 2025-07-01 14:35:35.034 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:35:51.548 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 14:35:51.717 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 14:35:51.717 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:36:04.477 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate user goes to step 10 if choose no.png
+[INFO ] 2025-07-01 14:36:04.548 [main] LoggerLoad - Screenshot captured for failed scenario: Validate user goes to step 10 if choose no
+[INFO ] 2025-07-01 14:36:04.559 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:39:08.171 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:39:20.013 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:39:31.326 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate progress bar displays Step 9 of 12.png
+[INFO ] 2025-07-01 14:39:31.421 [main] LoggerLoad - Screenshot captured for failed scenario: Validate progress bar displays Step 9 of 12
+[INFO ] 2025-07-01 14:39:31.421 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:39:43.303 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:40:14.999 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 14:40:15.079 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 14:40:15.079 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 14:40:27.049 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate user goes to step 10 if choose no.png
+[INFO ] 2025-07-01 14:40:27.137 [main] LoggerLoad - Screenshot captured for failed scenario: Validate user goes to step 10 if choose no
+[INFO ] 2025-07-01 14:40:27.137 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:45:37.566 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:45:45.318 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:45:51.562 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:46:00.726 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify password field in login page.png
+[INFO ] 2025-07-01 15:46:00.897 [main] LoggerLoad - Screenshot captured for failed scenario: Verify password field in login page
+[INFO ] 2025-07-01 15:46:00.897 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:46:21.209 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify sub text.png
+[INFO ] 2025-07-01 15:46:21.383 [main] LoggerLoad - Screenshot captured for failed scenario: Verify sub text
+[INFO ] 2025-07-01 15:46:21.383 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:46:38.885 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:46:50.931 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify presence of placeholder in password field.png
+[INFO ] 2025-07-01 15:46:51.083 [main] LoggerLoad - Screenshot captured for failed scenario: Verify presence of placeholder in password field
+[INFO ] 2025-07-01 15:46:51.083 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:47:00.761 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify password input accepts valid existing user.png
+[INFO ] 2025-07-01 15:47:00.943 [main] LoggerLoad - Screenshot captured for failed scenario: Verify password input accepts valid existing user
+[INFO ] 2025-07-01 15:47:00.943 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:47:13.795 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:47:26.897 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:47:39.539 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:47:52.748 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:48:02.385 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:48:18.700 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:48:34.217 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:48:49.669 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:49:02.197 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:49:16.113 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 15:49:31.434 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 16:17:57.842 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 16:18:06.922 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 16:20:52.420 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 16:21:00.025 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 16:21:07.912 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Create account form  with valid data.png
+[INFO ] 2025-07-01 16:21:07.990 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Create account form  with valid data
+[INFO ] 2025-07-01 16:21:07.992 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 16:21:14.862 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify presence of Upload Blood Report button.png
+[INFO ] 2025-07-01 16:21:14.941 [main] LoggerLoad - Screenshot captured for failed scenario: Verify presence of Upload Blood Report button
+[INFO ] 2025-07-01 16:21:14.941 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 16:21:23.545 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify presence of Step Through Onboarding button.png
+[INFO ] 2025-07-01 16:21:23.620 [main] LoggerLoad - Screenshot captured for failed scenario: Verify presence of Step Through Onboarding button
+[INFO ] 2025-07-01 16:21:23.633 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 16:24:30.285 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify Create account form  with valid data.png
+[INFO ] 2025-07-01 16:24:30.403 [main] LoggerLoad - Screenshot captured for failed scenario: Verify Create account form  with valid data
+[INFO ] 2025-07-01 16:24:30.403 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 16:26:13.391 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 17:26:32.680 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 17:26:43.756 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 17:26:55.071 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate progress bar displays Step 9 of 12.png
+[INFO ] 2025-07-01 17:26:55.170 [main] LoggerLoad - Screenshot captured for failed scenario: Validate progress bar displays Step 9 of 12
+[INFO ] 2025-07-01 17:26:55.170 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 17:27:11.174 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 17:28:15.017 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 17:28:15.151 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 17:28:15.151 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 17:28:26.023 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate user goes to step 10 if choose no.png
+[INFO ] 2025-07-01 17:28:26.178 [main] LoggerLoad - Screenshot captured for failed scenario: Validate user goes to step 10 if choose no
+[INFO ] 2025-07-01 17:28:26.178 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 17:34:23.913 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 17:35:11.466 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 17:35:25.901 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate progress bar displays Step 9 of 12.png
+[INFO ] 2025-07-01 17:35:26.044 [main] LoggerLoad - Screenshot captured for failed scenario: Validate progress bar displays Step 9 of 12
+[INFO ] 2025-07-01 17:35:26.044 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 17:35:45.675 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 17:36:23.062 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 17:36:23.130 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 17:36:23.130 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 17:36:38.007 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 17:40:50.532 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 17:40:50.625 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 17:40:50.626 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 18:04:42.321 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 18:04:55.054 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 18:05:07.713 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 18:05:20.610 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 18:05:36.359 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 18:05:49.545 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 18:09:47.746 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 18:09:47.838 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 18:09:47.838 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 18:18:23.134 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 18:18:23.235 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 18:18:23.235 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 18:21:25.486 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 18:38:01.690 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 18:42:31.431 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 18:42:31.584 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 18:42:31.585 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 18:42:38.959 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 18:58:56.756 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 18:58:56.920 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 18:58:56.920 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 18:59:10.512 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate heading for Step 10 is visible.png
+[INFO ] 2025-07-01 18:59:10.585 [main] LoggerLoad - Screenshot captured for failed scenario: Validate heading for Step 10 is visible
+[INFO ] 2025-07-01 18:59:10.585 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 18:59:23.131 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext displayed in Step 10.png
+[INFO ] 2025-07-01 18:59:23.241 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext displayed in Step 10
+[INFO ] 2025-07-01 18:59:23.241 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:03:56.793 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 19:03:56.914 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 19:03:56.914 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:04:09.360 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate heading for Step 10 is visible.png
+[INFO ] 2025-07-01 19:04:09.444 [main] LoggerLoad - Screenshot captured for failed scenario: Validate heading for Step 10 is visible
+[INFO ] 2025-07-01 19:04:09.444 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:04:22.260 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext displayed in Step 10.png
+[INFO ] 2025-07-01 19:04:22.371 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext displayed in Step 10
+[INFO ] 2025-07-01 19:04:22.371 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:04:35.307 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate progress bar displays Step 10 of 12.png
+[INFO ] 2025-07-01 19:04:35.414 [main] LoggerLoad - Screenshot captured for failed scenario: Validate progress bar displays Step 10 of 12
+[INFO ] 2025-07-01 19:04:35.414 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:04:52.838 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:06:08.240 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 19:06:08.417 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 19:06:08.417 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:06:24.346 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:06:42.021 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext displayed in Step 10.png
+[INFO ] 2025-07-01 19:06:42.116 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext displayed in Step 10
+[INFO ] 2025-07-01 19:06:42.116 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:07:04.000 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:07:33.245 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:07:49.740 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate step 10 contains the list of other medical condition.png
+[INFO ] 2025-07-01 19:07:49.902 [main] LoggerLoad - Screenshot captured for failed scenario: Validate step 10 contains the list of other medical condition
+[INFO ] 2025-07-01 19:07:49.902 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:17:17.931 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 19:17:18.373 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 19:17:18.375 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:17:55.018 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate step 10 contains the list of other medical condition.png
+[INFO ] 2025-07-01 19:17:55.153 [main] LoggerLoad - Screenshot captured for failed scenario: Validate step 10 contains the list of other medical condition
+[INFO ] 2025-07-01 19:17:55.153 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:20:18.742 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:23:50.944 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 19:23:51.024 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 19:23:51.024 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:24:07.938 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate step 10 contains the list of other medical condition.png
+[INFO ] 2025-07-01 19:24:08.067 [main] LoggerLoad - Screenshot captured for failed scenario: Validate step 10 contains the list of other medical condition
+[INFO ] 2025-07-01 19:24:08.067 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:25:04.185 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate allergy options are displayed for yes in step 8.png
+[INFO ] 2025-07-01 19:25:04.388 [main] LoggerLoad - Screenshot captured for failed scenario: Validate allergy options are displayed for yes in step 8
+[INFO ] 2025-07-01 19:25:04.388 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:25:20.848 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate step 10 contains the list of other medical condition.png
+[INFO ] 2025-07-01 19:25:21.074 [main] LoggerLoad - Screenshot captured for failed scenario: Validate step 10 contains the list of other medical condition
+[INFO ] 2025-07-01 19:25:21.075 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:27:18.573 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:27:44.721 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:38:37.247 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:40:26.970 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:47:32.391 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate error message is shown if the user proceeds without selecting any checkbox option in step10.png
+[INFO ] 2025-07-01 19:47:32.439 [main] LoggerLoad - Screenshot captured for failed scenario: Validate error message is shown if the user proceeds without selecting any checkbox option in step10
+[INFO ] 2025-07-01 19:47:32.439 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:48:56.966 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate error message is shown if the user proceeds without selecting any checkbox option in step10.png
+[INFO ] 2025-07-01 19:48:57.796 [main] LoggerLoad - Screenshot captured for failed scenario: Validate error message is shown if the user proceeds without selecting any checkbox option in step10
+[INFO ] 2025-07-01 19:48:57.796 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:56:45.802 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate error message is shown if the user proceeds without selecting any checkbox option in step10.png
+[INFO ] 2025-07-01 19:56:45.887 [main] LoggerLoad - Screenshot captured for failed scenario: Validate error message is shown if the user proceeds without selecting any checkbox option in step10
+[INFO ] 2025-07-01 19:56:45.887 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 19:58:50.603 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:11:03.751 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:16:41.428 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate heading for Step 11 is visible.png
+[INFO ] 2025-07-01 20:16:41.491 [main] LoggerLoad - Screenshot captured for failed scenario: Validate heading for Step 11 is visible
+[INFO ] 2025-07-01 20:16:41.491 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:17:04.868 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext displayed in Step 11.png
+[INFO ] 2025-07-01 20:17:04.927 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext displayed in Step 11
+[INFO ] 2025-07-01 20:17:04.927 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:17:33.019 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate progress bar displays Step 11 of 12.png
+[INFO ] 2025-07-01 20:17:33.064 [main] LoggerLoad - Screenshot captured for failed scenario: Validate progress bar displays Step 11 of 12
+[INFO ] 2025-07-01 20:17:33.064 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:17:58.263 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate Back button is visible in Step 11.png
+[INFO ] 2025-07-01 20:17:58.327 [main] LoggerLoad - Screenshot captured for failed scenario: Validate Back button is visible in Step 11
+[INFO ] 2025-07-01 20:17:58.327 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:18:21.722 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate step 11 contain options to choose.png
+[INFO ] 2025-07-01 20:18:21.771 [main] LoggerLoad - Screenshot captured for failed scenario: Validate step 11 contain options to choose
+[INFO ] 2025-07-01 20:18:21.771 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:28:29.519 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate heading for Step 11 is visible.png
+[INFO ] 2025-07-01 20:28:29.686 [main] LoggerLoad - Screenshot captured for failed scenario: Validate heading for Step 11 is visible
+[INFO ] 2025-07-01 20:28:29.688 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:28:42.097 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext displayed in Step 11.png
+[INFO ] 2025-07-01 20:28:42.159 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext displayed in Step 11
+[INFO ] 2025-07-01 20:28:42.159 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:28:55.133 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate progress bar displays Step 11 of 12.png
+[INFO ] 2025-07-01 20:28:55.196 [main] LoggerLoad - Screenshot captured for failed scenario: Validate progress bar displays Step 11 of 12
+[INFO ] 2025-07-01 20:28:55.196 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:29:06.728 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:32:17.687 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate heading for Step 11 is visible.png
+[INFO ] 2025-07-01 20:32:17.856 [main] LoggerLoad - Screenshot captured for failed scenario: Validate heading for Step 11 is visible
+[INFO ] 2025-07-01 20:32:17.856 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:32:31.583 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext displayed in Step 11.png
+[INFO ] 2025-07-01 20:32:31.648 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext displayed in Step 11
+[INFO ] 2025-07-01 20:32:31.648 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:32:45.780 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate progress bar displays Step 11 of 12.png
+[INFO ] 2025-07-01 20:32:45.997 [main] LoggerLoad - Screenshot captured for failed scenario: Validate progress bar displays Step 11 of 12
+[INFO ] 2025-07-01 20:32:45.997 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:43:02.450 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate heading for Step 11 is visible.png
+[INFO ] 2025-07-01 20:43:02.586 [main] LoggerLoad - Screenshot captured for failed scenario: Validate heading for Step 11 is visible
+[INFO ] 2025-07-01 20:43:02.587 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:43:27.946 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext displayed in Step 11.png
+[INFO ] 2025-07-01 20:43:28.135 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext displayed in Step 11
+[INFO ] 2025-07-01 20:43:28.135 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:43:45.539 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate progress bar displays Step 11 of 12.png
+[INFO ] 2025-07-01 20:43:45.731 [main] LoggerLoad - Screenshot captured for failed scenario: Validate progress bar displays Step 11 of 12
+[INFO ] 2025-07-01 20:43:45.731 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 20:45:29.962 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate heading for Step 11 is visible.png
+[INFO ] 2025-07-01 20:45:30.091 [main] LoggerLoad - Screenshot captured for failed scenario: Validate heading for Step 11 is visible
+[INFO ] 2025-07-01 20:45:30.091 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 21:00:55.880 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate heading for Step 11 is visible.png
+[INFO ] 2025-07-01 21:00:56.084 [main] LoggerLoad - Screenshot captured for failed scenario: Validate heading for Step 11 is visible
+[INFO ] 2025-07-01 21:00:56.084 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 21:01:15.332 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 21:01:32.008 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate progress bar displays Step 11 of 12.png
+[INFO ] 2025-07-01 21:01:32.280 [main] LoggerLoad - Screenshot captured for failed scenario: Validate progress bar displays Step 11 of 12
+[INFO ] 2025-07-01 21:01:32.280 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 21:01:46.718 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 21:02:01.836 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 21:34:19.394 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 21:37:28.294 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify user able to select multiple checkbox.png
+[INFO ] 2025-07-01 21:37:28.463 [main] LoggerLoad - Screenshot captured for failed scenario: Verify user able to select multiple checkbox
+[INFO ] 2025-07-01 21:37:28.463 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 21:47:11.029 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 21:54:50.974 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 22:37:39.907 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 22:52:33.560 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate heading for Step 12 is visible.png
+[INFO ] 2025-07-01 22:52:33.638 [main] LoggerLoad - Screenshot captured for failed scenario: Validate heading for Step 12 is visible
+[INFO ] 2025-07-01 22:52:33.638 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 22:52:49.547 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 22:53:09.692 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 23:25:54.143 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 23:26:15.137 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 23:26:39.842 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 23:38:16.928 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate input field is displayed in step 12.png
+[INFO ] 2025-07-01 23:38:17.099 [main] LoggerLoad - Screenshot captured for failed scenario: Validate input field is displayed in step 12
+[INFO ] 2025-07-01 23:38:17.100 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 23:40:13.541 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate input field is displayed in step 12.png
+[INFO ] 2025-07-01 23:40:13.735 [main] LoggerLoad - Screenshot captured for failed scenario: Validate input field is displayed in step 12
+[INFO ] 2025-07-01 23:40:13.736 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 23:59:39.986 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-01 23:59:57.342 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate the text below the input field.png
+[INFO ] 2025-07-01 23:59:57.441 [main] LoggerLoad - Screenshot captured for failed scenario: Validate the text below the input field
+[INFO ] 2025-07-01 23:59:57.441 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 00:00:27.848 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate step 12 has continue button.png
+[INFO ] 2025-07-02 00:00:27.929 [main] LoggerLoad - Screenshot captured for failed scenario: Validate step 12 has continue button
+[INFO ] 2025-07-02 00:00:27.929 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 00:00:48.333 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 00:13:28.665 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 00:13:51.105 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate the text below the input field.png
+[INFO ] 2025-07-02 00:13:51.475 [main] LoggerLoad - Screenshot captured for failed scenario: Validate the text below the input field
+[INFO ] 2025-07-02 00:13:51.479 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 00:14:22.156 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 00:14:45.493 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify the description in step 12.png
+[INFO ] 2025-07-02 00:14:45.602 [main] LoggerLoad - Screenshot captured for failed scenario: Verify the description in step 12
+[INFO ] 2025-07-02 00:14:45.603 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 00:22:16.485 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 00:22:29.728 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 00:22:44.759 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 00:22:56.687 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify the description in step 12.png
+[INFO ] 2025-07-02 00:22:56.761 [main] LoggerLoad - Screenshot captured for failed scenario: Verify the description in step 12
+[INFO ] 2025-07-02 00:22:57.695 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 00:25:02.456 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify the description in step 12.png
+[INFO ] 2025-07-02 00:25:02.591 [main] LoggerLoad - Screenshot captured for failed scenario: Verify the description in step 12
+[INFO ] 2025-07-02 00:25:03.940 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 00:34:50.825 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Verify the description in step 12.png
+[INFO ] 2025-07-02 00:34:50.936 [main] LoggerLoad - Screenshot captured for failed scenario: Verify the description in step 12
+[INFO ] 2025-07-02 00:34:52.179 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 00:36:51.499 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 00:50:47.524 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 00:51:30.285 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 01:00:27.005 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 01:00:33.678 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 01:34:27.344 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 01:34:44.425 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate user cannot enter invalid HbA1c value.png
+[INFO ] 2025-07-02 01:34:44.527 [main] LoggerLoad - Screenshot captured for failed scenario: Validate user cannot enter invalid HbA1c value
+[INFO ] 2025-07-02 01:34:44.527 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 01:35:02.336 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate user cannot enter valid HbA1c value.png
+[INFO ] 2025-07-02 01:35:02.522 [main] LoggerLoad - Screenshot captured for failed scenario: Validate user cannot enter valid HbA1c value
+[INFO ] 2025-07-02 01:35:02.522 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 01:41:47.039 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 01:42:03.932 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 01:42:17.422 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 01:44:44.520 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 01:44:57.120 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate user cannot enter valid HbA1c value.png
+[INFO ] 2025-07-02 01:44:57.241 [main] LoggerLoad - Screenshot captured for failed scenario: Validate user cannot enter valid HbA1c value
+[INFO ] 2025-07-02 01:44:57.241 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 02:09:33.483 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate user cannot enter valid HbA1c value.png
+[INFO ] 2025-07-02 02:09:33.657 [main] LoggerLoad - Screenshot captured for failed scenario: Validate user cannot enter valid HbA1c value
+[INFO ] 2025-07-02 02:09:33.657 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 02:15:19.334 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate user cannot enter valid HbA1c value.png
+[INFO ] 2025-07-02 02:15:19.446 [main] LoggerLoad - Screenshot captured for failed scenario: Validate user cannot enter valid HbA1c value
+[INFO ] 2025-07-02 02:15:19.446 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 02:25:16.907 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 02:58:29.301 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 02:58:44.364 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 02:58:59.822 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 02:59:18.871 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 03:26:18.729 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 03:26:39.635 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 03:27:05.114 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate message in personalised screen.png
+[INFO ] 2025-07-02 03:27:05.212 [main] LoggerLoad - Screenshot captured for failed scenario: Validate message in personalised screen
+[INFO ] 2025-07-02 03:27:05.212 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 03:27:22.188 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext in personalised screen.png
+[INFO ] 2025-07-02 03:27:22.406 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext in personalised screen
+[INFO ] 2025-07-02 03:27:22.407 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 03:32:33.548 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate message in personalised screen.png
+[INFO ] 2025-07-02 03:32:33.667 [main] LoggerLoad - Screenshot captured for failed scenario: Validate message in personalised screen
+[INFO ] 2025-07-02 03:32:33.670 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 03:36:45.251 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate message in personalised screen.png
+[INFO ] 2025-07-02 03:36:45.364 [main] LoggerLoad - Screenshot captured for failed scenario: Validate message in personalised screen
+[INFO ] 2025-07-02 03:36:45.364 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 03:47:06.798 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate message in personalised screen.png
+[INFO ] 2025-07-02 03:47:06.899 [main] LoggerLoad - Screenshot captured for failed scenario: Validate message in personalised screen
+[INFO ] 2025-07-02 03:47:06.904 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 03:47:20.610 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext in personalised screen.png
+[INFO ] 2025-07-02 03:47:20.694 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext in personalised screen
+[INFO ] 2025-07-02 03:47:20.694 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 03:50:17.645 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 03:50:31.149 [main] LoggerLoad - Screenshot saved to: C:\Users\ems11\OneDrive\Desktop\Team01_Sweet Debugger\Team01_SweetDebugger\screenshots\Validate subtext in personalised screen.png
+[INFO ] 2025-07-02 03:50:31.322 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext in personalised screen
+[INFO ] 2025-07-02 03:50:31.322 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-02 03:54:10.083 [main] LoggerLoad - Browser is closed

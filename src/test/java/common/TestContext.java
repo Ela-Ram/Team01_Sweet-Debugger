@@ -7,12 +7,16 @@ import pageObject.LoginUI_Page;
 
 
 public class TestContext {
-    private WebDriver driver;
+    public WebDriver driver;
     private DriverConfig factory;
     private Helper helper;
     private ExcelReader excelReader;
     private String baseUrl;
     private LoginUI_Page loginUI_page;
+    private String uniqueEmail;
+    private String uniqueUsername;
+    private String uniquePassword;
+    private String uniqueFullName;
     
 
     public TestContext() {
@@ -58,4 +62,36 @@ public class TestContext {
     
 	    // Add other page objects here as you create them
 	}
+    
+    public String getUniqueEmail() {
+        return uniqueEmail;
+    }
+
+    public void setUniqueEmail(String uniqueEmail) {
+        this.uniqueEmail = uniqueEmail;
+    }
+
+    public String getUniqueUsername() {
+        return uniqueUsername;
+    }
+
+    public void setUniqueUsername(String uniqueUsername) {
+        this.uniqueUsername = uniqueUsername;
+    }
+
+    public String getUniquePassword() {
+        return uniquePassword;
+    }
+
+    public void setUniquePassword(String uniquePassword) {
+        this.uniquePassword = uniquePassword;
+    }
+
+    public String getUniqueFullName() {
+        return uniqueFullName;
+    }
+
+    public void setUniqueFullName(String uniqueFullName) {
+        this.uniqueFullName = uniqueFullName;
+    }
 }

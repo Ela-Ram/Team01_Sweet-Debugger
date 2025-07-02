@@ -1,9 +1,11 @@
 @sweet @loginUI
 Feature: Login Page UI Verification
 
+
+# Feature 1:Login Page UI Verification -Total 10 Scenarios 
   @skipLaunch @uilogintext
   Scenario Outline: Verify <Scenario> is displayed
-    Given User is on SweetBalance homepage
+    Given User is on SweetBalance homepage																																																																														
     When User clicks on Login link
     Then User should see "<Text>" heading
 

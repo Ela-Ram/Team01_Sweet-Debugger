@@ -2,7 +2,11 @@ package common;
 
 import org.openqa.selenium.WebDriver;
 import driverFactory.DriverConfig;
+import pageObject.Launch_PageObj;
 import pageObject.LoginUI_Page;
+import pageObject.PremiumUserExercise_Page;
+import pageObject.PremiumUserLogbook_Page;
+import stepDefinitions.PremiumUserGlucoseMealLog_Step;
 
 
 
@@ -18,6 +22,12 @@ public class TestContext {
     private String uniquePassword;
     private String uniqueFullName;
     
+    private PremiumUserExercise_Page premiumUserEx_page;
+    private PremiumUserLogbook_Page premiumUserLogbook_Page;
+    private Launch_PageObj launch_pageObj;
+
+
+
 
     public TestContext() {
         factory = new DriverConfig();
@@ -55,13 +65,19 @@ public class TestContext {
         return loginUI_page;
     }
     
-    
+    public PremiumUserExercise_Page getPremiumUserEx_page() {
+        if (premiumUserEx_page == null) {
+        	premiumUserEx_page = new PremiumUserExercise_Page(this);
+        }
+        return premiumUserEx_page;
+    }
     
     public void resetPages() {
     	loginUI_page = null;
-    
-	    // Add other page objects here as you create them
+    	
+    	 
 	}
+
     
     public String getUniqueEmail() {
         return uniqueEmail;
@@ -94,4 +110,21 @@ public class TestContext {
     public void setUniqueFullName(String uniqueFullName) {
         this.uniqueFullName = uniqueFullName;
     }
+
+
+	public Launch_PageObj getLaunch_PageObj() {
+		if (launch_pageObj == null)
+    	{
+    		launch_pageObj = new Launch_PageObj(this);
+    	}
+		return launch_pageObj;
+	}
+    
+    public PremiumUserLogbook_Page getPremiumUserLogbook_page() {
+	     if (premiumUserLogbook_Page == null) {
+	    	premiumUserLogbook_Page = new PremiumUserLogbook_Page(this);
+	     }
+	     return premiumUserLogbook_Page;
+   }
+
 }

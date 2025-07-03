@@ -2,7 +2,9 @@ package common;
 
 import org.openqa.selenium.WebDriver;
 import driverFactory.DriverConfig;
-import pageObject.Launch_PageObj;
+import pageObject.CommomHomePageFeature_Page;
+import pageObject.DiabetesRiskAnalyzer_Page;
+import pageObject.LaunchPage_Page;
 import pageObject.LoginUI_Page;
 import pageObject.PremiumUserExercise_Page;
 import pageObject.PremiumUserLogbook_Page;
@@ -17,6 +19,12 @@ public class TestContext {
     private ExcelReader excelReader;
     private String baseUrl;
     private LoginUI_Page loginUI_page;
+
+    private PremiumUserExercise_Page premiunUserEx_page;
+    private LaunchPage_Page launch_pageObj;
+    private DiabetesRiskAnalyzer_Page diaRiskAnalyzerPageObj;
+    private CommomHomePageFeature_Page commonHomeFeaturesPageObj;
+
     private String uniqueEmail;
     private String uniqueUsername;
     private String uniquePassword;
@@ -24,7 +32,8 @@ public class TestContext {
     
     private PremiumUserExercise_Page premiumUserEx_page;
     private PremiumUserLogbook_Page premiumUserLogbook_Page;
-    private Launch_PageObj launch_pageObj;
+    //private Launch_PageObj launch_pageObj;
+
 
 
 
@@ -78,6 +87,9 @@ public class TestContext {
     	 
 	}
 
+
+	//public LaunchPage_Page getLaunch_PageObj() {
+
     
     public String getUniqueEmail() {
         return uniqueEmail;
@@ -112,13 +124,31 @@ public class TestContext {
     }
 
 
-	public Launch_PageObj getLaunch_PageObj() {
+	public LaunchPage_Page getLaunch_PageObj() {
+
 		if (launch_pageObj == null)
     	{
-    		launch_pageObj = new Launch_PageObj(this);
+    		launch_pageObj = new LaunchPage_Page(this);
     	}
 		return launch_pageObj;
 	}
+
+	
+	public DiabetesRiskAnalyzer_Page getDiaRiskAnalyzerPageObj() {
+		if (diaRiskAnalyzerPageObj == null)
+    	{
+			diaRiskAnalyzerPageObj = new DiabetesRiskAnalyzer_Page(this);
+    	}
+		return diaRiskAnalyzerPageObj;
+	}
+	public CommomHomePageFeature_Page  getcommonHomeFeaturesPageObj() {
+		if (commonHomeFeaturesPageObj == null)
+    	{
+			commonHomeFeaturesPageObj = new CommomHomePageFeature_Page(this);
+    	}
+		return commonHomeFeaturesPageObj;
+	}
+
     
     public PremiumUserLogbook_Page getPremiumUserLogbook_page() {
 	     if (premiumUserLogbook_Page == null) {
@@ -126,5 +156,6 @@ public class TestContext {
 	     }
 	     return premiumUserLogbook_Page;
    }
+
 
 }

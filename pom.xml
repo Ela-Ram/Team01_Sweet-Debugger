@@ -90,8 +90,6 @@
 <artifactId>allure-cucumber7-jvm</artifactId>
 <version>2.29.1</version>
 </dependency>
-
-</dependencies>
 <!--   https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin   -->
 <build>
 <plugins>

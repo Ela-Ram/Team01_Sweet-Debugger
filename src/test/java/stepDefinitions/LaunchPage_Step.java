@@ -3,6 +3,7 @@ package stepDefinitions;
 import static org.testng.Assert.assertEquals;
 
 import java.sql.Driver;
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,14 +12,14 @@ import org.testng.Assert;
 
 import common.TestContext;
 import io.cucumber.java.en.*;
-import pageObject.Launch_PageObj;
+import pageObject.LaunchPage_Page;
 
-public class launchPage {
+public class LaunchPage_Step {
 
 	private TestContext context;
-	Launch_PageObj launchPageObj;
+	LaunchPage_Page launchPageObj;
 
-	public launchPage(TestContext context) {
+	public LaunchPage_Step(TestContext context) {
 		this.context = context;
 		this.launchPageObj = context.getLaunch_PageObj();
 	}
@@ -194,58 +195,51 @@ public class launchPage {
 		launchPageObj.isCheckYourRiskbtnPresent(checkYrRiskBtn);
 	}
 	
-	////////////////////////////////////////////
+	////////////////Feature - Verify Homepage navigation components////////////////////////////
 	
-	@When("User click the {string} button")
-	public void user_click_the_button(String string) {
-	    
-	    
+	@When("User click the Start Today button")
+	public void user_click_the_start_today_button() {
+		launchPageObj.clickStartTodayButton();
 	}
 
 	@Then("User should be redirected to the Login page")
 	public void user_should_be_redirected_to_the_login_page() {
-	    
+		launchPageObj.verifyLandedToLoginPage();   
 	    
 	}
 
 	@When("User look at the top right corner")
 	public void user_look_at_the_top_right_corner() {
-	    
+	    launchPageObj.pageScrollUp();
 	    
 	}
 
 	@Then("User  should see a link labeled {string}")
-	public void user_should_see_a_link_labeled(String string) {
-	    
-	    
-	}
-
-	@When("User click on the {string} link")
-	public void user_click_on_the_link(String string) {
-	    
+	public void user_should_see_a_link_labeled(String loginBtn) {
+	    launchPageObj.isLoginButtonDisplayed(loginBtn);
 	    
 	}
 
-	@When("User click on {string} button")
-	public void user_click_on_button(String string) {
-	    
-	    
+	@When("User click on the Login link")
+	public void user_click_on_the_login_link() {
+	    launchPageObj.clickLoginLink();
 	}
 
+	@When("User click on Check Your Risk button")
+	public void user_click_on_check_your_risk_button() {
+	    launchPageObj.clickCheckYrRiskButton();
+	}
+	
 	@Then("User should be redirected to the assessment modal dialog")
 	public void user_should_be_redirected_to_the_assessment_modal_dialog() {
+	  launchPageObj.verifyIfRiskAssessmentformOpened();
 	    
 	    
 	}
-
-	@Given("User is in browser")
-	public void user_is_in_browser() {
-	    
-	    
-	}
+////////////#Feature: Non-Functional Testing - Home Page///////////////
 
 	@Then("Page should be fully loaded within {int} seconds")
-	public void page_should_be_fully_loaded_within_seconds(Integer int1) {
+	public void page_should_be_fully_loaded_within_seconds(Duration expectedLoadTime) {
 	    
 	    
 	}

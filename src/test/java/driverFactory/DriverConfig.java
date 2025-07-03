@@ -11,20 +11,20 @@ public class DriverConfig {
 
     public ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
-    public WebDriver initializeDriver(String browser) {
-        switch (browser.toLowerCase()) {
-            case "chrome":
-                driver.set(new ChromeDriver());
-                break;
-            case "firefox":
-                driver.set(new FirefoxDriver());
-                break;
-            case "edge":
-                driver.set(new EdgeDriver());
-                break;
-            default:
-                throw new RuntimeException("Unsupported browser: " + browser);
-        }
+//    public WebDriver initializeDriver(String browser) {
+//        switch (browser.toLowerCase()) {
+//            case "chrome":
+//                driver.set(new ChromeDriver());
+//                break;
+//            case "firefox":
+//                driver.set(new FirefoxDriver());
+//                break;
+//            case "edge":
+//                driver.set(new EdgeDriver());
+//                break;
+//            default:
+//                throw new RuntimeException("Unsupported browser: " + browser);
+//        }
 
         driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get().manage().window().maximize();

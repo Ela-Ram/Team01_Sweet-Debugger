@@ -5,9 +5,11 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -85,6 +87,8 @@ public class PremiumUserLogbook_Page {
 	@FindBy(xpath =  "//div[text()='Total Scheduled']") WebElement totalSchText;
 	@FindBy(xpath =  "//div[text()='Doses Taken']") WebElement dosesTakenText;
 	@FindBy(xpath =  "//div[text()='Doses Missed']") WebElement dosesMissedText;
+	@FindBy(xpath = "//h2[text()='Medication Dosage']/../../..//*[name()='svg']//*[name()='path' and @class='recharts-rectangle']") List<WebElement> noMedicationData;
+	//h2[text()='Medication Dosage']/../../..//*[name()='svg']//*[name()='path' and @class='recharts-rectangle']
 	
 	//Premium User Logbook - Log Review
 	@FindBy(xpath = "//h2[@class='text-2xl font-semibold text-white mb-4']") WebElement logReviewTitle;
@@ -234,7 +238,9 @@ public class PremiumUserLogbook_Page {
 			element = dosesMissedNoVal;
 			break;
 		}
-
+		Actions actions = new Actions(driver);
+		actions.moveToElement(element).perform();
+		helperObj.waitForVisibleElement(element);
 		text = element.getText();
 		return text;
 	}
@@ -282,6 +288,9 @@ public class PremiumUserLogbook_Page {
 			element = dosesMissedText;
 			break;
 		}
+		Actions actions = new Actions(driver);
+		actions.moveToElement(element).perform();
+		helperObj.waitForVisibleElement(element);
 		color = element.getCssValue("color");
 		return color;
 	}
@@ -383,8 +392,11 @@ public class PremiumUserLogbook_Page {
 		case "noPieChart":
 			elementList = noPieChart;
 			break;
-		case "activityEmptyChart":
+		case "No Activity":
 			elementList = activityEmptyChart;
+			break;
+		case "No Medication":
+			elementList = noMedicationData;
 			break;
 			
 		}
@@ -410,6 +422,7 @@ public class PremiumUserLogbook_Page {
 			break;
 			
 		}
+		
 		for (WebElement eachCol : elementList) {
 			String eachText = eachCol.getText();
 			if(!eachText.equals("-")) {

@@ -51,6 +51,9 @@ public class Helper {
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
     
+    public Boolean waitForInVisibilityElement(WebElement element) {
+        return wait.until(ExpectedConditions.invisibilityOf(element));
+    }
     
  // Checks if the scenario is tagged with a specific tag
     public static boolean isScenarioTaggedWith(Scenario scenario, String tag) {

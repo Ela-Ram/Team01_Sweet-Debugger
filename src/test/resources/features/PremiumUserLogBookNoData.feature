@@ -1,27 +1,27 @@
-@sweet @premiumLogNoData
+@sweet @premiumLogNoData @premiumChristy
 Feature: Premium User Logbook page with no data
 
 	Background: Premium User is in home page after logged in
-		Given The user is in the Home page and clicks Sign In
-    When The user enters valid credentials as in "premiumUser" and "PremiumUserNoData" and logs in
-  
+		Given The user is in the Home page and clicks Sign In of premium account
+    When The user enters valid credentials as in "premiumUser" and "PremiumUserNoData" and logs in of premium account
+    
   @dailyNoBars 
 Scenario: Verify bar chart behavior when user has not logged any meals
-	Given User is in the homepage
-  When User clicks Logbook button
-  Then User should see no bars in Daily Nutrition breakdown section
+	Given User is in the homepage of premium account
+  When User clicks Logbook button of premium account
+  Then User should see no bars in Daily Nutrition breakdown section of premium account
 
 @noPieChart
 Scenario: Verify pie chart is hidden when user has not logged any meals
-	Given User is in the homepage
-  When User clicks Logbook button
-  Then User should not see any pie chart in seven day aggregate Nutrition section
+	Given User is in the homepage of premium account
+  When User clicks Logbook button of premium account
+  Then User should not see any pie chart in seven day aggregate Nutrition section of premium account
   
   @nutritionNodata
     Scenario Outline: Verify "<Scenario>" displays 0g and 0%  in Daily nutrition breakdown section when there is no logs
-    Given User is in the homepage
-    When User clicks Logbook button 
-    Then User should see the "<Scenario>" displayed "0g (0%)"
+    Given User is in the homepage of premium account
+    When User clicks Logbook button of premium account 
+    Then User should see the "<Scenario>" displayed "0g (0%)" in Daily nutrition
     
     Examples:
     |Scenario|
@@ -29,17 +29,22 @@ Scenario: Verify pie chart is hidden when user has not logged any meals
     |ProteinCard|
     |FatsCard|
     
-    @activityEmptyChart
-Scenario: Verify display of empty chart for no activity log
-	Given User is in the homepage
-  When User clicks Logbook button
-  Then User should see no bars in the chart
+    @EmptyChart
+Scenario Outline: Verify display of empty chart for "<Scenario>" log
+	Given User is in the homepage of premium account
+  When User clicks Logbook button of premium account
+  Then User should see no bars in the chart for "<Scenario>" logs
+  
+  Examples:
+    |Scenario|
+    |No Activity|
+    |No Medication|
   
   @activityNoValue
 Scenario Outline: verify the "<Scenario>" value for no activity log
-	Given User is in the homepage
-  When User clicks Logbook button
-  Then User should see "<Scenario>" has "0 cal" value
+	Given User is in the homepage of premium account
+  When User clicks Logbook button of premium account
+  Then User should see "<Scenario>" has "0 cal" value for no activity
   
    Examples:
     |Scenario|
@@ -48,21 +53,15 @@ Scenario Outline: verify the "<Scenario>" value for no activity log
   
   @noPeakDayValue
 Scenario: Verify the peak day value for no activity log
-	Given User is in the homepage
-  When User clicks Logbook button
-  Then User should see no value 
-  
-  @medicationEmptyChart
-Scenario: Verify display empty chart when no medication is scheduled
-	Given User is in the homepage
-  When User clicks Logbook button
-  Then User should see no bars in the chart
+	Given User is in the homepage of premium account
+  When User clicks Logbook button of premium account
+  Then User should see no value for no activity
   
   @medicationNodata
     Scenario Outline: Verify "<Scenario>" will display 0 doses, if no medication is scheduled
-    Given User is in the homepage
-    When User clicks Logbook button 
-    Then User should see "0 doses"  value in the "<Scenario>" statistics
+    Given User is in the homepage of premium account
+    When User clicks Logbook button of premium account 
+    Then User should see "0 doses"  value in the "<Scenario>" medication statistics
     
     Examples:
     |Scenario|
@@ -72,9 +71,9 @@ Scenario: Verify display empty chart when no medication is scheduled
     
     @medicationColor
   Scenario Outline: Verify text color of "<Scenario>" text in Medication Dosage section
-    Given User is in the homepage
-    When User clicks Logbook button 
-    Then User should see "<Rgba>" colour "<Scenario>" text 
+    Given User is in the homepage of premium account
+    When User clicks Logbook button of premium account 
+    Then User should see "<Rgba>" colour "<Scenario>" text in Medication Dosage section
     
     Examples:
     |Scenario|Color|Rgba|
@@ -84,9 +83,9 @@ Scenario: Verify display empty chart when no medication is scheduled
     
     @noValueLogReview
     Scenario Outline: Verify the "<Scenario>" value in log review section if there is no log 
-    Given User is in the homepage
-    When User clicks Logbook button 
-    Then User should see hyphen - for all the days under "<Scenario>"
+    Given User is in the homepage of premium account
+    When User clicks Logbook button of premium account 
+    Then User should see hyphen - for all the days under "<Scenario>" in log review section
     
     Examples:
     |Scenario|

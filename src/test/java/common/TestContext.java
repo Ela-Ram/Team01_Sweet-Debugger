@@ -2,11 +2,14 @@ package common;
 
 import org.openqa.selenium.WebDriver;
 import driverFactory.DriverConfig;
+import pageObject.FreeDashboard_Page;
+import pageObject.HomeFreeUser_page;
 import pageObject.CommomHomePageFeature_Page;
 import pageObject.DiabetesRiskAnalyzer_Page;
 import pageObject.LaunchPage_Page;
 import pageObject.LoginUI_Page;
 import pageObject.PremiumUserExercise_Page;
+import pageObject.PremiumUserHome_Page;
 import pageObject.PremiumUserLogbook_Page;
 import stepDefinitions.PremiumUserGlucoseMealLog_Step;
 
@@ -25,10 +28,15 @@ public class TestContext {
     private DiabetesRiskAnalyzer_Page diaRiskAnalyzerPageObj;
     private CommomHomePageFeature_Page commonHomeFeaturesPageObj;
 
+
     private String uniqueEmail;
     private String uniqueUsername;
     private String uniquePassword;
     private String uniqueFullName;
+    private HomeFreeUser_page freeUser_page;
+    private FreeDashboard_Page freeDashboard_page;
+    private PremiumUserHome_Page premiumUserHome_page;
+
     
     private PremiumUserExercise_Page premiumUserEx_page;
     private PremiumUserLogbook_Page premiumUserLogbook_Page;
@@ -81,12 +89,11 @@ public class TestContext {
         return premiumUserEx_page;
     }
     
-    public void resetPages() {
+     public void resetPages() {
     	loginUI_page = null;
-    	
-    	 
-	}
-
+    
+ 
+  } 
 
 	//public LaunchPage_Page getLaunch_PageObj() {
 
@@ -122,7 +129,27 @@ public class TestContext {
     public void setUniqueFullName(String uniqueFullName) {
         this.uniqueFullName = uniqueFullName;
     }
-
+    
+    public HomeFreeUser_page getHomeFreeUser_page() {
+        if (freeUser_page == null) {
+        	freeUser_page = new HomeFreeUser_page(this);
+        }
+        return freeUser_page;
+    }
+    
+    public FreeDashboard_Page freeDashboard_page() {
+        if (freeDashboard_page == null) {
+        	freeDashboard_page = new FreeDashboard_Page(this);
+        }
+        return freeDashboard_page;
+    }
+    public PremiumUserHome_Page premiumUserHome_page() {
+    	if (premiumUserHome_page == null) {
+    		premiumUserHome_page = new PremiumUserHome_Page(this);
+    	}
+    	return premiumUserHome_page;
+    }
+   
 
 	public LaunchPage_Page getLaunch_PageObj() {
 
@@ -156,6 +183,7 @@ public class TestContext {
 	     }
 	     return premiumUserLogbook_Page;
    }
+
 
 
 }

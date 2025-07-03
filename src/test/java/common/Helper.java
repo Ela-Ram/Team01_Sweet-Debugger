@@ -27,12 +27,12 @@ public class Helper {
 	
     
     
- // Waits for the exact page title to match
+ 
     public void waitForTitle(String expectedTitle) {
         wait.until(ExpectedConditions.titleIs(expectedTitle));
     }
     
-    //wait for visibility
+   
     public WebElement waitForVisible(WebElement element) {
         return wait.until(ExpectedConditions.visibilityOfElementLocated((By) element));
     }
@@ -46,7 +46,7 @@ public class Helper {
         }
     }
 
-    //wait for clickable
+   
     public WebElement waitForClickable(By locator) {
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
@@ -75,4 +75,5 @@ public class Helper {
 			return false;
 		}
 	}
+
 }

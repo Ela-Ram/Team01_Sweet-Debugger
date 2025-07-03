@@ -68,13 +68,14 @@ Feature: Verify Homepage UI components
     When User click on Check Your Risk button
     Then User should be redirected to the assessment modal dialog
 
+#--------------------------------------------------------------------------------------------------------
 #Feature: Non-Functional Testing - Home Page
-#
-  #@launchPage
-  #Scenario: Homepage loads within acceptable time
-    #Given User launches the browser
-    #When User enters the SweetBalance url
-    #Then Page should be fully loaded within 3 seconds
+
+  @launchPage
+  Scenario: Homepage loads within acceptable time
+    Given User launches the browser
+    When User enters the SweetBalance url
+    Then Page should be fully loaded within 3 seconds
 
   #@launchPage
   #Scenario:  

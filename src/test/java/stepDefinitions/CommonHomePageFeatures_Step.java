@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import common.ConfigReader;
 import common.TestContext;
 import io.cucumber.java.en.*;
 import pageObject.CommomHomePageFeature_Page;
@@ -29,6 +30,27 @@ public class CommonHomePageFeatures_Step {
 	
 ////////Background//////
 	
+	@Given("User calculates risk by entering values in all fields from {string} and {string} after clicking on Check Your Risk button")
+	public void user_calculates_risk_by_entering_values_in_all_fields_from_and_after_clicking_on_check_your_risk_button(String launch, String launch_02) {
+		launch_pageObj.clickCheckYrRiskButton();
+		diaRiskAnalyzerPageObj.fillRiskAnalyzerForm(launch,launch_02);
+		diaRiskAnalyzerPageObj.clickCalRiskAnalyzerbtn();
+	}
+
+	@When("User continue with email button after entering a email as in {string} and {string} on Create Account Page")
+	public void user_continue_with_email_button_after_entering_a_email_as_in_and_on_create_account_page(String string, String string2) {
+		commonHomeFeaturesPageObj.clickCreateAccountButton(); 
+		String regemail = ConfigReader.getProperty("Reg_Email");;
+		loginUI_page.enterEmail(regemail);
+		loginUI_page.clickContinueWithEmailButton();
+	}
+
+	@When("User checks the Terms & conditions box after filling all fields as in {string} and {string}")
+	public void user_checks_the_terms_conditions_box_after_filling_all_fields_as_in_and(String string, String string2) {
+	    
+	}
+
+	
 //	@When("Enter Email Id from {string} and {string}")
 //	public void enter_email_id_from_and(String launch, String launch_02) {
 //		diaRiskAnalyzerPageObj.clickCalRiskAnalyzerbtn();
@@ -36,14 +58,14 @@ public class CommonHomePageFeatures_Step {
 //		commonHomeFeaturesPageObj.enterEmailID(launch, launch_02);
 //	}
 
-	@When("user completes profile by providing email {string}")
-	public void user_completes_profile(String email) {
-		diaRiskAnalyzerPageObj.clickCalRiskAnalyzerbtn();
-		commonHomeFeaturesPageObj.clickCreateAccountButton();
-		loginUI_page.enterEmail(email);
-		loginUI_page.clickContinueWithEmailButton();
-		
-	}
+//	@When("user completes profile by providing email {string}")
+//	public void user_completes_profile(String email) {
+//		diaRiskAnalyzerPageObj.clickCalRiskAnalyzerbtn();
+//		commonHomeFeaturesPageObj.clickCreateAccountButton();
+//		loginUI_page.enterEmail(email);
+//		loginUI_page.clickContinueWithEmailButton();
+//		
+//	}
 	
 	
 ///////////////////Background finish///////////////
@@ -207,8 +229,149 @@ public void user_should_see_dumbbell_icon_in_the_exercise_tab() {
 
 @Then("User should see {string} button in the Meal Plan section")
 public void user_should_see_button_in_the_meal_plan_section(String string) {
+ 
+}	
+/////////////////Feature 2 & 3- Validation on meal section & non functional test cases////////////////////////////////////
+	
+@Given("User is logged into the app")
+public void user_is_logged_into_the_app() {
     
     
 }
+
+@When("User clicks on the Breakfast section")
+public void user_clicks_on_the_breakfast_section() {
+    
+    
+}
+
+@Then("Breakfast details  become visible")
+public void breakfast_details_become_visible() {
+    
+    
+}
+
+@When("User clicks on the Lunch section")
+public void user_clicks_on_the_lunch_section() {
+    
+    
+}
+
+@Then("Lunch details  become visible")
+public void lunch_details_become_visible() {
+    
+    
+}
+
+@When("User clicks on the Dinner section")
+public void user_clicks_on_the_dinner_section() {
+    
+    
+}
+
+@Then("Dinner details  become visible")
+public void dinner_details_become_visible() {
+    
+    
+}
+
+@When("User clicks on the Sancks section")
+public void user_clicks_on_the_sancks_section() {
+    
+    
+}
+
+@Then("Snacks details  become visible")
+public void snacks_details_become_visible() {
+    
+    
+}
+
+@When("User clicks meal section")
+public void user_clicks_meal_section() {
+    
+    
+}
+
+@Then("User should see User should see dish title")
+public void user_should_see_user_should_see_dish_title() {
+    
+    
+}
+
+@Then("User should see User should see description for the dish")
+public void user_should_see_user_should_see_description_for_the_dish() {
+    
+    
+}
+
+@Then("User should see User should see the pre-meal item name")
+public void user_should_see_user_should_see_the_pre_meal_item_name() {
+    
+    
+}
+
+@Then("User should see User should see the pre-meal calorie value")
+public void user_should_see_user_should_see_the_pre_meal_calorie_value() {
+    
+    
+}
+
+@Then("User should see User should see indicator {string} for breakfast pre-meal")
+public void user_should_see_user_should_see_indicator_for_breakfast_pre_meal(String string) {
+    
+    
+}
+
+@Then("User should see User should see indicator {string} for lunch  pre-meal")
+public void user_should_see_user_should_see_indicator_for_lunch_pre_meal(String string) {
+    
+    
+}
+
+@Then("User should see User should see indicator {string} for dinner  pre-meal")
+public void user_should_see_user_should_see_indicator_for_dinner_pre_meal(String string) {
+    
+    
+}
+
+@Then("User should see User should see  {string} based time in pre-meal \\(eg : {int}:{int})")
+public void user_should_see_user_should_see_based_time_in_pre_meal_eg(String string, Integer int1, Integer int2) {
+    
+    
+}
+
+@Then("User should see User should see green color for Carbs")
+public void user_should_see_user_should_see_green_color_for_carbs() {
+    
+    
+}
+
+@Then("User should see User should see purple color for Fat")
+public void user_should_see_user_should_see_purple_color_for_fat() {
+    
+    
+}
+
+@Then("User should see User should see pink color for Protein")
+public void user_should_see_user_should_see_pink_color_for_protein() {
+    
+    
+}
+
+@Then("User should see It should display the unit as {string}")
+public void user_should_see_it_should_display_the_unit_as(String string) {
+    
+    
+}
+
+@Then("User should see User should see text {string} after the calorie value in pre meal")
+public void user_should_see_user_should_see_text_after_the_calorie_value_in_pre_meal(String string) {
+    
+    
+}
+	
+    
+
 
 }

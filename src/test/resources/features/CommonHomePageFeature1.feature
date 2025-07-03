@@ -3,10 +3,10 @@
 Feature: Validation for home page - Registered user
 
 Background:
-Given User enters values in all fields from "launch" and "launch_02"
-When Registered user clicks continue with email button after entering valid email
+Given User calculates risk by entering values in all fields from "launch" and "launch_02" after clicking on Check Your Risk button
+When User continue with email button after entering a email as in "login" and "login_06" on Create Account Page 
 And User checks the Terms & conditions box after filling all fields as in "login" and "login_06"
-And User clicks Calculate Risk button after entering valid values in all fields 
+And 
 Then User is in password auth page
 
       

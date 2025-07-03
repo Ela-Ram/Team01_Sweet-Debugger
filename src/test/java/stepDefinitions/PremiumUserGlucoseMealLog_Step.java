@@ -49,8 +49,9 @@ public class PremiumUserGlucoseMealLog_Step {
 	}
 
 	@Then("User should see the X-axis display the last seven days ending today for {string}")
-	public void user_should_see_the_x_axis_display_the_last_seven_days_ending_today_for(String string) {
-	    
+	public void user_should_see_the_x_axis_display_the_last_seven_days_ending_today_for(String scenario) {
+		boolean lastSevenDays = logbookPageObj.checkLastSevenDaysXAxis(scenario);
+		Assert.assertTrue(lastSevenDays, "Last Seven Days not displayed");
 	    
 	}
 

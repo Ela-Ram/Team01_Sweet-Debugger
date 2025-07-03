@@ -66,5 +66,14 @@ public class Helper {
                        .collect(Collectors.toList());
     }
     
-    
+	public boolean checkElementDisplayed(WebElement element) {
+		try {
+			element = waitForVisibleElement(element);
+			return element.isDisplayed();
+
+		} catch (Exception e) {
+			return false;
+		}
+	}
+
 }

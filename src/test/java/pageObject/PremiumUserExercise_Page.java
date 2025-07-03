@@ -1,7 +1,6 @@
 package pageObject;
 
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -62,24 +61,6 @@ public class PremiumUserExercise_Page {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void premiumUserLogin() {
-
-		driver.findElement(By.xpath("//div[@class='flex space-x-4']")).click();
-		driver.findElement(By.name("email")).sendKeys("Team01PremiumUser@gmail.com");
-		driver.findElement(By.xpath("//button[@type='submit']")).click();
-		driver.findElement(By.name("password")).sendKeys("Team01PremiumUser");
-		driver.findElement(By.xpath("//button[@type='submit']")).click();
-	}
-
-	public boolean checkElementDisplayed(WebElement element) {
-		try {
-			element = helper.waitForVisibleElement(element);
-			return element.isDisplayed();
-
-		} catch (Exception e) {
-			return false;
-		}
-	}
 
 	public void clickExerciseBtn() {
 		exerciseBtn.click();	
@@ -280,7 +261,7 @@ public class PremiumUserExercise_Page {
 			element = totalDuration;
 			break;		
 		}
-		return checkElementDisplayed(element);
+		return helper.checkElementDisplayed(element);
 
 	}
 

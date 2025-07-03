@@ -3,7 +3,7 @@ Feature: Premium user Exercise Module on Homepage
 
 	Background: Premium User is in home page after logged in
 		Given The user is in the Home page and clicks Sign In
-    When The user enters valid credentials and logs in 
+    When The user enters valid credentials as in "premiumUser" and "PremiumUser" and logs in
 	
   @ExercisePage
   Scenario Outline: Verify "<Scenario>" in Excercise page details

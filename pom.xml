@@ -91,7 +91,12 @@
 <version>2.29.1</version>
 </dependency>
 
-</dependencies>
+  	<dependency>
+  		<groupId>API_BootCamp_CucumberBDD</groupId>
+  		<artifactId>API_BootCamp_CucumberBDD</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 <!--   https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin   -->
 <build>
 <plugins>

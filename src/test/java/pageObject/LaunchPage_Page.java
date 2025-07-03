@@ -1,11 +1,17 @@
 package pageObject;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver.Timeouts;
 
+import java.time.Duration;
 import java.util.List;
 
+import org.apache.commons.lang3.time.StopWatch;
+import org.jspecify.annotations.Nullable;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -13,7 +19,7 @@ import org.testng.Reporter;
 import common.Helper;
 import common.TestContext;
 
-public class Launch_PageObj {
+public class LaunchPage_Page {
 
 	private WebDriver driver;
 	private Helper helper;
@@ -32,8 +38,18 @@ public class Launch_PageObj {
 	WebElement activityIcon;
 	@FindBy(xpath = "//*[name()='svg' and contains(@class, 'lucide-clock')]")
 	WebElement clockIcon;
-
-	public Launch_PageObj(TestContext context) {
+	@FindBy (xpath = "//div[@id='root']")
+	WebElement loginpage;
+	@FindBy (xpath="//button[contains(text(),'Login')]")
+	WebElement loginButton;
+	@FindBy (xpath = "//button[contains(text(),'Check Your Risk ')]")
+	WebElement CheckYourRiskButton;
+	@FindBy (xpath = "//div[@id='radix-:r3:']")
+	WebElement DiaRiskAnalyzerForm;
+	
+	
+	
+	public LaunchPage_Page(TestContext context) {
 		this.driver = context.getDriver();
 		this.helper = context.getHelper();
 		PageFactory.initElements(driver, this);
@@ -64,25 +80,21 @@ public class Launch_PageObj {
 
 	public boolean isDiabetesToolsHeadingDisplayed(String diaToolsHeading) {
 		WebElement diabetesToolsHeading = driver.findElement(By.xpath("//div/h2[text()='" + diaToolsHeading + "']"));
-
 		return diabetesToolsHeading.isDisplayed();
 	}
 
 	public boolean ishealthTrackingCardDisplayed(String healthTrackingCard) {
 		WebElement healthtrackcard = driver.findElement(By.xpath("//div/h3[text()='" + healthTrackingCard + "']"));
-
 		return healthtrackcard.isDisplayed();
 	}
 
 	public boolean isNutritionCardDisplayed(String NutriCard) {
 		WebElement nutitioncard = driver.findElement(By.xpath("//div/h3[text()='" + NutriCard + "']"));
-
 		return nutitioncard.isDisplayed();
 	}
 
 	public boolean isSmartCardDisplayed(String smartCard) {
 		WebElement smartInsightcard = driver.findElement(By.xpath("//div/h3[text()='" + smartCard + "']"));
-
 		return smartInsightcard.isDisplayed();
 	}
 
@@ -254,5 +266,63 @@ public class Launch_PageObj {
 		Assert.assertEquals(actualbutton, true);
 		System.out.println(Button + " button is present");
 	}
+	
+	public void clickStartTodayButton()
+	{
+		startTodayButton.click();
+	}
 
+	public void verifyLandedToLoginPage()
+	{
+		String currenturl = driver.getCurrentUrl(); 
+		System.out.println("Current URL after clicking Start Today button: " +currenturl);
+		boolean expectedurl = currenturl.contains("/auth");
+		Assert.assertEquals(expectedurl, true, "Failed to navigate to the Login Page");
+		System.out.println("Paseed: Successfully navigated to the Login Page");
+	}
+	
+	public void pageScrollUp()
+	{
+		Actions actions = new Actions(driver);
+		actions.sendKeys(Keys.HOME).build().perform();
+	}
+	
+	public void isLoginButtonDisplayed(String loginBtn)
+	{
+		boolean expected = loginButton.toString().contains(loginBtn);
+		Assert.assertEquals(expected,true);
+		System.out.println("Passed: Login link is available");
+	
+	}
+	public void clickLoginLink()
+	{
+		loginButton.click();
+	}
+	
+	public void clickCheckYrRiskButton()
+	{
+		CheckYourRiskButton.click();
+	}
+	public void verifyIfRiskAssessmentformOpened()
+	{
+		 boolean assessmentform = DiaRiskAnalyzerForm.isDisplayed();
+		 Assert.assertEquals(assessmentform, true);
+		 System.out.println("Passed: Assessment form opened");
+		
+	}
+//	public void isPageLoadedwithingivenTime(Duration expectedLoadTime)
+//	{
+//		
+//		Timeouts actualLoadTime = driver.manage().timeouts().pageLoadTimeout(expectedLoadTime);
+//		Assert.assertEquals(actualLoadTime, true);
+//		StopWatch pageLoad = new StopWatch();
+//		
+//	}
+	
+	
 }
+	
+	
+	
+	
+

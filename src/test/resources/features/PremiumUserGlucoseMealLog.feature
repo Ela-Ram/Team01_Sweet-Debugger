@@ -3,7 +3,7 @@ Feature: Premium User Logbook page - Glucose and Meal Tracker
 
 	Background: Premium User is in home page after logged in
 		Given The user is in the Home page and clicks Sign In
-    When The user enters valid credentials and logs in
+    When The user enters valid credentials as in "premiumUser" and "PremiumUser" and logs in
 
 	@logBookSection
   Scenario Outline: Verify presence of "<Scenario>" section
@@ -53,15 +53,15 @@ Feature: Premium User Logbook page - Glucose and Meal Tracker
     |Post-Meal|<180 mg/dL|
     |Bedtime|100-140 mg/dL|
     
- # Scenario Outline: Verify last seven days are displayed on X-axis in "<Scenario>"
-  #   Given User is in the homepage
-   # When User clicks Logbook button
-    #Then User should see the X-axis display the last seven days ending today for "<Scenario>"
+  Scenario Outline: Verify last seven days are displayed on X-axis in "<Scenario>"
+   Given User is in the homepage
+   When User clicks Logbook button
+   Then User should see the X-axis display the last seven days ending today for "<Scenario>"
     
-    #Examples:
-    #|Scenario|
-    #|Blood Glucose Tracker|
-    #|Daily Nutrition Breakdown|
+   Examples:
+   |Scenario|
+   |Blood Glucose Tracker|
+   |Daily Nutrition Breakdown|
     
   @yAxisGlucose
   Scenario: Verify Y-axis starts at 70 in glucose chart
@@ -127,7 +127,3 @@ Feature: Premium User Logbook page - Glucose and Meal Tracker
     |CarbsCard|
     |ProteinCard|
     |FatsCard|
-    
-    
-
-  

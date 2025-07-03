@@ -1,44 +1,49 @@
 package stepDefinitions;
 
 
-import org.openqa.selenium.WebDriver;
+import java.util.Map;
 import org.testng.Assert;
+import common.ExcelReader;
 import common.LoggerLoad;
 import common.TestContext;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pageObject.LoginUI_Page;
 import pageObject.PremiumUserExercise_Page;
 
 public class PremiumUserExercise_Step {
 
 	private TestContext context;
 	private  PremiumUserExercise_Page exercisePageObj;
-	private WebDriver driver;
 	boolean isVisible;
+	private  LoginUI_Page loginUI_page;
 
 	public PremiumUserExercise_Step (TestContext context) {
 		this.context = context;
 		this.exercisePageObj = context.getPremiumUserEx_page();
-		this.driver = context.getDriver();
+		this.loginUI_page = context.getLoginUI_Page();
 	}
 
 	@Given("The user is in the Home page and clicks Sign In")
 	public void the_user_is_in_the_home_page_and_clicks_sign_in() {
-		exercisePageObj.premiumUserLogin();
-
+		loginUI_page.clickLoginGutton();
 	}
 
-	@When("The user enters valid credentials and logs in")
-	public void the_user_enters_valid_credentials_and_logs_in() {
-
-
+	@When("The user enters valid credentials as in {string} and {string} and logs in")
+	public void the_user_enters_valid_credentials_and_logs_in(String Sheet, String Testcase_ID) {
+		Map<String, String> testData = ExcelReader.getTestData(Sheet, Testcase_ID);
+		String email = testData.get("Email");
+		String password = testData.get("Password");
+		loginUI_page.enterEmail(email);
+		loginUI_page.clickContinueWithEmailButton();
+		loginUI_page.enterPassword(password);
+		loginUI_page.clickContinueWithEmailButton();
 	}
 
 	@Given("User is in the homepage")
 	public void user_is_in_the_homepage() {
 		LoggerLoad.info("User is in Home Page of Premium User");
-
 	}
 
 	@When("User clicks the Exercise option from the side panel")

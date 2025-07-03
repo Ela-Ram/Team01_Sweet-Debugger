@@ -4,30 +4,47 @@ import org.openqa.selenium.WebDriver;
 import driverFactory.DriverConfig;
 import pageObject.FreeDashboard_Page;
 import pageObject.HomeFreeUser_page;
+import pageObject.CommomHomePageFeature_Page;
+import pageObject.DiabetesRiskAnalyzer_Page;
+import pageObject.LaunchPage_Page;
 import pageObject.LoginUI_Page;
+import pageObject.PremiumUserExercise_Page;
 import pageObject.PremiumUserHome_Page;
+import pageObject.PremiumUserLogbook_Page;
+import stepDefinitions.PremiumUserGlucoseMealLog_Step;
 
 
 
 public class TestContext {
-    private WebDriver driver;
+    public WebDriver driver;
     private DriverConfig factory;
     private Helper helper;
     private ExcelReader excelReader;
     private String baseUrl;
     private LoginUI_Page loginUI_page;
+
+    private PremiumUserExercise_Page premiunUserEx_page;
+    private LaunchPage_Page launch_pageObj;
+    private DiabetesRiskAnalyzer_Page diaRiskAnalyzerPageObj;
+    private CommomHomePageFeature_Page commonHomeFeaturesPageObj;
+
+
     private String uniqueEmail;
     private String uniqueUsername;
     private String uniquePassword;
     private String uniqueFullName;
-    
-//    private PremiumUserExercise_Page premiumUserEx_page;
-//    private PremiumUserLogbook_Page premiumUserLogbook_Page;
-//    private Launch_PageObj launch_pageObj;
     private HomeFreeUser_page freeUser_page;
     private FreeDashboard_Page freeDashboard_page;
     private PremiumUserHome_Page premiumUserHome_page;
+
     
+    private PremiumUserExercise_Page premiumUserEx_page;
+    private PremiumUserLogbook_Page premiumUserLogbook_Page;
+    //private Launch_PageObj launch_pageObj;
+
+
+
+
 
     public TestContext() {
         factory = new DriverConfig();
@@ -65,21 +82,27 @@ public class TestContext {
         return loginUI_page;
     }
     
-//  public PremiumUserExercise_Page getPremiumUserEx_page() {
-//        if (premiumUserEx_page == null) {
-//        	premiumUserEx_page = new PremiumUserExercise_Page(this);
-//        }
-//        return premiumUserEx_page;
-//    }
-    
+    public PremiumUserExercise_Page getPremiumUserEx_page() {
+        if (premiumUserEx_page == null) {
+        	premiumUserEx_page = new PremiumUserExercise_Page(this);
+        }
+        return premiumUserEx_page;
+    }
     
      public void resetPages() {
     	loginUI_page = null;
-    	
-    	 
-	}    
+    
+ 
+  } 
 
-  public void setUniqueEmail(String uniqueEmail) {
+	//public LaunchPage_Page getLaunch_PageObj() {
+
+    
+    public String getUniqueEmail() {
+        return uniqueEmail;
+    }
+
+    public void setUniqueEmail(String uniqueEmail) {
         this.uniqueEmail = uniqueEmail;
     }
 
@@ -106,10 +129,6 @@ public class TestContext {
     public void setUniqueFullName(String uniqueFullName) {
         this.uniqueFullName = uniqueFullName;
     }
-
-  public String getUniqueEmail() {
-        return uniqueEmail;
-    }
     
     public HomeFreeUser_page getHomeFreeUser_page() {
         if (freeUser_page == null) {
@@ -130,5 +149,41 @@ public class TestContext {
     	}
     	return premiumUserHome_page;
     }
+   
+
+	public LaunchPage_Page getLaunch_PageObj() {
+
+		if (launch_pageObj == null)
+    	{
+    		launch_pageObj = new LaunchPage_Page(this);
+    	}
+		return launch_pageObj;
+	}
+
+	
+	public DiabetesRiskAnalyzer_Page getDiaRiskAnalyzerPageObj() {
+		if (diaRiskAnalyzerPageObj == null)
+    	{
+			diaRiskAnalyzerPageObj = new DiabetesRiskAnalyzer_Page(this);
+    	}
+		return diaRiskAnalyzerPageObj;
+	}
+	public CommomHomePageFeature_Page  getcommonHomeFeaturesPageObj() {
+		if (commonHomeFeaturesPageObj == null)
+    	{
+			commonHomeFeaturesPageObj = new CommomHomePageFeature_Page(this);
+    	}
+		return commonHomeFeaturesPageObj;
+	}
+
     
+    public PremiumUserLogbook_Page getPremiumUserLogbook_page() {
+	     if (premiumUserLogbook_Page == null) {
+	    	premiumUserLogbook_Page = new PremiumUserLogbook_Page(this);
+	     }
+	     return premiumUserLogbook_Page;
+   }
+
+
+
 }

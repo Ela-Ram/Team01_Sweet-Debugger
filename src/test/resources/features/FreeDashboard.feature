@@ -62,19 +62,6 @@ Given User is in FreeDashboard Page
 When User clicks the dropdown of Food Allergies	
 Then User should see the dropdown list of common allergy options None,Dairy,Gluten,Shellfish,Soy,Eggs,Nuts,Other
 
-#Doubt
-#@DashboardAccountDetailsUpdateInvalid
-#Scenario: Verify account details cannot be updated with invalid data
-#Given User is in FreeDashboard Page 
-#When User edit with invalid data and click save changes
-#Then User should see Error message DashboardAccountDetails
-#Doubt
-#@DashboardAccountDetailsUpdateVvalid
-#Scenario: Verify account details  can be updated with valid data
-#Given User is in FreeDashboard Page 
-#When User edit all fields and click Save Changes
-#Then User should see messages Changes Saved Your profile has been updated successfully!
-
 @DashboardStressManagement
 Scenario: Verify the header Stress Management Techniques
 Given User is in FreeDashboard Page 
@@ -184,40 +171,3 @@ Then User should see the breathing cycles begin
 
 
 
-#@Dashboard
-#Scenario: Verify start button functionality
-#Given User is in FreeDashboard Page 
-#When User clicks the Start Breathing Exercise button during the breathing exercise
-#Then User should see the breathing cycle displays Inhale which last for 4 seconds
-#
-#@Dashboard
-#Scenario: Verify the inhale phase in breathing cycle
-#Given User started Breathing cycle
-#When User view the current phase begins
-#Then User should see the breathing cycle displays hold which last for 7 seconds
-#
-#@Dashboard
-#Scenario: Verify the hold phase in breathing cycle
-#Given User see the inhale phase is completed
-#When User view the next phase begins
-#Then User should see the breathing cycle displays Exhale which last for 8 seconds
-#
-#@Dashboard
-#Scenario: Verify the count of cycle completed
-#Given User completed one full cycle
-#When User completes full breathing cycle
-#Then User should see Cycles completed counter should increased by 1
-#
-#@Dashboard
-#Scenario: Verify the pause phase in breathing cycle
-#Given User completed one full cycle
-#When User see next phase begins
-#Then User should see breathing cycle displays "pause" which last for 4 seconds
-#
-#@Dashboard
-#Scenario: Verify stop button of breathing exercise
-#Given User completed one full cycle
-#When  User clicks the Stop button during the breathing exercise
-#Then User should see breathing exercise stops
-#
-#

@@ -37,16 +37,16 @@ Then The "<Scenario>" value should be displayed HomePageNutrientValue
 
 Examples:
   | Scenario |
-  #| Pre-Meal |
-  #| Carbs   |
-  #| Protein |
-  #| Fat     |
-#	| Meal Time |
-#	| Snacks PM |
-#	| hh:mm Time |
+  | Pre-Meal |
+  | Carbs   |
+  | Protein |
+  | Fat     |
+	| Meal Time |
+	| Snacks PM |
+	| hh:mm Time |
 	| snack Three Clock |
-#	| Dot Indicator |
-#	|View Full Plan |
+	| Dot Indicator |
+	|View Full Plan |
 
 @HomePageExcercise @ExcercisePlan
 Scenario Outline: Verify "<Scenario>" in the Home page Exercise section

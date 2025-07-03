@@ -122,7 +122,6 @@ public class FreeDashboard_Step {
 		Assert.assertTrue(freeDashboardPage.isStressManagementDisplayed(), " Stress Management is not displayed");
 	}
 
-//8888888888888888888888888888888888888888888888888888888888888
 	@When("User scrolls to the navigation bar section")
 	public void user_scrolls_to_the_navigation_bar_section() {
 		freeDashboardPage.scrolltoStressManagement();
@@ -133,7 +132,6 @@ public class FreeDashboard_Step {
 		Assert.assertTrue(freeDashboardPage.isNavigationBarTabDisplayed(), " Navigation Bar Tab is not displayed");
 	}
 
-///8888888888888888888888888888888888888888888888888888888888888	
 	@When("User clicks Meditation tab")
 	public void user_clicks_meditation_tab() {
 		freeDashboardPage.meditationTabClick();
@@ -275,90 +273,6 @@ public class FreeDashboard_Step {
 		freeDashboardPage.enterInvalid();
 
 	}
-//#################################333
-//	@Then("User should see Error message DashboardAccountDetails")
-//	public void user_should_see_error_message_DashboardAccountDetails() {
-//		Assert.assertTrue(false, " NO Error Message is Visible");
-//	}
-//
-//	@When("User edit all fields and click Save Changes")
-//	public void user_edit_all_fields_and_click_save_changes() {
-//		
-//	}
-//
-//	@Then("User should see messages Changes Saved Your profile has been updated successfully!")
-//	public void user_should_see_messages_changes_saved_your_profile_has_been_updated_successfully() {
-//		
-//	}
 
-	@Then("User should see the breathing cycle displays Inhale which last for {int} seconds")
-	public void user_should_see_the_breathing_cycle_displays_inhale_which_last_for_seconds(Integer int1) {
-
-	}
-
-	@Given("User started Breathing cycle")
-	public void user_started_breathing_cycle() {
-
-	}
-
-	@When("User view the current phase begins")
-	public void user_view_the_current_phase_begins() {
-
-	}
-
-	@Then("User should see the breathing cycle displays hold which last for {int} seconds")
-	public void user_should_see_the_breathing_cycle_displays_hold_which_last_for_seconds(Integer int1) {
-
-	}
-
-	@Given("User see the inhale phase is completed")
-	public void user_see_the_inhale_phase_is_completed() {
-
-	}
-
-	@When("User view the next phase begins")
-	public void user_view_the_next_phase_begins() {
-
-	}
-
-	@Then("User should see the breathing cycle displays Exhale which last for {int} seconds")
-	public void user_should_see_the_breathing_cycle_displays_exhale_which_last_for_seconds(Integer int1) {
-
-	}
-
-	@Given("User completed one full cycle")
-	public void user_completed_one_full_cycle() {
-
-	}
-
-	@When("User completes full breathing cycle")
-	public void user_completes_full_breathing_cycle() {
-
-	}
-
-	@Then("User should see Cycles completed counter should increased by {int}")
-	public void user_should_see_cycles_completed_counter_should_increased_by(Integer int1) {
-
-	}
-
-	@When("User see next phase begins")
-	public void user_see_next_phase_begins() {
-
-	}
-
-	@Then("User should see breathing cycle displays {string} which last for {int} seconds")
-	public void user_should_see_breathing_cycle_displays_which_last_for_seconds(String string, Integer int1) {
-
-	}
-
-	@When("User clicks the Stop button during the breathing exercise")
-	public void user_clicks_the_stop_button_during_the_breathing_exercise() {
-
-	}
-
-	@Then("User should see breathing exercise stops")
-	public void user_should_see_breathing_exercise_stops() {
-
-	}
-
+	
 }

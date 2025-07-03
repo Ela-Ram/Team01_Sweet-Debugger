@@ -3,14 +3,11 @@ package pageObject;
 import java.time.Duration;
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import common.Helper;
@@ -211,20 +208,6 @@ public class FreeDashboard_Page {
 		helper.waitForClickableWebElement(cuisineDropdown).click();
 	}
 
-//	public boolean iscuisinePreferenceDropdownDisplayed() {
-//		List<WebElement> options = new WebDriverWait(driver, Duration.ofSeconds(5)).until(ExpectedConditions
-//				.visibilityOfAllElementsLocatedBy(By.xpath("//div[@role='listbox']//div[@role='option']")));
-//
-//		List<String> allDropdownOptionsText = options.stream().map(WebElement::getText).collect(Collectors.toList());
-//
-//		List<String> expectedOptions = List.of("Indian", "American", "Continental", "Mediterranean", "Asian",
-//				"Middle Eastern", "Mexican");
-//
-//		System.out.println("Actual options:");
-//		allDropdownOptionsText.forEach(System.out::println);
-//
-//		return allDropdownOptionsText.containsAll(expectedOptions);
-//	}
 
 	public void scrolltoStressManagement() {
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", stressManagementTechniques);
@@ -237,7 +220,6 @@ public class FreeDashboard_Page {
 	@FindBy(xpath = "//div[@role='tablist']/button")
 	List<WebElement> navigationBarTab;
 
-	// div[@role='tablist']/button
 	public boolean isNavigationBarTabDisplayed() {
 		List<String> allDropdownOptionsText = helper.getTexts(navigationBarTab);
 		for (String option : allDropdownOptionsText) {
@@ -249,11 +231,6 @@ public class FreeDashboard_Page {
 		}
 		return true;
 	}
-
-	// duplicate
-//	public void scrolltoMeditationTab() {
-//		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", meditationTab);
-//	}
 
 	@FindBy(css = "button[role='tab']")
 	private List<WebElement> tabs;
@@ -270,14 +247,8 @@ public class FreeDashboard_Page {
 		return false; // Element not displayed after any tab click
 	}
 
-//	@FindBy(xpath = "//span[contains(text(),'Meditation')]")
-//	WebElement meditationText;
-
 	@FindBy(xpath = "//div[contains(text(),'Breathing')]")
 	WebElement breathingText;
-
-//	@FindBy(xpath = "//div[contains(text(),'Movement')]")
-//	WebElement movementText;
 
 	@FindBy(xpath = "//div[contains(text(),'Mindfulness')]")
 	WebElement mindfulnessText;
@@ -285,15 +256,6 @@ public class FreeDashboard_Page {
 	@FindBy(xpath = "//h3[contains(text(),'Guided Meditation')]")
 	WebElement guidedMeditation;
 
-	// button[contains(text(),'Meditation')]
-//	public boolean isMeditationTabDisplayed() {
-//		
-//		return isTextDisplayedAfterClickingTabs(meditationText);
-//	}
-
-//	public boolean isMeditationDisplayed() {
-//		return helper.checkElementDisplayed(meditationText);
-//	}
 	public void guidedMeditationTabClick() {
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", guidedMeditation);
 	}
@@ -301,27 +263,15 @@ public class FreeDashboard_Page {
 	public boolean isGuidedMeditationDisplayed() {
 		return helper.checkElementDisplayed(guidedMeditation);
 	}
-//duplicate
-//	@FindBy(xpath = "//button[@role='tab' and text()='Meditation']")
-//	private WebElement meditationTab;
 
 	public void meditationTabClick() {
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", meditationTab);
 		helper.waitForClickableWebElement(meditationTab).click();
 	}
 
-//*************************
 	@FindBy(xpath = "//button[contains(text(),'min')]")
 	private List<WebElement> durationButtons;
 
-//	public boolean areAllDurationButtonsDisplayed() {
-//		List<String> expectedDurations = Arrays.asList("5 min", "10 min", "15 min");
-//
-//		List<String> actualButtonTexts = durationButtons.stream().map(WebElement::getText).map(String::trim)
-//				.collect(Collectors.toList());
-//
-//		return actualButtonTexts.containsAll(expectedDurations);
-//	}
 
 	@FindBy(xpath = "//div[@class='flex space-x-2']/button")
 	private List<WebElement> meditationDuration;
@@ -441,13 +391,9 @@ public class FreeDashboard_Page {
 	List<WebElement> diabetesManagementSectionList;
 
 	@FindBy(xpath = "(//h4[contains(text(),'Benefits for Diabetes Management')])[1]")
-//	@FindBy(xpath = "//div[contains(@class,'border-white/20')]/*[contains(text(),'Benefits for Diabetes Management')]")
-//	@FindBy(xpath = "//div[@class='bg-white/10 rounded-lg p-6 text-black']/div/div/h4")
 	WebElement diabetesManagementSection;
 
 	public void diabetesManagementSectionView() {
-		// helper.waitForVisibleOf(diabetesManagementSection);
-		// ((JavascriptExecutor) driver).executeScript("window.scrollBy(0, 800)");
 		meditationTabClick();
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", diabetesManagementSection);
 	}
@@ -503,7 +449,6 @@ public class FreeDashboard_Page {
 
 	@FindBy(xpath = "//div[@class='text-center']/p")
 	WebElement naturalTranquilizer;
-//A natural tranquilizer for the nervous system
 
 	public boolean isstartBreathingExerciseDisplayed() {
 		return helper.checkElementDisplayed(startBreathingExercise);
@@ -570,7 +515,6 @@ public class FreeDashboard_Page {
 	}
 
 	public boolean hasCycleStarted() {
-		// wait until cycle count is greater than 0
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		return wait.until(driver -> {
 			try {
@@ -611,35 +555,5 @@ public class FreeDashboard_Page {
 		saveChangesClick();
 	}
 
-//	public long getInhaleCountdownDurationInSeconds() {
-//    long startTime = System.currentTimeMillis();
-//
-//    for (int i = 4; i >= 1; i--) {
-//        final int expected = i;
-//        Object countdown = new Object();
-//        int actual = Integer.parseInt(((WebElement) countdown).getText().trim());
-//        if (actual != expected) {
-//            System.out.println("Expected: " + expected + ", but found: " + actual);
-//        }
-//    }
-//
-//    long endTime = System.currentTimeMillis();
-//    return (endTime - startTime) / 1000;
-//}
-//	public long getInhaleCountdownDurationInSeconds() {
-//		long startTime = System.currentTimeMillis();
-//
-//		for (int i = 1; i <= 4; i++) {
-//			final int expected = i;
-//			WebElement countdown = Wait.until(ExpectedConditions.visibilityOfElementLocated(
-//					By.xpath("//p[@class='text-2xl font-bold mt-2 text-blue' and text()='" + expected + "']")));
-//			int actual = Integer.parseInt(countdown.getText().trim());
-//			if (actual != expected) {
-//				System.out.println("Expected: " + expected + ", but found: " + actual);
-//			}
-//		}
-//
-//		long endTime = System.currentTimeMillis();
-//		return (endTime - startTime) / 1000;
-//	}
+
 }

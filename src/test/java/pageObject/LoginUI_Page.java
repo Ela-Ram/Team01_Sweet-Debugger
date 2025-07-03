@@ -5,7 +5,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,7 +23,7 @@ import common.TestContext;
 
 public class LoginUI_Page {
 	
-	
+	 private JavascriptExecutor jsExecutor;
 	 private WebDriver driver;
 	 private Helper helper;
 	 WebDriverWait wait;
@@ -44,7 +46,7 @@ public class LoginUI_Page {
 	 @FindBy(xpath = "//div[@class='space-y-6']/form/button") WebElement createAccountButton;
 	 @FindBy(id= ":r8:-form-item-message")WebElement fullNmaeError;
 	 @FindBy(id= ":r9:-form-item-message")WebElement userNameError;
-	 @FindBy(xpath = "//div[@class='flex flex-col space-y-4 mt-8']/button[1]") WebElement uploadBloodReportButton;
+	 @FindBy(xpath = "//button[text()='Upload Blood Report']") WebElement uploadBloodReportButton;
 	 @FindBy(xpath = "//button[text()='Step Through Onboarding']") WebElement stepThroughOnboardingButton;
 	 @FindBy(xpath = "//div[@class='text-center']/h1") WebElement bloodReportModalPage;
 	 @FindBy(xpath = "//div[@class='space-y-6']/div/div") WebElement uploadBox;
@@ -89,6 +91,7 @@ public class LoginUI_Page {
 	 @FindBy(xpath = "//div[@class='h-full w-full rounded-[inherit]']//button[2]//span") WebElement optionIDontKnowStep2WithoutReport;
 	 @FindBy(xpath = "//div[@class='flex justify-start mt-6']//span") WebElement backButtonWithoutReport;
 	 @FindBy(xpath = "//div[@class='h-full bg-gradient-to-r from-violet-500 to-fuchsia-500 transition-all duration-300']") WebElement progressBarWithoutReport;
+	 @FindBy(xpath = "//div[@class='bg-purple-600 h-3 rounded-full']") WebElement progressBarWithReport;
 	 @FindBy(xpath = "//span[text()='Male 👨‍🦱']") WebElement maleOptionWithoutReport;
 	 @FindBy(xpath = "//span[text()='100']") WebElement hundredYearsOptionWithoutReport;
 	 @FindBy(xpath = "//span[text()='18']") WebElement eighteenOptionWithoutReport;
@@ -123,11 +126,11 @@ public class LoginUI_Page {
 	 @FindBy(className="text-gray-600") WebElement subscriptionPageSubTitle;
 	 @FindBy(xpath = "//h2[@class='text-xl font-semibold text-purple-600 text-center']") WebElement messagePersonalizedScreenWithoutReport;
 	 @FindBy(xpath = "//p[@class='text-sm text-purple-400 text-center']") WebElement subTitlePersonalizedScreenWithoutReport;
+	 @FindBy(xpath = "//button[text()='Upgrade to Premium']") WebElement upgradeToPremiumButton;
+	 @FindBy(xpath = "//button[@type='button']") WebElement closePopPupMessageOnboardngWithReport;
 	 
-	 
-	 
-	 
-	 
+	 @FindBy(xpath = "//button[text()='Continue']") WebElement continueWithReport;
+	
 	
 	
 	
@@ -135,6 +138,7 @@ public class LoginUI_Page {
         this.driver = context.getDriver();
         this.helper = context.getHelper(); 
         PageFactory.initElements(driver, this);
+        this.jsExecutor = (JavascriptExecutor) driver;
     }
 	
 	
@@ -257,6 +261,10 @@ public class LoginUI_Page {
 		    return uploadBloodReportButton.isDisplayed();
 		}
 	   
+	   public boolean isUploadBloodReportButtonVisibleEnabled() {
+		   return uploadBloodReportButton.isEnabled();
+	   }
+	   
 	   public boolean isStepThroughOnboardingButtonVisible() {
 		    return stepThroughOnboardingButton.isDisplayed();
 		}
@@ -264,9 +272,18 @@ public class LoginUI_Page {
 	   public void clickStepThroughOnboardingButton() {
 		   stepThroughOnboardingButton.click();
 	   }
+	   
+	   public WebElement clickUploadBloodReportButtonIndicatorElement() {
+		    return uploadBloodReportButton; 
+		}
+
+
 	   public void clickUploadBloodReportButton() {
 		   uploadBloodReportButton.click();
-	   }
+		}
+
+	   
+	   
 	   
 	   public boolean isBloodReportModalPageVisible() {
 		    return bloodReportModalPage.isDisplayed();
@@ -292,6 +309,17 @@ public class LoginUI_Page {
 	   public void clickUploadAndProcessButton() {
 		   uploadAndProcessButton.click();
 	   }
+	   
+	   public boolean isUploadAndProcessButtonEnabled() {
+		   return uploadAndProcessButton.isEnabled();
+	   }
+	   
+	   public WebElement uploadAndProcessButtonIndicatorElement() {
+		   return uploadAndProcessButton;
+	   }
+	   
+	   
+	   
 	   public String getUploadAndProcessErrorText() {
 		    return uploadAndProcessError.getText();
 		}
@@ -346,6 +374,14 @@ public class LoginUI_Page {
 		    return contToOnboardingButton.isDisplayed();
 		}  
 	   
+	   public WebElement ContToOnboardingButtonIndicatoeElement() {
+		   return contToOnboardingButton;
+	   }
+	   
+	   public void clickContToOnboardingButton() {
+		   contToOnboardingButton.click();
+	   }
+	   
 	   public boolean isSectionVisible(String section) {
 		   switch (section.trim().toLowerCase()) {
 		   case "blood test results":
@@ -374,6 +410,9 @@ public class LoginUI_Page {
 	   public boolean isProgressBarOnboardVisible() {
 		    return progressBarOnboard.isDisplayed();
 		} 
+	   
+	   
+	   
 	   
 	   public boolean isStepNumVisible() {
 		    return stepNum.isDisplayed();
@@ -427,22 +466,31 @@ public class LoginUI_Page {
 		    return allergyOptionsOnboardFormWithoutReport;
 		}
 	   
-	   public void enterAllFieldsOnboardWithRecordForm(String age,String height,String weight){
-		   ageOnboardForm.sendKeys(age);
+	   public void enterFieldsOnboardWithRecordForm(String height,String weight){
+		 
 		   heightOnboardForm.sendKeys(height);
 		   weightOnboardForm.sendKeys(weight);
 		   
 	   }
 	   public void enterHeightandWeightFieldsOnboardWithRecordForm(String height, String weight) {
-		    helper.waitForVisibleElement(heightOnboardForm);
-		    helper.waitForVisibleElement(weightOnboardForm);
 
-		    heightOnboardForm.clear();
-		    heightOnboardForm.sendKeys(height);
+		    // Wait and enter height
+		   // helper.waitForVisibleElement(heightOnboardForm);
+		    heightOnboardForm.click();
+		    heightOnboardForm.sendKeys(Keys.BACK_SPACE);
+		    heightOnboardForm.sendKeys("height");
 
-		    weightOnboardForm.clear();
-		    weightOnboardForm.sendKeys(weight);
+		    // Wait and enter weight
+		    //helper.waitForVisibleElement(weightOnboardForm);
+		    weightOnboardForm.click();
+		    weightOnboardForm.sendKeys(Keys.BACK_SPACE);
+		    weightOnboardForm.sendKeys("weight");
 		}
+
+	   
+	   public WebElement heightOnboardFormIndicatorElement() {
+		   return heightOnboardForm;
+	   }
 
 	   
 	   public void clickGenderDropBox() {
@@ -520,7 +568,19 @@ public class LoginUI_Page {
 	   public boolean isSubscriptionPageTitleDisplayed() {
 		    return subscriptionPageTitle.isDisplayed();
 		} 
-	
+	   public void clickClosePopPupMessageOnboardngWithReport() {
+			 closePopPupMessageOnboardngWithReport.click();
+		 }
+		 public WebElement clickClosePopPupMessageOnboardngWithReportIndicatorElement() {
+			 return closePopPupMessageOnboardngWithReport;
+		 }
+		 
+
+		 public void clickContinueWithReport() {
+			 continueWithReport.click();
+		 }
+		
+
 	//----------------------------------------------------------------------------------------------------------------------------------------------------
 	   
 	   
@@ -544,6 +604,10 @@ public class LoginUI_Page {
 	   public boolean isProgressBarWithoutReportHighlighted() {
 		    return progressBarWithoutReport.isEnabled();
 		}
+	   public boolean isProgressBarWithReportHighlighted() {
+		    return progressBarWithReport.isEnabled();
+		}
+	   
 	   public void clickMaleOptionWithoutReport() {
 		   maleOptionWithoutReport.click();   
 	   }
@@ -645,10 +709,23 @@ public class LoginUI_Page {
 			    return driver.findElement(By.id(id));
 			}
 
+		
+
 		 public WebElement getOptionByText(String labelText) {
-			    String xpath = "//span[normalize-space(text())='" + labelText + "']";
-			    return driver.findElement(By.xpath(xpath));
-			}
+		     String xpath = "//span[contains(normalize-space(),\"" + labelText + "\")]";
+		     WebElement element = driver.findElement(By.xpath(xpath));
+		     return helper.waitForVisibleElement(element);
+		 }
+		 
+		 public WebElement getOptionById(String elementId) {
+				    WebElement element = driver.findElement(By.id(elementId));
+				    return helper.waitForVisibleElement(element);
+				}
+
+			
+
+
+
 
 		 public String getHbA1cInputTextBoxWithoutReportText() {
 			   return HbA1cInputTextBoxWithoutReport.getDomAttribute("placeholder");
@@ -675,10 +752,10 @@ public class LoginUI_Page {
 			}
 		 
 		 public WebElement getHbA1cInputFieldIndicatorElement() {
-			    return HbA1cInputTextBoxWithoutReport; // Your @FindBy element
+			    return HbA1cInputTextBoxWithoutReport; 
 			}
 		 public void clickTextBelowHbA1cInputTextBoxWithoutReport() {
-			 textBelowHbA1cInputTextBoxWithoutReport.click(); // Your @FindBy element
+			 textBelowHbA1cInputTextBoxWithoutReport.click(); 
 			}
 		 public String getMessageLastStepWithoutReport() {
 			   return messageLastStepWithoutReport.getText();
@@ -704,25 +781,40 @@ public class LoginUI_Page {
 			    WebElement element = wait.until(ExpectedConditions.visibilityOf(subTitlePersonalizedScreenWithoutReport));
 			    return element.getText();
 			}
+		 public boolean isUpgradeToPremiumButtonVisible() {
+			    return upgradeToPremiumButton.isDisplayed();
+			} 
+		 
+		 public WebElement getPpgradeToPremiumButtonIndicatorElement() {
+			 return upgradeToPremiumButton ;
+			}
+		 
+		 public void clickFeeAndInchesTabWithoutReport() {
+			 feeAndInchesTabWithoutReport.click();
+		 }
+		 
+		 
+		 public void clickContinueToOnboardingButton() {
+			    By buttonLocator = By.xpath("//button[text()='Continue to Onboarding']");
+			    WebElement continueButton = new WebDriverWait(driver, Duration.ofSeconds(15))
+			            .until(ExpectedConditions.presenceOfElementLocated(buttonLocator));
+			    
+			    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'center'});", continueButton);
+			    new WebDriverWait(driver, Duration.ofSeconds(10))
+			            .until(ExpectedConditions.elementToBeClickable(continueButton)).click();
+			}
 
+		 public void scrollToContinueOnboargingButton() {
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", continueOnboargingButton);
+			}
+		 
+		 public void pressEscapeKey() {
+			 Actions actions = new Actions(driver);
+			    actions.sendKeys(Keys.ESCAPE).perform();
+			}
+		 
+		
 
-		 
-		 
-		 
-		 
-//		 public String getTabTextByScenario(String scenario) {
-//			    switch (scenario) {
-//			        case "first tab height":
-//			            return getCmFeetKgPoundsTabWithoutReportText();
-//			        case "second tab height":
-//			        	clickFeeAndInchesTabWithoutReportt();
-//			            return getCmFeetKgPoundsTabWithoutReportText();
-//			        default:
-//			            throw new IllegalArgumentException("Unknown tab scenario: " + scenario);
-//			    }
-//			}
-
-	   
 	   
 	   
 	   

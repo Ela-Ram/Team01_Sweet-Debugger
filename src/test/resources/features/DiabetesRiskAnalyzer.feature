@@ -1,8 +1,8 @@
 #Author: npatni25@gmail.com
-@Neha
+@sweet
 Feature: Verification on Diabetes Risk Analyzer
 
-  @Neha
+  @sweet
   Scenario Outline: Verify <scenario>
     Given User is on SweetBalance homepage
     When User clicks Check Your Risk button
@@ -25,7 +25,7 @@ Feature: Verification on Diabetes Risk Analyzer
       | Verify the presence of initial value for Physical Activity Level      | Physical Activity - Level User should see "Select activity level" as the default option |
       | Verify the presence of initial value dropdown for Blood Pressure      | Blood Pressure - User should see "Select blood pressure status" as the default option   |
       | Verify the presence of initial value dropdown for Diet Quality        | Diet Quality - User should see "Select diet quality" as the default option              |
-@Neha
+@sweet
   Scenario Outline: Verify the values for Physical Activity Level
     Given User is on SweetBalance homepage
     When User clicks Check Your Risk button
@@ -34,7 +34,7 @@ Feature: Verification on Diabetes Risk Analyzer
       | Active (Exercise 3+ times a week)    |
       | Moderate (Exercise 1-2 times a week) |
       | Sedentary (Rarely exercise)          |
-@Neha
+@sweet
   Scenario Outline: Verify the values for Blood Pressure
     Given User is on SweetBalance homepage
     When User clicks Check Your Risk button
@@ -43,7 +43,7 @@ Feature: Verification on Diabetes Risk Analyzer
       | Normal                       |
       | Elevated                     |
       | High                         |
-@Neha
+@sweet
   Scenario Outline: Verify the values for Diet Quality
     Given User is on SweetBalance homepage
     When User clicks Check Your Risk button

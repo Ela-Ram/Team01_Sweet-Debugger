@@ -168,25 +168,25 @@ public class Login_Step {
 	    
 	}
 
-	@Then("User should see {string} login")
-	public void user_should_see_as_and(String expected) {
+	
+	@Then("User should see {string} in login")
+	public void user_should_see_in_login(String expected) {
 		switch (expected.toLowerCase().trim()) {
-        case "Fullname error message":
-        	Assert.assertTrue(loginUI_page.isFullNameErrorVisible(),"FullName Error is not visible");
-    	    break;
-        case "Username error message":
-        	Assert.assertTrue(loginUI_page.isUserNameErrorVisible(),"UserName Error is not visible");
-    	    break;
-       case "upload blood report":
-        	Assert.assertTrue(loginUI_page.isUploadBloodReportButtonVisible(),"Blood Report Button is not visible");
-    	    break;
-        case "Step Through Onboarding button ":
-       	 Assert.assertTrue(loginUI_page.isStepThroughOnboardingButtonVisible(),"Step Through Onboarding Button is not visible");
-             break;
-             
-             
-	    
+      case "Fullname error message":
+      	Assert.assertTrue(loginUI_page.isFullNameErrorVisible(),"FullName Error is not visible");
+  	    break;
+      case "Username error message":
+      	Assert.assertTrue(loginUI_page.isUserNameErrorVisible(),"UserName Error is not visible");
+  	    break;
+     case "upload blood report":
+      	Assert.assertTrue(loginUI_page.isUploadBloodReportButtonVisible(),"Blood Report Button is not visible");
+  	    break;
+      case "Step Through Onboarding button ":
+     	 Assert.assertTrue(loginUI_page.isStepThroughOnboardingButtonVisible(),"Step Through Onboarding Button is not visible");
+           break;
 	}
 	}
+
+	
 
 }

@@ -9,7 +9,7 @@
           <include name="setUpClass"/>
           <include name="defineBrowser"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="17"/>
+          <include name="runScenario" invocation-numbers="0"/>
         </methods>
       </class> <!-- testRunner.TestRunner -->
     </classes>
@@ -21,10 +21,23 @@
         <methods>
           <include name="setUpClass"/>
           <include name="defineBrowser"/>
-          <include name="runScenario" invocation-numbers="3"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- testRunner.TestRunner -->
     </classes>
   </test> <!-- TestEdge(failed) -->
+  <test thread-count="5" name="TestChrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testRunner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="defineBrowser"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testRunner.TestRunner -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

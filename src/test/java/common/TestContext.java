@@ -11,25 +11,25 @@ import pageObject.LoginUI_Page;
 import pageObject.PremiumUserExercise_Page;
 import pageObject.PremiumUserHome_Page;
 import pageObject.PremiumUserLogbook_Page;
-import stepDefinitions.PremiumUserGlucoseMealLog_Step;
 import pageObject.PhysicalActivity_Page;
 import pageObject.SubscriptionPage_page;
 import pageObject.TrackGlucose_Page;
 import pageObject.UpgradePage_page;
 import pageObject.UpgradeToPremiumSubscription_Page;
 
-
 public class TestContext {
-    public WebDriver driver;
-    private DriverConfig factory;
-    private Helper helper;
-    private ExcelReader excelReader;
-    private String baseUrl;
-    private LoginUI_Page loginUI_page;
-    private PremiumUserExercise_Page premiunUserEx_page;
+	public WebDriver driver;
+	private DriverConfig factory;
+	private Helper helper;
+	private ExcelReader excelReader;
+	private String baseUrl;
+	private LoginUI_Page loginUI_page;
+
+	private PremiumUserExercise_Page premiunUserEx_page;
 	private LaunchPage_Page launch_pageObj;
 	private DiabetesRiskAnalyzer_Page diaRiskAnalyzerPageObj;
 	private CommomHomePageFeature_Page commonHomeFeaturesPageObj;
+
 	private String uniqueEmail;
 	private String uniqueUsername;
 	private String uniquePassword;
@@ -37,51 +37,56 @@ public class TestContext {
 	private HomeFreeUser_page freeUser_page;
 	private FreeDashboard_Page freeDashboard_page;
 	private PremiumUserHome_Page premiumUserHome_page;
+
 	private PremiumUserExercise_Page premiumUserEx_page;
 	private PremiumUserLogbook_Page premiumUserLogbook_Page;
-    private SubscriptionPage_page Subscriptionpage;    
+	
+	private SubscriptionPage_page Subscriptionpage;    
     private UpgradePage_page  UpgradePage;
     private UpgradeToPremiumSubscription_Page premiumSubscription;
     private TrackGlucose_Page trackGlucose;
     private PhysicalActivity_Page physicalActivity;
+	
+	
+	// private Launch_PageObj launch_pageObj;
 
-    public TestContext() {
-        factory = new DriverConfig();
-        excelReader = new ExcelReader(); 
-        baseUrl = ConfigReader.getProperty("URL");
-    }
+	public TestContext() {
+		factory = new DriverConfig();
+		excelReader = new ExcelReader();
+		baseUrl = ConfigReader.getProperty("URL");
+	}
 
-    public WebDriver getDriver() {
-        if (driver == null) {
-            String browser = ConfigReader.getProperty("Browser");
-            driver = factory.initializeDriver(browser);
-        }
-        return driver;
-    }
+	public WebDriver getDriver() {
+		if (driver == null) {
+			String browser = ConfigReader.getProperty("Browser");
+			driver = factory.initializeDriver(browser);
+		}
+		return driver;
+	}
 
-    public Helper getHelper() {
-        if (helper == null) {
-            helper = new Helper(getDriver());
-        }
-        return helper;
-    }
+	public Helper getHelper() {
+		if (helper == null) {
+			helper = new Helper(getDriver());
+		}
+		return helper;
+	}
 
-    public ExcelReader getExcelReader() {
-        return excelReader;
-    }
+	public ExcelReader getExcelReader() {
+		return excelReader;
+	}
 
-    public String getBaseUrl() {
-        return baseUrl;
-    }
-    
-    public LoginUI_Page getLoginUI_Page() {
-        if (loginUI_page == null) {
-        	loginUI_page = new LoginUI_Page(this);
-        }
-        return loginUI_page;
-    }
-    
-    public PremiumUserExercise_Page getPremiumUserEx_page() {
+	public String getBaseUrl() {
+		return baseUrl;
+	}
+
+	public LoginUI_Page getLoginUI_Page() {
+		if (loginUI_page == null) {
+			loginUI_page = new LoginUI_Page(this);
+		}
+		return loginUI_page;
+	}
+
+	public PremiumUserExercise_Page getPremiumUserEx_page() {
 		if (premiumUserEx_page == null) {
 			premiumUserEx_page = new PremiumUserExercise_Page(this);
 		}
@@ -172,8 +177,7 @@ public class TestContext {
 		return premiumUserLogbook_Page;
 	}
 
-	
-    public SubscriptionPage_page getSubscriptionpage() {
+	public SubscriptionPage_page getSubscriptionpage() {
     	if (Subscriptionpage== null) {
     		Subscriptionpage = new SubscriptionPage_page(this);
     	}
@@ -219,21 +223,19 @@ public class TestContext {
     	
     	return physicalActivity;
     }
-    
-    
-    public void resetPages() {
+	
+	public void resetPages() {
 		loginUI_page = null;
 		freeUser_page = null;
 		freeDashboard_page = null;
 		premiumUserHome_page = null;
 		premiumUserEx_page = null;
 		premiumUserLogbook_Page = null;
-		Subscriptionpage =null;
-		UpgradePage = null;
-	    premiumSubscription =null;
-	    trackGlucose = null;
-	    physicalActivity = null;
-
-		
+		Subscriptionpage = null;
+		UpgradePage =null;
+		premiumSubscription=null;
+		trackGlucose = null;
+		physicalActivity=null;
 	}
+
 }

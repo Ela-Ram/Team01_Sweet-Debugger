@@ -19,7 +19,7 @@ public class Screenshot {
             TakesScreenshot screenshotDriver = (TakesScreenshot) driver;
             File screenshot = screenshotDriver.getScreenshotAs(OutputType.FILE);
             String screenshotName = scenario.getName().replaceAll("[\\\\/:*?\"<>|]", "_") + ".png";
-            File destinationFile = new File("screenshots/" + screenshotName);
+            File destinationFile = new File("./target/screenshots/" + screenshotName);
             try {
                 FileUtils.copyFile(screenshot, destinationFile);
                 LoggerLoad.info("Screenshot saved to: " + destinationFile.getAbsolutePath());

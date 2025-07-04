@@ -38,7 +38,7 @@ public class Hooks {
             LoggerLoad.info("Screenshot captured for failed scenario: " + scenario.getName());
         }
         context.resetPages();
-        context.getDriver().quit();
+       context.getDriver().quit();
         LoggerLoad.info("Browser is closed");
     }
     

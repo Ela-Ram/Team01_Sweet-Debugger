@@ -15,6 +15,7 @@ import io.cucumber.java.Scenario;
 
 public class Helper {
 	private WebDriver driver;
+
     private WebDriverWait wait;
     private JavascriptExecutor jsExecutor;
     
@@ -25,9 +26,9 @@ public class Helper {
         this.jsExecutor = (JavascriptExecutor) driver;
     }
 	
-    
-    
     public void waitForTitle(String expectedTitle) {
+
+	
 		wait.until(ExpectedConditions.titleIs(expectedTitle));
 	}
 
@@ -85,6 +86,7 @@ public class Helper {
 
 	public WebElement waitForClickableWebElement(WebElement element) {
 		return wait.until(ExpectedConditions.elementToBeClickable(element));
+
 	}    //wait for visibilityOf
     
     public WebElement waitForVisibleOf(WebElement element) {
@@ -100,4 +102,5 @@ public class Helper {
     public void jsClick(WebElement element) {
         jsExecutor.executeScript("arguments[0].click();", element);
     }
+
 }

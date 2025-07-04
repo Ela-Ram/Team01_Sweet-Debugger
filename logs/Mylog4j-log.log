@@ -2396,3 +2396,416 @@
 [INFO ] 2025-07-03 20:34:04.016 [TestNG-PoolService-1] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify _snack Three Clock_ the presence of Carbs,Protein and Fat in Meals Section.png
 [INFO ] 2025-07-03 20:34:04.221 [TestNG-PoolService-1] LoggerLoad - Screenshot captured for failed scenario: Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section
 [INFO ] 2025-07-03 20:34:04.451 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:00:30.842 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 08:00:41.053 [TestNG-PoolService-3] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:00:41.066 [TestNG-PoolService-4] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:00:41.073 [TestNG-PoolService-2] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:00:41.093 [TestNG-PoolService-5] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:00:41.177 [TestNG-PoolService-6] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:00:41.177 [TestNG-PoolService-10] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:00:41.177 [TestNG-PoolService-8] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:00:41.192 [TestNG-PoolService-7] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:00:41.192 [TestNG-PoolService-9] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:00:41.196 [TestNG-PoolService-1] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:00:55.755 [TestNG-PoolService-1] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:00:56.304 [TestNG-PoolService-6] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:00:57.252 [TestNG-PoolService-4] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:00:57.351 [TestNG-PoolService-2] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:00:58.594 [TestNG-PoolService-5] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:00:59.102 [TestNG-PoolService-3] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:01:01.549 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:01.551 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:01.800 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:02.803 [TestNG-PoolService-6] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:03.227 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:03.367 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:04.443 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:04.479 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:04.683 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:05.452 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:18.198 [TestNG-PoolService-9] LoggerLoad - 5 min
+[INFO ] 2025-07-04 08:01:18.199 [TestNG-PoolService-9] LoggerLoad - 10 min
+[INFO ] 2025-07-04 08:01:18.199 [TestNG-PoolService-9] LoggerLoad - 15 min
+[INFO ] 2025-07-04 08:01:18.467 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:18.601 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:18.906 [TestNG-PoolService-1] LoggerLoad - Simple stretches to release tension:
+[INFO ] 2025-07-04 08:01:19.514 [TestNG-PoolService-7] LoggerLoad - None
+[INFO ] 2025-07-04 08:01:19.514 [TestNG-PoolService-7] LoggerLoad - Dairy
+[INFO ] 2025-07-04 08:01:19.514 [TestNG-PoolService-7] LoggerLoad - Gluten
+[INFO ] 2025-07-04 08:01:19.514 [TestNG-PoolService-7] LoggerLoad - Nuts
+[INFO ] 2025-07-04 08:01:19.514 [TestNG-PoolService-7] LoggerLoad - Shellfish
+[INFO ] 2025-07-04 08:01:19.516 [TestNG-PoolService-7] LoggerLoad - Soy
+[INFO ] 2025-07-04 08:01:19.516 [TestNG-PoolService-7] LoggerLoad - Eggs
+[INFO ] 2025-07-04 08:01:19.516 [TestNG-PoolService-7] LoggerLoad - Other
+[INFO ] 2025-07-04 08:01:19.547 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:19.855 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:19.881 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:19.927 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:21.198 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:21.371 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:30.088 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:33.289 [TestNG-PoolService-4] LoggerLoad - Focus on your senses:
+[INFO ] 2025-07-04 08:01:33.774 [TestNG-PoolService-9] LoggerLoad - Reduces Stress Hormones - Lowers cortisol that can increase blood glucose
+[INFO ] 2025-07-04 08:01:33.774 [TestNG-PoolService-9] LoggerLoad - Improves Sleep - Better sleep leads to better glucose control
+[INFO ] 2025-07-04 08:01:33.774 [TestNG-PoolService-9] LoggerLoad - Reduces Diabetes Distress - Helps manage overwhelm from diabetes care
+[INFO ] 2025-07-04 08:01:33.896 [TestNG-PoolService-4] LoggerLoad - • Notice 5 things you can see
+[INFO ] 2025-07-04 08:01:33.898 [TestNG-PoolService-4] LoggerLoad - • Identify 4 things you can touch
+[INFO ] 2025-07-04 08:01:33.898 [TestNG-PoolService-4] LoggerLoad - • Listen for 3 different sounds
+[INFO ] 2025-07-04 08:01:33.898 [TestNG-PoolService-4] LoggerLoad - • Find 2 things you can smell
+[INFO ] 2025-07-04 08:01:33.898 [TestNG-PoolService-4] LoggerLoad - • Observe 1 thing you can taste
+[INFO ] 2025-07-04 08:01:36.295 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:36.314 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:36.317 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:36.397 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:36.477 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:36.584 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:36.887 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:37.707 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:44.895 [TestNG-PoolService-5] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:01:45.018 [TestNG-PoolService-7] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:01:45.184 [TestNG-PoolService-4] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:01:46.608 [TestNG-PoolService-3] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:01:46.649 [TestNG-PoolService-2] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:01:46.665 [TestNG-PoolService-1] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:01:46.720 [TestNG-PoolService-9] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:01:47.734 [TestNG-PoolService-10] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:01:50.583 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:50.698 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:50.753 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:50.955 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:50.967 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:51.167 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:51.251 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:51.739 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:01:58.750 [TestNG-PoolService-4] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:01:58.849 [TestNG-PoolService-2] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:01:59.914 [TestNG-PoolService-5] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:01:59.985 [TestNG-PoolService-1] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:00.066 [TestNG-PoolService-3] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:00.068 [TestNG-PoolService-7] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:00.355 [TestNG-PoolService-10] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:00.356 [TestNG-PoolService-9] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:01.728 [TestNG-PoolService-5] LoggerLoad - 7:00 AM
+[INFO ] 2025-07-04 08:02:03.923 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:03.936 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:04.093 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:04.243 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:04.391 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:04.444 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:04.717 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:04.868 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:05.064 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:11.457 [TestNG-PoolService-7] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:12.205 [TestNG-PoolService-5] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:12.322 [TestNG-PoolService-10] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:12.456 [TestNG-PoolService-8] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:12.918 [TestNG-PoolService-2] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:13.749 [TestNG-PoolService-4] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:13.786 [TestNG-PoolService-1] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:13.902 [TestNG-PoolService-3] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:14.808 [TestNG-PoolService-9] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:15.409 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:15.528 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:15.545 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:15.646 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:15.651 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:15.752 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:15.864 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:16.088 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:16.359 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:23.570 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:23.597 [TestNG-PoolService-7] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:23.758 [TestNG-PoolService-5] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:02:23.769 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:24.152 [TestNG-PoolService-2] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify valid PDF file upload.png
+[INFO ] 2025-07-04 08:02:24.593 [TestNG-PoolService-2] LoggerLoad - Screenshot captured for failed scenario: Verify valid PDF file upload
+[INFO ] 2025-07-04 08:02:24.888 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:26.836 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:26.845 [TestNG-PoolService-2] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:02:27.913 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:27.918 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:28.001 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:30.469 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:34.029 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:34.676 [TestNG-PoolService-2] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify valid PDF file upload.png
+[INFO ] 2025-07-04 08:02:35.123 [TestNG-PoolService-2] LoggerLoad - Screenshot captured for failed scenario: Verify valid PDF file upload
+[INFO ] 2025-07-04 08:02:35.770 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:35.910 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:35.915 [TestNG-PoolService-2] LoggerLoad - Retry for failed scenario 2
+[INFO ] 2025-07-04 08:02:37.166 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:41.242 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:42.716 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:42.826 [TestNG-PoolService-2] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify valid PDF file upload.png
+[INFO ] 2025-07-04 08:02:43.169 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:43.333 [TestNG-PoolService-2] LoggerLoad - Screenshot captured for failed scenario: Verify valid PDF file upload
+[INFO ] 2025-07-04 08:02:43.464 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:44.030 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:44.367 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:46.707 [TestNG-PoolService-9] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:48.822 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:50.951 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:58.057 [TestNG-PoolService-7] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:58.062 [TestNG-PoolService-3] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:58.222 [TestNG-PoolService-5] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:58.636 [TestNG-PoolService-2] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:58.687 [TestNG-PoolService-10] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:02:59.250 [TestNG-PoolService-4] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify Progress bar reflects Step 3 of 12 for step onboarding without blood report.png
+[INFO ] 2025-07-04 08:03:00.001 [TestNG-PoolService-4] LoggerLoad - Screenshot captured for failed scenario: Verify Progress bar reflects Step 3 of 12 for step onboarding without blood report
+[INFO ] 2025-07-04 08:03:01.591 [TestNG-PoolService-4] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:03:01.621 [TestNG-PoolService-4] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:03:09.791 [TestNG-PoolService-8] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:03:59.702 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 08:04:09.856 [main] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:04:13.793 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:04:15.090 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:05:46.529 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 08:05:46.582 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 08:05:56.613 [main] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:06:02.495 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-04 08:06:04.209 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:11:05.704 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 08:11:05.736 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 08:11:15.494 [main] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:11:19.605 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 08:11:21.796 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:27:48.274 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 08:27:48.363 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 08:28:00.149 [main] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:28:07.380 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 08:28:12.284 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:30:40.664 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 08:30:40.750 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 08:30:52.256 [main] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 08:30:58.798 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 08:31:01.799 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:32:30.043 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 08:32:30.113 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 08:32:48.134 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 08:32:51.038 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 08:39:36.311 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 08:39:36.372 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 08:40:03.486 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 09:03:36.243 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 09:03:36.362 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 09:03:55.878 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 09:04:01.220 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 09:04:21.839 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 09:04:24.653 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 09:04:27.652 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 09:04:29.073 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 09:04:31.887 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 09:04:33.306 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 09:07:06.262 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 09:07:06.294 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 09:07:19.512 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 09:07:20.970 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify _Gender Image_ in the Premium UserExercise section.png
+[INFO ] 2025-07-04 09:07:21.229 [main] LoggerLoad - Screenshot captured for failed scenario: Verify "Gender Image" in the Premium UserExercise section
+[INFO ] 2025-07-04 09:07:21.409 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 09:07:21.422 [main] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 09:07:24.050 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 09:07:25.528 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify _Gender Image_ in the Premium UserExercise section.png
+[INFO ] 2025-07-04 09:07:25.870 [main] LoggerLoad - Screenshot captured for failed scenario: Verify "Gender Image" in the Premium UserExercise section
+[INFO ] 2025-07-04 09:07:26.066 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 09:07:26.073 [main] LoggerLoad - Retry for failed scenario 2
+[INFO ] 2025-07-04 09:07:28.854 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 09:07:30.343 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify _Gender Image_ in the Premium UserExercise section.png
+[INFO ] 2025-07-04 09:07:30.736 [main] LoggerLoad - Screenshot captured for failed scenario: Verify "Gender Image" in the Premium UserExercise section
+[INFO ] 2025-07-04 09:07:30.975 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 09:22:29.506 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 09:22:29.537 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 09:22:43.503 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 09:22:45.132 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 09:37:25.299 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 09:37:25.328 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 09:37:38.589 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 09:37:40.333 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 09:49:55.647 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 09:49:55.677 [main] LoggerLoad - chrome is Running
+[WARN ] 2025-07-04 09:50:05.133 [main] Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[INFO ] 2025-07-04 09:50:28.553 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 09:50:28.578 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 09:50:41.986 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 09:50:43.986 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify _Pre Meal Icon First Place In All Meal Section_ in the Premium UserExercise PreMeal section.png
+[INFO ] 2025-07-04 09:50:44.264 [main] LoggerLoad - Screenshot captured for failed scenario: Verify "Pre Meal Icon First Place In All Meal Section" in the Premium UserExercise PreMeal section
+[INFO ] 2025-07-04 09:50:46.005 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 09:50:46.021 [main] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 09:50:48.706 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 09:50:50.303 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify _Pre Meal Icon First Place In All Meal Section_ in the Premium UserExercise PreMeal section.png
+[INFO ] 2025-07-04 09:50:50.552 [main] LoggerLoad - Screenshot captured for failed scenario: Verify "Pre Meal Icon First Place In All Meal Section" in the Premium UserExercise PreMeal section
+[INFO ] 2025-07-04 09:50:50.730 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 09:50:50.735 [main] LoggerLoad - Retry for failed scenario 2
+[INFO ] 2025-07-04 09:50:53.362 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 09:50:54.961 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify _Pre Meal Icon First Place In All Meal Section_ in the Premium UserExercise PreMeal section.png
+[INFO ] 2025-07-04 09:50:55.166 [main] LoggerLoad - Screenshot captured for failed scenario: Verify "Pre Meal Icon First Place In All Meal Section" in the Premium UserExercise PreMeal section
+[INFO ] 2025-07-04 09:50:55.420 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:09:30.918 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 10:09:30.949 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 10:09:44.557 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:09:46.468 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify _Pre Meal Icon First Place In All Meal Section_ in the Premium UserExercise PreMeal section.png
+[INFO ] 2025-07-04 10:09:46.697 [main] LoggerLoad - Screenshot captured for failed scenario: Verify "Pre Meal Icon First Place In All Meal Section" in the Premium UserExercise PreMeal section
+[INFO ] 2025-07-04 10:09:46.918 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:09:46.931 [main] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 10:09:49.996 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:09:51.845 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify _Pre Meal Icon First Place In All Meal Section_ in the Premium UserExercise PreMeal section.png
+[INFO ] 2025-07-04 10:09:52.071 [main] LoggerLoad - Screenshot captured for failed scenario: Verify "Pre Meal Icon First Place In All Meal Section" in the Premium UserExercise PreMeal section
+[INFO ] 2025-07-04 10:09:52.296 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:09:52.305 [main] LoggerLoad - Retry for failed scenario 2
+[INFO ] 2025-07-04 10:09:55.141 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:09:56.746 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify _Pre Meal Icon First Place In All Meal Section_ in the Premium UserExercise PreMeal section.png
+[INFO ] 2025-07-04 10:09:56.979 [main] LoggerLoad - Screenshot captured for failed scenario: Verify "Pre Meal Icon First Place In All Meal Section" in the Premium UserExercise PreMeal section
+[INFO ] 2025-07-04 10:09:57.162 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:11:11.529 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 10:11:11.570 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 10:11:25.056 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:11:27.103 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:12:12.813 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 10:12:12.837 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 10:12:25.681 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:12:27.618 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:17:22.535 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 10:17:22.580 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 10:17:36.137 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:17:37.628 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:17:40.337 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:17:41.703 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:17:44.503 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:17:45.888 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:17:48.515 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:17:49.957 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:21:20.940 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 10:21:20.965 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 10:21:33.875 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:21:35.309 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:21:37.789 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:21:39.196 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:21:41.935 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:21:43.364 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:21:46.177 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:21:47.598 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:21:50.265 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:21:51.641 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:21:54.179 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:21:55.565 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:21:58.195 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:21:59.554 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:22:02.355 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:22:03.868 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:22:06.540 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:22:08.019 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:22:10.611 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:22:12.045 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:22:14.839 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:22:16.310 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:22:18.911 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:22:20.283 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:22:22.875 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:22:24.227 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:22:26.769 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:22:28.444 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:22:31.046 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:22:32.428 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:22:35.026 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:22:36.492 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:22:39.077 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:22:40.402 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:22:43.016 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:22:44.401 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:22:46.941 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:22:48.313 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:22:50.940 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:22:52.767 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:22:55.494 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:22:57.398 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:22:59.992 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:23:02.059 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:23:04.923 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:23:06.589 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:23:09.283 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:23:11.017 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 10:45:57.316 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 10:45:57.344 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 10:46:11.626 [main] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-04 10:46:12.959 [main] LoggerLoad - ðŸŽ¯ Challenge Yourself Today!
+[INFO ] 2025-07-04 10:46:13.165 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 11:27:57.318 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 11:37:34.646 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 11:37:34.676 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 11:37:53.831 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify account details cannot be updated with invalid data.png
+[INFO ] 2025-07-04 11:37:54.070 [main] LoggerLoad - Screenshot captured for failed scenario: Verify account details cannot be updated with invalid data
+[INFO ] 2025-07-04 11:37:54.434 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 11:37:54.475 [main] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 11:38:02.911 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify account details cannot be updated with invalid data.png
+[INFO ] 2025-07-04 11:38:03.090 [main] LoggerLoad - Screenshot captured for failed scenario: Verify account details cannot be updated with invalid data
+[INFO ] 2025-07-04 11:38:03.377 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 11:38:03.377 [main] LoggerLoad - Retry for failed scenario 2
+[INFO ] 2025-07-04 11:38:11.516 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify account details cannot be updated with invalid data.png
+[INFO ] 2025-07-04 11:38:11.713 [main] LoggerLoad - Screenshot captured for failed scenario: Verify account details cannot be updated with invalid data
+[INFO ] 2025-07-04 11:38:11.921 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 11:38:43.311 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 11:38:43.339 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 11:39:01.411 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify account details cannot be updated with invalid data.png
+[INFO ] 2025-07-04 11:39:01.611 [main] LoggerLoad - Screenshot captured for failed scenario: Verify account details cannot be updated with invalid data
+[INFO ] 2025-07-04 11:39:01.837 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 11:39:01.875 [main] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 11:39:09.895 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify account details cannot be updated with invalid data.png
+[INFO ] 2025-07-04 11:39:10.095 [main] LoggerLoad - Screenshot captured for failed scenario: Verify account details cannot be updated with invalid data
+[INFO ] 2025-07-04 11:39:10.310 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 11:39:10.310 [main] LoggerLoad - Retry for failed scenario 2
+[INFO ] 2025-07-04 11:39:18.326 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify account details cannot be updated with invalid data.png
+[INFO ] 2025-07-04 11:39:18.520 [main] LoggerLoad - Screenshot captured for failed scenario: Verify account details cannot be updated with invalid data
+[INFO ] 2025-07-04 11:39:18.746 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 11:51:29.762 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-04 11:51:29.789 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-04 11:51:49.359 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify account details cannot be updated with invalid data.png
+[INFO ] 2025-07-04 11:51:49.599 [main] LoggerLoad - Screenshot captured for failed scenario: Verify account details cannot be updated with invalid data
+[INFO ] 2025-07-04 11:51:50.019 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 11:51:50.084 [main] LoggerLoad - Retry for failed scenario 1
+[INFO ] 2025-07-04 11:51:58.880 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify account details cannot be updated with invalid data.png
+[INFO ] 2025-07-04 11:51:59.067 [main] LoggerLoad - Screenshot captured for failed scenario: Verify account details cannot be updated with invalid data
+[INFO ] 2025-07-04 11:51:59.337 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-04 11:51:59.339 [main] LoggerLoad - Retry for failed scenario 2
+[INFO ] 2025-07-04 11:52:07.589 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify account details cannot be updated with invalid data.png
+[INFO ] 2025-07-04 11:52:07.789 [main] LoggerLoad - Screenshot captured for failed scenario: Verify account details cannot be updated with invalid data
+[INFO ] 2025-07-04 11:52:08.123 [main] LoggerLoad - Browser is closed

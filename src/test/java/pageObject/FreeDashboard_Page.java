@@ -532,29 +532,63 @@ public class FreeDashboard_Page {
 		element.sendKeys(value);
 	}
 
-	public void enterAgeField() {
-		enterValue(ageField, "151");
+//	public void enterAgeField(age) {
+//		//enterValue(ageField, "151");
+//		ageField.clear();
+//		ageField.sendKeys(value);
+//	}
+//
+//	public void enterHeightField() {
+//		enterValue(heightField, "283");
+//	}
+//
+//	public void enterweightField() {
+//		enterValue(weightField, "10");
+//	}
+//
+//	public void saveChangesClick() {
+//		helper.waitForClickableWebElement(saveChanges).click();
+//	}
+//
+//	public void enterInvalid(String age, String height, String weight) throws InterruptedException {
+//		enterAgeField(age);
+//		enterHeightField(height);
+//		enterweightField(weight);
+//		Thread.sleep(3000);
+//		saveChangesClick();
+//	}
+//
+	
+	public void enterAgeField(String age) {
+//	    ageField.clear();
+//	    ageField.sendKeys(age); // Use parameter instead of undefined 'value'
+	    enterValue(ageField,age);
 	}
 
-	public void enterHeightField() {
-		enterValue(heightField, "283");
+	public void enterHeightField(String height) {
+	    enterValue(heightField, height);
 	}
 
-	public void enterweightField() {
-		enterValue(weightField, "10");
+	public void enterWeightField(String weight) {
+	    enterValue(weightField, weight);
 	}
 
 	public void saveChangesClick() {
-		helper.waitForClickableWebElement(saveChanges).click();
+	    helper.waitForClickableWebElement(saveChanges).click();
 	}
 
-	public void enterInvalid() throws InterruptedException {
-		enterAgeField();
-		enterHeightField();
-		enterweightField();
-		Thread.sleep(3000);
-		saveChangesClick();
+	public void enterInvalid(String age, String height, String weight) throws InterruptedException {
+	    enterAgeField(age);
+	    enterHeightField(height);
+	    enterWeightField(weight);
+	    Thread.sleep(3000); // Consider using wait instead of Thread.sleep
+	    saveChangesClick();
 	}
-
+	public boolean getTextAgeField() {
+	 if(!ageField.getText().equals("151")){
+			return false;
+		}
+	 return true;
+	}
 
 }

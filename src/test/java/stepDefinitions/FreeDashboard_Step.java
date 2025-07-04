@@ -1,8 +1,11 @@
 package stepDefinitions;
 
+import java.util.Map;
+
 import org.testng.Assert;
 
 import common.ConfigReader;
+import common.ExcelReader;
 import common.TestContext;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -15,7 +18,10 @@ public class FreeDashboard_Step {
 	private TestContext context;
 	private LoginUI_Page loginUI_page;
 	private FreeDashboard_Page freeDashboardPage;
-
+	private String age;
+	private String height;
+	private String weight;
+	
 	public FreeDashboard_Step(TestContext context) {
 		this.context = context;
 		this.freeDashboardPage = context.freeDashboard_page();
@@ -268,11 +274,29 @@ public class FreeDashboard_Step {
 		Assert.assertTrue(freeDashboardPage.isAllergiesDropdownDisplayed(), "Allergies option list is not displaed");
 	}
 
-	@When("User edit with invalid data and click save changes")
-	public void user_edit_with_invalid_data_and_click_save_changes() throws InterruptedException {
-		freeDashboardPage.enterInvalid();
-
+	@When("User edit with invalid data and click save changes {string} and {string}")
+	public void user_edit_with_invalid_data_and_click_save_changes_and(String sheetName, String testCaseID) throws InterruptedException {
+		Map<String, String> testData = ExcelReader.getTestData(sheetName, testCaseID);
+		age=testData.get("EnterAgeTextValue");
+		height=testData.get("EnterHeightTextValue");
+		 weight=testData.get("EnterWeightValue");
+		freeDashboardPage.enterInvalid(age,height,weight);
 	}
+	
+	@Then("User should see Error message DashboardAccountDetails")
+	public void user_should_see_error_message_DashboardAccountDetails() {
+		Assert.assertTrue(freeDashboardPage.getTextAgeField(),"Age Feild is not accepting the Invalid data and also not showing Error message to user");
+	}
+//
+//	@When("User edit all fields and click Save Changes")
+//	public void user_edit_all_fields_and_click_save_changes() {
+//		
+//	}
+//
+//	@Then("User should see messages Changes Saved Your profile has been updated successfully!")
+//	public void user_should_see_messages_changes_saved_your_profile_has_been_updated_successfully() {
+//		
+//	}
 
 	
 }

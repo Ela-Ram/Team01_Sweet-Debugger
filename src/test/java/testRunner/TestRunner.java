@@ -20,7 +20,7 @@ import io.cucumber.testng.CucumberOptions;
         "com.aventstack.chaintest.plugins.ChainTestCucumberListener:"
     },
     monochrome = false,
-   tags = "@sweet",
+   tags = "  @sweet",
     features = {"src/test/resources/features"},
     glue = {"stepDefinitions", "appHook"}
 )

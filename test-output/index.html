@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 3 failed,   </span>
+                    <span class="method-stats">3 methods, 1 failed,  2 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,20 +103,29 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify &quot;snack Three Clock&quot; the presence of Carbs,Protein and Fat in Meals Section&quot;, &quot;Home Page Vali...)">runScenario("Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section", "Home Page Vali...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify &quot;snack Three Clock&quot; the presence of Carbs,Protein and Fat in Meals Section&quot;, &quot;Home Page Vali...)">runScenario("Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section", "Home Page Vali...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify &quot;snack Three Clock&quot; the presence of Carbs,Protein and Fat in Meals Section&quot;, &quot;Home Page Vali...)">runScenario("Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section", "Home Page Vali...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify account details cannot be updated with invalid data&quot;, &quot;Dashboard page validation for Registe...)">runScenario("Verify account details cannot be updated with invalid data", "Dashboard page validation for Registe...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify account details cannot be updated with invalid data&quot;, &quot;Dashboard page validation for Registe...)">runScenario("Verify account details cannot be updated with invalid data", "Dashboard page validation for Registe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify account details cannot be updated with invalid data&quot;, &quot;Dashboard page validation for Registe...)">runScenario("Verify account details cannot be updated with invalid data", "Dashboard page validation for Registe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -136,43 +145,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Verify &quot;snack Three Clock&quot; the presence of Carbs,Protein and Fat in Meals Section&quot;, &quot;Home Page Vali...)">
-                  </a> <!-- runScenario("Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section", "Home Page Vali...) -->
+                  <a name="runScenario(&quot;Verify account details cannot be updated with invalid data&quot;, &quot;Dashboard page validation for Registe...)">
+                  </a> <!-- runScenario("Verify account details cannot be updated with invalid data", "Dashboard page validation for Registe...) -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section","Home Page Validation for Registered Free Account User")</span>
-                  <div class="stack-trace">java.lang.AssertionError: snack Three Clock is not displayed expected [true] but found [false]
-	at stepDefinitions.HomePageFreeUser_Step.the_value_should_be_displayed_HomePageNutrientValue(HomePageFreeUser_Step.java:88)
-	at ✽.The &quot;snack Three Clock&quot; value should be displayed HomePageNutrientValue(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/HomePageFreeUser.feature:36)
-... Removed 3 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify &quot;snack Three Clock&quot; the presence of Carbs,Protein and Fat in Meals Section&quot;, &quot;Home Page Vali...)">
-                  </a> <!-- runScenario("Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section", "Home Page Vali...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section","Home Page Validation for Registered Free Account User")</span>
-                  <div class="stack-trace">java.lang.AssertionError: snack Three Clock is not displayed expected [true] but found [false]
-	at stepDefinitions.HomePageFreeUser_Step.the_value_should_be_displayed_HomePageNutrientValue(HomePageFreeUser_Step.java:88)
-	at ✽.The &quot;snack Three Clock&quot; value should be displayed HomePageNutrientValue(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/HomePageFreeUser.feature:36)
-... Removed 3 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify &quot;snack Three Clock&quot; the presence of Carbs,Protein and Fat in Meals Section&quot;, &quot;Home Page Vali...)">
-                  </a> <!-- runScenario("Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section", "Home Page Vali...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section","Home Page Validation for Registered Free Account User")</span>
-                  <div class="stack-trace">java.lang.AssertionError: snack Three Clock is not displayed expected [true] but found [false]
-	at stepDefinitions.HomePageFreeUser_Step.the_value_should_be_displayed_HomePageNutrientValue(HomePageFreeUser_Step.java:88)
-	at ✽.The &quot;snack Three Clock&quot; value should be displayed HomePageNutrientValue(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/HomePageFreeUser.feature:36)
+                  <span class="parameters">("Verify account details cannot be updated with invalid data","Dashboard page validation for Registered Free account user")</span>
+                  <div class="stack-trace">java.lang.AssertionError: Age Feild is not accepting the Invalid data and not showing Error message expected [true] but found [false]
+	at stepDefinitions.FreeDashboard_Step.user_should_see_error_message_DashboardAccountDetails(FreeDashboard_Step.java:288)
+	at ✽.User should see Error message DashboardAccountDetails(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:70)
 ... Removed 3 stack frames
 </div> <!-- stack-trace -->
                   <em>
@@ -181,6 +160,44 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testRunner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify account details cannot be updated with invalid data&quot;, &quot;Dashboard page validation for Registe...)">
+                  </a> <!-- runScenario("Verify account details cannot be updated with invalid data", "Dashboard page validation for Registe...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify account details cannot be updated with invalid data","Dashboard page validation for Registered Free account user")</span>
+                  <div class="stack-trace">java.lang.AssertionError: Age Feild is not accepting the Invalid data and not showing Error message expected [true] but found [false]
+	at stepDefinitions.FreeDashboard_Step.user_should_see_error_message_DashboardAccountDetails(FreeDashboard_Step.java:288)
+	at ✽.User should see Error message DashboardAccountDetails(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:70)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify account details cannot be updated with invalid data&quot;, &quot;Dashboard page validation for Registe...)">
+                  </a> <!-- runScenario("Verify account details cannot be updated with invalid data", "Dashboard page validation for Registe...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify account details cannot be updated with invalid data","Dashboard page validation for Registered Free account user")</span>
+                  <div class="stack-trace">java.lang.AssertionError: Age Feild is not accepting the Invalid data and not showing Error message expected [true] but found [false]
+	at stepDefinitions.FreeDashboard_Step.user_should_see_error_message_DashboardAccountDetails(FreeDashboard_Step.java:288)
+	at ✽.User should see Error message DashboardAccountDetails(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:70)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -191,18 +208,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;TestFirefox&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testRunner.TestRunner&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TestFirefox --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;TestEdge&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testRunner.TestRunner&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TestEdge --&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;TestChrome&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
@@ -219,12 +227,6 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
-              <li>
-                <span class="test-name">TestFirefox (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">TestEdge (1 class)</span>
-              </li>
               <li>
                 <span class="test-name">TestChrome (1 class)</span>
               </li>
@@ -264,20 +266,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'testRunner.TestRunner')
-data.setCell(0, 3, 9237);
+data.setCell(0, 3, 10560);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'testRunner.TestRunner')
-data.setCell(1, 3, 6303);
+data.setCell(1, 3, 9252);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'testRunner.TestRunner')
-data.setCell(2, 3, 5505);
+data.setCell(2, 3, 8788);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -305,58 +307,30 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testRunner.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">defineBrowser(firefox)</span>
+                <span class="method-name">defineBrowser(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@7df6d663)</span>
-                <span class="method-start">25 ms</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@57f725b8)</span>
+                <span class="method-start">32 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify account details cannot be updated with invalid data", "Dashboard page validation for Registe...)</span>
+                <span class="method-start">9744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify account details cannot be updated with invalid data", "Dashboard page validation for Registe...)</span>
+                <span class="method-start">20312 ms</span>
+              </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">runScenario("Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section", "Home Page Vali...)</span>
-                <span class="method-start">9358 ms</span>
+                <span class="method-name">runScenario("Verify account details cannot be updated with invalid data", "Dashboard page validation for Registe...)</span>
+                <span class="method-start">29564 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">18610 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-test before">
-                <span class="method-name">defineBrowser(edge)</span>
-                <span class="method-start">19227 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@13d019a4)</span>
-                <span class="method-start">19232 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section", "Home Page Vali...)</span>
-                <span class="method-start">19556 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">25861 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-test before">
-                <span class="method-name">defineBrowser(chrome)</span>
-                <span class="method-start">26024 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@2c30c81d)</span>
-                <span class="method-start">26028 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section", "Home Page Vali...)</span>
-                <span class="method-start">26235 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">31742 ms</span>
+                <span class="method-start">38354 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

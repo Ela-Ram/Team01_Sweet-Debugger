@@ -1,138 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+<testng-results retried="2" ignored="0" total="3" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-03T20:33:32 CDT" name="Suite" finished-at="2025-07-03T20:34:04 CDT" duration-ms="31770">
+  <suite started-at="2025-07-04T11:51:29 CDT" name="Suite" finished-at="2025-07-04T11:52:08 CDT" duration-ms="38561">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@56aaaecd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@4e858e0a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@4e70a728]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7d42c224]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-07-03T20:33:32 CDT" name="TestFirefox" finished-at="2025-07-03T20:33:51 CDT" duration-ms="19167">
+    <test started-at="2025-07-04T11:51:29 CDT" name="TestChrome" finished-at="2025-07-04T11:52:08 CDT" duration-ms="38561">
       <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@56aaaecd]" started-at="2025-07-03T20:33:32 CDT" name="defineBrowser" finished-at="2025-07-03T20:33:32 CDT" duration-ms="12" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@56aaaecd]" started-at="2025-07-03T20:33:32 CDT" name="setUpClass" finished-at="2025-07-03T20:33:42 CDT" duration-ms="9309" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7df6d663]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@56aaaecd]" started-at="2025-07-03T20:33:42 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T20:33:51 CDT" duration-ms="9237" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Home Page Validation for Registered Free Account User"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[snack Three Clock is not displayed expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: snack Three Clock is not displayed expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at stepDefinitions.HomePageFreeUser_Step.the_value_should_be_displayed_HomePageNutrientValue(HomePageFreeUser_Step.java:88)
-at ✽.The "snack Three Clock" value should be displayed HomePageNutrientValue(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/HomePageFreeUser.feature:36)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@56aaaecd]" started-at="2025-07-03T20:33:51 CDT" name="tearDownClass" finished-at="2025-07-03T20:33:51 CDT" duration-ms="549" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- testRunner.TestRunner -->
-    </test> <!-- TestFirefox -->
-    <test started-at="2025-07-03T20:33:51 CDT" name="TestEdge" finished-at="2025-07-03T20:33:58 CDT" duration-ms="6782">
-      <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@4e858e0a]" started-at="2025-07-03T20:33:51 CDT" name="defineBrowser" finished-at="2025-07-03T20:33:51 CDT" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@4e858e0a]" started-at="2025-07-03T20:33:51 CDT" name="setUpClass" finished-at="2025-07-03T20:33:52 CDT" duration-ms="317" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@13d019a4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@4e858e0a]" started-at="2025-07-03T20:33:52 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T20:33:58 CDT" duration-ms="6303" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Home Page Validation for Registered Free Account User"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[snack Three Clock is not displayed expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: snack Three Clock is not displayed expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at stepDefinitions.HomePageFreeUser_Step.the_value_should_be_displayed_HomePageNutrientValue(HomePageFreeUser_Step.java:88)
-at ✽.The "snack Three Clock" value should be displayed HomePageNutrientValue(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/HomePageFreeUser.feature:36)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@4e858e0a]" started-at="2025-07-03T20:33:58 CDT" name="tearDownClass" finished-at="2025-07-03T20:33:58 CDT" duration-ms="147" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- testRunner.TestRunner -->
-    </test> <!-- TestEdge -->
-    <test started-at="2025-07-03T20:33:58 CDT" name="TestChrome" finished-at="2025-07-03T20:34:04 CDT" duration-ms="5743">
-      <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@4e70a728]" started-at="2025-07-03T20:33:58 CDT" name="defineBrowser" finished-at="2025-07-03T20:33:58 CDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@7d42c224]" started-at="2025-07-04T11:51:29 CDT" name="defineBrowser" finished-at="2025-07-04T11:51:29 CDT" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,48 +21,108 @@ at ✽.The "snack Three Clock" value should be displayed HomePageNutrientValue(f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@4e70a728]" started-at="2025-07-03T20:33:58 CDT" name="setUpClass" finished-at="2025-07-03T20:33:58 CDT" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@7d42c224]" started-at="2025-07-04T11:51:29 CDT" name="setUpClass" finished-at="2025-07-04T11:51:39 CDT" duration-ms="9689" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2c30c81d]]>
+                <![CDATA[org.testng.TestRunner@57f725b8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@4e70a728]" started-at="2025-07-03T20:33:58 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T20:34:04 CDT" duration-ms="5505" status="FAIL">
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7d42c224]" started-at="2025-07-04T11:51:39 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T11:51:50 CDT" duration-ms="10560" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section"]]>
+                <![CDATA["Verify account details cannot be updated with invalid data"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Home Page Validation for Registered Free Account User"]]>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[snack Three Clock is not displayed expected [true] but found [false]]]>
+              <![CDATA[Age Feild is not accepting the Invalid data and not showing Error message expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: snack Three Clock is not displayed expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: Age Feild is not accepting the Invalid data and not showing Error message expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
-at stepDefinitions.HomePageFreeUser_Step.the_value_should_be_displayed_HomePageNutrientValue(HomePageFreeUser_Step.java:88)
-at ✽.The "snack Three Clock" value should be displayed HomePageNutrientValue(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/HomePageFreeUser.feature:36)
+at stepDefinitions.FreeDashboard_Step.user_should_see_error_message_DashboardAccountDetails(FreeDashboard_Step.java:288)
+at ✽.User should see Error message DashboardAccountDetails(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:70)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@4e70a728]" started-at="2025-07-03T20:34:04 CDT" name="tearDownClass" finished-at="2025-07-03T20:34:04 CDT" duration-ms="22" status="PASS">
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7d42c224]" started-at="2025-07-04T11:51:50 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T11:51:59 CDT" duration-ms="9252" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify account details cannot be updated with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Age Feild is not accepting the Invalid data and not showing Error message expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Age Feild is not accepting the Invalid data and not showing Error message expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at stepDefinitions.FreeDashboard_Step.user_should_see_error_message_DashboardAccountDetails(FreeDashboard_Step.java:288)
+at ✽.User should see Error message DashboardAccountDetails(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:70)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7d42c224]" started-at="2025-07-04T11:51:59 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-04T11:52:08 CDT" duration-ms="8788" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify account details cannot be updated with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Age Feild is not accepting the Invalid data and not showing Error message expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Age Feild is not accepting the Invalid data and not showing Error message expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at stepDefinitions.FreeDashboard_Step.user_should_see_error_message_DashboardAccountDetails(FreeDashboard_Step.java:288)
+at ✽.User should see Error message DashboardAccountDetails(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:70)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@7d42c224]" started-at="2025-07-04T11:52:08 CDT" name="tearDownClass" finished-at="2025-07-04T11:52:08 CDT" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

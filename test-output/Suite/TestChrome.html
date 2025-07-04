@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TestChrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/2</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 03 20:33:58 CDT 2025</td>
+<td>Started on:</td><td>Fri Jul 04 11:51:29 CDT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>5 seconds (5743 ms)</td>
+<tr><td>Total time:</td><td>38 seconds (38561 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,20 +76,59 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section", "Home Page Validation for Registered Free Account User"</td>
-<td><div><pre>java.lang.AssertionError: snack Three Clock is not displayed expected [true] but found [false]
-	at stepDefinitions.HomePageFreeUser_Step.the_value_should_be_displayed_HomePageNutrientValue(HomePageFreeUser_Step.java:88)
-	at ✽.The &quot;snack Three Clock&quot; value should be displayed HomePageNutrientValue(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/HomePageFreeUser.feature:36)
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace741134108", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace741134108'><pre>java.lang.AssertionError: snack Three Clock is not displayed expected [true] but found [false]
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify account details cannot be updated with invalid data", "Dashboard page validation for Registered Free account user"</td>
+<td><div><pre>java.lang.AssertionError: Age Feild is not accepting the Invalid data and not showing Error message expected [true] but found [false]
+	at stepDefinitions.FreeDashboard_Step.user_should_see_error_message_DashboardAccountDetails(FreeDashboard_Step.java:288)
+	at ✽.User should see Error message DashboardAccountDetails(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:70)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1407721609", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1407721609'><pre>java.lang.AssertionError: Age Feild is not accepting the Invalid data and not showing Error message expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepDefinitions.HomePageFreeUser_Step.the_value_should_be_displayed_HomePageNutrientValue(HomePageFreeUser_Step.java:88)
-	at ✽.The &quot;snack Three Clock&quot; value should be displayed HomePageNutrientValue(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/HomePageFreeUser.feature:36)
+	at stepDefinitions.FreeDashboard_Step.user_should_see_error_message_DashboardAccountDetails(FreeDashboard_Step.java:288)
+	at ✽.User should see Error message DashboardAccountDetails(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:70)
 </pre></div></td>
-<td>5</td>
-<td>testRunner.TestRunner@4e70a728</td></tr>
+<td>8</td>
+<td>testRunner.TestRunner@7d42c224</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify account details cannot be updated with invalid data", "Dashboard page validation for Registered Free account user"</td>
+<td><div><pre>java.lang.AssertionError: Age Feild is not accepting the Invalid data and not showing Error message expected [true] but found [false]
+	at stepDefinitions.FreeDashboard_Step.user_should_see_error_message_DashboardAccountDetails(FreeDashboard_Step.java:288)
+	at ✽.User should see Error message DashboardAccountDetails(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:70)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1447663489", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1447663489'><pre>java.lang.AssertionError: Age Feild is not accepting the Invalid data and not showing Error message expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepDefinitions.FreeDashboard_Step.user_should_see_error_message_DashboardAccountDetails(FreeDashboard_Step.java:288)
+	at ✽.User should see Error message DashboardAccountDetails(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:70)
+</pre></div></td>
+<td>9</td>
+<td>testRunner.TestRunner@7d42c224</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify account details cannot be updated with invalid data", "Dashboard page validation for Registered Free account user"</td>
+<td><div><pre>java.lang.AssertionError: Age Feild is not accepting the Invalid data and not showing Error message expected [true] but found [false]
+	at stepDefinitions.FreeDashboard_Step.user_should_see_error_message_DashboardAccountDetails(FreeDashboard_Step.java:288)
+	at ✽.User should see Error message DashboardAccountDetails(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:70)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1277946450", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1277946450'><pre>java.lang.AssertionError: Age Feild is not accepting the Invalid data and not showing Error message expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepDefinitions.FreeDashboard_Step.user_should_see_error_message_DashboardAccountDetails(FreeDashboard_Step.java:288)
+	at ✽.User should see Error message DashboardAccountDetails(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:70)
+</pre></div></td>
+<td>10</td>
+<td>testRunner.TestRunner@7d42c224</td></tr>
 </table><p>
 </body>
 </html>

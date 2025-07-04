@@ -10,6 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import common.Helper;
+import common.LoggerLoad;
 import common.TestContext;
 
 public class PremiumUserHome_Page {
@@ -57,10 +58,26 @@ public class PremiumUserHome_Page {
 	WebElement foodIntake;
 	@FindBy(xpath = "//span[contains(text(),'Medication')]")
 	WebElement medication;
+	//@FindBy(xpath = "(//*[name()='svg'])[7]")
+	@FindBy(xpath = "//*[name()='svg' and @class='lucide lucide-activity h-6 w-6 mb-2 text-violet-600']")
+	WebElement blodGlucoseIcon;
+	
+//	@FindBy(xpath = "(//*[name()='svg'])[8]")
+	@FindBy(xpath = "//*[name()='svg' and @class='h-6 w-6 mb-2 text-violet-600']")
+	WebElement physicalActivityIcon;
+	
+	@FindBy(xpath = "//*[name()='svg' and @class='lucide lucide-pizza h-6 w-6 mb-2 text-fuchsia-600']")
+	WebElement foodIntakeIcon;
+	
+	//@FindBy(xpath = "(//*[name()='svg'])[10]")
+	@FindBy(xpath = "//*[name()='svg' and @class='lucide lucide-pill h-6 w-6 mb-2 text-violet-600']")
+	WebElement MedicationIcon;
 	@FindBy(xpath = "//div[@class='space-y-6']/div/h3[text()='Pre-Meal']")
 	WebElement preMealText;
 	@FindBy(xpath = "//div[contains(@class,'bg-gray-100/60')]/button")
 	public List<WebElement> mealSection;
+	@FindBy(xpath = "//h3[@class='flex items-center text-violet-600 font-medium mb-4']")
+	List<WebElement> preMealFirstPlaceAllMeal;
 	@FindBy(xpath = "//div[@class='space-y-6']/div/h3/span[text()='⏰']")
 	WebElement preMealIcon;
 	@FindBy(xpath = "//div[text()='None' and contains(@class, 'text-gray-800') and contains(@class, 'font-medium')]")
@@ -79,7 +96,7 @@ public class PremiumUserHome_Page {
 	public List<String> getNavigationTab() {
 		List<String> actualTabs = new ArrayList<>();
 		for (WebElement btn : navigationTabs) {
-			System.out.println(btn.getText());
+			LoggerLoad.info(btn.getText());
 			actualTabs.add(btn.getText().trim());
 		}
 		return actualTabs;
@@ -88,11 +105,22 @@ public class PremiumUserHome_Page {
 	public boolean getflashingTabText() {
 		return helper.isTextEqual(flashingtab, "🎯 Challenge Yourself Today!");
 	}
-//	public void isTabFlashing() {
-//		 String animationName = flashingtab.getCssValue("animation-name");
-//		 System.out.println("Animaltion " + animationName);
-//		//return helper.isTextEqual(flashingtab, "🎯 Challenge Yourself Today!");
-//	}
+
+	public void isTabFlashing() {
+		String animationName = flashingtab.getCssValue("animation-name");
+		String animationDuration = flashingtab.getCssValue("animation-duration");
+		LoggerLoad.info("Animation Name: " + animationName);
+		LoggerLoad.info("Animation Duration: " + animationDuration);
+		boolean isFlashing = animationName.contains("pulse") &&
+		                     !animationDuration.equals("0s") && 
+		                     !animationDuration.equals("0ms");
+		if (isFlashing) {
+		    LoggerLoad.info("Button is flashing (pulse animation active)");
+		} else {
+		    LoggerLoad.info("Button is NOT flashing");
+		}
+	}
+	
 	public boolean isAnimationDurationMatched() {
 		String actualDuration = flashingtab.getCssValue("animation-duration");
 		if (!actualDuration.equalsIgnoreCase("0.2s")) {
@@ -100,15 +128,27 @@ public class PremiumUserHome_Page {
 		}
 		return true;
 	}
-	
-	public String getgenderNameText() {
-		String imageSrc = genderImage.getAttribute("src");
-		System.out.println("Image source: " + imageSrc);
-		return imageSrc;
+
+	public boolean isgenderMatchPictureDisplayed() {
+		String altText = genderImage.getAttribute("alt");
+		String gender = altText.split(" ")[0].toLowerCase();
+		if (!gender.equalsIgnoreCase("Male") && !gender.equalsIgnoreCase("Female")) {
+			return false;
+		}
+		return true;
 	}
 
 	public boolean isemojiImageDispalyed() {
 		return helper.checkElementDisplayed(emojiImage);
+	}
+
+	public boolean isEmojiTextPicDispalyed() {
+		String emojiText = emojiImage.getText();
+		if (!emojiText.equals("😐")) {
+			return false;
+		} else {
+			return true;
+		}
 	}
 
 	public boolean isLabelUnderImageDispalyed() {
@@ -134,7 +174,7 @@ public class PremiumUserHome_Page {
 		List<String> allDropdownOptionsText = helper.getTexts(buttonOptionsNewRecordData);
 		for (String option : allDropdownOptionsText) {
 			String text = option.trim();
-			System.out.println(text);
+			LoggerLoad.info(text);
 			if (!text.equalsIgnoreCase("Blood Glucose") && !text.equalsIgnoreCase("Physical Activity")
 					&& !text.equalsIgnoreCase("Food Intake") && !text.equalsIgnoreCase("Medication"))
 				return false;
@@ -158,6 +198,22 @@ public class PremiumUserHome_Page {
 		return helper.checkElementDisplayed(medication);
 	}
 
+	public boolean isblodGlucoseIconDisplayed() {
+		return helper.checkElementDisplayed(blodGlucoseIcon);
+	}
+
+	public boolean isphysicalActivityIconDisplayed() {
+		return helper.checkElementDisplayed(physicalActivityIcon);
+	}
+
+	public boolean isfoodIntakeIconDisplayed() {
+		return helper.checkElementDisplayed(foodIntakeIcon);
+	}
+
+	public boolean isMedicationIconDisplayed() {
+		return helper.checkElementDisplayed(MedicationIcon);
+	}
+
 	public void preMealClick() {
 		helper.waitForClickableWebElement(preMealText).click();
 	}
@@ -176,6 +232,18 @@ public class PremiumUserHome_Page {
 			helper.waitForClickableWebElement(btn).click();
 			if (!preMealIcon.isDisplayed())
 				return false;
+		}
+		return true;
+	}
+
+	public boolean ispreMealIconDisplayedFirst() {
+		for (WebElement btn : mealSection) {
+			helper.waitForClickableWebElement(btn).click();
+			WebElement preMealFirst = preMealFirstPlaceAllMeal.get(0);
+			if (!preMealFirst.getText().toLowerCase().contains("pre-meal")) {
+				LoggerLoad.info("Pre-meal not found first in section: " + preMealFirst.getText());
+				return false;
+			} 
 		}
 		return true;
 	}

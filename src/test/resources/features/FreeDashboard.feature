@@ -62,6 +62,12 @@ Given User is in FreeDashboard Page
 When User clicks the dropdown of Food Allergies	
 Then User should see the dropdown list of common allergy options None,Dairy,Gluten,Shellfish,Soy,Eggs,Nuts,Other
 
+@DashboardAccountDetailsUpdateInvalid
+Scenario: Verify account details cannot be updated with invalid data
+Given User is in FreeDashboard Page 
+When User edit with invalid data and click save changes "FreeUserDashboard" and "FreeUser_01"
+Then User should see Error message DashboardAccountDetails
+
 @DashboardStressManagement
 Scenario: Verify the header Stress Management Techniques
 Given User is in FreeDashboard Page 

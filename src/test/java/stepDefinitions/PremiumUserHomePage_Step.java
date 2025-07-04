@@ -1,6 +1,5 @@
 package stepDefinitions;
 
-import java.io.ObjectInputFilter.Config;
 import java.util.List;
 
 import org.testng.Assert;
@@ -46,8 +45,8 @@ public class PremiumUserHomePage_Step {
 	public void the_in_premium_user_excercise_should_be_displayed(String scenario) {
 		switch (scenario) {
 		case "Animation Challenge Yourself Is Flashing":
-			//premiumUserHome_page.isTabFlashing();
-			//Assert.assertTrue(premiumUserHome_page.getflashingTabText());
+			premiumUserHome_page.isTabFlashing();
+			Assert.assertTrue(premiumUserHome_page.getflashingTabText());
 			break;
 		case "Duration of Animation Challenge Yourself":
 			Assert.assertTrue(premiumUserHome_page.isAnimationDurationMatched(),
@@ -58,7 +57,7 @@ public class PremiumUserHomePage_Step {
 			Assert.assertTrue(premiumUserHome_page.getflashingTabText(),"Challenge Yourself Text is not visible");
 			break;
 		case "Gender Image":
-			Assert.assertEquals(premiumUserHome_page.getgenderNameText(), ConfigReader.getProperty("genderImg"));
+			Assert.assertTrue(premiumUserHome_page.isgenderMatchPictureDisplayed()," Gender Image is not Matched as per the on boardong process");
 			break;
 		case "Emoji Image ":
 			Assert.assertTrue(premiumUserHome_page.isemojiImageDispalyed(), " Emjoi is not displayed");
@@ -68,6 +67,9 @@ public class PremiumUserHomePage_Step {
 			break;
 		case "log button":
 			Assert.assertTrue(premiumUserHome_page.isLogButtonDispalyed(), "Log Button is not displayed");
+			break;
+		case "Mood based on emoji":
+			Assert.assertTrue(premiumUserHome_page.isEmojiTextPicDispalyed(), "Mood based picture is not displayed");
 			break;
 		case "Weekly plan":
 			Assert.assertTrue(premiumUserHome_page.isweeklyPlanBtnDispalyed(), "Weekly Plan Button is not displayed");
@@ -91,7 +93,21 @@ public class PremiumUserHomePage_Step {
 		case "Medication":
 			Assert.assertTrue(premiumUserHome_page.isMedicationDisplayed(), "Medication button is not displayed");
 			break;
-		}
+		case "Blood Glucose Icon":
+			Assert.assertTrue(premiumUserHome_page.isblodGlucoseIconDisplayed(), "Blood Glucose Icon is not displayed");
+			break;
+		case " Physical Activity Icon":
+			Assert.assertTrue(premiumUserHome_page.isphysicalActivityIconDisplayed(), "Physical Activity is not displayed");
+			break;
+		case "Food Intake Icon":
+			Assert.assertTrue(premiumUserHome_page.isfoodIntakeIconDisplayed(), "Food Intake Icon is not displayed");
+			break;
+		case "Medication Icon":
+			Assert.assertTrue(premiumUserHome_page.isMedicationIconDisplayed(), "Medication Icon is not displayed");
+			break;
+		}  
+	
+
 	}
 
 	@When("User clicks meal section Premium Home Page")
@@ -110,6 +126,10 @@ public class PremiumUserHomePage_Step {
 		case "Pre Meal Icon In All Meal Section":
 			Assert.assertTrue(premiumUserHome_page.ispreMealIconDisplayed(),
 					"Pre Meal Icon is not displayed in all Meal Section");
+			break;
+		case "Pre Meal Icon First Place In All Meal Section":
+			Assert.assertTrue(premiumUserHome_page.ispreMealIconDisplayedFirst(),
+					"Pre Meal Icon is not displayed first in all Meal Section");
 			break;
 		}
 	}

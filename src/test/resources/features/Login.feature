@@ -68,7 +68,7 @@ Feature: Login Page Verification
   #Scenario Outline: Verify <Scenario>
     #Given User is on complete profile form page after entering email as in "login" and "<TestCaseID>"
     #When User clicks create account button after filling all fields as in "login" and "<TestCaseID>"
-    #Then User should see "<Expected>"
+    #Then User should see "<Expected>" login
 
     #Examples: 
       #| TestCaseID | Scenario                                   | Expected                       |

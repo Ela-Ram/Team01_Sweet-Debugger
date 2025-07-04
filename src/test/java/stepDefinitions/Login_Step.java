@@ -168,7 +168,7 @@ public class Login_Step {
 	    
 	}
 
-	@Then("User should see {string}")
+	@Then("User should see {string} login")
 	public void user_should_see_as_and(String expected) {
 		switch (expected.toLowerCase().trim()) {
         case "Fullname error message":

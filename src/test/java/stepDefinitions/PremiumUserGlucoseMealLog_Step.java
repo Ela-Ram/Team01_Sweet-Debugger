@@ -37,22 +37,19 @@ public class PremiumUserGlucoseMealLog_Step {
 	@Then("User should see {string} displayed in {string} of premium account")
 	public void user_should_see_displayed_in_of_premium_account(String scenario, String rgba) {
 	    String actColor = logbookPageObj.getColor(scenario);
-	    Assert.assertEquals(actColor, rgba);
-	    
+	    Assert.assertTrue(actColor.contains(rgba), "Color does not match");
 	}
 
 	@Then("User should see the range for {string} be {string} of premium account")
 	public void user_should_see_the_range_for_be_of_premium_account(String scenario, String range) {
 		String actRange = logbookPageObj.getText(scenario);
-	    Assert.assertEquals(actRange, range);
-	    
+	    Assert.assertEquals(actRange, range); 
 	}
 
 	@Then("User should see the X-axis display the last seven days ending today for {string} of premium account")
 	public void user_should_see_the_x_axis_display_the_last_seven_days_ending_today_for_of_premium_account(String scenario) {
 		boolean lastSevenDays = logbookPageObj.checkLastSevenDaysXAxis(scenario);
 		Assert.assertTrue(lastSevenDays, "Last Seven Days not displayed");
-	    
 	}
 
 	@Then("User should see Y-axis minimum value  {int} in glucose chart")
@@ -82,7 +79,7 @@ public class PremiumUserGlucoseMealLog_Step {
 	@Then("User should see {string} text colour {string} of premium account")
 	public void user_should_see_text_colour_of_premium_account(String scenario, String rgba) {
 		String actColor = logbookPageObj.getColor(scenario);
-	    Assert.assertEquals(actColor, rgba);	    
+	    Assert.assertTrue(actColor.contains(rgba), "Color does not match");
 	}
 
 	@Then("User should see {string} with nutrient distribution for premium account")

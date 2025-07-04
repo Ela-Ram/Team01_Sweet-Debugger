@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
@@ -9,8 +10,6 @@ import java.util.stream.Collectors;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-
-import common.ConfigReader;
 import common.ExcelReader;
 import common.Helper;
 import common.LoggerLoad;
@@ -36,11 +35,6 @@ public class LoginOnboardingScenariosWithBloodReport_Step {
     this.helper = context.getHelper(); 
 	}
 	
-	@Given("User is in upload blood report page")
-	public void user_is_in_upload_blood_report_page() {
-		
-		 context.getDriver().get(url);
-	}
 
 	@When("User clicks on Upload Blood Report button")
 	public void user_clicks_on_upload_blood_report_button() {
@@ -66,70 +60,87 @@ public class LoginOnboardingScenariosWithBloodReport_Step {
 		   
     
 	}
-//---------------------------------------------------------------------------------------------------------------------------------------------	
-	@Given("User is in upload blood report page with {string} and {string}")
-	public void user_is_in_upload_blood_report_page_with_and(String Sheet, String TestCaseID) {
-		Map<String, String> testData = ExcelReader.getTestData(Sheet, TestCaseID);
-		loginUI_page.clickLoginGutton();
-		String email = testData.get("Email");
-		loginUI_page.enterEmail(email);
-		loginUI_page.clickContinueWithEmailButton();
-		String fullname= testData.get("Fullname");
-		String username = testData.get("Username");
-		String password = testData.get("Password");
-		loginUI_page.enterAllFieldsCompleteForm(fullname, username, password);
-		loginUI_page.clickCheckbox();
+	
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+	@Given("User is in upload blood report page after entering values with Blood Report")
+	public void user_is_in_upload_blood_report_page_after_entering_values_with_blood_report() {
 		loginUI_page.clickCreateAccountButton();
+	    
+	}
+	
+	@When("user uploads {string} file")
+	public void user_uploads_file(String validORInvalid) {
+		
+		helper.waitForVisibleElement(loginUI_page.clickUploadBloodReportButtonIndicatorElement());
+		loginUI_page.clickUploadBloodReportButton();
+		Path filePath = null;
+		switch (validORInvalid) {
+	    case "Invalid file Text or Excel":
+	        filePath = Paths.get(System.getProperty("user.dir"), "src", "test", "resources", "testData", "TextFile.txt");
+	        break;
+
+	    case "Invalid pdf over 10mb":
+	        filePath = Paths.get(System.getProperty("user.dir"), "src", "test", "resources", "testData", "PDFOver10MB.pdf");
+	        break;
+
+	    case "Valid pdf file":
+	        filePath = Paths.get(System.getProperty("user.dir"), "src", "test", "resources", "testData", "ValidPdf.pdf");
+	        break;
+
+	    default:
+	        throw new IllegalArgumentException("Unexpected value: " + validORInvalid);
 	}
 
-	@When("User tries to upload a non-PDF file")
-	public void user_tries_to_upload_a_non_pdf_file() {
-		loginUI_page.clickUploadBloodReportButton();
-		loginUI_page.hoverOverUploadBox();
-		String InvalidFile =  "/src/test/resources/testData/TextFile.txt";
-		loginUI_page.uploadFile(System.getProperty("user.dir") + InvalidFile);
-		loginUI_page.clickUploadAndProcessButton();
-	   
-	}
-	
-	
-	@Then("User should see {string} error")
-	public void user_should_see_error(String expected) {
-		String actual = loginUI_page.getUploadAndProcessErrorText();
-		Assert.assertEquals(actual.trim(), expected.trim(), "Text mismatch:\nExpected: " + expected + "\nActual: " + actual);
+	loginUI_page.uploadFile(filePath.toAbsolutePath().toString());
+	loginUI_page.clickUploadAndProcessButton();
 	    
 	}
 
-	@When("User uploads a PDF file over 10MB")
-	public void user_uploads_a_pdf_file_over_10mb() {
-		loginUI_page.clickUploadBloodReportButton();
-		loginUI_page.hoverOverUploadBox();
-		String File =  "/src/test/resources/testData/PDFOver10MB.pdf";
-		loginUI_page.uploadFile(System.getProperty("user.dir") + File);
-		loginUI_page.clickUploadAndProcessButton();
-	   
-	}
-	
-
-	@When("User uploads valid PDF file")
-	public void user_uploads_valid_pdf_file() {
-		loginUI_page.clickUploadBloodReportButton();
-		loginUI_page.hoverOverUploadBox();
-		String File =  "/src/test/resources/testData/ValidPdf.pdf";
-		loginUI_page.uploadFile(System.getProperty("user.dir") + File);
-		loginUI_page.clickUploadAndProcessButton();
-		System.out.println(context.driver.getPageSource());
+	@Then("User should see {string} in blood report upload modal")
+	public void user_should_see_in_blood_report_upload_modal(String expected) {
+		
+		switch(expected) {
+		case "Only PDF files are supported":
+		case "File exceeds 10MB":	
+			String actual = loginUI_page.getUploadAndProcessErrorText();
+			Assert.assertEquals(actual.trim(), expected.trim(), "Text mismatch:\nExpected: " + expected + "\nActual: " + actual);
+			break;
+		case "processing percentage bar":
+			Assert.assertTrue(loginUI_page.isProgressBarVisible(), "ProgressBar is not Visible");
+			break;
+		case "Upload & Process button enabled":
+			
+		    Assert.assertTrue(loginUI_page.isUploadAndProcessButtonEnabled(), "Upload And Process Button is not Enabled");
+		    break;	
+		case "Report analysis":
+			Assert.assertTrue(loginUI_page.isReportAnalysisReportVisible(),"Report Analysis Report is not visible");
+			break;
+		case "onboarding button":
+			Assert.assertTrue(loginUI_page.isContToOnboardingButtontVisible(),"Continue To Onboarding Button is not visible");
+			break;
+			
+		default:
+	        throw new IllegalArgumentException("Unexpected value: " + expected);
+			
+		}
 	    
 	}
 
-	@Then("User should see processing percentage bar")
-	public void user_should_see_processing_percentage_bar() {
-		Assert.assertTrue(loginUI_page.isProgressBarVisible(), "ProgressBar is not Visible");
-	   
+	@When("user just uploads Valid pdf file file")
+	public void user_just_uploads_valid_pdf_file_file() {
+		helper.waitForVisibleElement(loginUI_page.clickUploadBloodReportButtonIndicatorElement());
+		loginUI_page.clickUploadBloodReportButton();
+		loginUI_page.hoverOverUploadBox();
+		Path filePath = null;
+		 filePath = Paths.get(System.getProperty("user.dir"), "src", "test", "resources", "testData", "ValidPdf.pdf");
+		 loginUI_page.uploadFile(filePath.toAbsolutePath().toString());
+		
+	    
 	}
-	
-	@When("User clicks Cancel")
-	public void user_clicks_cancel() {
+
+	@When("User clicks Cancel in upload blood report page")
+	public void user_clicks_cancel_in_upload_report_page() {
 		loginUI_page.clickUploadBloodReportButton();
 		loginUI_page.clickCancelUploadButton();
 	    
@@ -138,16 +149,6 @@ public class LoginOnboardingScenariosWithBloodReport_Step {
 	@Then("Modal should be closed and user returned to previous screen")
 	public void modal_should_be_closed_and_user_returned_to_previous_screen() {
 		Assert.assertTrue(loginUI_page.isUploadBloodReportButtonVisible(),"Page is not Navigated back");
-	}
-	
-	@Then("User should see Report analysis")
-	public void user_should_see_report_analysis() {
-		Assert.assertTrue(loginUI_page.isReportAnalysisReportVisible(),"Report Analysis Report is not visible");
-	}
-	
-	@Then("User should see onboarding button")
-	public void user_should_see_onboarding_button() {
-		Assert.assertTrue(loginUI_page.isContToOnboardingButtontVisible(),"Continue To Onboarding Button is not visible");	
 	}
 	
 	@Then("User should see the following sections:")
@@ -163,290 +164,291 @@ public class LoginOnboardingScenariosWithBloodReport_Step {
 	
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------
-	@Given("User is in Onboarding Process after clicking Onboarding button")
-	public void user_is_in_onboarding_process_after_clicking_onboarding_button() {
-		context.getDriver().get(url_Onboard);
-	}
 
-	@Then("User should see text field for Age, height , weight")
-	public void user_should_see_text_field_for_age_height_weight() {
-		List<String> expected = Arrays.asList("Enter your age", "Enter height in cm (1-300)", "Enter weight in kg (1-500)");
-		List<String> actual = loginUI_page.getAllTextFieldPlaceholdersOrLabels();
-		System.out.println("Actual: " + actual);
-
-		boolean allPresent = expected.stream()
-		        .allMatch(exp -> actual.stream()
-		                .anyMatch(act -> act.equalsIgnoreCase(exp)));
-
-		Assert.assertTrue(allPresent, 
-		        "Expected fields not found, Expected: " + expected + "\nActual: " + actual);
-
+	
+	@Given("User is on report analysis")
+	public void user_is_on_report_analysis() {
+		loginUI_page.clickCreateAccountButton();
+		helper.waitForVisibleElement(loginUI_page.clickUploadBloodReportButtonIndicatorElement());
+		loginUI_page.clickUploadBloodReportButton();
+		Path filePath = null;
+		filePath = Paths.get(System.getProperty("user.dir"), "src", "test", "resources", "testData", "ValidPdf.pdf");
+		 loginUI_page.uploadFile(filePath.toAbsolutePath().toString());
+		 loginUI_page.clickUploadAndProcessButton();
+		    
+		
 	    
 	}
-	@Then("User should see dropdown option for Gender field")
-	public void user_should_see_dropdown_option_for_gender_field() {
-		Assert.assertTrue(loginUI_page.isGenderDropBoxVisible(), "Gender drop box is not visible ");
-	   
-	}
-	
-	@Then("User should see Male , female, prefer not to say  options in dropdown")
-	public void user_should_see_male_female_prefer_not_to_say_options_in_dropdown() {
-		List<String> expected = Arrays.asList("Male", "Female", "Prefer Not to Say");
-		List<String> actual = loginUI_page.getDropDownList(); 
 
-		boolean allPresent = expected.stream()
-		        .allMatch(exp -> actual.stream()
-		                .anyMatch(act -> act.equalsIgnoreCase(exp)));
-
-		Assert.assertTrue(allPresent,"Expected gender options not found.\nExpected: " + expected + "\nActual: " + actual);
-
-	}
-	
-	@Then("User should see Step {int} of {int}")
-	public void user_should_see_step_of(Integer int1, Integer int2) {
-		Assert.assertTrue(loginUI_page.isStepNumVisible(),"Step number is not visible ");
-			
-	}
-	
-	@Then("User should see Progress Bar")
-	public void user_should_see_progress_bar() {
-		Assert.assertTrue(loginUI_page.isProgressBarOnboardVisible(),"Progress Bar is not visible ");
-	}
+	@When("User clicks Onboarding button")
+	public void user_clicks_onboarding_button() {
 		
-
-	@Then("User should see enabled Continue button")
-	public void user_should_see_enabled_continue_button() {
-		Assert.assertTrue(loginUI_page.isContinueWithEmailButtonEnabled(),"Continue button is not enabled ");	
+		loginUI_page.scrollToAndClickContinueOnboardingButton();
+		
+	    
 	}
 	
-	@When("User enters all {string} values with {string} and {string} and clickd continue")
-	public void user_enters_all_values_with_and_and_clickd_continue(String validorinvalid, String Sheet, String TestCaseID) {
+	
+	@Given("User is on report analysis page in onboarding scenarios with report Login")
+	public void user_is_on_report_analysis_page_in_onboarding_scenarios_with_report_login() {
+		loginUI_page.clickCreateAccountButton();
+		helper.waitForVisibleElement(loginUI_page.clickUploadBloodReportButtonIndicatorElement());
+		loginUI_page.clickUploadBloodReportButton();
+		Path filePath = null;
+		filePath = Paths.get(System.getProperty("user.dir"), "src", "test", "resources", "testData", "ValidPdf.pdf");
+		 loginUI_page.uploadFile(filePath.toAbsolutePath().toString());
+		 loginUI_page.clickUploadAndProcessButton();
+		 loginUI_page.scrollToAndClickContinueOnboardingButton();
+	    
+	}
+	
+	@When("User enters all {string} values with {string} and {string} and clickd continue Login")
+	public void user_enters_all_values_with_and_and_clickd_continue_login(String validorinvalid, String Sheet, String TestCaseID) {
 		Map<String, String> testData = ExcelReader.getTestData(Sheet, TestCaseID);
-		String age= testData.get("Age");
 		String height = testData.get("Height");
 		String weight = testData.get("Weight");
-		String gender = testData.get("Gender");
-		//loginUI_page.enterAllFieldsOnboardWithRecordForm(age, height, weight);
-		loginUI_page.clickGenderDropBox();
-		loginUI_page.selectGender(gender);
-		loginUI_page.clickContinueWithEmailButton();
+		loginUI_page.enterHeightandWeightFieldsOnboardWithRecordForm(height, weight);
+		loginUI_page.clickContinueWithReport();
+	  
 	}
 	
 
-	@Then("User should see User should move to {string} as")
-	public void user_should_see_user_should_move_to_as(String expected) {
-		String actual = loginUI_page.getTextStepNum();
-		LoggerLoad.info(actual);
-		 Assert.assertEquals(actual, expected, "Mismatch");
-	}
 	
-	@Then("User should see error message if form have invalid values as")
-	public void user_should_see_error_message_if_form_have_invalid_values_as() {
+//--------------------------------------------------------------------------------------------------------------------------------------------	
+//this methos is main
 		
-		Assert.assertTrue(loginUI_page.isErrorMessageOnboardFormVisible(),"Error message is  not visible ");
-	}
-	
-	
-	@Given("User is in step1 for Onboarding process")
-	public void user_is_in_step1_for_onboarding_process() {
-		context.getDriver().get(url_Onboard);
-		
-	}
-	
-	@Then("User should see {string} as {string}")
-	public void user_should_see_as(String expected, String Case) {
-		 String actualText;
-		switch (Case.trim()) {
-        case "Display Title":
-            actualText = loginUI_page.getCurrentHeadingOnboardForm();
-            Assert.assertEquals(actualText.trim(), expected.trim(),"Mismatch");
-            break;
 
-        case "Sub Title":
-        	 actualText = loginUI_page.getCurrentSubHeadingOnboardForm();
-             Assert.assertEquals(actualText.trim(), expected.trim(),"Mismatch");      
+	@Then("User should see {string} for step for onboarding with Blood report {string}")
+	public void user_should_see_for_step_for_onboarding_with_blood_report(String expected, String scenario)  {
+		
+		switch(scenario) {
+		
+		case "presence of text field":
+		
+			
+			List<String> actualOptions = loginUI_page.getAllTextFieldPlaceholdersOrLabels();
+			System.out.println("Actual: " + actualOptions);
+			loginUI_page.assertExpectedItemsPresent(actualOptions, expected, "Teext field is not present");
             break;
-        case "Back button":
-       	Assert.assertTrue(loginUI_page.isBackButtonOnboardFormVisible(),"Back button is  not visible ");     
+	
+        		
+		case "presence of dropdown":
+			Assert.assertTrue(loginUI_page.isGenderDropBoxVisible(), "Gender drop box is not visible ");
+			break;
+			
+		case "dropdown text for gender":	
+		
+			List<String> actual = loginUI_page.getDropDownList(); 
+			System.out.println("Actual: " + actual);
+			loginUI_page.assertExpectedItemsPresent(actual, expected, "Gender Dropdown is not present");			
+        		break;
+        		
+		case "presence of all 3 intensity options":
+		case "Verify options is displayed in step 2":
+		case "Verify options is displayed in step 3":
+		case "Verify options is displayed in step 4":
+
+		    WebElement headingElement;
+		    List<String> actualOptionsList;
+
+		    if (expected.equals("presence of all 3 intensity options") || expected.equals("Verify options is displayed in step 2")) {
+		        headingElement = loginUI_page.fluentWaitForAnyVisibleElement(loginUI_page.getOptions2and3IndicatorElement());
+
+		        if (headingElement != null) {
+		            actualOptionsList = loginUI_page.getOptions2and3OnboardFormTexts();
+		            System.out.println("Actual: " + actualOptionsList);
+		            loginUI_page.assertExpectedItemsPresent(actualOptionsList, expected, "option is not present");
+		        } else {
+		            Assert.fail("No  option became visible within wait time");
+		        }
+
+		    } else {
+		        headingElement = loginUI_page.fluentWaitForAnyVisibleElement(loginUI_page.getOptions4and5IndicatorElement());
+
+		        if (headingElement != null) {
+		            actualOptionsList = loginUI_page.getOptions4and5OnboardFormTexts();
+		            System.out.println("Actual: " + actualOptionsList);
+		            loginUI_page.assertExpectedItemsPresent(actualOptionsList, expected, "option is not present");
+		        } else {
+		            Assert.fail("No  option became visible within wait time");
+		        }
+		    }
+
+		    break;
+	
+		case "progress shows 1 of 5 steps":
+		case "navigation for step 1 onboarding":
+		case "option selection in step 2":
+		case "Progress bar reflects Step 3 of 5":
+		case "option selection in step 3":
+		case "Progress bar reflects Step 4 of 5":	
+		case "option selection in step 4":
+		case "Progress bar reflects Step 5 of 5":
+		case "Nav back step3":
+		case "Nav back step2":
+		case "Nav back step4":
+		case "Nav back step5":
+		
+			WebElement stepElement = loginUI_page.fluentWaitForVisibleElement(loginUI_page.getStepIndicatorElement());
+			String actualStep = stepElement.getText();
+			LoggerLoad.info(actualStep);
+			 Assert.assertEquals(actualStep, expected, "Mismatch in step number");
+			break;
+						
+			
+		case "progress bar is visible":
+			Assert.assertTrue(loginUI_page.isProgressBarOnboardVisible(),"Progress Bar is not visible ");
+			break;
+			
+		case "presence of continue button":
+			Assert.assertTrue(loginUI_page.isContinueWithEmailButtonEnabled(),"Continue button is not enabled ");
+			break;
+			
+		case "step 1 progress is highlighted":
+		case "Step 2 progress bar is filled":	
+			
+			
+			Assert.assertTrue(loginUI_page.isProgressBarWithReportHighlighted(),"Not Highlighted "); 
+            break;	
+            
+		case "error message for invalid input":
+			WebElement input = loginUI_page.heightOnboardFormIndicatorElement();
+			String actualValue = input.getDomAttribute("type");
+		    Assert.assertEquals(actualValue,"number", " `input field rejects invalid value, but found: " + actualValue);
+			break;
+			
+		case "Step 2 heading is visible":
+		case "Step 3 heading is visible":
+		case "Step 4 heading is visible":
+		case "Step 5 heading is visible":
+			
+			
+			loginUI_page.waitForTextInElement(loginUI_page.getTitleIndicatorElement(), expected);
+			String actualTitle = loginUI_page.getCurrentHeadingOnboardForm();
+			String actualHeading = loginUI_page.getCurrentHeadingOnboardForm();
+			Assert.assertEquals(actualHeading.trim(), expected.trim(), "Mismatch in step heading");
+
+		   Assert.assertEquals(actualTitle.trim(), expected.trim(), "Mismatch");
+		    break;
+            
+		case "Step 2 subtitle is visible":
+		case "Step 3 subtitle is visible":
+		case "Step 4 subtitle is visible":	
+		case "Step 5 subtitle is visible":
+			
+			loginUI_page.waitForTextInElement(loginUI_page.getSubTitleIndicatorElement(), expected);
+			String actualSubTitle = loginUI_page.getCurrentSubHeadingOnboardForm();
+            Assert.assertEquals(actualSubTitle.trim(), expected.trim(),"Mismatch");      
            break;
            
-        case "step2of5":
-        	String actual = loginUI_page.getTextStepNum();
-    		 Assert.assertEquals(actual, expected, "Mismatch");     
-               break;
-               
-        case "Intensity Options":
-        	List<String> expectedList = Arrays.stream(expected.split(","))
-            .map(String::trim)
-            .collect(Collectors.toList());
-
-        List<String> actualOptions = loginUI_page.getOptions2and3OnboardFormTexts()
-            .stream()
-            .map(text -> text.split(" ")[0].trim()) //this is to remove the symbol emoji for comparing 
-            .collect(Collectors.toList());
-
-        boolean allPresent = expectedList.stream()
-            .allMatch(exp -> actualOptions.stream()
-                .anyMatch(act -> act.equalsIgnoreCase(exp)));
-
-        Assert.assertTrue(allPresent, "Expected: " + expectedList + "\nActual: " + actualOptions);
-             break;                 
-
-        default:
-            throw new IllegalArgumentException("Unexpected expected text: " + expected);
-    }
-		
-	}
-	
-	@Given("User is in step2 for onboarding process after entering values with {string} and {string}")
-	public void user_is_in_step2_for_onboarding_process_after_entering_values_with_and(String Sheet, String TestCaseID) {
-		context.getDriver().get(url_Onboard);
-		Map<String, String> testData = ExcelReader.getTestData(Sheet, TestCaseID);
-		String age= testData.get("Age");
-		String height = testData.get("Height");
-		String weight = testData.get("Weight");
-		String gender = testData.get("Gender");
-	//	loginUI_page.enterAllFieldsOnboardWithRecordForm(age, height, weight);
-		loginUI_page.clickGenderDropBox();
-		loginUI_page.selectGender(gender);
-		loginUI_page.clickContinueWithEmailButton();
-	}
-	
-	@When("User selects oneoption from intensity")
-	public void user_selects_oneoption_from_intensity() {
-		loginUI_page.clickEasyasyIntensityOptionStep2Onboard();
-	 }
-
-	@Then("User should see {string} to verify {string}")
-	public void user_should_see_to_verify(String expected, String scenario) {
-	    switch (scenario) {
-	        case "option selection in step2":
-	        case "option is selectable":
-	        case "Progress bar reflects Step 3 of 5":
-	        case "Progress bar reflects Step 4 of 5":
-	        case "Progress bar reflects Step 5 of 5":
-	        case "navigation to step for onboarding":	
-	            helper.waitForVisibleElement(loginUI_page.getStepIndicatorElement());
-	            String actual = loginUI_page.getTextStepNum();
-	            Assert.assertEquals(actual.trim(), expected, "Mismatch in step transition");
-	            break;
-
-	        case "Step3 heading is visible":
-	        case "Step 4 heading is visible":
-	        case "Step 5 heading is visible":
-	        	helper.waitForVisibleElement(loginUI_page.getTitleIndicatorElement());
-	            String actualText = loginUI_page.getCurrentHeadingOnboardForm();
-	            Assert.assertEquals(actualText.trim(), expected, "Mismatch in step transition");
-	            break;
-
-	        case "Step3 sub text":
-	        case "Verify step 4 sub text":	
-	        case "Verify step 5 sub text":
-	        	helper.waitForVisibleElement(loginUI_page.getSubTitleIndicatorElement());
-	            String actualSubText = loginUI_page.getCurrentSubHeadingOnboardForm();
-	            Assert.assertEquals(actualSubText.trim(), expected, "Mismatch in step transition");
-	            break;
-	            	               
-	        case "Back button is visible":
-	           	Assert.assertTrue(loginUI_page.isBackButtonOnboardFormVisible(),"Back button is  not visible ");     
-	               break;
-	               
-	        case "options is displayed":
-	       	
-	        	List<String> expectedList = Arrays.stream(expected.split(","))
-	            .map(String::trim)
-	            .collect(Collectors.toList());
-	        	
-	        	helper.waitForAllVisibleElements(loginUI_page.getOptions2and3IndicatorElement());
-	        List<String> actualOptions = loginUI_page.getOptions2and3OnboardFormTexts()
-	            .stream()
-	            .map(text -> text.split(" ")[0].trim()) 
-	            .collect(Collectors.toList());
-
-	        boolean allPresent = expectedList.stream()
-	            .allMatch(exp -> actualOptions.stream()
-	                .anyMatch(act -> act.equalsIgnoreCase(exp)));
-
-	        Assert.assertTrue(allPresent, "Expected: " + expectedList + "\nActual: " + actualOptions);
-	             break;                
-
-	        default:
-	            throw new IllegalArgumentException("Unexpected scenario: " + scenario);
-	    }
-	}
-
-	@When("clicks back button")
-	public void clicks_back_button() {
-		loginUI_page.clickBackButtonOnboardform();
+		case "Back button is visible":
+			Assert.assertTrue(loginUI_page.isBackButtonOnboardFormVisible(),"Back button is  not visible ");     
+	           break;
+			
+			
+			
+		default:
+	        throw new IllegalArgumentException("Unexpected value: " + expected);
+			
+		}
 	    
 	}
 
-	@Then("User Should navigate back to previous step {string}")
-	public void user_should_navigate_back_to_previous_step(String expected) {
-		String actual = loginUI_page.getTextStepNum();
-        Assert.assertEquals(actual.trim(), expected, "Mismatch in step transition");
-	}
+//---------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Given("User is in step3 for onboarding process after entering values with {string} and {string}")
-	public void user_is_in_step3_for_onboarding_process_after_entering_values_with_and(String Sheet, String TestCaseID) {
-		context.getDriver().get(url_Onboard);
-		Map<String, String> testData = ExcelReader.getTestData(Sheet, TestCaseID);
-		String age= testData.get("Age");
-		String height = testData.get("Height");
-		String weight = testData.get("Weight");
-		String gender = testData.get("Gender");
-	//	loginUI_page.enterAllFieldsOnboardWithRecordForm(age, height, weight);
-		loginUI_page.clickGenderDropBox();
-		loginUI_page.selectGender(gender);
-		loginUI_page.clickContinueWithEmailButton();
-		loginUI_page.clickEasyasyIntensityOptionStep2Onboard();
+	//Feature 4:
+	
+	@Given("User is in step1 for onboarding process {string} and {string} for login module")
+	public void user_is_in_step1_for_onboarding_process_and_for_login_module(String Sheet, String TestCaseID) {
+		
+		loginUI_page.clickCreateAccountButton();
+		helper.waitForVisibleElement(loginUI_page.clickUploadBloodReportButtonIndicatorElement());
+		loginUI_page.clickUploadBloodReportButton();
+		Path filePath = null;
+		filePath = Paths.get(System.getProperty("user.dir"), "src", "test", "resources", "testData", "ValidPdf.pdf");
+		 loginUI_page.uploadFile(filePath.toAbsolutePath().toString());
+		 loginUI_page.clickUploadAndProcessButton();
+		 loginUI_page.clickClosePopPupMessageOnboardngWithReport();
+		 loginUI_page.scrollToAndClickContinueOnboardingButton();
+		 Map<String, String> testData = ExcelReader.getTestData(Sheet, TestCaseID);
+			String height = testData.get("Height");
+			String weight = testData.get("Weight");
+			loginUI_page.enterHeightandWeightFieldsOnboardWithRecordForm(height, weight);
+			
+	    
 	}
 
-	@When("User selects dietary preference")
-	public void user_selects_dietary_preference() {
-		
-		loginUI_page.clickVeganDietaryOptionStep3Onboard();
+	@When("User clicks continue after filling form for login module")
+	public void user_clicks_continue_after_filling_form_for_login_module() {
+		loginUI_page.clickContinueWithReport();
+	}
+	
+//------------------------------------------------------------------------------------------------------------------------------------------------	
+
+	@Given("User is in step2 for onboarding process {string} and {string} for login module")
+	public void user_is_in_step2_for_onboarding_process_and_for_login_module(String Sheet, String TestCaseID) {
+		loginUI_page.clickCreateAccountButton();
+		helper.waitForVisibleElement(loginUI_page.clickUploadBloodReportButtonIndicatorElement());
+		loginUI_page.clickUploadBloodReportButton();
+		Path filePath = null;
+		filePath = Paths.get(System.getProperty("user.dir"), "src", "test", "resources", "testData", "ValidPdf.pdf");
+		 loginUI_page.uploadFile(filePath.toAbsolutePath().toString());
+		 loginUI_page.clickUploadAndProcessButton();
+		 loginUI_page.scrollToAndClickContinueOnboardingButton();
+		 Map<String, String> testData = ExcelReader.getTestData(Sheet, TestCaseID);
+			String height = testData.get("Height");
+			String weight = testData.get("Weight");
+			loginUI_page.enterHeightandWeightFieldsOnboardWithRecordForm(height, weight);
+			loginUI_page.clickContinueWithReport();
+	}
+	
+	
+//---------------------------------------------------------------------------------------------------------------------------------------------
+	@Given("User is in step3 for onboarding process {string} and {string} for login module")
+	public void user_is_in_step3_for_onboarding_process_and_for_login_module(String Sheet, String TestCaseID) {
+		loginUI_page.clickCreateAccountButton();
+		helper.waitForVisibleElement(loginUI_page.clickUploadBloodReportButtonIndicatorElement());
+		loginUI_page.clickUploadBloodReportButton();
+		Path filePath = null;
+		filePath = Paths.get(System.getProperty("user.dir"), "src", "test", "resources", "testData", "ValidPdf.pdf");
+		 loginUI_page.uploadFile(filePath.toAbsolutePath().toString());
+		 loginUI_page.clickUploadAndProcessButton();
+		 loginUI_page.scrollToAndClickContinueOnboardingButton();
+		 Map<String, String> testData = ExcelReader.getTestData(Sheet, TestCaseID);
+			String height = testData.get("Height");
+			String weight = testData.get("Weight");
+			loginUI_page.enterHeightandWeightFieldsOnboardWithRecordForm(height, weight);
+			loginUI_page.clickContinueWithReport();
+			loginUI_page.clickEasyasyIntensityOptionStep2Onboard();
+	}	
+
+//------------------------------------------------------------------------------------------------------------------------------------------------	
+	
+	
+	@Given("User is in step4 for onboarding process {string} and {string} for login module")
+	public void user_is_in_step4_for_onboarding_process_and_for_login_module(String Sheet, String TestCaseID) {
+		loginUI_page.clickCreateAccountButton();
+		helper.waitForVisibleElement(loginUI_page.clickUploadBloodReportButtonIndicatorElement());
+		loginUI_page.clickUploadBloodReportButton();
+		Path filePath = null;
+		filePath = Paths.get(System.getProperty("user.dir"), "src", "test", "resources", "testData", "ValidPdf.pdf");
+		 loginUI_page.uploadFile(filePath.toAbsolutePath().toString());
+		 loginUI_page.clickUploadAndProcessButton();
+		 loginUI_page.scrollToAndClickContinueOnboardingButton();
+		 Map<String, String> testData = ExcelReader.getTestData(Sheet, TestCaseID);
+			String height = testData.get("Height");
+			String weight = testData.get("Weight");
+			loginUI_page.enterHeightandWeightFieldsOnboardWithRecordForm(height, weight);
+			loginUI_page.clickContinueWithReport();
+			loginUI_page.clickEasyasyIntensityOptionStep2Onboard();
+			loginUI_page.clickVeganDietaryOptionStep3Onboard();
 	    
 	}
 	    	
-	@Then("User should see {string} options")
-	public void user_should_see_options(String expected) {
-		List<String> expectedList = Arrays.stream(expected.split(","))
-	            .map(String::trim)
-	            .collect(Collectors.toList());
-	        	
-	        	helper.waitForAllVisibleElements(loginUI_page.getOptions4and5IndicatorElement());
-	        List<String> actualOptions = loginUI_page.getOptions4and5OnboardFormTexts()
-	            .stream()
-	            .map(text -> text.split(" ")[0].trim()) 
-	            .collect(Collectors.toList());
-
-	        boolean allPresent = expectedList.stream()
-	            .allMatch(exp -> actualOptions.stream()
-	                .anyMatch(act -> act.equalsIgnoreCase(exp)));
-
-	        Assert.assertTrue(allPresent, "Expected: " + expectedList + "\nActual: " + actualOptions);
-	                          
-	    
+	@When("User clicks back button in step in with blood report")
+	public void user_clicks_back_button_in_step_in_with_blood_report() {
+		loginUI_page.clickBackButtonWithReport();
 	}
-	        
-	
-	@Given("User is in step4 for onboarding process after entering values with {string} and {string}")
-	public void user_is_in_step4_for_onboarding_process_after_entering_values_with_and(String Sheet, String TestCaseID) {
-		context.getDriver().get(url_Onboard);
-		Map<String, String> testData = ExcelReader.getTestData(Sheet, TestCaseID);
-		String age= testData.get("Age");
-		String height = testData.get("Height");
-		String weight = testData.get("Weight");
-		String gender = testData.get("Gender");
-		//loginUI_page.enterAllFieldsOnboardWithRecordForm(age, height, weight);
-		loginUI_page.clickGenderDropBox();
-		loginUI_page.selectGender(gender);
-		loginUI_page.clickContinueWithEmailButton();
-		loginUI_page.clickEasyasyIntensityOptionStep2Onboard();
-		loginUI_page.clickVeganDietaryOptionStep3Onboard();
-	}
-
 	
 	@When("User selects food passport")
 	public void user_selects_food_passport() {
@@ -469,34 +471,25 @@ public class LoginOnboardingScenariosWithBloodReport_Step {
 	    }
 	}
 	
-	@Given("User is in step5 for onboarding process after entering values with {string} and {string}")
-	public void user_is_in_step5_for_onboarding_process_after_entering_values_with_and(String Sheet, String TestCaseID) {
-		Map<String, String> testData = ExcelReader.getTestData(Sheet, TestCaseID);
-		loginUI_page.clickLoginGutton();
-		String email = testData.get("Email");
-		loginUI_page.enterEmail(email);
-		loginUI_page.clickContinueWithEmailButton();
-		String fullname= testData.get("Fullname");
-		String username = testData.get("Username");
-		String password = testData.get("Password");
-		loginUI_page.enterAllFieldsCompleteForm(fullname, username, password);
-		loginUI_page.clickCheckbox();
+	
+	@Given("User is in step5 for onboarding process {string} and {string} for login module")
+	public void user_is_in_step5_for_onboarding_process_and_for_login_module(String Sheet, String TestCaseID) {
 		loginUI_page.clickCreateAccountButton();
+		helper.waitForVisibleElement(loginUI_page.clickUploadBloodReportButtonIndicatorElement());
 		loginUI_page.clickUploadBloodReportButton();
-		loginUI_page.hoverOverUploadBox();
-		String filePath = Paths.get("src", "test", "resources", "testData", "ValidPdf.pdf")
-                .toAbsolutePath()
-                .toString();
-		loginUI_page.uploadFile(filePath);
-		loginUI_page.clickUploadAndProcessButton();
-		loginUI_page.clickContinueOnboargingButton();
-		String height = testData.get("Height");
-		String weight = testData.get("Weight");
-		loginUI_page.enterHeightandWeightFieldsOnboardWithRecordForm(height, weight);
-		loginUI_page.clickContinueWithEmailButton();
-		loginUI_page.clickEasyasyIntensityOptionStep2Onboard();
-		loginUI_page.clickVeganDietaryOptionStep3Onboard();
-		loginUI_page.clickIndianFoodStep4OnboardStep3Onboard();
+		Path filePath = null;
+		filePath = Paths.get(System.getProperty("user.dir"), "src", "test", "resources", "testData", "ValidPdf.pdf");
+		 loginUI_page.uploadFile(filePath.toAbsolutePath().toString());
+		 loginUI_page.clickUploadAndProcessButton();
+		 loginUI_page.scrollToAndClickContinueOnboardingButton();
+		 Map<String, String> testData = ExcelReader.getTestData(Sheet, TestCaseID);
+			String height = testData.get("Height");
+			String weight = testData.get("Weight");
+			loginUI_page.enterHeightandWeightFieldsOnboardWithRecordForm(height, weight);
+			loginUI_page.clickContinueWithReport();
+			loginUI_page.clickEasyasyIntensityOptionStep2Onboard();
+			loginUI_page.clickVeganDietaryOptionStep3Onboard();
+			loginUI_page.clickIndianFoodStep4OnboardStep3Onboard();
 	}
 	
 	@When("User selects single allergy and clicks submit")
@@ -508,6 +501,7 @@ public class LoginOnboardingScenariosWithBloodReport_Step {
 
 	@Then("User should navigate to subscription details")
 	public void user_should_navigate_to_subscription_details() {
+		helper.waitForVisibleElement(loginUI_page.getSubscriptionPageTitleDisplayedIndicatorElement());
 		Assert.assertTrue(loginUI_page.isSubscriptionPageTitleDisplayed(),"Subscription Page is  not visible ");
 			    
 	}

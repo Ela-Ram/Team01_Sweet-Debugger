@@ -45,10 +45,10 @@ public class CommonHomePageFeatures_Step {
 		loginUI_page.clickContinueWithEmailButton();
 	}
 
-	@When("User checks the Terms & conditions box after filling all fields as in {string} and {string}")
-	public void user_checks_the_terms_conditions_box_after_filling_all_fields_as_in_and(String string, String string2) {
-	    
-	}
+//	@When("User checks the Terms & conditions box after filling all fields as in {string} and {string}")
+//	public void user_checks_the_terms_conditions_box_after_filling_all_fields_as_in_and(String string, String string2) {
+//	    
+//	}
 
 	
 //	@When("Enter Email Id from {string} and {string}")
@@ -71,20 +71,20 @@ public class CommonHomePageFeatures_Step {
 ///////////////////Background finish///////////////
 
 @Given("User is in password auth page")
-public void user_is_in_password_auth_page() {
+public void user_is_in_password_auth_page_launch() {
 	
 	
     
 }
 
 @When("User clicks sign in after entering password")
-public void user_clicks_sign_in_after_entering_password() {
+public void user_clicks_sign_in_after_entering_password_launch() {
     
     
 }
 
 @Then("User should see SweetBalance text on the left side of the page")
-public void user_should_see_sweet_balance_text_on_the_left_side_of_the_page() {
+public void user_should_see_sweet_balance_text_on_the_left_side_of_the_page_launch() {
     
     
 }

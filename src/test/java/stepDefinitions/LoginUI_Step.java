@@ -3,6 +3,8 @@ package stepDefinitions;
 
 import java.util.List;
 import org.testng.Assert;
+
+import common.LoggerLoad;
 import common.TestContext;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -33,7 +35,6 @@ public class LoginUI_Step {
 	public void user_should_see_heading(String expected) {
 		
 		List<String> actual = loginUI_page.getTextsList();
-		System.out.println(actual);
 		boolean isPresent = actual.stream()
                 .anyMatch(text -> text.toLowerCase().contains(expected.toLowerCase().trim()));
 		Assert.assertTrue(isPresent, 

@@ -1,13 +1,15 @@
 package pageObject;
 
 import java.time.Duration;
+import java.util.Arrays;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import org.openqa.selenium.By;
-import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,8 +17,12 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
 
 import common.Helper;
 import common.TestContext;
@@ -81,7 +87,6 @@ public class LoginUI_Page {
 	 @FindBy(xpath = "//div[contains(@class, 'cursor-pointer')]//input[@type='checkbox']") List<WebElement> allergyCkeckBoxStep5Onboard;
 	 @FindBy(xpath = "//input[@type='checkbox' and @value='Gluten']") WebElement glutenCheckBoxStep5Onboard;
 	 @FindBy(xpath = "//input[@type='checkbox' and @value='Dairy']") WebElement dairyCheckBoxStep5Onboard;
-	 @FindBy(xpath = "//button[text()='Continue to Onboarding']") WebElement continueOnboargingButton;
 	 @FindBy(xpath = "//div[@class='text-center mb-[30px]']//h1") WebElement subscriptionPageTitle;
 	 @FindBy(xpath = "//p[@class='text-sm text-gray-600 text-right']") WebElement stepNumWithoutReport;
 	 @FindBy(xpath = "//div[@class='space-y-2 text-center']/h1") WebElement currentHeadingOnboardFormWithoutReport;
@@ -128,11 +133,15 @@ public class LoginUI_Page {
 	 @FindBy(xpath = "//p[@class='text-sm text-purple-400 text-center']") WebElement subTitlePersonalizedScreenWithoutReport;
 	 @FindBy(xpath = "//button[text()='Upgrade to Premium']") WebElement upgradeToPremiumButton;
 	 @FindBy(xpath = "//button[@type='button']") WebElement closePopPupMessageOnboardngWithReport;
-	 
 	 @FindBy(xpath = "//button[text()='Continue']") WebElement continueWithReport;
+	 @FindBy(xpath = "//div[@class='mt-4']//button") WebElement backButtonWithReport;
+	 @FindBy(xpath = "//div[@class='mt-4']//button") WebElement backStepNumWithReport;
+	 
 	
 	
-	
+	 
+	 
+	 
 	
 	public LoginUI_Page(TestContext context) {
         this.driver = context.getDriver();
@@ -231,7 +240,7 @@ public class LoginUI_Page {
 		   checkBox.click();
 	   }
 	   public boolean isCreateAccountButtonDisabled() {
-		    wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+		    wait = new WebDriverWait(driver,Duration.ofSeconds(5));
 		    return wait.until(driver -> createAccountButton.getDomAttribute("disabled") != null);
 		}
 	  
@@ -418,9 +427,24 @@ public class LoginUI_Page {
 		    return stepNum.isDisplayed();
 		} 
 	   
+	   
+	   
+	   public String getTextStepNum(String expectedText) {
+		   waitForTextInElement(stepNum, expectedText);
+		    return stepNum.getText();
+		}
+	   
+	   
 	   public String getTextStepNum() {
 		   return stepNum.getText();
+		   
 	   }
+	   
+//	   public String getBackTextStepNumWithReport(String expectedText) {
+//		   waitForTextInElement(backStepNumWithReport, expectedText);
+//		    return stepNum.getText();
+//		}
+
 	   
 	   public WebElement getStepIndicatorElement() {
 		    return stepNum;
@@ -437,8 +461,16 @@ public class LoginUI_Page {
 	   public WebElement getStepNumWithoutReportIndicatorElement() {
 		    return stepNumWithoutReport;
 		}
+	   public WebElement getStepNumWithReportIndicatorElement() {
+		    return backStepNumWithReport;
+		}
+	   
+	   
+	   
+	   
 	   
 	   public WebElement getTitleIndicatorElement() {
+		   
 		    return currentHeadingOnboardForm;
 		}
 	   public WebElement getSubTitleIndicatorElement() {
@@ -474,17 +506,10 @@ public class LoginUI_Page {
 	   }
 	   public void enterHeightandWeightFieldsOnboardWithRecordForm(String height, String weight) {
 
-		    // Wait and enter height
-		   // helper.waitForVisibleElement(heightOnboardForm);
-		    heightOnboardForm.click();
-		    heightOnboardForm.sendKeys(Keys.BACK_SPACE);
-		    heightOnboardForm.sendKeys("height");
-
-		    // Wait and enter weight
-		    //helper.waitForVisibleElement(weightOnboardForm);
-		    weightOnboardForm.click();
-		    weightOnboardForm.sendKeys(Keys.BACK_SPACE);
-		    weightOnboardForm.sendKeys("weight");
+		   heightOnboardForm.clear();
+		    heightOnboardForm.sendKeys(height);
+		    weightOnboardForm.clear();
+		    weightOnboardForm.sendKeys(weight);
 		}
 
 	   
@@ -506,9 +531,14 @@ public class LoginUI_Page {
 		    select.selectByVisibleText(value); 
 		}
 	   
+	   
 	   public String getCurrentHeadingOnboardForm(){
 		   return currentHeadingOnboardForm.getText();
 	   }
+	   
+	   
+	   
+	   
 	   public String getCurrentSubHeadingOnboardForm() {
 		   return currentSubHeadingOnboardForm.getText();
 	   }
@@ -562,12 +592,13 @@ public class LoginUI_Page {
 	   public void clickDairyCheckBoxStep5Onboard() {
 		   dairyCheckBoxStep5Onboard.click();   
 	   }
-	   public void clickContinueOnboargingButton() {
-		   continueOnboargingButton.click();   
-	   }
 	   public boolean isSubscriptionPageTitleDisplayed() {
 		    return subscriptionPageTitle.isDisplayed();
 		} 
+	   public WebElement getSubscriptionPageTitleDisplayedIndicatorElement() {
+		    return subscriptionPageTitle; 
+		}
+	  
 	   public void clickClosePopPupMessageOnboardngWithReport() {
 			 closePopPupMessageOnboardngWithReport.click();
 		 }
@@ -579,8 +610,11 @@ public class LoginUI_Page {
 		 public void clickContinueWithReport() {
 			 continueWithReport.click();
 		 }
+		 
+		 public void clickBackButtonWithReport() {
+			 backButtonWithReport.click();
+		 }
 		
-
 	//----------------------------------------------------------------------------------------------------------------------------------------------------
 	   
 	   
@@ -607,7 +641,6 @@ public class LoginUI_Page {
 	   public boolean isProgressBarWithReportHighlighted() {
 		    return progressBarWithReport.isEnabled();
 		}
-	   
 	   public void clickMaleOptionWithoutReport() {
 		   maleOptionWithoutReport.click();   
 	   }
@@ -793,31 +826,105 @@ public class LoginUI_Page {
 			 feeAndInchesTabWithoutReport.click();
 		 }
 		 
-		 
-		 public void clickContinueToOnboardingButton() {
-			    By buttonLocator = By.xpath("//button[text()='Continue to Onboarding']");
-			    WebElement continueButton = new WebDriverWait(driver, Duration.ofSeconds(15))
-			            .until(ExpectedConditions.presenceOfElementLocated(buttonLocator));
-			    
-			    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'center'});", continueButton);
-			    new WebDriverWait(driver, Duration.ofSeconds(10))
-			            .until(ExpectedConditions.elementToBeClickable(continueButton)).click();
-			}
-
-		 public void scrollToContinueOnboargingButton() {
-				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", continueOnboargingButton);
-			}
-		 
+		
 		 public void pressEscapeKey() {
 			 Actions actions = new Actions(driver);
 			    actions.sendKeys(Keys.ESCAPE).perform();
 			}
 		 
-		
+		 public void scrollToAndClickContinueOnboardingButton() {
+			    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 
-	   
-	   
-	   
-	   
+			    By continueButtonLocator = By.xpath("//button[text()='Continue to Onboarding']");
+			    WebElement continueButton = wait.until(ExpectedConditions.visibilityOfElementLocated(continueButtonLocator));
+			    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", continueButton);
+			    wait.until(ExpectedConditions.elementToBeClickable(continueButton));
+			    continueButton.click();
+			}
+
+		 public void assertExpectedItemsPresent(List<String> actualList, String expectedOptionList, String contextDescription) {
+			    List<String> expectedList = Arrays.stream(expectedOptionList.split(","))
+			        .map(String::trim)
+			        .collect(Collectors.toList());
+
+			    boolean allPresent = expectedList.stream()
+			        .allMatch(expectedItem -> actualList.stream()
+			            .anyMatch(actualItem -> actualItem.toLowerCase().contains(expectedItem.toLowerCase()))
+			        );
+			    Assert.assertTrue(allPresent,
+			    	    "Expected " + contextDescription + " not found.\nExpected: " + expectedList + "\nActual: " + actualList);
+
+			}
+
+
+		 public void waitForTextInElement(WebElement element, String expectedText) {
+			    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			    wait.until(ExpectedConditions.textToBePresentInElement(element, expectedText));
+			}
+		 
+//		 public String getCurrentHeadingOnboardForm(String expectedText) {
+//			    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//			    wait.until(ExpectedConditions.textToBePresentInElement(currentHeadingOnboardForm, expectedText));
+//			    return currentHeadingOnboardForm.getText();
+//			}
+//
+//		 public void waitForAllExpectedTextsInElements(List<WebElement> elements, String expectedTexts) {
+//			    List<String> expectedList = Arrays.stream(expectedTexts.split(","))
+//			                                      .map(String::trim)
+//			                                      .collect(Collectors.toList());
+//
+//			    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//			    wait.until(driver -> {
+//			        List<String> actualTexts = elements.stream()
+//			                                           .map(el -> el.getText().trim().toLowerCase())
+//			                                           .collect(Collectors.toList());
+//
+//			        return expectedList.stream()
+//			                           .allMatch(expected -> actualTexts.stream()
+//			                                                            .anyMatch(actual -> actual.contains(expected.toLowerCase())));
+//			    });
+//			}
+
+		 public WebElement fluentWaitForAnyVisibleElement(List<WebElement> elements) {
+			    Wait<WebDriver> wait = new FluentWait<>(driver)
+			        .withTimeout(Duration.ofSeconds(20))
+			        .pollingEvery(Duration.ofMillis(500))
+			        .ignoring(NoSuchElementException.class)
+			        .ignoring(StaleElementReferenceException.class);
+
+			    return wait.until(driver -> {
+			        for (WebElement el : elements) {
+			            try {
+			                if (el.isDisplayed()) {
+			                    return el;
+			                }
+			            } catch (Exception ignored) {}
+			        }
+			        return null;
+			    });
+			}
+		 
+		 public WebElement fluentWaitForVisibleElement(WebElement element) {
+			    Wait<WebDriver> wait = new FluentWait<>(driver)
+			        .withTimeout(Duration.ofSeconds(20))
+			        .pollingEvery(Duration.ofMillis(500))
+			        .ignoring(NoSuchElementException.class)
+			        .ignoring(StaleElementReferenceException.class);
+
+			    return wait.until(driver -> {
+			        try {
+			            return element.isDisplayed() ? element : null;
+			        } catch (Exception ignored) {
+			            return null;
+			        }
+			    });
+			}
+
+
+
+
+
+
+
 	   
 }

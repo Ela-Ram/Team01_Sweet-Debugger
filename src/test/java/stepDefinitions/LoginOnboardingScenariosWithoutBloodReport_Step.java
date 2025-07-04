@@ -333,7 +333,7 @@ case "pounds":
 	
 	@When("User selects {string} in pounds  between {string}  in step4")
 	public void user_selects_in_pounds_between_in_step4(String heightininches, String scenario) {
-		loginUI_page.clickFeeAndInchesTabWithoutReport();
+		loginUI_page.clickFeeAndInchesTabWithoutReportt();
 		WebElement heightInInchesNumberElement = loginUI_page.getOptionByText(heightininches);
 		heightInInchesNumberElement.click(); 
 		

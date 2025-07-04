@@ -11,7 +11,7 @@ import pageObject.LoginUI_Page;
 import pageObject.PremiumUserExercise_Page;
 import pageObject.PremiumUserHome_Page;
 import pageObject.PremiumUserLogbook_Page;
-import stepDefinitions.PremiumUserGlucoseMealLog_Step;
+//import stepDefinitions.PremiumUserGlucoseMealLog_Step;
 
 public class TestContext {
 	public WebDriver driver;

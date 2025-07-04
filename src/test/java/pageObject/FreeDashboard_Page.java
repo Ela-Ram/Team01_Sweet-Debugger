@@ -11,6 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import common.Helper;
+import common.LoggerLoad;
 import common.TestContext;
 
 public class FreeDashboard_Page {
@@ -191,7 +192,7 @@ public class FreeDashboard_Page {
 		List<String> allDropdownOptionsText = helper.getTexts(allergiesOptions);
 		for (String option : allDropdownOptionsText) {
 			String text = option.trim();
-			System.out.println(text);
+			LoggerLoad.info(text);
 			if (!text.equalsIgnoreCase("None") && !text.equalsIgnoreCase("Dairy") && !text.equalsIgnoreCase("Gluten")
 					&& !text.equalsIgnoreCase("Nuts") && !text.equalsIgnoreCase("Shellfish")
 					&& !text.equalsIgnoreCase("Soy") && !text.equalsIgnoreCase("Eggs")
@@ -224,7 +225,7 @@ public class FreeDashboard_Page {
 		List<String> allDropdownOptionsText = helper.getTexts(navigationBarTab);
 		for (String option : allDropdownOptionsText) {
 			String text = option.trim();
-			System.out.println(text);
+			LoggerLoad.info(text);
 			if (!text.equalsIgnoreCase("Meditation") && !text.equalsIgnoreCase("Breathing")
 					&& !text.equalsIgnoreCase("Movement") && !text.equalsIgnoreCase("Mindfulness"))
 				return false;
@@ -280,7 +281,7 @@ public class FreeDashboard_Page {
 		List<String> allDropdownOptionsText = helper.getTexts(meditationDuration);
 		for (String option : allDropdownOptionsText) {
 			String text = option.trim();
-			System.out.println(text);
+			LoggerLoad.info(text);
 			if (!text.equalsIgnoreCase("5 min") && !text.equalsIgnoreCase("10 min") && !text.equalsIgnoreCase("15 min"))
 				return false;
 		}
@@ -376,7 +377,7 @@ public class FreeDashboard_Page {
 		List<String> allDropdownOptionsText = helper.getTexts(mindfulnessDescriptionList);
 		for (String option : allDropdownOptionsText) {
 			String text = option.trim();
-			System.out.println(text);
+			LoggerLoad.info(text);
 			if (!text.equalsIgnoreCase("• Notice 5 things you can see")
 					&& !text.equalsIgnoreCase("• Identify 4 things you can touch")
 					&& !text.equalsIgnoreCase("• Listen for 3 different sounds")
@@ -403,7 +404,7 @@ public class FreeDashboard_Page {
 		List<String> allDropdownOptionsText = helper.getTexts(diabetesManagementSectionList);
 		for (String option : allDropdownOptionsText) {
 			String text = option.trim();
-			System.out.println(text);
+			LoggerLoad.info(text);
 			if (!text.equalsIgnoreCase("Reduces Stress Hormones - Lowers cortisol that can increase blood glucose")
 					&& !text.equalsIgnoreCase("Improves Sleep - Better sleep leads to better glucose control")
 					&& !text.equalsIgnoreCase("Reduces Diabetes Distress - Helps manage overwhelm from diabetes care"))

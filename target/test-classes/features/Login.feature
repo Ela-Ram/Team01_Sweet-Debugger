@@ -35,11 +35,11 @@ Feature: Login Page Verification
     When Registered user clicks continue with email button after entering valid email
     Then User should see expected Text as in "login" and "login_04"
 
-  #@skipLaunch @navhome
-  #Scenario: Verify password input accepts valid existing user
-    #Given User is on login page
-    #When Registered user clicks sign in after entering password
-    #Then User should be navigted to Home page
+  @skipLaunch @navhome
+  Scenario: Verify password input accepts valid existing user
+    Given User is on login page
+    When Registered user clicks sign in after entering password
+    Then User should be navigted to Home page
 #----------------------------------------------------------------------------------------------------------------------------------------------------------
 #Feature 3: Complete Profile Form validation for new user- Total: 5
   #@skipLaunch @completeprofileform

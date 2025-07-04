@@ -45,10 +45,10 @@ public class CommonHomePageFeatures_Step {
 		loginUI_page.clickContinueWithEmailButton();
 	}
 
-	@When("User checks the Terms & conditions box after filling all fields as in {string} and {string}")
-	public void user_checks_the_terms_conditions_box_after_filling_all_fields_as_in_and(String string, String string2) {
-	    
-	}
+//	@When("User checks the Terms & conditions box after filling all fields as in {string} and {string}")
+//	public void user_checks_the_terms_conditions_box_after_filling_all_fields_as_in_and(String string, String string2) {
+//	    
+//	}
 
 	
 //	@When("Enter Email Id from {string} and {string}")

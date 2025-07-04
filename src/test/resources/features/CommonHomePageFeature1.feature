@@ -6,7 +6,7 @@ Background:
 Given User calculates risk by entering values in all fields from "launch" and "launch_02" after clicking on Check Your Risk button
 When User continue with email button after entering a email as in "login" and "login_06" on Create Account Page 
 And User checks the Terms & conditions box after filling all fields as in "login" and "login_06"
-And 
+
 Then User is in password auth page
 
       

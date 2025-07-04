@@ -1,4 +1,4 @@
-@sweet @loginUI
+@sweet @loginUI @ela1
 Feature: Login Page UI Verification
 
 

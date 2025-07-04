@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="0" failed="29" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-03T19:52:05 CDT" name="Suite" finished-at="2025-07-03T19:53:19 CDT" duration-ms="73876">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-07-03T19:52:05 CDT" name="TestChrome" finished-at="2025-07-03T19:53:19 CDT" duration-ms="73876">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:05 CDT" name="setUpClass" finished-at="2025-07-03T19:52:15 CDT" duration-ms="9851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@656c0eae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:15 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:15 CDT" duration-ms="154" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Welcome Message is displayed with name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.core.runner.DuplicateStepDefinitionException">
+            <message>
+              <![CDATA[Duplicate step definitions in stepDefinitions.CommonHomePageFeatures_Step.user_checks_the_terms_conditions_box_after_filling_all_fields_as_in_and(java.lang.String,java.lang.String) and stepDefinitions.Login_Step.user_checks_the_terms_conditions_box_after_filling_all_fields_as_in_and(java.lang.String,java.lang.String)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.CommonHomePageFeatures_Step.user_checks_the_terms_conditions_box_after_filling_all_fields_as_in_and(java.lang.String,java.lang.String) and stepDefinitions.Login_Step.user_checks_the_terms_conditions_box_after_filling_all_fields_as_in_and(java.lang.String,java.lang.String)
+at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:313)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:307)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.core.runner.DuplicateStepDefinitionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:15 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:19 CDT" duration-ms="3978" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify "Displayed Message" the presence of dashboard"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:19 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:22 CDT" duration-ms="2322" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify "Upgrade Premium" the presence of dashboard"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:22 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:24 CDT" duration-ms="2311" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify "Account Information" the presence of dashboard"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:24 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:26 CDT" duration-ms="2344" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify "Save Changes" the presence of dashboard"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:26 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:29 CDT" duration-ms="2180" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify "Account Information All Fields" the presence of dashboard"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:29 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:30 CDT" duration-ms="1537" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify age should accept only Numeric Value"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:30 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:32 CDT" duration-ms="1569" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify height should accept only Numeric Value"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:32 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:34 CDT" duration-ms="2276" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Weight should accept only Numeric Value"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:34 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:37 CDT" duration-ms="2631" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Exercise Routine Level dropdown is displayed with options"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:37 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:39 CDT" duration-ms="2305" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Cuisine Preferences dropdown is displayed with options"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:39 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:41 CDT" duration-ms="2378" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Food Allergies dropdown is displayed with options"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:41 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:43 CDT" duration-ms="2108" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the header Stress Management Techniques"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:43 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:46 CDT" duration-ms="2377" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the navigation bar order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:46 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:48 CDT" duration-ms="2171" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Guided Meditation section is visible"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:48 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:50 CDT" duration-ms="2297" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify meditation duration options are displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:50 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:52 CDT" duration-ms="2219" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify audio player progress bar and time indicators"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:52 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:54 CDT" duration-ms="2071" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify audio playback functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:54 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:57 CDT" duration-ms="2194" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Title displayed under Movement tab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:57 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:52:59 CDT" duration-ms="2312" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the content displayed under Movement tab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:52:59 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:53:01 CDT" duration-ms="2346" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the title under Mindfulness tab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:53:01 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:53:03 CDT" duration-ms="2055" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the content displayed under Mindfulness tab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:53:03 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:53:06 CDT" duration-ms="2314" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Benefits for Diabetes Management section is visible"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:53:06 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:53:08 CDT" duration-ms="2243" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify heading and description is displayed under Breathing tab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:53:08 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:53:10 CDT" duration-ms="2357" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Start button is displayed under Breathing tab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:53:10 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:53:12 CDT" duration-ms="2171" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Cycle completed counter is displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:53:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:53:15 CDT" duration-ms="2225" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify current phase counter is displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:53:15 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:53:17 CDT" duration-ms="2082" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify breathing steps are displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:53:17 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T19:53:19 CDT" duration-ms="2164" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify start button functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard page validation for Registered Free account user"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is on login page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Registered user clicks sign in after entering password")
+public void registered_user_clicks_sign_in_after_entering_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.User is on login page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/FreeDashboard.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@6ee660fb]" started-at="2025-07-03T19:53:19 CDT" name="tearDownClass" finished-at="2025-07-03T19:53:19 CDT" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- TestChrome -->
+  </suite> <!-- Suite -->
+</testng-results>

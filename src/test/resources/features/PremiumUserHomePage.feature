@@ -8,13 +8,13 @@ When  User clicks on Login link
 
 Scenario: Verify order of text in navigation bar
 Given User landed on Premium page
-When User click the home page
+When User click the Premium home page
 Then User should see the navigation bar displaying items in the order: "Home", "Logbook", "Dashboard", "Education"
 
 @PremiumUserHomePageExcercise
 Scenario Outline: Verify "<Scenario>" in the Premium UserExercise section
 Given User landed on Premium page
-When User click the home page
+When User click the Premium home page
 Then The "<Scenario>" in Premium User Excercise should be displayed
 Examples:
   | Scenario |

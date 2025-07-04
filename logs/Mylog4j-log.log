@@ -1866,3 +1866,533 @@
 [INFO ] 2025-07-02 03:50:31.322 [main] LoggerLoad - Screenshot captured for failed scenario: Validate subtext in personalised screen
 [INFO ] 2025-07-02 03:50:31.322 [main] LoggerLoad - Browser is closed
 [INFO ] 2025-07-02 03:54:10.083 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:39:56.412 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-03 18:39:56.449 [main] LoggerLoad - chrome is Running
+[WARN ] 2025-07-03 18:40:05.831 [main] Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[INFO ] 2025-07-03 18:41:54.073 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-03 18:41:54.104 [main] LoggerLoad - chrome is Running
+[WARN ] 2025-07-03 18:42:03.318 [main] Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[INFO ] 2025-07-03 18:43:45.404 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-03 18:43:45.440 [main] LoggerLoad - chrome is Running
+[WARN ] 2025-07-03 18:43:54.597 [main] Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[INFO ] 2025-07-03 18:44:17.109 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:44:21.101 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:44:26.159 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:44:31.042 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:44:35.840 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:44:40.439 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:44:45.699 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:44:50.740 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:44:57.243 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:45:01.998 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:45:50.839 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:45:56.956 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:46:01.352 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:46:05.906 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:46:10.441 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:46:14.775 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:46:19.350 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:46:23.863 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:46:29.481 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:46:33.951 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:46:39.823 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:46:44.763 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:46:52.623 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:46:56.882 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:47:02.106 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:47:07.212 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:47:14.261 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:47:21.447 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:48:20.633 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:48:22.554 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:48:24.580 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 18:49:15.327 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-03 18:49:15.376 [main] LoggerLoad - chrome is Running
+[WARN ] 2025-07-03 18:49:24.754 [main] Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[INFO ] 2025-07-03 19:17:32.633 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:17:36.138 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:17:40.146 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:17:42.636 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:18:49.270 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:18:51.629 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:18:53.873 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:18:55.976 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:18:58.161 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:00.367 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:02.070 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:04.567 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:06.774 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:33.149 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:35.343 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:37.551 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:39.804 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:42.036 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:44.180 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:46.299 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:48.446 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:50.630 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:52.876 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:55.249 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:57.217 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:19:59.488 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:20:01.701 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:20:03.963 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:20:06.039 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:20:08.144 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:20:10.329 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:20:12.449 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:20:14.739 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:20:17.307 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:20:19.378 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:20:21.406 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:20:23.386 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:20:25.740 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:20:28.228 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:27:18.407 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.412 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.414 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.414 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.415 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.415 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.416 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.416 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.418 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2025-07-03 19:27:18.429 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+[INFO ] 2025-07-03 19:27:18.431 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.431 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.433 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.434 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2025-07-03 19:27:18.434 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.434 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.436 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.437 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.437 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.438 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.441 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.441 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.441 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.441 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.445 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[INFO ] 2025-07-03 19:27:18.445 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.448 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.448 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.448 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.448 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:27:18.456 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\AppData\Local\Temp\testng-eclipse-1713988430\testng-customsuite.xml
+
+[INFO ] 2025-07-03 19:27:18.474 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+[WARN ] 2025-07-03 19:27:28.031 [main] Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[INFO ] 2025-07-03 19:27:28.148 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@6ca8fcf3: 63 ms
+[INFO ] 2025-07-03 19:27:28.149 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@2f7efd0b: 1 ms
+[INFO ] 2025-07-03 19:27:28.157 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@149b0577: 8 ms
+[INFO ] 2025-07-03 19:27:28.167 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@6fbc1bb: 10 ms
+[INFO ] 2025-07-03 19:27:28.180 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6e3ecf5c: 12 ms
+[INFO ] 2025-07-03 19:27:28.183 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@67507df: 0 ms
+[INFO ] 2025-07-03 19:28:00.009 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.016 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2025-07-03 19:28:00.018 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.018 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.018 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.018 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.019 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.019 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.022 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.033 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+[INFO ] 2025-07-03 19:28:00.034 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.035 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2025-07-03 19:28:00.036 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.037 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.037 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.038 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.039 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.040 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.040 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.040 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.043 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.043 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.043 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.043 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.048 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[INFO ] 2025-07-03 19:28:00.048 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.049 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.050 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.050 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.050 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:28:00.057 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\AppData\Local\Temp\testng-eclipse-1514181157\testng-customsuite.xml
+
+[INFO ] 2025-07-03 19:28:00.077 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+[INFO ] 2025-07-03 19:28:13.879 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:28:16.472 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:28:18.573 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:28:20.854 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:28:23.245 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:31:21.149 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+[INFO ] 2025-07-03 19:31:21.155 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2025-07-03 19:31:21.157 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.158 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.158 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.158 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.160 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.160 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.164 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.183 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 19 ms.
+[INFO ] 2025-07-03 19:31:21.186 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2025-07-03 19:31:21.186 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.188 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.188 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.190 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.190 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.193 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.194 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.194 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.195 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.201 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.203 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.205 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.206 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.213 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+[INFO ] 2025-07-03 19:31:21.214 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2025-07-03 19:31:21.217 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.217 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.217 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.217 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:31:21.231 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\AppData\Local\Temp\testng-eclipse--439498781\testng-customsuite.xml
+
+[INFO ] 2025-07-03 19:31:21.254 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+[INFO ] 2025-07-03 19:31:34.688 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:31:36.931 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:31:39.209 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:31:41.564 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:31:43.914 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:31:46.144 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:31:48.402 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:31:50.563 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:31:52.889 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:31:54.470 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:31:56.794 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:31:58.954 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:01.495 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:03.773 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:06.081 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:08.405 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:10.647 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:12.839 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:15.128 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:17.274 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:19.558 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:21.779 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:24.048 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:26.249 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:28.395 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:30.728 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:33.020 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:35.399 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:32:35.844 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@60251ddb: 82 ms
+[INFO ] 2025-07-03 19:32:35.860 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@370a935f: 14 ms
+[INFO ] 2025-07-03 19:32:35.876 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@10280879: 16 ms
+[INFO ] 2025-07-03 19:32:35.906 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@74d776fb: 30 ms
+[INFO ] 2025-07-03 19:32:35.926 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@277474fc: 19 ms
+[INFO ] 2025-07-03 19:32:35.926 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5ab3f611: 0 ms
+[INFO ] 2025-07-03 19:36:52.519 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2025-07-03 19:36:52.527 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2025-07-03 19:36:52.530 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.530 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.531 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.533 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2025-07-03 19:36:52.534 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.535 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.537 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2025-07-03 19:36:52.551 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+[INFO ] 2025-07-03 19:36:52.553 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.553 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.554 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.555 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.556 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.556 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.559 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.560 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.561 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.561 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.566 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.566 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.566 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.566 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.577 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+[INFO ] 2025-07-03 19:36:52.577 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.583 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.583 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.583 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.583 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:36:52.593 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\AppData\Local\Temp\testng-eclipse--1147176246\testng-customsuite.xml
+
+[INFO ] 2025-07-03 19:36:52.614 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+[INFO ] 2025-07-03 19:37:06.434 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:09.096 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:11.547 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:14.541 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:17.382 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:19.958 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:22.641 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:25.409 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:28.177 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:30.726 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:33.443 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:35.938 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:38.492 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:40.856 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:43.394 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:45.934 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:48.423 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:51.170 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:53.685 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:56.242 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:37:58.667 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:38:01.227 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:38:03.660 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:38:06.192 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:38:08.504 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:38:11.015 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:38:13.653 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:38:16.203 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:38:16.682 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@4d0d568f: 101 ms
+[INFO ] 2025-07-03 19:38:16.705 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@4adc3951: 23 ms
+[INFO ] 2025-07-03 19:38:16.725 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@4d745ac6: 20 ms
+[INFO ] 2025-07-03 19:38:16.735 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2fbb098f: 10 ms
+[INFO ] 2025-07-03 19:38:16.748 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@19b8f1bd: 13 ms
+[INFO ] 2025-07-03 19:38:16.749 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@46a9c368: 0 ms
+[INFO ] 2025-07-03 19:52:19.839 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:22.181 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:24.496 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:26.841 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:29.022 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:30.559 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:32.129 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:34.410 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:37.043 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:39.349 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:41.725 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:43.834 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:46.213 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:48.385 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:50.684 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:52.901 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:54.976 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:57.171 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:52:59.485 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:53:01.830 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:53:03.889 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:53:06.200 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:53:08.444 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:53:10.802 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:53:12.975 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:53:15.200 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:53:17.281 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:53:19.445 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:58:27.742 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2025-07-03 19:58:27.749 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2025-07-03 19:58:27.751 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.751 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.752 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.752 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.755 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.755 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.757 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.771 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+[INFO ] 2025-07-03 19:58:27.773 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.774 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.775 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.775 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.775 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.777 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.781 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.781 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.781 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.782 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.785 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.786 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.786 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.786 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.790 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[INFO ] 2025-07-03 19:58:27.790 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.792 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.792 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.792 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.792 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2025-07-03 19:58:27.801 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\AppData\Local\Temp\testng-eclipse-257011099\testng-customsuite.xml
+
+[INFO ] 2025-07-03 19:58:27.823 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+[INFO ] 2025-07-03 19:58:45.856 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 19:58:49.088 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:58:54.909 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 19:59:24.425 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-03 19:59:24.501 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-03 19:59:43.818 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 19:59:46.296 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 19:59:52.580 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 19:59:55.352 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:00:00.207 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:00:02.780 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:00:07.480 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:00:10.152 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:00:15.049 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:00:17.714 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:00:22.562 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:00:25.351 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:00:32.826 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:00:40.236 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:00:47.769 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:00:55.249 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:01:02.830 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:01:10.867 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:01:18.168 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:01:25.786 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:01:33.600 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:01:41.348 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:01:49.215 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:02:02.032 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:02:09.413 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:02:16.859 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:02:24.761 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:02:32.436 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:02:40.181 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:02:47.823 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:02:55.309 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:03:02.633 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:03:09.956 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:03:17.519 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:03:45.715 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:05:09.436 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-03 20:05:09.514 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-03 20:05:28.578 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:05:30.258 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:05:35.378 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:05:36.740 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:05:41.453 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:05:43.829 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:05:48.584 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:05:50.374 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:05:55.042 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:05:57.504 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:06:02.408 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:06:04.839 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:06:09.645 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:06:11.991 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:06:16.741 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:06:19.156 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:06:24.132 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:06:26.582 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:06:31.201 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:06:33.489 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:06:38.121 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:06:39.776 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:06:44.525 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:06:46.928 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:06:51.487 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:06:54.221 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:06:58.985 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:07:00.616 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:07:05.325 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:07:06.664 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:07:11.535 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:07:13.052 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:07:17.693 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:07:19.172 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:07:23.876 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:07:25.519 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:07:30.460 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:07:31.849 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:07:36.971 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:07:38.398 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:07:42.936 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:07:44.470 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:07:49.013 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:07:50.505 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:07:55.404 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:07:56.816 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:08:01.380 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:08:02.720 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:08:07.270 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:08:08.832 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:08:13.410 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:08:14.789 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:08:19.314 [main] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:08:21.066 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:09:53.468 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-03 20:09:53.550 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-03 20:10:12.490 [main] LoggerLoad - User is in Home Page of Premium User
+[INFO ] 2025-07-03 20:10:23.294 [main] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\screenshots\Verify bar chart behavior when user has not logged any meals.png
+[INFO ] 2025-07-03 20:10:23.579 [main] LoggerLoad - Screenshot captured for failed scenario: Verify bar chart behavior when user has not logged any meals
+[INFO ] 2025-07-03 20:10:24.214 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:10:51.158 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-03 20:10:51.237 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-03 20:11:10.309 [main] LoggerLoad - User is in Home Page of Premium User
+[INFO ] 2025-07-03 20:11:23.766 [main] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:30:23.555 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-03 20:30:23.637 [main] LoggerLoad - firefox is Running
+[INFO ] 2025-07-03 20:30:41.003 [TestNG-PoolService-1] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:30:43.986 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:30:44.633 [main] LoggerLoad - edge is Running
+[INFO ] 2025-07-03 20:30:50.681 [TestNG-PoolService-1] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:30:52.302 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:30:52.456 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-03 20:30:56.530 [TestNG-PoolService-1] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:30:58.024 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:32:07.011 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-03 20:32:07.043 [main] LoggerLoad - firefox is Running
+[INFO ] 2025-07-03 20:32:23.026 [TestNG-PoolService-1] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:32:25.208 [TestNG-PoolService-1] LoggerLoad - Screenshot saved to: C:\target\screenshots\Verify _snack Three Clock_ the presence of Carbs,Protein and Fat in Meals Section.png
+[INFO ] 2025-07-03 20:32:25.322 [TestNG-PoolService-1] LoggerLoad - Screenshot captured for failed scenario: Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section
+[INFO ] 2025-07-03 20:32:26.316 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:32:27.005 [main] LoggerLoad - edge is Running
+[INFO ] 2025-07-03 20:32:31.612 [TestNG-PoolService-1] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:32:33.441 [TestNG-PoolService-1] LoggerLoad - Screenshot saved to: C:\target\screenshots\Verify _snack Three Clock_ the presence of Carbs,Protein and Fat in Meals Section.png
+[INFO ] 2025-07-03 20:32:33.666 [TestNG-PoolService-1] LoggerLoad - Screenshot captured for failed scenario: Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section
+[INFO ] 2025-07-03 20:32:33.943 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:32:34.086 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-03 20:32:38.138 [TestNG-PoolService-1] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:32:39.544 [TestNG-PoolService-1] LoggerLoad - Screenshot saved to: C:\target\screenshots\Verify _snack Three Clock_ the presence of Carbs,Protein and Fat in Meals Section.png
+[INFO ] 2025-07-03 20:32:39.750 [TestNG-PoolService-1] LoggerLoad - Screenshot captured for failed scenario: Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section
+[INFO ] 2025-07-03 20:32:39.995 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:33:32.702 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-03 20:33:32.726 [main] LoggerLoad - firefox is Running
+[INFO ] 2025-07-03 20:33:48.293 [TestNG-PoolService-1] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:33:50.264 [TestNG-PoolService-1] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify _snack Three Clock_ the presence of Carbs,Protein and Fat in Meals Section.png
+[INFO ] 2025-07-03 20:33:50.372 [TestNG-PoolService-1] LoggerLoad - Screenshot captured for failed scenario: Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section
+[INFO ] 2025-07-03 20:33:51.280 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:33:51.944 [main] LoggerLoad - edge is Running
+[INFO ] 2025-07-03 20:33:56.484 [TestNG-PoolService-1] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:33:58.052 [TestNG-PoolService-1] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify _snack Three Clock_ the presence of Carbs,Protein and Fat in Meals Section.png
+[INFO ] 2025-07-03 20:33:58.263 [TestNG-PoolService-1] LoggerLoad - Screenshot captured for failed scenario: Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section
+[INFO ] 2025-07-03 20:33:58.557 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:33:58.740 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-03 20:34:02.635 [TestNG-PoolService-1] LoggerLoad - Free User is landed on free page 
+[INFO ] 2025-07-03 20:34:04.016 [TestNG-PoolService-1] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify _snack Three Clock_ the presence of Carbs,Protein and Fat in Meals Section.png
+[INFO ] 2025-07-03 20:34:04.221 [TestNG-PoolService-1] LoggerLoad - Screenshot captured for failed scenario: Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section
+[INFO ] 2025-07-03 20:34:04.451 [TestNG-PoolService-1] LoggerLoad - Browser is closed

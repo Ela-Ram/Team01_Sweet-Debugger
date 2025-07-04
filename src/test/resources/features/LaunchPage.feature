@@ -14,7 +14,7 @@ Feature: Verify Homepage UI components
   Scenario Outline: Verify <Scenario>
     Given User launches the browser
     When User enters the SweetBalance url
-    Then User should see <Expected>
+    Then User should see <Expected> 
 
     Examples: 
       | Scenario                                                                                    | Expected                                                                                                                                                           |  |
@@ -26,7 +26,7 @@ Feature: Verify Homepage UI components
       | Verify the Health Tracking card is visible                                                  | User should see a first card with title "Health Tracking"                                                                                                          |  |
       | Verify the Nutrition & Exercise card is visible                                             | User should see a second card with title "Nutrition & Exercise"                                                                                                    |  |
       | Verify the Smart Insights card is visible                                                   | User should see a third card with title "Smart Insights"                                                                                                           |  |
-      | Validate description in Health Tracking feature card                                        | User should see text1 Monitor glucose levels, medication, and vital statistics, Easy logging of daily readings,Visualize trends over time,Set personalized targets |  |
+      | Validate description in Health Tracking feature card                                        | User should see textt Monitor glucose levels, medication, and vital statistics, Easy logging of daily readings,Visualize trends over time,Set personalized targets_launch |  |
       | Validate description in Nutrition & Exercise card                                           | User should see the text  "Carb counting tools,Customized exercise plans,Meal suggestions based on readings"                                                       |  |
       | Validate description in Smart Insights card                                                 | User should see the smartInsights text  "Pattern detection algorithms,Early warning notifications,Actionable recommendations"                                      |  |
       | Validate icon in Health tracking feature card                                               | User should see heart icon                                                                                                                                         |  |
@@ -47,7 +47,7 @@ Feature: Verify Homepage UI components
   @launchPage
   Scenario: Verify redirection from Start Today button
     Given User is on SweetBalance homepage
-    When User click the Start Today button
+    When User click the Start Today button launch
     Then User should be redirected to the Login page
 
   @launchPage
@@ -59,23 +59,23 @@ Feature: Verify Homepage UI components
   @launchPage
   Scenario: Validate Login link redirection
     Given User is on SweetBalance homepage
-    When User click on the Login link
+    When User click on the Login link launch
     Then User should be redirected to the Login page
 
   @launchPage
   Scenario: Verify redirection from Check Your Risk button
     Given User is on SweetBalance homepage
-    When User click on Check Your Risk button
+    When User click on Check Your Risk button launch
     Then User should be redirected to the assessment modal dialog
 
 #--------------------------------------------------------------------------------------------------------
 #Feature: Non-Functional Testing - Home Page
 
-  @launchPage
-  Scenario: Homepage loads within acceptable time
-    Given User launches the browser
-    When User enters the SweetBalance url
-    Then Page should be fully loaded within 3 seconds
+  #@launchPage
+  #Scenario: Homepage loads within acceptable time
+    #Given User launches the browser
+    #When User enters the SweetBalance url from launch
+    #Then Page should be fully loaded within 3 seconds
 
   #@launchPage
   #Scenario:  

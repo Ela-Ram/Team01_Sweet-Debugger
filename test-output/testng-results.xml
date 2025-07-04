@@ -1,138 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-03T20:33:32 CDT" name="Suite" finished-at="2025-07-03T20:34:04 CDT" duration-ms="31770">
+  <suite started-at="2025-07-03T20:59:06 CDT" name="Suite" finished-at="2025-07-03T20:59:41 CDT" duration-ms="34895">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@56aaaecd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@4e858e0a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@4e70a728]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-07-03T20:33:32 CDT" name="TestFirefox" finished-at="2025-07-03T20:33:51 CDT" duration-ms="19167">
+    <test started-at="2025-07-03T20:59:06 CDT" name="TestChrome" finished-at="2025-07-03T20:59:41 CDT" duration-ms="34895">
       <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@56aaaecd]" started-at="2025-07-03T20:33:32 CDT" name="defineBrowser" finished-at="2025-07-03T20:33:32 CDT" duration-ms="12" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@56aaaecd]" started-at="2025-07-03T20:33:32 CDT" name="setUpClass" finished-at="2025-07-03T20:33:42 CDT" duration-ms="9309" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7df6d663]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@56aaaecd]" started-at="2025-07-03T20:33:42 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T20:33:51 CDT" duration-ms="9237" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Home Page Validation for Registered Free Account User"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[snack Three Clock is not displayed expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: snack Three Clock is not displayed expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at stepDefinitions.HomePageFreeUser_Step.the_value_should_be_displayed_HomePageNutrientValue(HomePageFreeUser_Step.java:88)
-at ✽.The "snack Three Clock" value should be displayed HomePageNutrientValue(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/HomePageFreeUser.feature:36)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@56aaaecd]" started-at="2025-07-03T20:33:51 CDT" name="tearDownClass" finished-at="2025-07-03T20:33:51 CDT" duration-ms="549" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- testRunner.TestRunner -->
-    </test> <!-- TestFirefox -->
-    <test started-at="2025-07-03T20:33:51 CDT" name="TestEdge" finished-at="2025-07-03T20:33:58 CDT" duration-ms="6782">
-      <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@4e858e0a]" started-at="2025-07-03T20:33:51 CDT" name="defineBrowser" finished-at="2025-07-03T20:33:51 CDT" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@4e858e0a]" started-at="2025-07-03T20:33:51 CDT" name="setUpClass" finished-at="2025-07-03T20:33:52 CDT" duration-ms="317" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@13d019a4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@4e858e0a]" started-at="2025-07-03T20:33:52 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T20:33:58 CDT" duration-ms="6303" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Home Page Validation for Registered Free Account User"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[snack Three Clock is not displayed expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: snack Three Clock is not displayed expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at stepDefinitions.HomePageFreeUser_Step.the_value_should_be_displayed_HomePageNutrientValue(HomePageFreeUser_Step.java:88)
-at ✽.The "snack Three Clock" value should be displayed HomePageNutrientValue(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/HomePageFreeUser.feature:36)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@4e858e0a]" started-at="2025-07-03T20:33:58 CDT" name="tearDownClass" finished-at="2025-07-03T20:33:58 CDT" duration-ms="147" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- testRunner.TestRunner -->
-    </test> <!-- TestEdge -->
-    <test started-at="2025-07-03T20:33:58 CDT" name="TestChrome" finished-at="2025-07-03T20:34:04 CDT" duration-ms="5743">
-      <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@4e70a728]" started-at="2025-07-03T20:33:58 CDT" name="defineBrowser" finished-at="2025-07-03T20:33:58 CDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:testRunner.TestRunner@56aaaecd]" started-at="2025-07-03T20:59:06 CDT" name="defineBrowser" finished-at="2025-07-03T20:59:06 CDT" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,48 +21,84 @@ at ✽.The "snack Three Clock" value should be displayed HomePageNutrientValue(f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defineBrowser -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@4e70a728]" started-at="2025-07-03T20:33:58 CDT" name="setUpClass" finished-at="2025-07-03T20:33:58 CDT" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@56aaaecd]" started-at="2025-07-03T20:59:06 CDT" name="setUpClass" finished-at="2025-07-03T20:59:16 CDT" duration-ms="9468" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2c30c81d]]>
+                <![CDATA[org.testng.TestRunner@7c90b7b7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@4e70a728]" started-at="2025-07-03T20:33:58 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T20:34:04 CDT" duration-ms="5505" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@56aaaecd]" started-at="2025-07-03T20:59:16 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-03T20:59:41 CDT" duration-ms="24867" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section"]]>
+                <![CDATA["Verify order of text in navigation bar"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Home Page Validation for Registered Free Account User"]]>
+                <![CDATA["Home Page Validation for Registered premium Account User"]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[snack Three Clock is not displayed expected [true] but found [false]]]>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Home']' (tried for 10 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: snack Three Clock is not displayed expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at stepDefinitions.HomePageFreeUser_Step.the_value_should_be_displayed_HomePageNutrientValue(HomePageFreeUser_Step.java:88)
-at ✽.The "snack Three Clock" value should be displayed HomePageNutrientValue(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/HomePageFreeUser.feature:36)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Home']' (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at common.Helper.waitForClickableWebElement(Helper.java:84)
+at pageObject.PremiumUserHome_Page.homeClick(PremiumUserHome_Page.java:76)
+at stepDefinitions.PremiumUserHomePage_Step.user_click_the_home_page(PremiumUserHomePage_Step.java:33)
+at ✽.User click the home page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/PremiumUserHomePage.feature:11)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Home']"}
+  (Session info: chrome=138.0.7204.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7547109351f03c0b4c8631fe1c2cd342, findElement {using=xpath, value=//button[text()='Home']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\nithi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61486}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61486/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7547109351f03c0b4c8631fe1c2cd342
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy46.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 4 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@4e70a728]" started-at="2025-07-03T20:34:04 CDT" name="tearDownClass" finished-at="2025-07-03T20:34:04 CDT" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@56aaaecd]" started-at="2025-07-03T20:59:41 CDT" name="tearDownClass" finished-at="2025-07-03T20:59:41 CDT" duration-ms="492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

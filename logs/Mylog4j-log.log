@@ -2396,3 +2396,11 @@
 [INFO ] 2025-07-03 20:34:04.016 [TestNG-PoolService-1] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify _snack Three Clock_ the presence of Carbs,Protein and Fat in Meals Section.png
 [INFO ] 2025-07-03 20:34:04.221 [TestNG-PoolService-1] LoggerLoad - Screenshot captured for failed scenario: Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section
 [INFO ] 2025-07-03 20:34:04.451 [TestNG-PoolService-1] LoggerLoad - Browser is closed
+[INFO ] 2025-07-03 20:59:06.757 [main] Utils - [TestNG] Running:
+  C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\testng.xml
+
+[INFO ] 2025-07-03 20:59:06.784 [main] LoggerLoad - chrome is Running
+[INFO ] 2025-07-03 20:59:19.909 [TestNG-PoolService-1] LoggerLoad - Premium User is landed on Home page 
+[INFO ] 2025-07-03 20:59:40.446 [TestNG-PoolService-1] LoggerLoad - Screenshot saved to: C:\Users\nithi\EclipseWorkspace2024\Team01_Sweet-Debugger\.\target\screenshots\Verify order of text in navigation bar.png
+[INFO ] 2025-07-03 20:59:40.758 [TestNG-PoolService-1] LoggerLoad - Screenshot captured for failed scenario: Verify order of text in navigation bar
+[INFO ] 2025-07-03 20:59:41.120 [TestNG-PoolService-1] LoggerLoad - Browser is closed

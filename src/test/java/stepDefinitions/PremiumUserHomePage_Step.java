@@ -28,8 +28,8 @@ public class PremiumUserHomePage_Step {
 		LoggerLoad.info("Premium User is landed on Home page ");
 	}
 
-	@When("User click the home page")
-	public void user_click_the_home_page() {
+	@When("When User click the Premium home page")
+	public void user_click_the_Premium_home_page() {
 		premiumUserHome_page.homeClick();
 	}
 

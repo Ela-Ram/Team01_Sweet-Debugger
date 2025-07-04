@@ -31,7 +31,7 @@
                   <tr>
                     <td>
                       <span class="bg-failed" style="margin-right:10px;padding:0px 5px;">FAILED</span>
-                      <span style="">Jul 3, 2025, 8:33:33 PM &middot; 18s</span>
+                      <span style="">Jul 3, 2025, 8:59:07 PM &middot; 34s</span>
                     </td>
                   </tr>
                 </table>
@@ -105,27 +105,7 @@
                   </tr>
                   <tr style="height:10px;"></tr>
                   <tr>
-                    <td width="350">@FreeUser</td>
-                      <td width="23"></td>
-                      <td style="" width="60">0</td>
-                      <td class="padding" width="10"></td>
-                      <td style="" width="60">1</td>
-                      <td class="padding" width="10"></td>
-                      <td style="" width="60">0</td>
-                  </tr>
-                  <tr style="height:10px;"></tr>
-                  <tr>
-                    <td width="350">@HomePageNutrientValue</td>
-                      <td width="23"></td>
-                      <td style="" width="60">0</td>
-                      <td class="padding" width="10"></td>
-                      <td style="" width="60">1</td>
-                      <td class="padding" width="10"></td>
-                      <td style="" width="60">0</td>
-                  </tr>
-                  <tr style="height:10px;"></tr>
-                  <tr>
-                    <td width="350">@HomePageFreeUser</td>
+                    <td width="350">@PremiumUserHomePage</td>
                       <td width="23"></td>
                       <td style="" width="60">0</td>
                       <td class="padding" width="10"></td>
@@ -152,58 +132,94 @@
                   <tr>
                     <td width="650px" style="padding:10px;">
                       <p class="text-failed" style="font-size:14px;font-weight:500;margin:0;margin-bottom:5px;">
-                        Feature: Home Page Validation for Registered Free Account User
+                        Feature: Home Page Validation for Registered premium Account User
                       <p style="font-size:12px;margin:0;">
-                        <span>Jul 3, 2025, 8:33:51 PM / 80ms</span>
+                        <span>Jul 3, 2025, 8:59:41 PM / 32ms</span>
                       </p>
                     </td>
                   </tr>
                   <tr>
                     <td width="650px" class="bg-failed" style="padding:7px 10px;">
                       <p style="font-size:13px;margin:0;">
-                        Scenario Outline: Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section
+                        Scenario: Verify order of text in navigation bar
                       </p>
                     </td>
                   </tr>
                   <tr>
                     <td width="650px" class="bg-passed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
-                        Given User is on login page
+                        Given User is on SweetBalance homepage
                       </p>
                     </td>
                   </tr>
                   <tr>
                     <td width="650px" class="bg-passed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
-                        When Registered user clicks sign in after entering password
+                        When User clicks on Login link
                       </p>
                     </td>
                   </tr>
                   <tr>
                     <td width="650px" class="bg-passed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
-                        Given User is landed on free page
-                      </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
-                      <p style="font-size:13px;margin:0;">
-                        When User clicks meal section from FreeUser
+                        Given User landed on Premium page
                       </p>
                     </td>
                   </tr>
                   <tr>
                     <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
-                        Then The "snack Three Clock" value should be displayed HomePageNutrientValue
-<pre>java.lang.AssertionError: snack Three Clock is not displayed expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepDefinitions.HomePageFreeUser_Step.the_value_should_be_displayed_HomePageNutrientValue(HomePageFreeUser_Step.java:88)
-	at ✽.The "snack Three Clock" value should be displayed HomePageNutrientValue(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/HomePageFreeUser.feature:36)
+                        When User click the home page
+<pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Home']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at common.Helper.waitForClickableWebElement(Helper.java:84)
+	at pageObject.PremiumUserHome_Page.homeClick(PremiumUserHome_Page.java:76)
+	at stepDefinitions.PremiumUserHomePage_Step.user_click_the_home_page(PremiumUserHomePage_Step.java:33)
+	at ✽.User click the home page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/PremiumUserHomePage.feature:11)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Home']"}
+  (Session info: chrome=138.0.7204.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7547109351f03c0b4c8631fe1c2cd342, findElement {using=xpath, value=//button[text()='Home']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\nithi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61486}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61486/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7547109351f03c0b4c8631fe1c2cd342
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 4 more
 </pre>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-skipped" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Then User should see the navigation bar displaying items in the order: "Home", "Logbook", "Dashboard", "Education"
                       </p>
                     </td>
                   </tr>

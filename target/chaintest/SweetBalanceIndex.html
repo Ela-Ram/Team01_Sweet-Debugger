@@ -19,9 +19,9 @@
         <span class="ms-3 fs-6">SweetDebugger</span>
       </div>
       <div>
-        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 18s</span>
-        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-07-03 08:33:33 PM</span>
-        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-07-03 08:33:51 PM</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 34s</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-07-03 08:59:07 PM</span>
+        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-07-03 08:59:41 PM</span>
           <button role="button" id="sys-info" class="btn btn-outline-primary smaller" title="View System Info">
             <i class="bi bi-pc-display-horizontal"></i></button>
         <button role="button" id="shortcuts" class="btn btn-outline-primary smaller" title="Shortcuts">
@@ -80,9 +80,9 @@
                   </div>
                 </div>
                 <div class="card-footer small">
-                  <span id="sp3">4</span> Passed,
+                  <span id="sp3">3</span> Passed,
                   <span id="sf3">1</span> Failed,
-                  <span id="ss3">0</span> Skipped
+                  <span id="ss3">1</span> Skipped
                 </div>
               </div>
             </div>
@@ -114,28 +114,14 @@
                     <td>1</td>
                     <td>0</td>
                     <td>1</td>
-                    <td>17ms</td>
+                    <td>0ms</td>
                   </tr>
                   <tr>
-                    <td><a href="#" class="secondary tag">@FreeUser</a></td>
+                    <td><a href="#" class="secondary tag">@PremiumUserHomePage</a></td>
                     <td>1</td>
                     <td>0</td>
                     <td>1</td>
-                    <td>17ms</td>
-                  </tr>
-                  <tr>
-                    <td><a href="#" class="secondary tag">@HomePageNutrientValue</a></td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>17ms</td>
-                  </tr>
-                  <tr>
-                    <td><a href="#" class="secondary tag">@HomePageFreeUser</a></td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>17ms</td>
+                    <td>0ms</td>
                   </tr>
               </tbody>
             </table>
@@ -163,19 +149,17 @@
         <div class="container">
           <div class="row">
             <div class="col-4">
-              <h6 class="mb-3 testname fs-6 failed">Feature: Home Page Validation for Registered Free Account User</h6>
+              <h6 class="mb-3 testname fs-6 failed">Feature: Home Page Validation for Registered premium Account User</h6>
               <div class="small">
-                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 80ms</span>
+                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 32ms</span>
                 <span class="badge text-bg-info"><i class="bi bi-clock me-1"></i>
-                  2025-07-03 08:33:51 PM</span>
+                  2025-07-03 08:59:41 PM</span>
                 <span class="badge text-bg-warning"><i class="bi bi-clock me-1"></i>
-                  2025-07-03 08:33:51 PM</span>
+                  2025-07-03 08:59:41 PM</span>
               </div>
                 <div class="my-2">
-                    <span class="badge rounded-pill text-bg-secondary">@FreeUser</span>
-                    <span class="badge rounded-pill text-bg-secondary">@HomePageNutrientValue</span>
                     <span class="badge rounded-pill text-bg-secondary">@sweet</span>
-                    <span class="badge rounded-pill text-bg-secondary">@HomePageFreeUser</span>
+                    <span class="badge rounded-pill text-bg-secondary">@PremiumUserHomePage</span>
                 </div>
               
             </div>
@@ -185,52 +169,86 @@
                     <div class="d-flex justify-content-between">
                       <div>
                           <i class="bi bi-exclamation-octagon-fill text-danger"></i>
-                        <span class="fs-6 ms-2">Scenario Outline: Verify "snack Three Clock" the presence of Carbs,Protein and Fat in Meals Section</span>
+                        <span class="fs-6 ms-2">Scenario: Verify order of text in navigation bar</span>
                       </div>
                       <div>
                           <span class="tag-list">
-                              <span class="badge rounded-pill text-bg-secondary">@FreeUser</span>
-                              <span class="badge rounded-pill text-bg-secondary">@HomePageNutrientValue</span>
                               <span class="badge rounded-pill text-bg-secondary">@sweet</span>
-                              <span class="badge rounded-pill text-bg-secondary">@HomePageFreeUser</span>
+                              <span class="badge rounded-pill text-bg-secondary">@PremiumUserHomePage</span>
                           </span>
                           <span class="mx-1">&middot;</span>
-                        <span class="badge text-dark bg-light">17ms</span>
+                        <span class="badge text-dark bg-light">0ms</span>
                       </div>
                     </div>
                     
   <div class="mt-2">
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Given User is on login page</span>
+          <span class="ms-2">Given User is on SweetBalance homepage</span>
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">When Registered user clicks sign in after entering password</span>
+          <span class="ms-2">When User clicks on Login link</span>
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Given User is landed on free page</span>
-        </div>
-        <div class="mt-1 pb-1">
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">When User clicks meal section from FreeUser</span>
+          <span class="ms-2">Given User landed on Premium page</span>
         </div>
         <div class="mt-1 pb-1">
               <i class="bi bi-exclamation-octagon-fill text-danger"></i>
-          <span class="ms-2">Then The "snack Three Clock" value should be displayed HomePageNutrientValue</span>
-            <pre class="py-2 mt-2">java.lang.AssertionError: snack Three Clock is not displayed expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepDefinitions.HomePageFreeUser_Step.the_value_should_be_displayed_HomePageNutrientValue(HomePageFreeUser_Step.java:88)
-	at ✽.The "snack Three Clock" value should be displayed HomePageNutrientValue(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/HomePageFreeUser.feature:36)
+          <span class="ms-2">When User click the home page</span>
+            <pre class="py-2 mt-2">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Home']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at common.Helper.waitForClickableWebElement(Helper.java:84)
+	at pageObject.PremiumUserHome_Page.homeClick(PremiumUserHome_Page.java:76)
+	at stepDefinitions.PremiumUserHomePage_Step.user_click_the_home_page(PremiumUserHomePage_Step.java:33)
+	at ✽.User click the home page(file:///C:/Users/nithi/EclipseWorkspace2024/Team01_Sweet-Debugger/src/test/resources/features/PremiumUserHomePage.feature:11)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Home']"}
+  (Session info: chrome=138.0.7204.97)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7547109351f03c0b4c8631fe1c2cd342, findElement {using=xpath, value=//button[text()='Home']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.97, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\nithi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61486}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61486/devtoo..., se:cdpVersion: 138.0.7204.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7547109351f03c0b4c8631fe1c2cd342
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 4 more
 </pre>
+        </div>
+        <div class="mt-1 pb-1">
+              <i class="bi bi-exclamation-octagon-fill text-info"></i>
+          <span class="ms-2">Then User should see the navigation bar displaying items in the order: "Home", "Logbook", "Dashboard", "Education"</span>
         </div>
   </div>
                       <div class="row mt-3">
                           <div class="embed col-2 mb-1">
-                            <img src="resources/78dfcafa-ba74-47ba-a40c-c395680d9200.png" />
+                            <img src="resources/0a2635a1-28ce-4b12-9429-52f72e29887e.png" />
                           </div>
                       </div>
                   </div>
@@ -255,11 +273,11 @@
         { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
       ];
-      const stats3Annotation = {'total': 5, 'passed': 4};
+      const stats3Annotation = {'total': 5, 'passed': 3};
       const stats3 = [
-        { result: 'Passed', count: 4, bg: 'rgb(140, 197, 83)' },
+        { result: 'Passed', count: 3, bg: 'rgb(140, 197, 83)' },
         { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
-        { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
+        { result: 'Skipped', count: 1, bg: 'rgb(13, 202, 240)' }
       ];
      
   </script>
@@ -339,12 +357,12 @@
                   <td>Toggle skipped tests</td>
                 </tr>
                 <tr>
-                  <td>L</td>
-                  <td>Toggle theme (light/dark)</td>
-                </tr>
-                <tr>
                   <td>esc</td>
                   <td>Reset all filters</td>
+                </tr>
+                <tr>
+                  <td>L</td>
+                  <td>Toggle theme (light/dark)</td>
                 </tr>
                 <tr>
                   <td>f</td>

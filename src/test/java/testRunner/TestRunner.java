@@ -20,7 +20,7 @@ import io.cucumber.testng.CucumberOptions;
         "com.aventstack.chaintest.plugins.ChainTestCucumberListener:"
     },
     monochrome = false,
-   tags = "@HomePageNutrientValue ",
+   tags = "@PremiumUserHomePage ",
     features = {"src/test/resources/features"},
     glue = {"stepDefinitions", "appHook"}
 )

@@ -6,10 +6,10 @@ Given User is on SweetBalance homepage
 When  User clicks on Login link
 #When  User enter Premium User credential 
 
-#Scenario: Verify order of text in navigation bar
-#Given User landed on Premium page
-#When User click the home page
-#Then User should see the navigation bar displaying items in the order: "Home", "Logbook", "Dashboard", "Education"
+Scenario: Verify order of text in navigation bar
+Given User landed on Premium page
+When User click the home page
+Then User should see the navigation bar displaying items in the order: "Home", "Logbook", "Dashboard", "Education"
 
 @PremiumUserHomePageExcercise
 Scenario Outline: Verify "<Scenario>" in the Premium UserExercise section

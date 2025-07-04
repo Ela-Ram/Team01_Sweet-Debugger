@@ -20,7 +20,7 @@ import pageObject.UpgradeToPremiumSubscription_Page;
 
 
 public class TestContext {
-    private WebDriver driver;
+    public WebDriver driver;
     private DriverConfig factory;
     private Helper helper;
     private ExcelReader excelReader;

@@ -11,7 +11,15 @@ import pageObject.LoginUI_Page;
 import pageObject.PremiumUserExercise_Page;
 import pageObject.PremiumUserHome_Page;
 import pageObject.PremiumUserLogbook_Page;
+
+import pageObject.PhysicalActivity_Page;
+import pageObject.SubscriptionPage_page;
+import pageObject.TrackGlucose_Page;
+import pageObject.UpgradePage_page;
+import pageObject.UpgradeToPremiumSubscription_Page;
+
 //import stepDefinitions.PremiumUserGlucoseMealLog_Step;
+
 
 public class TestContext {
 	public WebDriver driver;
@@ -36,6 +44,14 @@ public class TestContext {
 
 	private PremiumUserExercise_Page premiumUserEx_page;
 	private PremiumUserLogbook_Page premiumUserLogbook_Page;
+	
+	private SubscriptionPage_page Subscriptionpage;    
+    private UpgradePage_page  UpgradePage;
+    private UpgradeToPremiumSubscription_Page premiumSubscription;
+    private TrackGlucose_Page trackGlucose;
+    private PhysicalActivity_Page physicalActivity;
+	
+	
 	// private Launch_PageObj launch_pageObj;
 
 	public TestContext() {
@@ -165,6 +181,52 @@ public class TestContext {
 		return premiumUserLogbook_Page;
 	}
 
+	public SubscriptionPage_page getSubscriptionpage() {
+    	if (Subscriptionpage== null) {
+    		Subscriptionpage = new SubscriptionPage_page(this);
+    	}
+		return Subscriptionpage;
+    }
+    
+    public UpgradePage_page getUpgradepage() {
+    	if (UpgradePage== null) {
+    		
+    		UpgradePage = new UpgradePage_page(this);
+    	}
+		return UpgradePage;
+    }
+    
+    public UpgradeToPremiumSubscription_Page getpremiumSubscription() {
+    	
+    	if (premiumSubscription == null) {
+    		
+    		premiumSubscription= new UpgradeToPremiumSubscription_Page(this);
+    	}
+    	
+    	return premiumSubscription;
+    	
+    }
+    
+    public TrackGlucose_Page getTrackGlucose() {
+    	
+    	if(trackGlucose == null) {
+    		
+    		trackGlucose= new TrackGlucose_Page(this);
+    	}
+    	
+    	return trackGlucose;
+    }
+    
+    public PhysicalActivity_Page getPhysicalActivity() {
+    	
+    	if(physicalActivity == null) {
+    	
+    	  physicalActivity= new PhysicalActivity_Page(this);
+    	
+    	}
+    	
+    	return physicalActivity;
+    }
 	
 	public void resetPages() {
 		loginUI_page = null;
@@ -173,9 +235,11 @@ public class TestContext {
 		premiumUserHome_page = null;
 		premiumUserEx_page = null;
 		premiumUserLogbook_Page = null;
-		
-		
-		
+		Subscriptionpage = null;
+		UpgradePage =null;
+		premiumSubscription=null;
+		trackGlucose = null;
+		physicalActivity=null;
 	}
 
 }

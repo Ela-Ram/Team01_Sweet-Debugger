@@ -7,6 +7,7 @@ Given User calculates risk by entering values in all fields from "launch" and "l
 When User continue with email button after entering a email as in "launch" and "launch_02" on Create Account Page 
 Then User clicks create account button after filling all fields as in "launch" and "launch_03"
 
+
       
 @commonHOmePageFeature
 Scenario Outline: Verify <Scenario>

@@ -226,7 +226,7 @@ public class LoginOnboardingScenariosWithBloodReport_Step {
 		String height = testData.get("Height");
 		String weight = testData.get("Weight");
 		String gender = testData.get("Gender");
-		loginUI_page.enterAllFieldsOnboardWithRecordForm(age, height, weight);
+		//loginUI_page.enterAllFieldsOnboardWithRecordForm(age, height, weight);
 		loginUI_page.clickGenderDropBox();
 		loginUI_page.selectGender(gender);
 		loginUI_page.clickContinueWithEmailButton();
@@ -306,7 +306,7 @@ public class LoginOnboardingScenariosWithBloodReport_Step {
 		String height = testData.get("Height");
 		String weight = testData.get("Weight");
 		String gender = testData.get("Gender");
-		loginUI_page.enterAllFieldsOnboardWithRecordForm(age, height, weight);
+	//	loginUI_page.enterAllFieldsOnboardWithRecordForm(age, height, weight);
 		loginUI_page.clickGenderDropBox();
 		loginUI_page.selectGender(gender);
 		loginUI_page.clickContinueWithEmailButton();
@@ -395,7 +395,7 @@ public class LoginOnboardingScenariosWithBloodReport_Step {
 		String height = testData.get("Height");
 		String weight = testData.get("Weight");
 		String gender = testData.get("Gender");
-		loginUI_page.enterAllFieldsOnboardWithRecordForm(age, height, weight);
+	//	loginUI_page.enterAllFieldsOnboardWithRecordForm(age, height, weight);
 		loginUI_page.clickGenderDropBox();
 		loginUI_page.selectGender(gender);
 		loginUI_page.clickContinueWithEmailButton();
@@ -439,7 +439,7 @@ public class LoginOnboardingScenariosWithBloodReport_Step {
 		String height = testData.get("Height");
 		String weight = testData.get("Weight");
 		String gender = testData.get("Gender");
-		loginUI_page.enterAllFieldsOnboardWithRecordForm(age, height, weight);
+		//loginUI_page.enterAllFieldsOnboardWithRecordForm(age, height, weight);
 		loginUI_page.clickGenderDropBox();
 		loginUI_page.selectGender(gender);
 		loginUI_page.clickContinueWithEmailButton();

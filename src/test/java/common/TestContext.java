@@ -18,7 +18,6 @@ import pageObject.TrackGlucose_Page;
 import pageObject.UpgradePage_page;
 import pageObject.UpgradeToPremiumSubscription_Page;
 
-//import stepDefinitions.PremiumUserGlucoseMealLog_Step;
 
 
 public class TestContext {
@@ -29,7 +28,6 @@ public class TestContext {
 	private String baseUrl;
 	private LoginUI_Page loginUI_page;
 
-	private PremiumUserExercise_Page premiunUserEx_page;
 	private LaunchPage_Page launch_pageObj;
 	private DiabetesRiskAnalyzer_Page diaRiskAnalyzerPageObj;
 	private CommomHomePageFeature_Page commonHomeFeaturesPageObj;

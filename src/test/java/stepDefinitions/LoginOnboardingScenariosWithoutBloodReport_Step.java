@@ -9,6 +9,7 @@ import org.testng.Assert;
 import common.DataGenerator;
 import common.ExcelReader;
 import common.Helper;
+import common.LoggerLoad;
 import common.TestContext;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -154,20 +155,17 @@ public class LoginOnboardingScenariosWithoutBloodReport_Step {
         case "allergy options are displayed for yes in step 8":	
         case "step 11 contain options to choose":	
         	
-       	
-        	List<String> expectedList = Arrays.stream(expected.split(","))
-            .map(String::trim)
-            .collect(Collectors.toList());
         	
-        	helper.waitForAllVisibleElements(loginUI_page.getOptionsOnboardFormWithoutReportIndicatorElement());
-        	List<String> actualOptions = loginUI_page.getOptionsOnboardFormWithoutReportTexts();
-        	boolean allPresent = expectedList.stream()
-        		    .anyMatch(expectedText ->
-        		        actualOptions.stream()
-        		            .anyMatch(actualOption -> actualOption.toLowerCase().contains(expectedText.toLowerCase()))
-        		    );
+        	
+		    List<String> actualOptionsList;
+		    
+		    helper.waitForAllVisibleElements(loginUI_page.getOptionsOnboardFormWithoutReportIndicatorElement());
 
-        		Assert.assertTrue(allPresent, "Expected text(s) not found: " + expectedList + "\nActual options: " + actualOptions);
+	          actualOptionsList = loginUI_page.getOptionsOnboardFormWithoutReportTexts();
+	            LoggerLoad.info("Actual: " + actualOptionsList);
+	            loginUI_page.assertExpectedItemsPresent(actualOptionsList, expected, "option is not present");
+	 
+      
         		break;
         default:
             throw new IllegalArgumentException("Unexpected scenario: " + scenario);
@@ -465,14 +463,13 @@ public void user_selects_option_in_step7(String option) {
 	public void user_should_see_for_step_for_onboarding_without_report_in_step_checkbox(String expected, Integer int1, String scenario) {
 		switch(scenario.trim()) {
 		case "allergy options are displayed for yes in step 8":
-		case "step 10 contains the list of other medical condition":	
-		
-		List<String> expectedList = Arrays.stream(expected.split(","))
-	            .map(String::trim)
-	            .collect(Collectors.toList());
+		case "step 10 contains the list of other medical condition":
 	        	
 	        	helper.waitForAllVisibleElements(loginUI_page.getAllergyOptionsOnboardFormWithoutReportIndicatorElement());
 	        	List<String> actualOptions = loginUI_page.getAllergyOptionsOnboardFormWithoutReportTexts();
+	        	List<String> expectedList = Arrays.stream(expected.split(","))
+	    	            .map(String::trim)
+	    	            .collect(Collectors.toList());
 	        	boolean allPresent = expectedList.stream()
 	        		    .anyMatch(expectedText ->
 	        		        actualOptions.stream()

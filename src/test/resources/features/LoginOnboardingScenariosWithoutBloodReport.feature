@@ -1,4 +1,4 @@
-@sweet @login_OnboargingScenarioswithoutreport
+@sweet @login_OnboargingScenarioswithoutreport @ela4
 Feature: Onboarding Scenarios without blood report
 
   Background: 
@@ -286,7 +286,7 @@ Feature: Onboarding Scenarios without blood report
       | Scenario                                   | available                 | Expected                                                                                |
       | Verify dietary options selectable in step6 | All-inclusive diet 🍴🍖🍎 | Step 7 of 12                                                                            |
       | heading for Step7 is visible               | All-inclusive diet 🍴🍖🍎 | What's your go-to food passport?                                                        |
-      | subtext displayed in Step7                 | Vegetarian 🥗🍆🥕         | To create a meal plan you'll enjoy, please select your preferred cuisines!              |
+      | subtext displayed in Step7                 | Vegan 🥬🌱🌿              | To create a meal plan you'll enjoy, please select your preferred cuisines!              |
       | progress bar displays Step 7 of 12         | All-inclusive diet 🍴🍖🍎 | Step 7 of 12                                                                            |
       | Back button is visible in Step 7           | Vegan 🥬🌱🌿              | Back button                                                                             |
       | Step 7 contains cuisine options            | Vegan 🥬🌱🌿              | Indian 🍛,American🍔,Continental🥖,Mediterranean🥙,Asian🍜,Middle Eastern🥙,Mexican🌮🌿 |
@@ -306,7 +306,6 @@ Feature: Onboarding Scenarios without blood report
   @Onboardingstep7functional1
   Scenario Outline: Validate <Scenario>
     Given User is in step7 Onboarding form without blood report
-    When User selects from "<available>"  in step6
     When User selects from one of the "<cuisine>" options in step7
     Then User should see "<Expected>" for step for onboarding without report "<Scenario>"
 
@@ -317,7 +316,7 @@ Feature: Onboarding Scenarios without blood report
       | subtext displayed in Step8              | Indian 🍛 | Select yes if you have any food allergies |
       | progress bar displays Step 8 of 12      | Indian 🍛 | Step 8 of 12                              |
       | Back button is visible in Step 8        | Indian 🍛 | Back button                               |
-      | yes,no options are displayed in step 8  | Indian 🍛 | yes ✅ ,No❌                                |
+      | yes,no options are displayed in step 8  | Indian 🍛 | Yes ✅, No ❌                               |
 
   @navbackfrom7to6
   Scenario Outline: Verify the functionality of the Back button in Step7

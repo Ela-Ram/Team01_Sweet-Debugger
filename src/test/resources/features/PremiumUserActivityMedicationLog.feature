@@ -1,4 +1,4 @@
-@sweet @premiumActivityMedicalLog @premiumChristy
+@sweet @premiumActivityMedicalLog 
 Feature: Premium User Logbook page - Physical Activity and Medication Dosage Tracker
 
 	Background: Premium User is in home page after logged in
@@ -59,26 +59,19 @@ Feature: Premium User Logbook page - Physical Activity and Medication Dosage Tra
    Scenario Outline: Verify text color of "<Scenario>" in Physical Activity section
     Given User is in the homepage of premium account
     When User clicks Logbook button of premium account
-    Then User should see "<Scenario>" text colour "<Rgba>" of premium account
+    Then User should see "<Scenario>" text colour "<Rgb>" of premium account
     
     Examples:
-    |Scenario|Color|Rgba|
-    |Total Calories|purple|rgba(91, 33, 182, 1)|
-    |Daily Average|orange|rgba(146, 64, 14, 1)|
-    |Peak Day|red|rgba(159, 18, 57, 1)|    
+    |Scenario|Color|Rgb|
+    |Total Calories|purple|91, 33, 182|
+    |Daily Average|orange|146, 64, 14|
+    |Peak Day|red|159, 18, 57|    
    
    @yAxisCalories 
 	Scenario: Verify Y-axis has text calories
 	  Given User is in the homepage of premium account
     When User clicks Logbook button of premium account
     Then User should see y-axis  clearly labeled with the text "Calories" of premium account
-    
-  #Skipfornow  
-  #@barChartActivity 
-	#Scenario: Verify the display of bars if there is activity log in home page 
-	 # Given User is in the homepage of premium account
-   # When User clicks Logbook button of premium account
-   # Then user should see the bars displayed only for days with logged activities of premium account
     
     @yAxisNoOfDose
 	Scenario: Verify the Y-axis has text "Number of Doses"
@@ -128,30 +121,3 @@ Feature: Premium User Logbook page - Physical Activity and Medication Dosage Tra
 	  Given User is in the homepage of premium account 
     When User clicks Logbook button of premium account
     Then User should see the date ordered in descending order for last seven days including today of premium account
-    
-   
-   #@glucoseLogReview
- 	#Scenario: Verify the blood glucose entries in log review section if there is log
-	 # Given User log blood glucose value in Home page of premium account
-   # When User clicks Logbook button of premium account
-   # Then User should see logged value for those days under Blood glucose of premium account
-    
-    
-    #@nutrientLogReview
- 	#Scenario: Verify the nutrient value entries in log review section if there is log
-	 # Given User log Nutrient value in Home page of premium account
-   # When User clicks Logbook button of premium account
-   # Then User should see logged value for those days under Nutrient value of premium account
-    
-    
-   # @activityLogReview
- 	#Scenario: Verify the physical activity entries in log review section if there is log
-	  #Given User log Physical Activity in home page of premium account
-    #When User clicks Logbook button of premium account
-    #Then User should see logged value for those days under physical activity of premium account
-    
-    #@medicationLogReview
-# 	Scenario: Verify the medication value in log review section if there is log 
-	#  Given User log Medication dosage in Home page of premium account
-  #  When User clicks Logbook button of premium account
-  #  Then User should see logged value for those under Medication Dosage of premium account

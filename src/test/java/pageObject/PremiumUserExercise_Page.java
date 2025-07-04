@@ -1,14 +1,11 @@
 package pageObject;
 
 
-import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import common.Helper;
 import common.TestContext;
@@ -104,8 +101,7 @@ public class PremiumUserExercise_Page {
 			}
 		}
 		catch (Exception e) {
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-			wait.until(ExpectedConditions.invisibilityOf(successDialog));
+			helper.waitForInVisibilityElement(successDialog);
 			boolean notVisible = helper.waitForInVisibilityElement(successDialog);
 			if(notVisible) {
 			undoOption.click();
@@ -195,9 +191,19 @@ public class PremiumUserExercise_Page {
 		case "IntensityLevel":
 			element = exerciseIntensity;
 			break;
-		case "MarkAsCompleted":
-			element = markAsCompleted;
+		case "MarkAsCompleted":{
+			try {
+				if(isMarkAsCompletedVisible()) {
+					element = markAsCompleted;
+				}
+			}
+			catch (Exception e) {
+				undoOption.click();
+				helper.waitForInVisibilityElement(successDialog);
+				element = markAsCompleted;
+			}
 			break;
+			}
 		case "SuccessDialog":
 			element = successDialog;
 			break;

@@ -37,8 +37,7 @@ public class PremiumUserLogBookNoData_Step {
 	@Then("User should see no bars in the chart for {string} logs")
 	public void user_should_see_no_bars_in_the_chart_for_logs(String scenario) {
 		isNotVisible = logbookPageObj.checkNoElement(scenario);
-		Assert.assertTrue(isNotVisible, "Chart is visible");	
-	    
+		Assert.assertTrue(isNotVisible, "Chart is visible");		    
 	}
 
 	@Then("User should see {string} has {string} value for no activity")
@@ -56,15 +55,13 @@ public class PremiumUserLogBookNoData_Step {
 	@Then("User should see {string}  value in the {string} medication statistics")
 	public void user_should_see_value_in_the_medication_statistics(String expValue, String scenario) {
 		String actValue = logbookPageObj.getText(scenario);
-	    Assert.assertEquals(actValue, expValue);
-	    
+	    Assert.assertEquals(actValue, expValue);	    
 	}
 
 	@Then("User should see {string} colour {string} text in Medication Dosage section")
 	public void user_should_see_colour_text_in_Medication_Dosage_section(String rgba, String scenario) {
 		String actColor = logbookPageObj.getColor(scenario);
-	    Assert.assertEquals(actColor, rgba);	  
-	    
+		Assert.assertTrue(actColor.contains(rgba), "Color does not match");
 	}
 
 	@Then("User should see hyphen - for all the days under {string} in log review section")

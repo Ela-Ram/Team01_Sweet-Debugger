@@ -15,16 +15,20 @@ import io.cucumber.java.Scenario;
 
 public class Helper {
 	private WebDriver driver;
-	private WebDriverWait wait;
-	private JavascriptExecutor jsExecutor;
 
-	public Helper(WebDriver driver) {
-		this.driver = driver;
-		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		this.jsExecutor = (JavascriptExecutor) driver;
-	}
+    private WebDriverWait wait;
+    private JavascriptExecutor jsExecutor;
+    
+    
+    public Helper(WebDriver driver) {
+    	this.driver = driver;
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        this.jsExecutor = (JavascriptExecutor) driver;
+    }
+	
+    public void waitForTitle(String expectedTitle) {
 
-	public void waitForTitle(String expectedTitle) {
+	
 		wait.until(ExpectedConditions.titleIs(expectedTitle));
 	}
 
@@ -82,6 +86,21 @@ public class Helper {
 
 	public WebElement waitForClickableWebElement(WebElement element) {
 		return wait.until(ExpectedConditions.elementToBeClickable(element));
-	}
+
+	}    //wait for visibilityOf
+    
+    public WebElement waitForVisibleOf(WebElement element) {
+        return wait.until(ExpectedConditions.visibilityOf(element));
+    }
+   
+ // Scroll to bring a specific element into view
+    public void scrollToElement(WebElement element) {
+        jsExecutor.executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+    
+   //scroll for button click 
+    public void jsClick(WebElement element) {
+        jsExecutor.executeScript("arguments[0].click();", element);
+    }
 
 }

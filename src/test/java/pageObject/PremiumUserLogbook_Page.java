@@ -5,11 +5,9 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -238,8 +236,6 @@ public class PremiumUserLogbook_Page {
 			element = dosesMissedNoVal;
 			break;
 		}
-		Actions actions = new Actions(driver);
-		actions.moveToElement(element).perform();
 		helperObj.waitForVisibleElement(element);
 		text = element.getText();
 		return text;
@@ -288,8 +284,6 @@ public class PremiumUserLogbook_Page {
 			element = dosesMissedText;
 			break;
 		}
-		Actions actions = new Actions(driver);
-		actions.moveToElement(element).perform();
 		helperObj.waitForVisibleElement(element);
 		color = element.getCssValue("color");
 		return color;

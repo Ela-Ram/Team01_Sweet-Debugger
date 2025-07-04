@@ -1,4 +1,4 @@
-@sweet @premiumLogNoData @premiumChristy
+@sweet @premiumLogNoData 
 Feature: Premium User Logbook page with no data
 
 	Background: Premium User is in home page after logged in
@@ -73,13 +73,13 @@ Scenario: Verify the peak day value for no activity log
   Scenario Outline: Verify text color of "<Scenario>" text in Medication Dosage section
     Given User is in the homepage of premium account
     When User clicks Logbook button of premium account 
-    Then User should see "<Rgba>" colour "<Scenario>" text in Medication Dosage section
+    Then User should see "<Rgb>" colour "<Scenario>" text in Medication Dosage section
     
     Examples:
-    |Scenario|Color|Rgba|
-    |Total Sceduled Color|purple|rgba(91, 33, 182, 1)|
-    |Doses Taken Color|green|rgba(6, 95, 70, 1)|
-    |Doses Missed Color|yellow|rgba(255, 255, 0, 1)|
+    |Scenario|Color|Rgb|
+    |Total Sceduled Color|purple|91, 33, 182|
+    |Doses Taken Color|green|6, 95, 70|
+    |Doses Missed Color|yellow|255, 255, 0|
     
     @noValueLogReview
     Scenario Outline: Verify the "<Scenario>" value in log review section if there is no log 

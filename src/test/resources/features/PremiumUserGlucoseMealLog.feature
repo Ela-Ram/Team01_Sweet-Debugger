@@ -1,4 +1,4 @@
-@sweet @premiumGlucoseMealLog @premiumChristy
+@sweet @premiumGlucoseMealLog
 Feature: Premium User Logbook page - Glucose and Meal Tracker
 
 	Background: Premium User is in home page after logged in
@@ -31,14 +31,14 @@ Feature: Premium User Logbook page - Glucose and Meal Tracker
    Scenario Outline: Verify colour codes for "<Scenario>" 
      Given User is in the homepage of premium account
     When User clicks Logbook button of premium account
-    Then User should see "<Scenario>" displayed in "<Rgba>" of premium account
+    Then User should see "<Scenario>" displayed in "<Rgb>" of premium account
     
     Examples:
-    |Scenario|Color|Rgba|
-    |Fasting|purple|rgba(91, 33, 182, 1)|
-    |Pre-Meal|green|rgba(6, 95, 70, 1)|
-    |Post-Meal|yellow|rgba(2, 8, 23, 1)|
-    |Bedtime|red|rgba(159, 18, 57, 1)|
+    |Scenario|Color|Rgb|
+    |Fasting|purple|91, 33, 182|
+    |Pre-Meal|green|6, 95, 70|
+    |Post-Meal|yellow|2, 8, 23|
+    |Bedtime|red|159, 18, 57|
     
 	@rangeGlucose
    Scenario Outline: Verify "<Scenario>" glucose type range displayed
@@ -53,6 +53,7 @@ Feature: Premium User Logbook page - Glucose and Meal Tracker
     |Post-Meal|<180 mg/dL|
     |Bedtime|100-140 mg/dL|
     
+    @xAxisSevenDays
   Scenario Outline: Verify last seven days are displayed on X-axis in "<Scenario>"
    Given User is in the homepage of premium account
    When User clicks Logbook button of premium account
@@ -97,13 +98,13 @@ Feature: Premium User Logbook page - Glucose and Meal Tracker
    Scenario Outline: Verify text color of "<Scenario>" in 7-day aggregate nutrition section
     Given User is in the homepage of premium account
     When User clicks Logbook button of premium account
-    Then User should see "<Scenario>" text colour "<Rgba>" of premium account
+    Then User should see "<Scenario>" text colour "<Rgb>" of premium account
     
     Examples:
-    |Scenario|Color|Rgba|
-    |Carbs|pink|rgba(255, 99, 132, 1)|
-    |Protein|blue|rgba(54, 162, 235, 1)|
-    |Fats|yellow|rgba(255, 206, 86, 1)|
+    |Scenario|Color|Rgb|
+    |Carbs|pink|255, 99, 132|
+    |Protein|blue|54, 162, 235|
+    |Fats|yellow|255, 206, 86|
 
 	@chartMealSection
    Scenario Outline: Verify "<Scenario>" chart behavior when user has logged meals

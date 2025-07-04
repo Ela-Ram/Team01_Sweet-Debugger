@@ -43,6 +43,7 @@ public class Helper {
     }
     
     
+    
  // Checks if the scenario is tagged with a specific tag
     public static boolean isScenarioTaggedWith(Scenario scenario, String tag) {
         return scenario.getSourceTagNames().contains(tag);
@@ -55,5 +56,31 @@ public class Helper {
                        .map(String::trim)
                        .filter(text -> !text.isEmpty())
                        .collect(Collectors.toList());
+    }
+    
+    //wait for visibilityOf
+    
+    public WebElement waitForVisibleOf(WebElement element) {
+        return wait.until(ExpectedConditions.visibilityOf(element));
+    }
+
+
+    //isDisplayed
+    public boolean checkElementDisplayed(WebElement element) {
+		try {
+			return element.isDisplayed();
+		} catch (Exception e) {
+			return false;
+		}
+	}
+    
+ // Scroll to bring a specific element into view
+    public void scrollToElement(WebElement element) {
+        jsExecutor.executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+    
+   //scroll for button click 
+    public void jsClick(WebElement element) {
+        jsExecutor.executeScript("arguments[0].click();", element);
     }
 }

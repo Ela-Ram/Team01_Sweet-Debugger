@@ -10,6 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import common.Helper;
+import common.LoggerLoad;
 import common.TestContext;
 
 public class HomeFreeUser_page {
@@ -187,7 +188,7 @@ public class HomeFreeUser_page {
 	public boolean isCorrectTimeFormatDisplayed() {
 		for (WebElement btn : mealSection) {
 			helper.waitForClickableWebElement(btn).click();
-			System.out.println(timeText.getText());
+			LoggerLoad.info(timeText.getText());
 			if (TIME_12_HOUR_PATTERN.matcher(timeText.getText()).matches()) {
 				return true;
 			}

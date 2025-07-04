@@ -1,4 +1,4 @@
-@sweet @PremiumExercise @premiumChristy
+@sweet @PremiumExercise
 Feature: Premium user Exercise Module on Homepage
 
 	Background: Premium User is in home page after logged in
@@ -31,6 +31,7 @@ Feature: Premium user Exercise Module on Homepage
     	|Duration|
     	|Calories|
     	|IntensityLevel|
+    	|MarkAsCompleted|
     	
     	
    @MainWorkout	
@@ -46,6 +47,7 @@ Feature: Premium user Exercise Module on Homepage
     	|Duration|
     	|Calories|
     	|IntensityLevel|
+    	|MarkAsCompleted|
     	
    	@CoolDown
   Scenario Outline: Verify "<Scenario>" in Cool Down tab details are displayed
@@ -60,6 +62,7 @@ Feature: Premium user Exercise Module on Homepage
     	|Duration|
     	|Calories|
     	|IntensityLevel|
+    	|MarkAsCompleted|
     	
   @MarkAsCompleted
   Scenario Outline: Verify "<Scenario>" is displayed when clicking Mark As Completed button

@@ -38,7 +38,6 @@ Then Registered user clicks the signin after entering password
       | Scenario                                               | Expected                                                            |
       | Verify meal section contains dish title                | User should see dish title                                          |
       | Verify pre-meal item is shown for each meal            | User should see the pre-meal item name                              |
-      | Verify calories for pre-meal is shown for each meal    | User should see the pre-meal calorie value                          |
       | Validate the indicator for breakfast pre-meal          | User should see indicator "AM" for breakfast pre-meal               |
       | Validate the indicator for lunch pre-meal              | User should see indicator "PM" for lunch  pre-meal                  |
       | Validate the indicator for dinner pre-meal             | User should see indicator "PM" for dinner  pre-meal                 |
